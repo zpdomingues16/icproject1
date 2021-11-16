@@ -8,7 +8,7 @@
 
 using namespace std;
 
-double check_key(map<double, long int> m, double key)				// funÁ„o para verificar se uma certa key pertence a um map (map È o equivalente a dicion·rio em python)
+double check_key(map<double, long int> m, double key)				// fun√ß√£o para verificar se uma certa key pertence a um map (map √© o equivalente a dicion√°rio em python)
 {
     // Key is not present
     if (m.find(key) == m.end())
@@ -24,13 +24,13 @@ int main(int argc, char* argv[]){
 
   audioFile.load("sample02.wav");   //mudar para argv[1]
 
-      if (argc==1)	{													// indicaÁ„o da sintaxe de commando
+      if (argc==1)	{													// indica√ß√£o da sintaxe de commando
 		cout << "Usage: ./program_name ./original_audio_file_name.wav" << endl;
 	}
 	else {
 
 
-	if (!ifs.is_open()) {								                    // avisa se o ficheiro de texto n„o for encontrado ("/a" faz emitir um beep)
+	if (!ifs.is_open()) {								                    // avisa se o ficheiro de texto n√£o for encontrado ("/a" faz emitir um beep)
 		cout << "\a" << "failed to open file \"" << argv[1] << "\"" << endl;
 	}
 	else {
@@ -59,8 +59,10 @@ int main(int argc, char* argv[]){
             for (long int i = 0; i < 10000; i++){
 
             double x = (audioFile.samples[c][i])*32767;
+		int turnOffK(int x, int k)                          //coloca a 0 o bit n.¬∫ k a contar da direita de n
+            	int k = 1
 
-            if (check_key(samp,x) == '1') {		// substitui os caracteres (letras) que n„o est„o em lowercase por lowercase
+            if (check_key(samp,x) == '1') {		// substitui os caracteres (letras) que n√£o est√£o em lowercase por lowercase
 			samp[x]++;
             }
             else {
