@@ -60,7 +60,7 @@ ofstream ofs3("mono.txt");
 
         double x;
 
-        for (int c = 0; c < 2; c++){
+        for (int c = 0; c < channels; c++){
             for (long int i = 0; i < numSamples; i++){
 
             double x = trunc((audioFile.samples[c][i])*32767);
