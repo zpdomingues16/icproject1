@@ -23,12 +23,12 @@ int main(int argc, char* argv[]){
 
   AudioFile<double> audioFile;
 
-  audioFile.load("sample02.wav");   //mudar para argv[1]
+  audioFile.load(argv[1]);  
 
-     // if (argc==1)	{													// indicação da sintaxe de commando
-	//	cout << "Usage: ./program_name ./original_audio_file_name.wav" << endl;
-	//}
-	//else {
+      if (argc==1)	{													// indicação da sintaxe de commando
+	cout << "Usage: ./program_name ./original_audio_file_name.wav" << endl;
+	}
+	else {
 
 
 	//if (!audioFile.is_open()) {								                    // avisa se o ficheiro de texto não for encontrado ("/a" faz emitir um beep)
