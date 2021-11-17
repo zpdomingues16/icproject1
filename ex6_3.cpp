@@ -58,7 +58,7 @@ ofstream ofs4("entopych1.txt");
  //Populate the samp1 and the samp2 map (existing values are counted):
 
         for (int c = 0; c < channels; c++){
-            for (long int i = 0; i < 10000; i++){
+            for (long int i = 0; i < 10000; i++){        ///Para testar estamos a usar 10000 em vez de numSamples
 
             int x = round((audioFile.samples[c][i])*32767);
 
@@ -124,7 +124,7 @@ ofstream ofs4("entopych1.txt");
 
 
     for (auto const &pair: samp4) {
-			samp4[pair.second] = samp4[pair.second] / 10000; //probabilidade de cada sample (não está a calcular bem)
+			samp4[pair.second] = samp4[pair.second] / 10000; //probabilidade de cada sample (não está a calcular bem) ///Para testar estamos a usar 10000 em vez de numSamples
    }
 
    for (auto const &pair: samp4) {
