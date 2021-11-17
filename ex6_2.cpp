@@ -25,16 +25,7 @@ int main(int argc, char* argv[]){
 
   audioFile.load(argv[1]);  
 
-      if (argc==1)	{													// indicação da sintaxe de commando
-	cout << "Usage: ./program_name ./original_audio_file_name.wav" << endl;
-	}
-	else {
-
-
-	//if (!audioFile.is_open()) {								                    // avisa se o ficheiro de texto não for encontrado ("/a" faz emitir um beep)
-	//	cout << "\a" << "failed to open file \"" << argv[1] << "\"" << endl;
-	//}
-
+     
  // audioFileOut.setNumChannels(audioFile.getNumChannels());
  // audioFileOut.setNumSamplesPerChannel(audioFile.getNumSamplesPerChannel());
 
