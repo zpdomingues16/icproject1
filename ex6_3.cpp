@@ -5,13 +5,12 @@
 #include <ctype.h>
 #include <iostream>
 #include "AudioFile/AudioFile.h"
-#include <math.h> 
-#include <string>
+#include <math.h>
 
 
 using namespace std;
 
-double check_key(map<double, long int> m, double key)				// função para verificar se uma certa key pertence a um map (map é o equivalente a dicionário em python)
+int check_key(map<int, long int> m, int key)				// função para verificar se uma certa key pertence a um map (map é o equivalente a dicionário em python)
 {
     // Key is not present
     if (m.find(key) == m.end())
@@ -24,20 +23,8 @@ int main(int argc, char* argv[]){
 
   AudioFile<double> audioFile;
 
-  audioFile.load(argv[1]);  
+  audioFile.load(argv[1]);
 
-      if (argc==1)	{													// indicação da sintaxe de commando
-	cout << "Usage: ./program_name ./original_audio_file_name.wav" << endl;
-	}
-	else {
-
-
-	//if (!audioFile.is_open()) {								                    // avisa se o ficheiro de texto não for encontrado ("/a" faz emitir um beep)
-	//	cout << "\a" << "failed to open file \"" << argv[1] << "\"" << endl;
-	//}
-
- // audioFileOut.setNumChannels(audioFile.getNumChannels());
- // audioFileOut.setNumSamplesPerChannel(audioFile.getNumSamplesPerChannel());
 
   int channels = audioFile.getNumChannels();
   int numSamples = audioFile.getNumSamplesPerChannel();
@@ -50,73 +37,113 @@ int main(int argc, char* argv[]){
 
 
 
+ofstream ofs1("channel1.txt");
+ofstream ofs2("channel2.txt");
 ofstream ofs3("mono.txt");
+ofstream ofs4("entopych1.txt");
 
 
-    map<double,long int> samp1;
-    map<double,long int> samp2;
-    map<double,long int> samp3;
+
+    map<int,long int> samp1;
+    map<int,long int> samp2;
+    map<int,long int> samp3;
+    map<int, double> samp4;
 
 
-        double x;
+        int x;
+        int a;
+        int b;
+        int z;
+
+ //Populate the samp1 and the samp2 map (existing values are counted):
 
         for (int c = 0; c < channels; c++){
-          
-          string filename = "channel" + to_string(c);
-          ofstream ofs1(filename.append(".txt"));
-          ofstream ofs2(filename.append(".txt"));
-                              
-            for (long int i = 0; i < numSamples; i++){
+            for (long int i = 0; i < 10000; i++){
 
-            double x = round((audioFile.samples[c][i])*32767);
+            int x = round((audioFile.samples[c][i])*32767);
+
 			if (c==0) {
-				if (check_key(samp1,x) == '1') {		
+				if (check_key(samp1,x) == '1') {
 				samp1[x]++;
 				}
 				else {
 				samp1.insert ( {x,1} );
 				}}
 			else if (c==1) {
-				if (check_key(samp2,x) == '1') {		
+				if (check_key(samp2,x) == '1') {
 				samp2[x]++;
 				}
 				else {
 				samp2.insert ( {x,1} );
 				}}
-				
-//          cout << "sample = " << x << endl;
+
+
             }}
-         for (auto const &pair: samp1) {
-			samp3.insert( {pair.first, pair.second});
-    }
-    for (auto const &pair: samp2) {
-			if (check_key(samp2,pair.first) == '1') {
-				samp3[pair.first] = samp3[pair.first] + samp2[pair.first];
-			}
-			else {
-				samp3.insert( {pair.first, pair.second});
-}}
-	for (auto const &pair: samp3) {
-			samp3[pair.first]=samp3[pair.first]/2;
-      
-    // audioFileOut.samples[c][i] = audioFile.samples[c][i];
-}
-		
+
+// Sample channels to mono:
+
+        for (long int i = 0; i < 10000; i++){
+            for (int c = 0; c < channels; c++){
+
+            if (c==0) {
+			  a = round((audioFile.samples[c][i])*32767);
+            }
+			if (c==1) {
+			  b = round((audioFile.samples[c][i])*32767);
+            }}
+
+              z = (a + b)/2;
+
+            if (check_key(samp3,z) == '1') {
+				samp3[z]++;
+				}
+				else {
+				samp3.insert ( {z,1} );
+				}
+				}
+
+//Populate the corresponding output files:
 
     for (auto const &pair: samp1) {
-        ofs1 << pair.first << " " << pair.second << endl;
+        ofs1 << pair.first << "\t" << pair.second << endl;
     }
 	for (auto const &pair: samp2) {
-        ofs2 << pair.first << " " << pair.second << endl;
+        ofs2 << pair.first << "\t" << pair.second << endl;
     }
     for (auto const &pair: samp3) {
-        ofs3 << pair.first << " " << pair.second << endl;
+        ofs3 << pair.first << "\t" << pair.second << endl;
     }
 
-      // audioFileOut.samples[c][i] = audioFile.samples[c][i];
+// Calculate the entropy:
+
+///////////////////Por acabar////////////////////////////////////////
+
+    for (auto const &pair: samp1) {
+			samp4.insert({pair.first, pair.second});
+    }
 
 
- //// audioFile.save (argv[2], AudioFileFormat::Wave);
+    for (auto const &pair: samp4) {
+			samp4[pair.second] = samp4[pair.second] / 10000; //probabilidade de cada sample (não está a calcular bem)
+   }
 
+   for (auto const &pair: samp4) {
+		samp4[pair.second] = log2 (1 / (samp4[pair.second])) * (samp4[pair.second]); //P(n)*log2(1/P(n))
+  }
+
+  // para finalizar, falta somar todos os valores de pair.second: H()=somatorio P(n)*log2(1/P(n))
+
+
+for (auto const &pair: samp4) {
+        ofs4 << pair.first << " P= " << pair.second << endl;
+    }
+
+//.
+//.
+//.
+//.
+
+//////////////////////////////////////////////////////////////
   return 0;
 }
+
