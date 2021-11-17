@@ -21,6 +21,7 @@ int check_key(map<int, long int> m, int key)				// função para verificar se um
 
 int main(int argc, char* argv[]){
 
+
   AudioFile<double> audioFile;
 
   audioFile.load(argv[1]);
@@ -58,7 +59,7 @@ ofstream ofs4("entopych1.txt");
  //Populate the samp1 and the samp2 map (existing values are counted):
 
         for (int c = 0; c < channels; c++){
-            for (long int i = 0; i < 10000; i++){        ///Para testar estamos a usar 10000 em vez de numSamples
+            for (long int i = 0; i < 10000; i++){
 
             int x = round((audioFile.samples[c][i])*32767);
 
@@ -116,7 +117,7 @@ ofstream ofs4("entopych1.txt");
 
 // Calculate the entropy:
 
-///////////////////Por acabar////////////////////////////////////////
+
 
     for (auto const &pair: samp1) {
 			samp4.insert({pair.first, pair.second});
@@ -124,26 +125,28 @@ ofstream ofs4("entopych1.txt");
 
 
     for (auto const &pair: samp4) {
-			samp4[pair.second] = samp4[pair.second] / 10000; //probabilidade de cada sample (não está a calcular bem) ///Para testar estamos a usar 10000 em vez de numSamples
+			samp4[pair.first] = samp4[pair.first] / 10000; //probabilidade de cada sample (não está a calcular bem)
    }
 
    for (auto const &pair: samp4) {
-		samp4[pair.second] = log2 (1 / (samp4[pair.second])) * (samp4[pair.second]); //P(n)*log2(1/P(n))
+		samp4[pair.first] = log2 (1 / samp4[pair.first]) * samp4[pair.first]; //P(n)*log2(1/P(n))
   }
 
-  // para finalizar, falta somar todos os valores de pair.second: H()=somatorio P(n)*log2(1/P(n))
+///////////////////Por acabar////////////////////////////////////////
 
+  // para finalizar falta somar todos os valores de pair.first: H()=somatorio P(n)*log2(1/P(n))
 
+//.
+//.
+//.
+//.
+//////////////////////////////////////////////////////////////
+	
 for (auto const &pair: samp4) {
-        ofs4 << pair.first << " P= " << pair.second << endl;
+        ofs4 << "P("<< pair.first << ")=\t" << pair.second << endl;
     }
 
-//.
-//.
-//.
-//.
 
-//////////////////////////////////////////////////////////////
   return 0;
 }
 
