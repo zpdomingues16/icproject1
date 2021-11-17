@@ -129,7 +129,7 @@ ofstream ofs4("entopych1.txt");
    }
 
    for (auto const &pair: samp4) {
-		samp4[pair.first] = log2 (1 / samp4[pair.first]) * samp4[pair.first]; //P(n)*log2(1/P(n))
+		samp4[pair.first] = samp4[pair.first] * (log2 (1 / samp4[pair.first])); //P(n)*log2(1/P(n))
   }
 
 ///////////////////Por acabar////////////////////////////////////////
