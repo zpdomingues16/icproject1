@@ -185,10 +185,13 @@ double entropiamono = 0;
         ofs3 << pair.first << "\t" << pair.second << endl;
     }
 
-    for (auto const &pair: entrch1) {
-        ofs4 << "P("<< pair.first << ")=\t" << pair.second << endl;
-    }
 
+/////Pode ser usado para criar um ficheiro .txt com os valores para a entropia: ////////
+//
+//   for (auto const &pair: entrch1) {
+//       ofs4 << "P("<< pair.first << ")=\t" << pair.second << endl;
+//   }
+////////////////////////////////////////////////////////////////////////////////////////
 
   return 0;
 }
