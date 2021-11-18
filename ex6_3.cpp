@@ -33,7 +33,7 @@ int main(int argc, char* argv[]){
 
 
     cout << "channels = "<< channels << endl;
-    cout << "numSamples/cnannel = "<< numSamples << endl;
+    cout << "numSamples/channel = "<< numSamples << endl;
     cout << "bitDepth = " << bitDepth << endl;
 
 
