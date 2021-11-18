@@ -15,7 +15,7 @@ int main(int argc, char* argv[]){
   AudioFile<double> audioFileOut;
 
      if (argc==1)	{													// indicação da sintaxe de commando
-		cout << "Usage: ./program_name ./original_audio_file_name.txt ./bitreduced_audio_file_name.txt " << endl;
+		cout << "Usage: ./program_name ./original_audio_file_name.wav ./bitreduced_audio_file_name.wav " << endl;
 	}
 	else {
 
