@@ -103,18 +103,6 @@ ofstream ofs4("entopych1.txt");
 				}
 				}
 
-//Populate the corresponding output files:
-
-    for (auto const &pair: samp1) {
-        ofs1 << pair.first << "\t" << pair.second << endl;
-    }
-	for (auto const &pair: samp2) {
-        ofs2 << pair.first << "\t" << pair.second << endl;
-    }
-    for (auto const &pair: samp3) {
-        ofs3 << pair.first << "\t" << pair.second << endl;
-    }
-
 // Calculate the entropy:
 
 
@@ -132,15 +120,29 @@ ofstream ofs4("entopych1.txt");
 		samp4[pair.first] = samp4[pair.first] * (log2 (1 / samp4[pair.first])); //P(n)*log2(1/P(n))
   }
 
-///////////////////Por acabar////////////////////////////////////////
+double entropiach1 = 0;
 
-  // para finalizar falta somar todos os valores de pair.first: H()=somatorio P(n)*log2(1/P(n))
+   for (auto const &pair: samp4) {
+		entropiach1 = entropiach1 + samp4[pair.first];
+         }
 
-//.
-//.
-//.
-//.
-//////////////////////////////////////////////////////////////
+    cout << "Entropia channel1 = " << entropiach1 << "bps" << endl;
+	
+
+	
+	
+//Populate the corresponding output files:
+
+    for (auto const &pair: samp1) {
+        ofs1 << pair.first << "\t" << pair.second << endl;
+    }
+	for (auto const &pair: samp2) {
+        ofs2 << pair.first << "\t" << pair.second << endl;
+    }
+    for (auto const &pair: samp3) {
+        ofs3 << pair.first << "\t" << pair.second << endl;
+    }
+	
 	
 for (auto const &pair: samp4) {
         ofs4 << "P("<< pair.first << ")=\t" << pair.second << endl;
