@@ -1,17 +1,30 @@
 #include <iostream>
+#include <fstream>
 #include "AudioFile/AudioFile.h"
-#include <math.h>  
+#include <math.h>
+#include <stdio.h>
+#include <stdint.h>
+
+
+using namespace std;
 
 int main(int argc, char* argv[]){
-  
+
+
   AudioFile<double> audioFile;
   AudioFile<double> audioFileOut;
-  
+
+     if (argc==1)	{													// indicação da sintaxe de commando
+		cout << "Usage: ./program_name ./original_audio_file_name.txt ./bitreduced_audio_file_name.txt " << endl;
+	}
+	else {
+
   audioFile.load(argv[1]);
-  
+
+
   audioFileOut.setNumChannels(audioFile.getNumChannels());
   audioFileOut.setNumSamplesPerChannel(audioFile.getNumSamplesPerChannel());
-  
+
   int channels = audioFile.getNumChannels();
   int numSamples = audioFile.getNumSamplesPerChannel();
 
@@ -23,6 +36,6 @@ int main(int argc, char* argv[]){
   }
 
   audioFile.save (argv[2], AudioFileFormat::Wave);
-  
+	}
   return 0;
 }
