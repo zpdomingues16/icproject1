@@ -10,7 +10,7 @@
 
 using namespace std;
 
-int check_key(map<int, long int> m, int key)				// função para verificar se uma certa key pertence a um map (map é o equivalente a dicionário em python)
+int check_key(map<int, long int> m, int key)	// função para verificar se uma certa key pertence a um map (map é o equivalente a dicionário em python)
 {
     // Key is not present
     if (m.find(key) == m.end())
@@ -31,17 +31,24 @@ int main(int argc, char* argv[]){
   int numSamples = audioFile.getNumSamplesPerChannel();
   int bitDepth = audioFile.getBitDepth();
 
-
+//Devolve para a linha de comando/terminal caracteristicas de audio do ficheiro de input (original)
     cout << "channels = "<< channels << endl;
     cout << "numSamples/channel = "<< numSamples << endl;
     cout << "bitDepth = " << bitDepth << endl;
 
+//Nome dos ficheiros de output para os histogramas.
+string channel1;
+string channel2;
+string mono;
 
-ofstream ofs1("channel1.txt");
-ofstream ofs2("channel2.txt");
-ofstream ofs3("mono.txt");
-ofstream ofs4("entopych1.txt");
+channel1 = argv[1] + "_channel1.txt"
+channel2 = argv[1] + "_channel2.txt"
+mono = argv[1] + "_mono.txt"
 
+
+ofstream ofs1(channel1);
+ofstream ofs2(channel2);
+ofstream ofs3(mono);
 
     map<int,long int> samp1; //Channel 1
     map<int,long int> samp2; //Channel 2
@@ -58,8 +65,7 @@ ofstream ofs4("entopych1.txt");
         float scsamp; //Scale audio output from -1/+1 to bitDepth
 
 
-   scsamp = (pow(2, bitDepth-1)) - 1;
-
+   scsamp = (pow(2, bitDepth-1)) - 1; //Cálculo da escala de conversão em função do bitsample/bitdepth.
 
 
  //Populate the samp1 and the samp2 map (existing values are counted):
@@ -67,7 +73,8 @@ ofstream ofs4("entopych1.txt");
         for (int c = 0; c < channels; c++){
             for (long int i = 0; i < numSamples; i++){
 
-            int x = round((audioFile.samples[c][i])*scsamp); //Como a libraria AudioFile.h devolve os samples num range de -1 a +1, multiplicamos por 2^15-1, uma vez que cada canal tem 16 bits.
+            int x = round((audioFile.samples[c][i])*scsamp); //Como a libraria AudioFile.h devolve os samples num range de -1 a +1, multiplicamos
+                                                            //(no caso do sample02.wav) por 2^15-1, uma vez que o bitsample/bitdepth é 16 bits.
 
 			if (c==0) {
 				if (check_key(samp1,x) == '1') {
@@ -187,6 +194,8 @@ double entropiamono = 0;
 
 
 /////Pode ser usado para criar um ficheiro .txt com os valores para a entropia: ////////
+//
+//   ofstream ofs4("entopych1.txt");
 //
 //   for (auto const &pair: entrch1) {
 //       ofs4 << "P("<< pair.first << ")=\t" << pair.second << endl;
