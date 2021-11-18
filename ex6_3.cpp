@@ -116,7 +116,7 @@ ofstream ofs4("entopych1.txt");
 
 
     for (auto const &pair: entrch1) {
-			entrch1[pair.first] = entrch1[pair.first] / numSamples; //probabilidade de cada sample (não está a calcular bem)
+			entrch1[pair.first] = entrch1[pair.first] / numSamples; //probabilidade de cada sample.
    }
 
    for (auto const &pair: entrch1) {
