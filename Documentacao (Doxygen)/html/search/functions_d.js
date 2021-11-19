@@ -1,0 +1,26 @@
+var searchData=
+[
+  ['save_0',['save',['../class_audio_file.html#a415239cad5b54b4fef4a210ab79911e3',1,'AudioFile']]],
+  ['scale_1',['scale',['../classdoctest_1_1_approx.html#a040114c288b721e97d7cdd22faf69c90',1,'doctest::Approx']]],
+  ['setasdefaultforassertsoutoftestcases_2',['setAsDefaultForAssertsOutOfTestCases',['../classdoctest_1_1_context.html#ae85cecc7689f009e23cba383484773b2',1,'doctest::Context']]],
+  ['setasserthandler_3',['setAssertHandler',['../classdoctest_1_1_context.html#a669dd0a596a611eeb0decdb78b661a90',1,'doctest::Context']]],
+  ['setaudiobuffer_4',['setAudioBuffer',['../class_audio_file.html#afa0a0f7d576b0597c938c5a89746636e',1,'AudioFile']]],
+  ['setaudiobuffersize_5',['setAudioBufferSize',['../class_audio_file.html#ac155ed12db0f3b02011a7d75b525e71a',1,'AudioFile']]],
+  ['setbitdepth_6',['setBitDepth',['../class_audio_file.html#a2adf2ea23e7daeb8401e717c1b3d874b',1,'AudioFile']]],
+  ['setnumchannels_7',['setNumChannels',['../class_audio_file.html#a354018a94ae15907d7308782f2adadbb',1,'AudioFile']]],
+  ['setnumsamplesperchannel_8',['setNumSamplesPerChannel',['../class_audio_file.html#a4cff9513d49e21d25de13513564784b7',1,'AudioFile']]],
+  ['setoption_9',['setOption',['../classdoctest_1_1_context.html#a95e7a0230c5897f0eae36718f51d2f05',1,'doctest::Context::setOption(const char *option, int value)'],['../classdoctest_1_1_context.html#a4352ffc196c4ba56045270e45baa2754',1,'doctest::Context::setOption(const char *option, const char *value)']]],
+  ['setresult_10',['setResult',['../structdoctest_1_1detail_1_1_result_builder.html#a86c0ca727fead43263de4a7e9a59ad23',1,'doctest::detail::ResultBuilder']]],
+  ['setsamplerate_11',['setSampleRate',['../class_audio_file.html#a2d8fa306e40535113c3eba111e16483b',1,'AudioFile']]],
+  ['settestsuite_12',['setTestSuite',['../namespacedoctest_1_1detail.html#ae79cb8df06d35468dd0ba9f04c85802c',1,'doctest::detail']]],
+  ['shouldexit_13',['shouldExit',['../classdoctest_1_1_context.html#a219b10301380b81c84c0824a6876d9aa',1,'doctest::Context']]],
+  ['shouldlogerrorstoconsole_14',['shouldLogErrorsToConsole',['../class_audio_file.html#a1986c0297e4e4db99435702528e9c3c4',1,'AudioFile']]],
+  ['size_15',['size',['../classdoctest_1_1_string.html#a9fbc7b09f1660b236f12fc2adce6183d',1,'doctest::String']]],
+  ['skippathfromfilename_16',['skipPathFromFilename',['../namespacedoctest.html#a31b19b71f2b30f77f84b6a8bb4943925',1,'doctest']]],
+  ['string_17',['String',['../classdoctest_1_1_string.html#ab18d26f6c9e728c2fac77a501b8ca5f5',1,'doctest::String::String()'],['../classdoctest_1_1_string.html#abb4449cbc613cd973ae774c704fca5dd',1,'doctest::String::String(const char *in)'],['../classdoctest_1_1_string.html#a01d9f84ab0a3dc67b195678b6073dd4c',1,'doctest::String::String(const char *in, unsigned in_size)'],['../classdoctest_1_1_string.html#a27ca7976da20bdebbf225fa496c38ad1',1,'doctest::String::String(const String &amp;other)'],['../classdoctest_1_1_string.html#a4bbdcb36cd68988953c3bb2d18e53210',1,'doctest::String::String(String &amp;&amp;other)']]],
+  ['stringify_18',['stringify',['../structdoctest_1_1_i_context_scope.html#affbf0f9bf8107a4a8a805d237288141d',1,'doctest::IContextScope::stringify()'],['../classdoctest_1_1detail_1_1_context_scope.html#a4636ac32ae41ae108c7ada4a164ffaeb',1,'doctest::detail::ContextScope::stringify()']]],
+  ['stringifybinaryexpr_19',['stringifyBinaryExpr',['../namespacedoctest_1_1detail.html#a6879a79aea397a22e296e4afd0a90e3b',1,'doctest::detail']]],
+  ['subcase_20',['Subcase',['../structdoctest_1_1detail_1_1_subcase.html#a8f7d4a5ddfb8ae48663e5cfc786e6f12',1,'doctest::detail::Subcase']]],
+  ['subcase_5fend_21',['subcase_end',['../structdoctest_1_1_i_reporter.html#a05196dd1a5f7e40e8c734cd2a37d4e1e',1,'doctest::IReporter']]],
+  ['subcase_5fstart_22',['subcase_start',['../structdoctest_1_1_i_reporter.html#a03ef82d6fb9afe8b0e3bbe24f28dd268',1,'doctest::IReporter']]]
+];

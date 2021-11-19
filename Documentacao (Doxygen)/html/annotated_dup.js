@@ -1,0 +1,56 @@
+var annotated_dup =
+[
+    [ "doctest", "namespacedoctest.html", [
+      [ "detail", "namespacedoctest_1_1detail.html", [
+        [ "has_insertion_operator_impl", "namespacedoctest_1_1detail_1_1has__insertion__operator__impl.html", [
+          [ "check", "structdoctest_1_1detail_1_1has__insertion__operator__impl_1_1check.html", null ],
+          [ "check< T, decltype(os()<< val< T >(), void())>", "structdoctest_1_1detail_1_1has__insertion__operator__impl_1_1check_3_01_t_00_01decltype_07os_07_8d91d0ae55ab2b557e111ab3ba9c02da.html", null ]
+        ] ],
+        [ "ContextScope", "classdoctest_1_1detail_1_1_context_scope.html", "classdoctest_1_1detail_1_1_context_scope" ],
+        [ "ContextScopeBase", "classdoctest_1_1detail_1_1_context_scope_base.html", "classdoctest_1_1detail_1_1_context_scope_base" ],
+        [ "deferred_false", "structdoctest_1_1detail_1_1deferred__false.html", null ],
+        [ "ExceptionTranslator", "classdoctest_1_1detail_1_1_exception_translator.html", "classdoctest_1_1detail_1_1_exception_translator" ],
+        [ "ExpressionDecomposer", "structdoctest_1_1detail_1_1_expression_decomposer.html", "structdoctest_1_1detail_1_1_expression_decomposer" ],
+        [ "IExceptionTranslator", "structdoctest_1_1detail_1_1_i_exception_translator.html", "structdoctest_1_1detail_1_1_i_exception_translator" ],
+        [ "MessageBuilder", "structdoctest_1_1detail_1_1_message_builder.html", "structdoctest_1_1detail_1_1_message_builder" ],
+        [ "RelationalComparator", "structdoctest_1_1detail_1_1_relational_comparator.html", "structdoctest_1_1detail_1_1_relational_comparator" ],
+        [ "remove_const", "structdoctest_1_1detail_1_1remove__const.html", "structdoctest_1_1detail_1_1remove__const" ],
+        [ "remove_const< const T >", "structdoctest_1_1detail_1_1remove__const_3_01const_01_t_01_4.html", "structdoctest_1_1detail_1_1remove__const_3_01const_01_t_01_4" ],
+        [ "remove_reference", "structdoctest_1_1detail_1_1remove__reference.html", "structdoctest_1_1detail_1_1remove__reference" ],
+        [ "remove_reference< T & >", "structdoctest_1_1detail_1_1remove__reference_3_01_t_01_6_01_4.html", "structdoctest_1_1detail_1_1remove__reference_3_01_t_01_6_01_4" ],
+        [ "remove_reference< T && >", "structdoctest_1_1detail_1_1remove__reference_3_01_t_01_6_6_01_4.html", "structdoctest_1_1detail_1_1remove__reference_3_01_t_01_6_6_01_4" ],
+        [ "Result", "structdoctest_1_1detail_1_1_result.html", "structdoctest_1_1detail_1_1_result" ],
+        [ "ResultBuilder", "structdoctest_1_1detail_1_1_result_builder.html", "structdoctest_1_1detail_1_1_result_builder" ],
+        [ "StringMakerBase", "structdoctest_1_1detail_1_1_string_maker_base.html", null ],
+        [ "StringMakerBase< true >", "structdoctest_1_1detail_1_1_string_maker_base_3_01true_01_4.html", null ],
+        [ "StringStream", "structdoctest_1_1detail_1_1_string_stream.html", null ],
+        [ "StringStreamBase", "structdoctest_1_1detail_1_1_string_stream_base.html", null ],
+        [ "StringStreamBase< true >", "structdoctest_1_1detail_1_1_string_stream_base_3_01true_01_4.html", null ],
+        [ "Subcase", "structdoctest_1_1detail_1_1_subcase.html", "structdoctest_1_1detail_1_1_subcase" ],
+        [ "TestCase", "structdoctest_1_1detail_1_1_test_case.html", "structdoctest_1_1detail_1_1_test_case" ],
+        [ "TestFailureException", "structdoctest_1_1detail_1_1_test_failure_exception.html", null ],
+        [ "TestSuite", "structdoctest_1_1detail_1_1_test_suite.html", "structdoctest_1_1detail_1_1_test_suite" ]
+      ] ],
+      [ "Approx", "classdoctest_1_1_approx.html", "classdoctest_1_1_approx" ],
+      [ "AssertData", "structdoctest_1_1_assert_data.html", "structdoctest_1_1_assert_data" ],
+      [ "Context", "classdoctest_1_1_context.html", "classdoctest_1_1_context" ],
+      [ "ContextOptions", "structdoctest_1_1_context_options.html", "structdoctest_1_1_context_options" ],
+      [ "CurrentTestCaseStats", "structdoctest_1_1_current_test_case_stats.html", "structdoctest_1_1_current_test_case_stats" ],
+      [ "IContextScope", "structdoctest_1_1_i_context_scope.html", "structdoctest_1_1_i_context_scope" ],
+      [ "IReporter", "structdoctest_1_1_i_reporter.html", "structdoctest_1_1_i_reporter" ],
+      [ "MessageData", "structdoctest_1_1_message_data.html", "structdoctest_1_1_message_data" ],
+      [ "QueryData", "structdoctest_1_1_query_data.html", "structdoctest_1_1_query_data" ],
+      [ "String", "classdoctest_1_1_string.html", "classdoctest_1_1_string" ],
+      [ "StringMaker", "structdoctest_1_1_string_maker.html", null ],
+      [ "StringMaker< R C::* >", "structdoctest_1_1_string_maker_3_01_r_01_c_1_1_5_01_4.html", null ],
+      [ "StringMaker< T * >", "structdoctest_1_1_string_maker_3_01_t_01_5_01_4.html", null ],
+      [ "SubcaseSignature", "structdoctest_1_1_subcase_signature.html", "structdoctest_1_1_subcase_signature" ],
+      [ "TestCaseData", "structdoctest_1_1_test_case_data.html", "structdoctest_1_1_test_case_data" ],
+      [ "TestCaseException", "structdoctest_1_1_test_case_exception.html", "structdoctest_1_1_test_case_exception" ],
+      [ "TestRunStats", "structdoctest_1_1_test_run_stats.html", "structdoctest_1_1_test_run_stats" ]
+    ] ],
+    [ "AudioFile", "class_audio_file.html", "class_audio_file" ],
+    [ "basic_ostream", "classbasic__ostream.html", null ],
+    [ "char_traits", "structchar__traits.html", null ],
+    [ "tuple", "classtuple.html", null ]
+];
