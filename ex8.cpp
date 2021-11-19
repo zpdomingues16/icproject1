@@ -31,7 +31,7 @@ int main(int argc, char* argv[]){
   for (int c = 0; c < channels; c++){
     for (int i = 0; i < numSamples; i++)
     {
-      audioFileOut.samples[c][i] = ((trunc((audioFile.samples[c][i])*32767))/128); //reduzido para 8 bits
+      audioFileOut.samples[c][i] = trunc(trunc((audioFile.samples[c][i])*32767)/128); //reduzido para 8 bits
     };
   }
 
