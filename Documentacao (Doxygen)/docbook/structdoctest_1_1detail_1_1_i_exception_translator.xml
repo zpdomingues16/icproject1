@@ -46,7 +46,5 @@
 <para><computeroutput>virtual bool doctest::detail::IExceptionTranslator::translate (<link linkend="_classdoctest_1_1_string">String</link> &amp; ) const<computeroutput>[pure virtual]</computeroutput></computeroutput></para><para>
 Implemented in <link linkend="_classdoctest_1_1detail_1_1_exception_translator_1a56484c4218a06bbbd1548335a8b64110">doctest::detail::ExceptionTranslator&lt; T &gt;</link>.</para>
 </section>
-<para>
-The documentation for this struct was generated from the following file:</para>
-AudioFile/tests/doctest/<link linkend="_doctest_8h">doctest.h</link></section>
+</section>
 </section>

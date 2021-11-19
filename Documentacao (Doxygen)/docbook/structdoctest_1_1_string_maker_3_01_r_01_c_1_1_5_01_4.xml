@@ -19,7 +19,5 @@
 <indexterm><primary>convert</primary><secondary>doctest::StringMaker&lt; R C::* &gt;</secondary></indexterm>
 <indexterm><primary>doctest::StringMaker&lt; R C::* &gt;</primary><secondary>convert</secondary></indexterm>
 <computeroutput>template&lt;typename R , typename C &gt; </computeroutput><para><computeroutput>static <link linkend="_classdoctest_1_1_string">String</link> <link linkend="_structdoctest_1_1_string_maker">doctest::StringMaker</link>&lt; R C::* &gt;::convert (R C::* p)<computeroutput>[inline]</computeroutput>, <computeroutput>[static]</computeroutput></computeroutput></para></section>
-<para>
-The documentation for this struct was generated from the following file:</para>
-AudioFile/tests/doctest/<link linkend="_doctest_8h">doctest.h</link></section>
+</section>
 </section>

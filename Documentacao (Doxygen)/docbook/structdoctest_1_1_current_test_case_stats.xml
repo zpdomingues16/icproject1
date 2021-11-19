@@ -40,7 +40,5 @@
 <indexterm><primary>seconds</primary><secondary>doctest::CurrentTestCaseStats</secondary></indexterm>
 <indexterm><primary>doctest::CurrentTestCaseStats</primary><secondary>seconds</secondary></indexterm>
 <para><computeroutput>double doctest::CurrentTestCaseStats::seconds</computeroutput></para></section>
-<para>
-The documentation for this struct was generated from the following file:</para>
-AudioFile/tests/doctest/<link linkend="_doctest_8h">doctest.h</link></section>
+</section>
 </section>

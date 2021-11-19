@@ -103,7 +103,5 @@
 <indexterm><primary>m_type</primary><secondary>doctest::detail::TestCase</secondary></indexterm>
 <indexterm><primary>doctest::detail::TestCase</primary><secondary>m_type</secondary></indexterm>
 <para><computeroutput>const char* doctest::detail::TestCase::m_type</computeroutput></para></section>
-<para>
-The documentation for this struct was generated from the following file:</para>
-AudioFile/tests/doctest/<link linkend="_doctest_8h">doctest.h</link></section>
+</section>
 </section>

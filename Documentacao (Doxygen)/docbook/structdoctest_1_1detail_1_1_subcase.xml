@@ -58,7 +58,5 @@
 <indexterm><primary>m_signature</primary><secondary>doctest::detail::Subcase</secondary></indexterm>
 <indexterm><primary>doctest::detail::Subcase</primary><secondary>m_signature</secondary></indexterm>
 <para><computeroutput><link linkend="_structdoctest_1_1_subcase_signature">SubcaseSignature</link> doctest::detail::Subcase::m_signature</computeroutput></para></section>
-<para>
-The documentation for this struct was generated from the following file:</para>
-AudioFile/tests/doctest/<link linkend="_doctest_8h">doctest.h</link></section>
+</section>
 </section>

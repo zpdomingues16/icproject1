@@ -19,7 +19,5 @@
 <indexterm><primary>value</primary><secondary>doctest::detail::has_insertion_operator_impl::check&lt; T, decltype(os()&lt;&lt; val&lt; T &gt;(), void())&gt;</secondary></indexterm>
 <indexterm><primary>doctest::detail::has_insertion_operator_impl::check&lt; T, decltype(os()&lt;&lt; val&lt; T &gt;(), void())&gt;</primary><secondary>value</secondary></indexterm>
 <computeroutput>template&lt;class T &gt; </computeroutput><para><computeroutput>constexpr auto <link linkend="_structdoctest_1_1detail_1_1has__insertion__operator__impl_1_1check">doctest::detail::has_insertion_operator_impl::check</link>&lt; T, decltype(<link linkend="_namespacedoctest_1_1detail_1_1has__insertion__operator__impl_1a50dfa929b76e3581c300a3a8b87d21e2">os</link>()&lt;&lt; val&lt; T &gt;(), void())&gt;::value = true<computeroutput>[static]</computeroutput>, <computeroutput>[constexpr]</computeroutput></computeroutput></para></section>
-<para>
-The documentation for this struct was generated from the following file:</para>
-AudioFile/tests/doctest/<link linkend="_doctest_8h">doctest.h</link></section>
+</section>
 </section>

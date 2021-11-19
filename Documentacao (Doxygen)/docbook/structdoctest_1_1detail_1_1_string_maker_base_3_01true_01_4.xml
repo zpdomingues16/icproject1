@@ -19,7 +19,5 @@
 <indexterm><primary>convert</primary><secondary>doctest::detail::StringMakerBase&lt; true &gt;</secondary></indexterm>
 <indexterm><primary>doctest::detail::StringMakerBase&lt; true &gt;</primary><secondary>convert</secondary></indexterm>
 <computeroutput>template&lt;typename T &gt; </computeroutput><para><computeroutput>static <link linkend="_classdoctest_1_1_string">String</link> <link linkend="_structdoctest_1_1detail_1_1_string_maker_base">doctest::detail::StringMakerBase</link>&lt; true &gt;::convert (const <link linkend="_doctest_8h_1af2901cafb023c57fb672ccb1bf14f2eb">DOCTEST_REF_WRAP</link>(T) in)<computeroutput>[inline]</computeroutput>, <computeroutput>[static]</computeroutput></computeroutput></para></section>
-<para>
-The documentation for this struct was generated from the following file:</para>
-AudioFile/tests/doctest/<link linkend="_doctest_8h">doctest.h</link></section>
+</section>
 </section>

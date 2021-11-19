@@ -79,7 +79,5 @@
 <computeroutput>template&lt;typename L &gt; </computeroutput><para><computeroutput><link linkend="_doctest_8h_1a47e9d3609dfcc90b9a630ff33b9524d6">DOCTEST_NOINLINE</link> void doctest::detail::ResultBuilder::unary_assert (const <link linkend="_doctest_8h_1af2901cafb023c57fb672ccb1bf14f2eb">DOCTEST_REF_WRAP</link>(L) val)<computeroutput>[inline]</computeroutput></computeroutput></para>
 <para>OCLINT bitwise operator in conditional</para>
 </section>
-<para>
-The documentation for this struct was generated from the following file:</para>
-AudioFile/tests/doctest/<link linkend="_doctest_8h">doctest.h</link></section>
+</section>
 </section>

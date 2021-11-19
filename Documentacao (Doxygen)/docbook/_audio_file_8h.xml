@@ -26,6 +26,8 @@
 , <link linkend="__audio_file_8h_1ad18559d169602e85d0ad68da6ef8593fad911b34823c7674c292556dc56148c27">Wave</link>
 , <link linkend="__audio_file_8h_1ad18559d169602e85d0ad68da6ef8593fac2271ab764905d770a81d0920f8c6aaf">Aiff</link>
  }</para>
+
+<para>The different types of audio file, plus some other types to indicate a failure to load a file, or that one hasn&apos;t been loaded yet. </para>
 </listitem>
             <listitem><para>enum <link linkend="__audio_file_8h_1a24ed57f869bfefdef1bed0a033886d8e">WavAudioFormat</link> { 
 <link linkend="__audio_file_8h_1a24ed57f869bfefdef1bed0a033886d8ea91062305c293c8f87879282035b9e982">PCM</link> = 0x0001
@@ -91,8 +93,10 @@ This file is part of the &apos;<link linkend="_class_audio_file">AudioFile</link
     <title>AudioFileFormat</title>
 <indexterm><primary>AudioFileFormat</primary><secondary>AudioFile.h</secondary></indexterm>
 <indexterm><primary>AudioFile.h</primary><secondary>AudioFileFormat</secondary></indexterm>
-<para><computeroutput>enum class <link linkend="__audio_file_8h_1ad18559d169602e85d0ad68da6ef8593f">AudioFileFormat</link><computeroutput>[strong]</computeroutput></computeroutput></para>
-<para>The different types of audio file, plus some other types to indicate a failure to load a file, or that one hasn&apos;t been loaded yet </para>
+<para><computeroutput>enum class <link linkend="__audio_file_8h_1ad18559d169602e85d0ad68da6ef8593f">AudioFileFormat</link><computeroutput>[strong]</computeroutput></computeroutput></para><para>
+
+<para>The different types of audio file, plus some other types to indicate a failure to load a file, or that one hasn&apos;t been loaded yet. </para>
+</para>
 <informaltable frame="all">
 <title>Enumerator</title>
     <tgroup cols="2" align="left" colsep="1" rowsep="1">

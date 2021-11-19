@@ -46,7 +46,5 @@
 <para><computeroutput>virtual void doctest::IContextScope::stringify (<link linkend="_doctest_8h_1a116af65cb5e924b33ad9d9ecd7a783f3">std::ostream</link> * ) const<computeroutput>[pure virtual]</computeroutput></computeroutput></para><para>
 Implemented in <link linkend="_classdoctest_1_1detail_1_1_context_scope_1a4636ac32ae41ae108c7ada4a164ffaeb">doctest::detail::ContextScope&lt; L &gt;</link>.</para>
 </section>
-<para>
-The documentation for this struct was generated from the following file:</para>
-AudioFile/tests/doctest/<link linkend="_doctest_8h">doctest.h</link></section>
+</section>
 </section>

@@ -33,7 +33,5 @@
 <indexterm><primary>run_stats</primary><secondary>doctest::QueryData</secondary></indexterm>
 <indexterm><primary>doctest::QueryData</primary><secondary>run_stats</secondary></indexterm>
 <para><computeroutput>const <link linkend="_structdoctest_1_1_test_run_stats">TestRunStats</link>* doctest::QueryData::run_stats = nullptr</computeroutput></para></section>
-<para>
-The documentation for this struct was generated from the following file:</para>
-AudioFile/tests/doctest/<link linkend="_doctest_8h">doctest.h</link></section>
+</section>
 </section>

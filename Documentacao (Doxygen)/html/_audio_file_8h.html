@@ -16,6 +16,11 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -28,6 +33,21 @@
    <div id="projectname">Project #01
    </div>
   </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.svg"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Search" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
  </tr>
  </tbody>
 </table>
@@ -39,17 +59,6 @@
 var searchBox = new SearchBox("searchBox", "search",'Search','.html');
 /* @license-end */
 </script>
-<script type="text/javascript" src="menudata.js"></script>
-<script type="text/javascript" src="menu.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function() {
-  initMenu('',true,false,'search.php','Search');
-  $(document).ready(function() { init_search(); });
-});
-/* @license-end */
-</script>
-<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -112,6 +121,7 @@ Enumerations</h2></td></tr>
 , <a class="el" href="_audio_file_8h.html#ad18559d169602e85d0ad68da6ef8593fad911b34823c7674c292556dc56148c27">Wave</a>
 , <a class="el" href="_audio_file_8h.html#ad18559d169602e85d0ad68da6ef8593fac2271ab764905d770a81d0920f8c6aaf">Aiff</a>
  }</td></tr>
+<tr class="memdesc:ad18559d169602e85d0ad68da6ef8593f"><td class="mdescLeft">&#160;</td><td class="mdescRight">The different types of audio file, plus some other types to indicate a failure to load a file, or that one hasn't been loaded yet.  <a href="_audio_file_8h.html#ad18559d169602e85d0ad68da6ef8593f">More...</a><br /></td></tr>
 <tr class="separator:ad18559d169602e85d0ad68da6ef8593f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a24ed57f869bfefdef1bed0a033886d8e"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_audio_file_8h.html#a24ed57f869bfefdef1bed0a033886d8e">WavAudioFormat</a> { <br />
 &#160;&#160;<a class="el" href="_audio_file_8h.html#a24ed57f869bfefdef1bed0a033886d8ea91062305c293c8f87879282035b9e982">PCM</a> = 0x0001
@@ -177,7 +187,8 @@ Enumerations</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >The different types of audio file, plus some other types to indicate a failure to load a file, or that one hasn't been loaded yet </p>
+
+<p>The different types of audio file, plus some other types to indicate a failure to load a file, or that one hasn't been loaded yet. </p>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a526ed66f20752002a63ee72e2e350d7da902b0d55fddef6f8d651fe1035b7d4bd" name="a526ed66f20752002a63ee72e2e350d7da902b0d55fddef6f8d651fe1035b7d4bd"></a>Error&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ad18559d169602e85d0ad68da6ef8593fa5111e24c1ecc6266ce0de4b4dc42033b" name="ad18559d169602e85d0ad68da6ef8593fa5111e24c1ecc6266ce0de4b4dc42033b"></a>NotLoaded&#160;</td><td class="fielddoc"></td></tr>

@@ -16,42 +16,80 @@
     <title>Public Member Functions    </title>
         <itemizedlist>
             <listitem><para><link linkend="_class_audio_file_1ae74399e93d3f4623c7421ee10cfc0e15">AudioFile</link> ()</para>
+
+<para>Constructor. </para>
 </listitem>
             <listitem><para><link linkend="_class_audio_file_1ab8cdd72d83b34c6861315750e38c69a6">AudioFile</link> (std::string filePath)</para>
+
+<para>Constructor, using a given file path to load a file. </para>
 </listitem>
             <listitem><para>bool <link linkend="_class_audio_file_1a0ff16123b519a4665e9f3e7d341f0a26">load</link> (std::string filePath)</para>
+
+<para>Loads an audio file from a given file path. </para>
 </listitem>
             <listitem><para>bool <link linkend="_class_audio_file_1a415239cad5b54b4fef4a210ab79911e3">save</link> (std::string filePath, <link linkend="__audio_file_8h_1ad18559d169602e85d0ad68da6ef8593f">AudioFileFormat</link> format=<link linkend="__audio_file_8h_1ad18559d169602e85d0ad68da6ef8593fad911b34823c7674c292556dc56148c27">AudioFileFormat::Wave</link>)</para>
+
+<para>Saves an audio file to a given file path. </para>
 </listitem>
             <listitem><para>uint32_t <link linkend="_class_audio_file_1a8cd1b082af9db6bd180e4a63edcdefc9">getSampleRate</link> () const</para>
+
+<para>@Returns the sample rate </para>
 </listitem>
             <listitem><para>int <link linkend="_class_audio_file_1a514f860a956b4494ee8d8c806391d6b3">getNumChannels</link> () const</para>
+
+<para>@Returns the number of audio channels in the buffer </para>
 </listitem>
             <listitem><para>bool <link linkend="_class_audio_file_1a1057326fd2c2eca7cc7937f811868cf1">isMono</link> () const</para>
+
+<para>@Returns true if the audio file is mono </para>
 </listitem>
             <listitem><para>bool <link linkend="_class_audio_file_1a380a188d95f8f23b7622dfe222a7e8f6">isStereo</link> () const</para>
+
+<para>@Returns true if the audio file is stereo </para>
 </listitem>
             <listitem><para>int <link linkend="_class_audio_file_1a5495d5cb55911de54f0714e219130b48">getBitDepth</link> () const</para>
+
+<para>@Returns the bit depth of each sample </para>
 </listitem>
             <listitem><para>int <link linkend="_class_audio_file_1ae1b5b4b7351a79dbf810bb34ede496b9">getNumSamplesPerChannel</link> () const</para>
+
+<para>@Returns the number of samples per channel </para>
 </listitem>
             <listitem><para>double <link linkend="_class_audio_file_1a5a6b01404675361b1c21c9c5fb5753d4">getLengthInSeconds</link> () const</para>
+
+<para>@Returns the length in seconds of the audio file based on the number of samples and sample rate </para>
 </listitem>
             <listitem><para>void <link linkend="_class_audio_file_1a7b88c68133a9ac92149c58499e026360">printSummary</link> () const</para>
+
+<para>Prints a summary of the audio file to the console. </para>
 </listitem>
             <listitem><para>bool <link linkend="_class_audio_file_1afa0a0f7d576b0597c938c5a89746636e">setAudioBuffer</link> (<link linkend="_class_audio_file_1ad1260a47791dc30cbabfe3ff2ea099b1">AudioBuffer</link> &amp;newBuffer)</para>
+
+<para>Set the audio buffer for this <link linkend="_class_audio_file">AudioFile</link> by copying samples from another buffer. </para>
 </listitem>
             <listitem><para>void <link linkend="_class_audio_file_1ac155ed12db0f3b02011a7d75b525e71a">setAudioBufferSize</link> (int numChannels, int numSamples)</para>
+
+<para>Sets the audio buffer to a given number of channels and number of samples per channel. </para>
 </listitem>
             <listitem><para>void <link linkend="_class_audio_file_1a4cff9513d49e21d25de13513564784b7">setNumSamplesPerChannel</link> (int numSamples)</para>
+
+<para>Sets the number of samples per channel in the audio buffer. </para>
 </listitem>
             <listitem><para>void <link linkend="_class_audio_file_1a354018a94ae15907d7308782f2adadbb">setNumChannels</link> (int numChannels)</para>
+
+<para>Sets the number of channels. </para>
 </listitem>
             <listitem><para>void <link linkend="_class_audio_file_1a2adf2ea23e7daeb8401e717c1b3d874b">setBitDepth</link> (int numBitsPerSample)</para>
+
+<para>Sets the bit depth for the audio file. </para>
 </listitem>
             <listitem><para>void <link linkend="_class_audio_file_1a2d8fa306e40535113c3eba111e16483b">setSampleRate</link> (uint32_t newSampleRate)</para>
+
+<para>Sets the sample rate for the audio file. </para>
 </listitem>
             <listitem><para>void <link linkend="_class_audio_file_1a1986c0297e4e4db99435702528e9c3c4">shouldLogErrorsToConsole</link> (bool logErrors)</para>
+
+<para>Sets whether the library should log error messages to the console. </para>
 </listitem>
         </itemizedlist>
 </simplesect>
@@ -59,8 +97,12 @@
     <title>Public Attributes    </title>
         <itemizedlist>
             <listitem><para><link linkend="_class_audio_file_1ad1260a47791dc30cbabfe3ff2ea099b1">AudioBuffer</link> <link linkend="_class_audio_file_1af937119db095c5af870851050dcbeabb">samples</link></para>
+
+<para>A vector of vectors holding the audio samples for the <link linkend="_class_audio_file">AudioFile</link>. </para>
 </listitem>
             <listitem><para>std::string <link linkend="_class_audio_file_1ab2bc14440b0a6ff1a297e28a0354d422">iXMLChunk</link></para>
+
+<para>An optional iXML chunk that can be added to the <link linkend="_class_audio_file">AudioFile</link>. </para>
 </listitem>
         </itemizedlist>
 </simplesect>
@@ -78,15 +120,19 @@
     <title>AudioFile()<computeroutput>[1/2]</computeroutput></title>
 <indexterm><primary>AudioFile</primary><secondary>AudioFile&lt; T &gt;</secondary></indexterm>
 <indexterm><primary>AudioFile&lt; T &gt;</primary><secondary>AudioFile</secondary></indexterm>
-<computeroutput>template&lt;class T &gt; </computeroutput><para><computeroutput><link linkend="_class_audio_file">AudioFile</link>&lt; T &gt;::<link linkend="_class_audio_file">AudioFile</link></computeroutput></para>
-<para>Constructor </para>
+<computeroutput>template&lt;class T &gt; </computeroutput><para><computeroutput><link linkend="_class_audio_file">AudioFile</link>&lt; T &gt;::<link linkend="_class_audio_file">AudioFile</link></computeroutput></para><para>
+
+<para>Constructor. </para>
+</para>
 </section>
 <anchor xml:id="_class_audio_file_1ab8cdd72d83b34c6861315750e38c69a6"/><section>
     <title>AudioFile()<computeroutput>[2/2]</computeroutput></title>
 <indexterm><primary>AudioFile</primary><secondary>AudioFile&lt; T &gt;</secondary></indexterm>
 <indexterm><primary>AudioFile&lt; T &gt;</primary><secondary>AudioFile</secondary></indexterm>
-<computeroutput>template&lt;class T &gt; </computeroutput><para><computeroutput><link linkend="_class_audio_file">AudioFile</link>&lt; T &gt;::<link linkend="_class_audio_file">AudioFile</link> (std::string filePath)</computeroutput></para>
-<para>Constructor, using a given file path to load a file </para>
+<computeroutput>template&lt;class T &gt; </computeroutput><para><computeroutput><link linkend="_class_audio_file">AudioFile</link>&lt; T &gt;::<link linkend="_class_audio_file">AudioFile</link> (std::string filePath)</computeroutput></para><para>
+
+<para>Constructor, using a given file path to load a file. </para>
+</para>
 </section>
 </section>
 <section>
@@ -95,121 +141,173 @@
     <title>getBitDepth()</title>
 <indexterm><primary>getBitDepth</primary><secondary>AudioFile&lt; T &gt;</secondary></indexterm>
 <indexterm><primary>AudioFile&lt; T &gt;</primary><secondary>getBitDepth</secondary></indexterm>
-<computeroutput>template&lt;class T &gt; </computeroutput><para><computeroutput>int <link linkend="_class_audio_file">AudioFile</link>&lt; T &gt;::getBitDepth</computeroutput></para>
+<computeroutput>template&lt;class T &gt; </computeroutput><para><computeroutput>int <link linkend="_class_audio_file">AudioFile</link>&lt; T &gt;::getBitDepth</computeroutput></para><para>
+
 <para>@Returns the bit depth of each sample </para>
+</para>
 </section>
 <anchor xml:id="_class_audio_file_1a5a6b01404675361b1c21c9c5fb5753d4"/><section>
     <title>getLengthInSeconds()</title>
 <indexterm><primary>getLengthInSeconds</primary><secondary>AudioFile&lt; T &gt;</secondary></indexterm>
 <indexterm><primary>AudioFile&lt; T &gt;</primary><secondary>getLengthInSeconds</secondary></indexterm>
-<computeroutput>template&lt;class T &gt; </computeroutput><para><computeroutput>double <link linkend="_class_audio_file">AudioFile</link>&lt; T &gt;::getLengthInSeconds</computeroutput></para>
+<computeroutput>template&lt;class T &gt; </computeroutput><para><computeroutput>double <link linkend="_class_audio_file">AudioFile</link>&lt; T &gt;::getLengthInSeconds</computeroutput></para><para>
+
 <para>@Returns the length in seconds of the audio file based on the number of samples and sample rate </para>
+</para>
 </section>
 <anchor xml:id="_class_audio_file_1a514f860a956b4494ee8d8c806391d6b3"/><section>
     <title>getNumChannels()</title>
 <indexterm><primary>getNumChannels</primary><secondary>AudioFile&lt; T &gt;</secondary></indexterm>
 <indexterm><primary>AudioFile&lt; T &gt;</primary><secondary>getNumChannels</secondary></indexterm>
-<computeroutput>template&lt;class T &gt; </computeroutput><para><computeroutput>int <link linkend="_class_audio_file">AudioFile</link>&lt; T &gt;::getNumChannels</computeroutput></para>
+<computeroutput>template&lt;class T &gt; </computeroutput><para><computeroutput>int <link linkend="_class_audio_file">AudioFile</link>&lt; T &gt;::getNumChannels</computeroutput></para><para>
+
 <para>@Returns the number of audio channels in the buffer </para>
+</para>
 </section>
 <anchor xml:id="_class_audio_file_1ae1b5b4b7351a79dbf810bb34ede496b9"/><section>
     <title>getNumSamplesPerChannel()</title>
 <indexterm><primary>getNumSamplesPerChannel</primary><secondary>AudioFile&lt; T &gt;</secondary></indexterm>
 <indexterm><primary>AudioFile&lt; T &gt;</primary><secondary>getNumSamplesPerChannel</secondary></indexterm>
-<computeroutput>template&lt;class T &gt; </computeroutput><para><computeroutput>int <link linkend="_class_audio_file">AudioFile</link>&lt; T &gt;::getNumSamplesPerChannel</computeroutput></para>
+<computeroutput>template&lt;class T &gt; </computeroutput><para><computeroutput>int <link linkend="_class_audio_file">AudioFile</link>&lt; T &gt;::getNumSamplesPerChannel</computeroutput></para><para>
+
 <para>@Returns the number of samples per channel </para>
+</para>
 </section>
 <anchor xml:id="_class_audio_file_1a8cd1b082af9db6bd180e4a63edcdefc9"/><section>
     <title>getSampleRate()</title>
 <indexterm><primary>getSampleRate</primary><secondary>AudioFile&lt; T &gt;</secondary></indexterm>
 <indexterm><primary>AudioFile&lt; T &gt;</primary><secondary>getSampleRate</secondary></indexterm>
-<computeroutput>template&lt;class T &gt; </computeroutput><para><computeroutput>uint32_t <link linkend="_class_audio_file">AudioFile</link>&lt; T &gt;::getSampleRate</computeroutput></para>
+<computeroutput>template&lt;class T &gt; </computeroutput><para><computeroutput>uint32_t <link linkend="_class_audio_file">AudioFile</link>&lt; T &gt;::getSampleRate</computeroutput></para><para>
+
 <para>@Returns the sample rate </para>
+</para>
 </section>
 <anchor xml:id="_class_audio_file_1a1057326fd2c2eca7cc7937f811868cf1"/><section>
     <title>isMono()</title>
 <indexterm><primary>isMono</primary><secondary>AudioFile&lt; T &gt;</secondary></indexterm>
 <indexterm><primary>AudioFile&lt; T &gt;</primary><secondary>isMono</secondary></indexterm>
-<computeroutput>template&lt;class T &gt; </computeroutput><para><computeroutput>bool <link linkend="_class_audio_file">AudioFile</link>&lt; T &gt;::isMono</computeroutput></para>
+<computeroutput>template&lt;class T &gt; </computeroutput><para><computeroutput>bool <link linkend="_class_audio_file">AudioFile</link>&lt; T &gt;::isMono</computeroutput></para><para>
+
 <para>@Returns true if the audio file is mono </para>
+</para>
 </section>
 <anchor xml:id="_class_audio_file_1a380a188d95f8f23b7622dfe222a7e8f6"/><section>
     <title>isStereo()</title>
 <indexterm><primary>isStereo</primary><secondary>AudioFile&lt; T &gt;</secondary></indexterm>
 <indexterm><primary>AudioFile&lt; T &gt;</primary><secondary>isStereo</secondary></indexterm>
-<computeroutput>template&lt;class T &gt; </computeroutput><para><computeroutput>bool <link linkend="_class_audio_file">AudioFile</link>&lt; T &gt;::isStereo</computeroutput></para>
+<computeroutput>template&lt;class T &gt; </computeroutput><para><computeroutput>bool <link linkend="_class_audio_file">AudioFile</link>&lt; T &gt;::isStereo</computeroutput></para><para>
+
 <para>@Returns true if the audio file is stereo </para>
+</para>
 </section>
 <anchor xml:id="_class_audio_file_1a0ff16123b519a4665e9f3e7d341f0a26"/><section>
     <title>load()</title>
 <indexterm><primary>load</primary><secondary>AudioFile&lt; T &gt;</secondary></indexterm>
 <indexterm><primary>AudioFile&lt; T &gt;</primary><secondary>load</secondary></indexterm>
-<computeroutput>template&lt;class T &gt; </computeroutput><para><computeroutput>bool <link linkend="_class_audio_file">AudioFile</link>&lt; T &gt;::load (std::string filePath)</computeroutput></para>
-<para>Loads an audio file from a given file path. @Returns true if the file was successfully loaded </para>
+<computeroutput>template&lt;class T &gt; </computeroutput><para><computeroutput>bool <link linkend="_class_audio_file">AudioFile</link>&lt; T &gt;::load (std::string filePath)</computeroutput></para><para>
+
+<para>Loads an audio file from a given file path. </para>
+</para>
+
+<para>@Returns true if the file was successfully loaded </para>
 </section>
 <anchor xml:id="_class_audio_file_1a7b88c68133a9ac92149c58499e026360"/><section>
     <title>printSummary()</title>
 <indexterm><primary>printSummary</primary><secondary>AudioFile&lt; T &gt;</secondary></indexterm>
 <indexterm><primary>AudioFile&lt; T &gt;</primary><secondary>printSummary</secondary></indexterm>
-<computeroutput>template&lt;class T &gt; </computeroutput><para><computeroutput>void <link linkend="_class_audio_file">AudioFile</link>&lt; T &gt;::printSummary</computeroutput></para>
-<para>Prints a summary of the audio file to the console </para>
+<computeroutput>template&lt;class T &gt; </computeroutput><para><computeroutput>void <link linkend="_class_audio_file">AudioFile</link>&lt; T &gt;::printSummary</computeroutput></para><para>
+
+<para>Prints a summary of the audio file to the console. </para>
+</para>
 </section>
 <anchor xml:id="_class_audio_file_1a415239cad5b54b4fef4a210ab79911e3"/><section>
     <title>save()</title>
 <indexterm><primary>save</primary><secondary>AudioFile&lt; T &gt;</secondary></indexterm>
 <indexterm><primary>AudioFile&lt; T &gt;</primary><secondary>save</secondary></indexterm>
 <computeroutput>template&lt;class T &gt; </computeroutput><para><computeroutput>bool <link linkend="_class_audio_file">AudioFile</link>&lt; T &gt;::save (std::string filePath, <link linkend="__audio_file_8h_1ad18559d169602e85d0ad68da6ef8593f">AudioFileFormat</link> format = <computeroutput><link linkend="__audio_file_8h_1ad18559d169602e85d0ad68da6ef8593fad911b34823c7674c292556dc56148c27">AudioFileFormat::Wave</link></computeroutput>
-)</computeroutput></para>
-<para>Saves an audio file to a given file path. @Returns true if the file was successfully saved </para>
+)</computeroutput></para><para>
+
+<para>Saves an audio file to a given file path. </para>
+</para>
+
+<para>@Returns true if the file was successfully saved </para>
 </section>
 <anchor xml:id="_class_audio_file_1afa0a0f7d576b0597c938c5a89746636e"/><section>
     <title>setAudioBuffer()</title>
 <indexterm><primary>setAudioBuffer</primary><secondary>AudioFile&lt; T &gt;</secondary></indexterm>
 <indexterm><primary>AudioFile&lt; T &gt;</primary><secondary>setAudioBuffer</secondary></indexterm>
-<computeroutput>template&lt;class T &gt; </computeroutput><para><computeroutput>bool <link linkend="_class_audio_file">AudioFile</link>&lt; T &gt;::setAudioBuffer (<link linkend="_class_audio_file_1ad1260a47791dc30cbabfe3ff2ea099b1">AudioBuffer</link> &amp; newBuffer)</computeroutput></para>
-<para>Set the audio buffer for this <link linkend="_class_audio_file">AudioFile</link> by copying samples from another buffer. @Returns true if the buffer was copied successfully. </para>
+<computeroutput>template&lt;class T &gt; </computeroutput><para><computeroutput>bool <link linkend="_class_audio_file">AudioFile</link>&lt; T &gt;::setAudioBuffer (<link linkend="_class_audio_file_1ad1260a47791dc30cbabfe3ff2ea099b1">AudioBuffer</link> &amp; newBuffer)</computeroutput></para><para>
+
+<para>Set the audio buffer for this <link linkend="_class_audio_file">AudioFile</link> by copying samples from another buffer. </para>
+</para>
+
+<para>@Returns true if the buffer was copied successfully. </para>
 </section>
 <anchor xml:id="_class_audio_file_1ac155ed12db0f3b02011a7d75b525e71a"/><section>
     <title>setAudioBufferSize()</title>
 <indexterm><primary>setAudioBufferSize</primary><secondary>AudioFile&lt; T &gt;</secondary></indexterm>
 <indexterm><primary>AudioFile&lt; T &gt;</primary><secondary>setAudioBufferSize</secondary></indexterm>
-<computeroutput>template&lt;class T &gt; </computeroutput><para><computeroutput>void <link linkend="_class_audio_file">AudioFile</link>&lt; T &gt;::setAudioBufferSize (int numChannels, int numSamples)</computeroutput></para>
-<para>Sets the audio buffer to a given number of channels and number of samples per channel. This will try to preserve the existing audio, adding zeros to any new channels or new samples in a given channel. </para>
+<computeroutput>template&lt;class T &gt; </computeroutput><para><computeroutput>void <link linkend="_class_audio_file">AudioFile</link>&lt; T &gt;::setAudioBufferSize (int numChannels, int numSamples)</computeroutput></para><para>
+
+<para>Sets the audio buffer to a given number of channels and number of samples per channel. </para>
+</para>
+
+<para>This will try to preserve the existing audio, adding zeros to any new channels or new samples in a given channel. </para>
 </section>
 <anchor xml:id="_class_audio_file_1a2adf2ea23e7daeb8401e717c1b3d874b"/><section>
     <title>setBitDepth()</title>
 <indexterm><primary>setBitDepth</primary><secondary>AudioFile&lt; T &gt;</secondary></indexterm>
 <indexterm><primary>AudioFile&lt; T &gt;</primary><secondary>setBitDepth</secondary></indexterm>
-<computeroutput>template&lt;class T &gt; </computeroutput><para><computeroutput>void <link linkend="_class_audio_file">AudioFile</link>&lt; T &gt;::setBitDepth (int numBitsPerSample)</computeroutput></para>
-<para>Sets the bit depth for the audio file. If you use the <link linkend="_class_audio_file_1a415239cad5b54b4fef4a210ab79911e3">save()</link> function, this bit depth rate will be used </para>
+<computeroutput>template&lt;class T &gt; </computeroutput><para><computeroutput>void <link linkend="_class_audio_file">AudioFile</link>&lt; T &gt;::setBitDepth (int numBitsPerSample)</computeroutput></para><para>
+
+<para>Sets the bit depth for the audio file. </para>
+</para>
+
+<para>If you use the <link linkend="_class_audio_file_1a415239cad5b54b4fef4a210ab79911e3">save()</link> function, this bit depth rate will be used </para>
 </section>
 <anchor xml:id="_class_audio_file_1a354018a94ae15907d7308782f2adadbb"/><section>
     <title>setNumChannels()</title>
 <indexterm><primary>setNumChannels</primary><secondary>AudioFile&lt; T &gt;</secondary></indexterm>
 <indexterm><primary>AudioFile&lt; T &gt;</primary><secondary>setNumChannels</secondary></indexterm>
-<computeroutput>template&lt;class T &gt; </computeroutput><para><computeroutput>void <link linkend="_class_audio_file">AudioFile</link>&lt; T &gt;::setNumChannels (int numChannels)</computeroutput></para>
-<para>Sets the number of channels. New channels will have the correct number of samples and be initialised to zero </para>
+<computeroutput>template&lt;class T &gt; </computeroutput><para><computeroutput>void <link linkend="_class_audio_file">AudioFile</link>&lt; T &gt;::setNumChannels (int numChannels)</computeroutput></para><para>
+
+<para>Sets the number of channels. </para>
+</para>
+
+<para>New channels will have the correct number of samples and be initialised to zero </para>
 </section>
 <anchor xml:id="_class_audio_file_1a4cff9513d49e21d25de13513564784b7"/><section>
     <title>setNumSamplesPerChannel()</title>
 <indexterm><primary>setNumSamplesPerChannel</primary><secondary>AudioFile&lt; T &gt;</secondary></indexterm>
 <indexterm><primary>AudioFile&lt; T &gt;</primary><secondary>setNumSamplesPerChannel</secondary></indexterm>
-<computeroutput>template&lt;class T &gt; </computeroutput><para><computeroutput>void <link linkend="_class_audio_file">AudioFile</link>&lt; T &gt;::setNumSamplesPerChannel (int numSamples)</computeroutput></para>
-<para>Sets the number of samples per channel in the audio buffer. This will try to preserve the existing audio, adding zeros to new samples in a given channel if the number of samples is increased. </para>
+<computeroutput>template&lt;class T &gt; </computeroutput><para><computeroutput>void <link linkend="_class_audio_file">AudioFile</link>&lt; T &gt;::setNumSamplesPerChannel (int numSamples)</computeroutput></para><para>
+
+<para>Sets the number of samples per channel in the audio buffer. </para>
+</para>
+
+<para>This will try to preserve the existing audio, adding zeros to new samples in a given channel if the number of samples is increased. </para>
 </section>
 <anchor xml:id="_class_audio_file_1a2d8fa306e40535113c3eba111e16483b"/><section>
     <title>setSampleRate()</title>
 <indexterm><primary>setSampleRate</primary><secondary>AudioFile&lt; T &gt;</secondary></indexterm>
 <indexterm><primary>AudioFile&lt; T &gt;</primary><secondary>setSampleRate</secondary></indexterm>
-<computeroutput>template&lt;class T &gt; </computeroutput><para><computeroutput>void <link linkend="_class_audio_file">AudioFile</link>&lt; T &gt;::setSampleRate (uint32_t newSampleRate)</computeroutput></para>
-<para>Sets the sample rate for the audio file. If you use the <link linkend="_class_audio_file_1a415239cad5b54b4fef4a210ab79911e3">save()</link> function, this sample rate will be used </para>
+<computeroutput>template&lt;class T &gt; </computeroutput><para><computeroutput>void <link linkend="_class_audio_file">AudioFile</link>&lt; T &gt;::setSampleRate (uint32_t newSampleRate)</computeroutput></para><para>
+
+<para>Sets the sample rate for the audio file. </para>
+</para>
+
+<para>If you use the <link linkend="_class_audio_file_1a415239cad5b54b4fef4a210ab79911e3">save()</link> function, this sample rate will be used </para>
 </section>
 <anchor xml:id="_class_audio_file_1a1986c0297e4e4db99435702528e9c3c4"/><section>
     <title>shouldLogErrorsToConsole()</title>
 <indexterm><primary>shouldLogErrorsToConsole</primary><secondary>AudioFile&lt; T &gt;</secondary></indexterm>
 <indexterm><primary>AudioFile&lt; T &gt;</primary><secondary>shouldLogErrorsToConsole</secondary></indexterm>
-<computeroutput>template&lt;class T &gt; </computeroutput><para><computeroutput>void <link linkend="_class_audio_file">AudioFile</link>&lt; T &gt;::shouldLogErrorsToConsole (bool logErrors)</computeroutput></para>
-<para>Sets whether the library should log error messages to the console. By default this is true </para>
+<computeroutput>template&lt;class T &gt; </computeroutput><para><computeroutput>void <link linkend="_class_audio_file">AudioFile</link>&lt; T &gt;::shouldLogErrorsToConsole (bool logErrors)</computeroutput></para><para>
+
+<para>Sets whether the library should log error messages to the console. </para>
+</para>
+
+<para>By default this is true </para>
 </section>
 </section>
 <section>
@@ -218,18 +316,22 @@
     <title>iXMLChunk</title>
 <indexterm><primary>iXMLChunk</primary><secondary>AudioFile&lt; T &gt;</secondary></indexterm>
 <indexterm><primary>AudioFile&lt; T &gt;</primary><secondary>iXMLChunk</secondary></indexterm>
-<computeroutput>template&lt;class T &gt; </computeroutput><para><computeroutput>std::string <link linkend="_class_audio_file">AudioFile</link>&lt; T &gt;::iXMLChunk</computeroutput></para>
+<computeroutput>template&lt;class T &gt; </computeroutput><para><computeroutput>std::string <link linkend="_class_audio_file">AudioFile</link>&lt; T &gt;::iXMLChunk</computeroutput></para><para>
+
 <para>An optional iXML chunk that can be added to the <link linkend="_class_audio_file">AudioFile</link>. </para>
+</para>
 </section>
 <anchor xml:id="_class_audio_file_1af937119db095c5af870851050dcbeabb"/><section>
     <title>samples</title>
 <indexterm><primary>samples</primary><secondary>AudioFile&lt; T &gt;</secondary></indexterm>
 <indexterm><primary>AudioFile&lt; T &gt;</primary><secondary>samples</secondary></indexterm>
-<computeroutput>template&lt;class T &gt; </computeroutput><para><computeroutput><link linkend="_class_audio_file_1ad1260a47791dc30cbabfe3ff2ea099b1">AudioBuffer</link> <link linkend="_class_audio_file">AudioFile</link>&lt; T &gt;::samples</computeroutput></para>
-<para>A vector of vectors holding the audio samples for the <link linkend="_class_audio_file">AudioFile</link>. You can access the samples by channel and then by sample index, i.e: <literallayout><computeroutput> samples[channel][sampleIndex]
+<computeroutput>template&lt;class T &gt; </computeroutput><para><computeroutput><link linkend="_class_audio_file_1ad1260a47791dc30cbabfe3ff2ea099b1">AudioBuffer</link> <link linkend="_class_audio_file">AudioFile</link>&lt; T &gt;::samples</computeroutput></para><para>
+
+<para>A vector of vectors holding the audio samples for the <link linkend="_class_audio_file">AudioFile</link>. </para>
+</para>
+
+<para>You can access the samples by channel and then by sample index, i.e: <literallayout><computeroutput> samples[channel][sampleIndex]
 </computeroutput></literallayout> </para>
 </section>
-<para>
-The documentation for this class was generated from the following file:</para>
-AudioFile/<link linkend="__audio_file_8h">AudioFile.h</link></section>
+</section>
 </section>

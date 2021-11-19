@@ -48,7 +48,5 @@
 <indexterm><primary>m_string</primary><secondary>doctest::MessageData</secondary></indexterm>
 <indexterm><primary>doctest::MessageData</primary><secondary>m_string</secondary></indexterm>
 <para><computeroutput><link linkend="_classdoctest_1_1_string">String</link> doctest::MessageData::m_string</computeroutput></para></section>
-<para>
-The documentation for this struct was generated from the following file:</para>
-AudioFile/tests/doctest/<link linkend="_doctest_8h">doctest.h</link></section>
+</section>
 </section>

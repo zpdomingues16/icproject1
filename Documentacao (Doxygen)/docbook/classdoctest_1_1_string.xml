@@ -156,7 +156,5 @@
 <indexterm><primary>data</primary><secondary>doctest::String</secondary></indexterm>
 <indexterm><primary>doctest::String</primary><secondary>data</secondary></indexterm>
 <para><computeroutput>view doctest::String::data</computeroutput></para></section>
-<para>
-The documentation for this class was generated from the following file:</para>
-AudioFile/tests/doctest/<link linkend="_doctest_8h">doctest.h</link></section>
+</section>
 </section>

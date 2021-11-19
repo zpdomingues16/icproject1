@@ -142,7 +142,5 @@
 <indexterm><primary>toString</primary><secondary>doctest::Approx</secondary></indexterm>
 <indexterm><primary>doctest::Approx</primary><secondary>toString</secondary></indexterm>
 <para><computeroutput><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> friend <link linkend="_classdoctest_1_1_string">String</link> toString (const <link linkend="_classdoctest_1_1_approx">Approx</link> &amp; in)<computeroutput>[friend]</computeroutput></computeroutput></para></section>
-<para>
-The documentation for this class was generated from the following file:</para>
-AudioFile/tests/doctest/<link linkend="_doctest_8h">doctest.h</link></section>
+</section>
 </section>

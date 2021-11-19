@@ -44,7 +44,5 @@
 <indexterm><primary>m_at</primary><secondary>doctest::detail::ExpressionDecomposer</secondary></indexterm>
 <indexterm><primary>doctest::detail::ExpressionDecomposer</primary><secondary>m_at</secondary></indexterm>
 <para><computeroutput><link linkend="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3">assertType::Enum</link> doctest::detail::ExpressionDecomposer::m_at</computeroutput></para></section>
-<para>
-The documentation for this struct was generated from the following file:</para>
-AudioFile/tests/doctest/<link linkend="_doctest_8h">doctest.h</link></section>
+</section>
 </section>

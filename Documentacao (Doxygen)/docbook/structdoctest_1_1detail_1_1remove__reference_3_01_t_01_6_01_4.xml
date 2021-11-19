@@ -19,7 +19,5 @@
 <indexterm><primary>type</primary><secondary>doctest::detail::remove_reference&lt; T &amp; &gt;</secondary></indexterm>
 <indexterm><primary>doctest::detail::remove_reference&lt; T &amp; &gt;</primary><secondary>type</secondary></indexterm>
 <computeroutput>template&lt;class T &gt; </computeroutput><para><computeroutput>typedef T <link linkend="_structdoctest_1_1detail_1_1remove__reference">doctest::detail::remove_reference</link>&lt; T &amp; &gt;::<link linkend="_structdoctest_1_1detail_1_1remove__reference_3_01_t_01_6_01_4_1a37201537c0190f14f504d9f507bc042a">type</link></computeroutput></para></section>
-<para>
-The documentation for this struct was generated from the following file:</para>
-AudioFile/tests/doctest/<link linkend="_doctest_8h">doctest.h</link></section>
+</section>
 </section>

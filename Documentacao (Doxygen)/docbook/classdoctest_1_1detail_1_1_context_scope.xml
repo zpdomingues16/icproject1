@@ -56,7 +56,5 @@
 <computeroutput>template&lt;typename L &gt; </computeroutput><para><computeroutput>void <link linkend="_classdoctest_1_1detail_1_1_context_scope">doctest::detail::ContextScope</link>&lt; L &gt;::stringify (<link linkend="_doctest_8h_1a116af65cb5e924b33ad9d9ecd7a783f3">std::ostream</link> * s) const<computeroutput>[inline]</computeroutput>, <computeroutput>[override]</computeroutput>, <computeroutput>[virtual]</computeroutput></computeroutput></para><para>
 Implements <link linkend="_structdoctest_1_1_i_context_scope_1affbf0f9bf8107a4a8a805d237288141d">doctest::IContextScope</link>.</para>
 </section>
-<para>
-The documentation for this class was generated from the following file:</para>
-AudioFile/tests/doctest/<link linkend="_doctest_8h">doctest.h</link></section>
+</section>
 </section>

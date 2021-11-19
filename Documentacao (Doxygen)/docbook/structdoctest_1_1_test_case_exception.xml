@@ -26,7 +26,5 @@
 <indexterm><primary>is_crash</primary><secondary>doctest::TestCaseException</secondary></indexterm>
 <indexterm><primary>doctest::TestCaseException</primary><secondary>is_crash</secondary></indexterm>
 <para><computeroutput>bool doctest::TestCaseException::is_crash</computeroutput></para></section>
-<para>
-The documentation for this struct was generated from the following file:</para>
-AudioFile/tests/doctest/<link linkend="_doctest_8h">doctest.h</link></section>
+</section>
 </section>

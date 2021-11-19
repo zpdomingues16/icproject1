@@ -253,7 +253,5 @@
 <indexterm><primary>version</primary><secondary>doctest::ContextOptions</secondary></indexterm>
 <indexterm><primary>doctest::ContextOptions</primary><secondary>version</secondary></indexterm>
 <para><computeroutput>bool doctest::ContextOptions::version</computeroutput></para></section>
-<para>
-The documentation for this struct was generated from the following file:</para>
-AudioFile/tests/doctest/<link linkend="_doctest_8h">doctest.h</link></section>
+</section>
 </section>

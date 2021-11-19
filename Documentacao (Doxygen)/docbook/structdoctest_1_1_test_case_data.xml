@@ -90,7 +90,5 @@
 <indexterm><primary>m_timeout</primary><secondary>doctest::TestCaseData</secondary></indexterm>
 <indexterm><primary>doctest::TestCaseData</primary><secondary>m_timeout</secondary></indexterm>
 <para><computeroutput>double doctest::TestCaseData::m_timeout</computeroutput></para></section>
-<para>
-The documentation for this struct was generated from the following file:</para>
-AudioFile/tests/doctest/<link linkend="_doctest_8h">doctest.h</link></section>
+</section>
 </section>

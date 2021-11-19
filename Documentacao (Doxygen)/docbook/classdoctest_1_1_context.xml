@@ -94,7 +94,5 @@
 <indexterm><primary>shouldExit</primary><secondary>doctest::Context</secondary></indexterm>
 <indexterm><primary>doctest::Context</primary><secondary>shouldExit</secondary></indexterm>
 <para><computeroutput>bool doctest::Context::shouldExit ( )</computeroutput></para></section>
-<para>
-The documentation for this class was generated from the following file:</para>
-AudioFile/tests/doctest/<link linkend="_doctest_8h">doctest.h</link></section>
+</section>
 </section>

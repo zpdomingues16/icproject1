@@ -19,7 +19,5 @@
 <indexterm><primary>operator()</primary><secondary>doctest::detail::RelationalComparator&lt; int, L, R &gt;</secondary></indexterm>
 <indexterm><primary>doctest::detail::RelationalComparator&lt; int, L, R &gt;</primary><secondary>operator()</secondary></indexterm>
 <computeroutput>template&lt;int , class L , class R &gt; </computeroutput><para><computeroutput>bool <link linkend="_structdoctest_1_1detail_1_1_relational_comparator">doctest::detail::RelationalComparator</link>&lt; int, L, R &gt;::operator() (const  DOCTEST_REF_WRAPL, const  DOCTEST_REF_WRAPR) const<computeroutput>[inline]</computeroutput></computeroutput></para></section>
-<para>
-The documentation for this struct was generated from the following file:</para>
-AudioFile/tests/doctest/<link linkend="_doctest_8h">doctest.h</link></section>
+</section>
 </section>

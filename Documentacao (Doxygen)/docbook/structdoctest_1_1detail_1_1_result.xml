@@ -42,7 +42,5 @@
 <indexterm><primary>m_passed</primary><secondary>doctest::detail::Result</secondary></indexterm>
 <indexterm><primary>doctest::detail::Result</primary><secondary>m_passed</secondary></indexterm>
 <para><computeroutput>bool doctest::detail::Result::m_passed</computeroutput></para></section>
-<para>
-The documentation for this struct was generated from the following file:</para>
-AudioFile/tests/doctest/<link linkend="_doctest_8h">doctest.h</link></section>
+</section>
 </section>

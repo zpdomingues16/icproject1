@@ -104,7 +104,5 @@
 <indexterm><primary>m_threw_as</primary><secondary>doctest::AssertData</secondary></indexterm>
 <indexterm><primary>doctest::AssertData</primary><secondary>m_threw_as</secondary></indexterm>
 <para><computeroutput>bool doctest::AssertData::m_threw_as</computeroutput></para></section>
-<para>
-The documentation for this struct was generated from the following file:</para>
-AudioFile/tests/doctest/<link linkend="_doctest_8h">doctest.h</link></section>
+</section>
 </section>

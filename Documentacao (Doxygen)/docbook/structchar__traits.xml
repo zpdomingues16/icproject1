@@ -2,6 +2,4 @@
 <section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_structchar__traits" xml:lang="en-US">
 <title>char_traits&lt; charT &gt; Struct Template Reference</title>
 <indexterm><primary>char_traits&lt; charT &gt;</primary></indexterm>
-<para>
-The documentation for this struct was generated from the following file:</para>
-AudioFile/tests/doctest/<link linkend="_doctest_8h">doctest.h</link></section>
+</section>

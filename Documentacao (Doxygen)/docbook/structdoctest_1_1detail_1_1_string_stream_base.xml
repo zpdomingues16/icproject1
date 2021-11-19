@@ -26,7 +26,5 @@
 <indexterm><primary>convert</primary><secondary>doctest::detail::StringStreamBase&lt; C &gt;</secondary></indexterm>
 <indexterm><primary>doctest::detail::StringStreamBase&lt; C &gt;</primary><secondary>convert</secondary></indexterm>
 <computeroutput>template&lt;bool C&gt; </computeroutput><computeroutput>template&lt;typename T &gt; </computeroutput><para><computeroutput>static void <link linkend="_structdoctest_1_1detail_1_1_string_stream_base">doctest::detail::StringStreamBase</link>&lt; C &gt;::convert (<link linkend="_doctest_8h_1a116af65cb5e924b33ad9d9ecd7a783f3">std::ostream</link> * s, const T &amp; in)<computeroutput>[inline]</computeroutput>, <computeroutput>[static]</computeroutput></computeroutput></para></section>
-<para>
-The documentation for this struct was generated from the following file:</para>
-AudioFile/tests/doctest/<link linkend="_doctest_8h">doctest.h</link></section>
+</section>
 </section>

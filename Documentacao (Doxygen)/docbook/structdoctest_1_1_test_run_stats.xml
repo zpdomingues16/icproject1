@@ -54,7 +54,5 @@
 <indexterm><primary>numTestSuitesPassingFilters</primary><secondary>doctest::TestRunStats</secondary></indexterm>
 <indexterm><primary>doctest::TestRunStats</primary><secondary>numTestSuitesPassingFilters</secondary></indexterm>
 <para><computeroutput>unsigned doctest::TestRunStats::numTestSuitesPassingFilters</computeroutput></para></section>
-<para>
-The documentation for this struct was generated from the following file:</para>
-AudioFile/tests/doctest/<link linkend="_doctest_8h">doctest.h</link></section>
+</section>
 </section>

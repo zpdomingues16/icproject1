@@ -139,7 +139,5 @@
 <indexterm><primary>test_run_start</primary><secondary>doctest::IReporter</secondary></indexterm>
 <indexterm><primary>doctest::IReporter</primary><secondary>test_run_start</secondary></indexterm>
 <para><computeroutput>virtual void doctest::IReporter::test_run_start ( )<computeroutput>[pure virtual]</computeroutput></computeroutput></para></section>
-<para>
-The documentation for this struct was generated from the following file:</para>
-AudioFile/tests/doctest/<link linkend="_doctest_8h">doctest.h</link></section>
+</section>
 </section>

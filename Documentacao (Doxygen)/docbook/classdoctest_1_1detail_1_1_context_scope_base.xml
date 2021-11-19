@@ -40,7 +40,5 @@
 <indexterm><primary>destroy</primary><secondary>doctest::detail::ContextScopeBase</secondary></indexterm>
 <indexterm><primary>doctest::detail::ContextScopeBase</primary><secondary>destroy</secondary></indexterm>
 <para><computeroutput>void doctest::detail::ContextScopeBase::destroy ( )<computeroutput>[protected]</computeroutput></computeroutput></para></section>
-<para>
-The documentation for this class was generated from the following file:</para>
-AudioFile/tests/doctest/<link linkend="_doctest_8h">doctest.h</link></section>
+</section>
 </section>

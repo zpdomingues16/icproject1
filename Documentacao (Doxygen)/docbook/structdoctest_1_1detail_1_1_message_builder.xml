@@ -80,7 +80,5 @@
 <indexterm><primary>m_stream</primary><secondary>doctest::detail::MessageBuilder</secondary></indexterm>
 <indexterm><primary>doctest::detail::MessageBuilder</primary><secondary>m_stream</secondary></indexterm>
 <para><computeroutput><link linkend="_doctest_8h_1a116af65cb5e924b33ad9d9ecd7a783f3">std::ostream</link>* doctest::detail::MessageBuilder::m_stream</computeroutput></para></section>
-<para>
-The documentation for this struct was generated from the following file:</para>
-AudioFile/tests/doctest/<link linkend="_doctest_8h">doctest.h</link></section>
+</section>
 </section>

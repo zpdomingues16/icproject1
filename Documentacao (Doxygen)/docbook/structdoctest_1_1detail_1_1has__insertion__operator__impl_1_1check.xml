@@ -19,7 +19,5 @@
 <indexterm><primary>value</primary><secondary>doctest::detail::has_insertion_operator_impl::check&lt; class, class &gt;</secondary></indexterm>
 <indexterm><primary>doctest::detail::has_insertion_operator_impl::check&lt; class, class &gt;</primary><secondary>value</secondary></indexterm>
 <computeroutput>template&lt;class , class  = void&gt; </computeroutput><para><computeroutput>constexpr auto <link linkend="_structdoctest_1_1detail_1_1has__insertion__operator__impl_1_1check">doctest::detail::has_insertion_operator_impl::check</link>&lt; class, class &gt;::value = false<computeroutput>[static]</computeroutput>, <computeroutput>[constexpr]</computeroutput></computeroutput></para></section>
-<para>
-The documentation for this struct was generated from the following file:</para>
-AudioFile/tests/doctest/<link linkend="_doctest_8h">doctest.h</link></section>
+</section>
 </section>
