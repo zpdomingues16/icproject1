@@ -17,9 +17,9 @@ double check_key(map<int, int> m, int key)				// função para verificar se uma 
 int main(int argc, char* argv[])
 {	
 	ifstream ifs(argv[1]);
-	ofstream ofs1("r.txt");
+	ofstream ofs1("b.txt");
 	ofstream ofs2("g.txt");
-	ofstream ofs3("b.txt");
+	ofstream ofs3("r.txt");
 	ofstream ofs4("bw.txt");
 
 	map<int,int> r;
