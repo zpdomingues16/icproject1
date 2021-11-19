@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_ex5__2_8cpp" xml:lang="en-US">
+<title>ex5/ex5_2.cpp File Reference</title>
+<indexterm><primary>ex5/ex5_2.cpp</primary></indexterm>
+<programlisting linenumbering="unnumbered">#include &lt;map&gt;
+#include &lt;stdint.h&gt;
+#include &lt;iostream&gt;
+#include &lt;fstream&gt;
+#include &lt;stdio.h&gt;
+#include &lt;ctype.h&gt;
+</programlisting><simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para>char <link linkend="_ex5__2_8cpp_1a97f76b3639be65bec3945d5ce65176ef">check_key</link> (map&lt; char, int &gt; m, char key)</para>
+</listitem>
+            <listitem><para>int <link linkend="_ex5__2_8cpp_1a0ddf1224851353fc92bfbff6f499fa97">main</link> (int argc, char *argv[])</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Function Documentation</title>
+<anchor xml:id="_ex5__2_8cpp_1a97f76b3639be65bec3945d5ce65176ef"/><section>
+    <title>check_key()</title>
+<indexterm><primary>check_key</primary><secondary>ex5_2.cpp</secondary></indexterm>
+<indexterm><primary>ex5_2.cpp</primary><secondary>check_key</secondary></indexterm>
+<para><computeroutput>char check_key (map&lt; char, int &gt; m, char key)</computeroutput></para></section>
+<anchor xml:id="_ex5__2_8cpp_1a0ddf1224851353fc92bfbff6f499fa97"/><section>
+    <title>main()</title>
+<indexterm><primary>main</primary><secondary>ex5_2.cpp</secondary></indexterm>
+<indexterm><primary>ex5_2.cpp</primary><secondary>main</secondary></indexterm>
+<para><computeroutput>int main (int argc, char * argv[])</computeroutput></para></section>
+</section>
+</section>

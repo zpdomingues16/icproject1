@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_structdoctest_1_1detail_1_1remove__const_3_01const_01_t_01_4" xml:lang="en-US">
+<title>doctest::detail::remove_const&lt; const T &gt; Struct Template Reference</title>
+<indexterm><primary>doctest::detail::remove_const&lt; const T &gt;</primary></indexterm>
+<para>
+<computeroutput>#include &lt;doctest.h&gt;</computeroutput>
+</para>
+<simplesect>
+    <title>Public Types    </title>
+        <itemizedlist>
+            <listitem><para>typedef T <link linkend="_structdoctest_1_1detail_1_1remove__const_3_01const_01_t_01_4_1ab1e642665bafaad4023fba5295290b17">type</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Typedef Documentation</title>
+<anchor xml:id="_structdoctest_1_1detail_1_1remove__const_3_01const_01_t_01_4_1ab1e642665bafaad4023fba5295290b17"/><section>
+    <title>type</title>
+<indexterm><primary>type</primary><secondary>doctest::detail::remove_const&lt; const T &gt;</secondary></indexterm>
+<indexterm><primary>doctest::detail::remove_const&lt; const T &gt;</primary><secondary>type</secondary></indexterm>
+<computeroutput>template&lt;class T &gt; </computeroutput><para><computeroutput>typedef T <link linkend="_structdoctest_1_1detail_1_1remove__const">doctest::detail::remove_const</link>&lt; const T &gt;::<link linkend="_structdoctest_1_1detail_1_1remove__const_3_01const_01_t_01_4_1ab1e642665bafaad4023fba5295290b17">type</link></computeroutput></para></section>
+<para>
+The documentation for this struct was generated from the following file:</para>
+AudioFile/tests/doctest/<link linkend="_doctest_8h">doctest.h</link></section>
+</section>

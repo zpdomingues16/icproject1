@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_structdoctest_1_1detail_1_1_subcase" xml:lang="en-US">
+<title>doctest::detail::Subcase Struct Reference</title>
+<indexterm><primary>doctest::detail::Subcase</primary></indexterm>
+<para>
+<computeroutput>#include &lt;doctest.h&gt;</computeroutput>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_structdoctest_1_1detail_1_1_subcase_1a8f7d4a5ddfb8ae48663e5cfc786e6f12">Subcase</link> (const <link linkend="_classdoctest_1_1_string">String</link> &amp;name, const char *file, int line)</para>
+</listitem>
+            <listitem><para><link linkend="_structdoctest_1_1detail_1_1_subcase_1a4812988371d226236be53c302c86abe2">~Subcase</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_structdoctest_1_1detail_1_1_subcase_1a91a520769fc55fb5be781f949ef3200f">operator bool</link> () const</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_structdoctest_1_1_subcase_signature">SubcaseSignature</link> <link linkend="_structdoctest_1_1detail_1_1_subcase_1a54730e9b88cf33ea4a5c873164029202">m_signature</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_structdoctest_1_1detail_1_1_subcase_1acb703ee6e769f56fba4053447c1a36e4">m_entered</link> = false</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_structdoctest_1_1detail_1_1_subcase_1a8f7d4a5ddfb8ae48663e5cfc786e6f12"/><section>
+    <title>Subcase()</title>
+<indexterm><primary>Subcase</primary><secondary>doctest::detail::Subcase</secondary></indexterm>
+<indexterm><primary>doctest::detail::Subcase</primary><secondary>Subcase</secondary></indexterm>
+<para><computeroutput>doctest::detail::Subcase::Subcase (const <link linkend="_classdoctest_1_1_string">String</link> &amp; name, const char * file, int line)</computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1detail_1_1_subcase_1a4812988371d226236be53c302c86abe2"/><section>
+    <title>~Subcase()</title>
+<indexterm><primary>~Subcase</primary><secondary>doctest::detail::Subcase</secondary></indexterm>
+<indexterm><primary>doctest::detail::Subcase</primary><secondary>~Subcase</secondary></indexterm>
+<para><computeroutput>doctest::detail::Subcase::~Subcase ( )</computeroutput></para></section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_structdoctest_1_1detail_1_1_subcase_1a91a520769fc55fb5be781f949ef3200f"/><section>
+    <title>operator bool()</title>
+<indexterm><primary>operator bool</primary><secondary>doctest::detail::Subcase</secondary></indexterm>
+<indexterm><primary>doctest::detail::Subcase</primary><secondary>operator bool</secondary></indexterm>
+<para><computeroutput>doctest::detail::Subcase::operator bool ( ) const</computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_structdoctest_1_1detail_1_1_subcase_1acb703ee6e769f56fba4053447c1a36e4"/><section>
+    <title>m_entered</title>
+<indexterm><primary>m_entered</primary><secondary>doctest::detail::Subcase</secondary></indexterm>
+<indexterm><primary>doctest::detail::Subcase</primary><secondary>m_entered</secondary></indexterm>
+<para><computeroutput>bool doctest::detail::Subcase::m_entered = false</computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1detail_1_1_subcase_1a54730e9b88cf33ea4a5c873164029202"/><section>
+    <title>m_signature</title>
+<indexterm><primary>m_signature</primary><secondary>doctest::detail::Subcase</secondary></indexterm>
+<indexterm><primary>doctest::detail::Subcase</primary><secondary>m_signature</secondary></indexterm>
+<para><computeroutput><link linkend="_structdoctest_1_1_subcase_signature">SubcaseSignature</link> doctest::detail::Subcase::m_signature</computeroutput></para></section>
+<para>
+The documentation for this struct was generated from the following file:</para>
+AudioFile/tests/doctest/<link linkend="_doctest_8h">doctest.h</link></section>
+</section>

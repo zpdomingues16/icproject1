@@ -1,0 +1,397 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespacedoctest_1_1detail" xml:lang="en-US">
+<title>doctest::detail Namespace Reference</title>
+<indexterm><primary>doctest::detail</primary></indexterm>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespacedoctest_1_1detail_1_1assert_action">assertAction</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespacedoctest_1_1detail_1_1binary_assert_comparison">binaryAssertComparison</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespacedoctest_1_1detail_1_1has__insertion__operator__impl">has_insertion_operator_impl</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classdoctest_1_1detail_1_1_context_scope">ContextScope</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classdoctest_1_1detail_1_1_context_scope_base">ContextScopeBase</link></para>
+</listitem>
+            <listitem><para>struct <link linkend="_structdoctest_1_1detail_1_1deferred__false">deferred_false</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classdoctest_1_1detail_1_1_exception_translator">ExceptionTranslator</link></para>
+
+<para>OCLINT destructor of virtual class. </para>
+</listitem>
+            <listitem><para>struct <link linkend="_structdoctest_1_1detail_1_1_expression_decomposer">ExpressionDecomposer</link></para>
+</listitem>
+            <listitem><para>struct <link linkend="_structdoctest_1_1detail_1_1_i_exception_translator">IExceptionTranslator</link></para>
+</listitem>
+            <listitem><para>struct <link linkend="_structdoctest_1_1detail_1_1_message_builder">MessageBuilder</link></para>
+</listitem>
+            <listitem><para>struct <link linkend="_structdoctest_1_1detail_1_1_relational_comparator">RelationalComparator</link></para>
+</listitem>
+            <listitem><para>struct <link linkend="_structdoctest_1_1detail_1_1remove__const">remove_const</link></para>
+</listitem>
+            <listitem><para>struct <link linkend="_structdoctest_1_1detail_1_1remove__const_3_01const_01_t_01_4">remove_const&lt; const T &gt;</link></para>
+</listitem>
+            <listitem><para>struct <link linkend="_structdoctest_1_1detail_1_1remove__reference">remove_reference</link></para>
+</listitem>
+            <listitem><para>struct <link linkend="_structdoctest_1_1detail_1_1remove__reference_3_01_t_01_6_01_4">remove_reference&lt; T &amp; &gt;</link></para>
+</listitem>
+            <listitem><para>struct <link linkend="_structdoctest_1_1detail_1_1remove__reference_3_01_t_01_6_6_01_4">remove_reference&lt; T &amp;&amp; &gt;</link></para>
+</listitem>
+            <listitem><para>struct <link linkend="_structdoctest_1_1detail_1_1_result">Result</link></para>
+</listitem>
+            <listitem><para>struct <link linkend="_structdoctest_1_1detail_1_1_result_builder">ResultBuilder</link></para>
+</listitem>
+            <listitem><para>struct <link linkend="_structdoctest_1_1detail_1_1_string_maker_base">StringMakerBase</link></para>
+</listitem>
+            <listitem><para>struct <link linkend="_structdoctest_1_1detail_1_1_string_maker_base_3_01true_01_4">StringMakerBase&lt; true &gt;</link></para>
+</listitem>
+            <listitem><para>struct <link linkend="_structdoctest_1_1detail_1_1_string_stream">StringStream</link></para>
+</listitem>
+            <listitem><para>struct <link linkend="_structdoctest_1_1detail_1_1_string_stream_base">StringStreamBase</link></para>
+</listitem>
+            <listitem><para>struct <link linkend="_structdoctest_1_1detail_1_1_string_stream_base_3_01true_01_4">StringStreamBase&lt; true &gt;</link></para>
+</listitem>
+            <listitem><para>struct <link linkend="_structdoctest_1_1detail_1_1_subcase">Subcase</link></para>
+</listitem>
+            <listitem><para>struct <link linkend="_structdoctest_1_1detail_1_1_test_case">TestCase</link></para>
+</listitem>
+            <listitem><para>struct <link linkend="_structdoctest_1_1detail_1_1_test_failure_exception">TestFailureException</link></para>
+</listitem>
+            <listitem><para>struct <link linkend="_structdoctest_1_1detail_1_1_test_suite">TestSuite</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Typedefs    </title>
+        <itemizedlist>
+            <listitem><para>template&lt;class T &gt; </para><para>using <link linkend="_namespacedoctest_1_1detail_1a59ed49556ad14ee06e28c87f273535d3">has_insertion_operator</link> = <link linkend="_structdoctest_1_1detail_1_1has__insertion__operator__impl_1_1check">has_insertion_operator_impl::check</link>&lt; T &gt;</para>
+</listitem>
+            <listitem><para>typedef void(* <link linkend="_namespacedoctest_1_1detail_1a7b2c60631c5f4906b26acf2e6b0e6e45">funcType</link>) ()</para>
+</listitem>
+            <listitem><para>typedef void(* <link linkend="_namespacedoctest_1_1detail_1a5b5db6997f20389de5735e3ee3439b95">assert_handler</link>) (const <link linkend="_structdoctest_1_1_assert_data">AssertData</link> &amp;)</para>
+</listitem>
+            <listitem><para>typedef <link linkend="_structdoctest_1_1_i_reporter">IReporter</link> *(* <link linkend="_namespacedoctest_1_1detail_1a431bc1f18ee82461ef2cf98aad891526">reporterCreatorFunc</link>) (const <link linkend="_structdoctest_1_1_context_options">ContextOptions</link> &amp;)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> void <link linkend="_namespacedoctest_1_1detail_1a4027cb5407ce2ff132645e89bba97010">my_memcpy</link> (void *dest, const void *src, unsigned num)</para>
+</listitem>
+            <listitem><para><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> <link linkend="_doctest_8h_1a116af65cb5e924b33ad9d9ecd7a783f3">std::ostream</link> * <link linkend="_namespacedoctest_1_1detail_1ab4df12a4ff9fad5f16edcc1c54f6c4fc">getTlsOss</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> <link linkend="_classdoctest_1_1_string">String</link> <link linkend="_namespacedoctest_1_1detail_1a7b0b3df5fe79d7ffa8fa138201476df1">getTlsOssResult</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> <link linkend="_classdoctest_1_1_string">String</link> <link linkend="_namespacedoctest_1_1detail_1adb894f73b88fb3b39d6c48d80451f5ff">rawMemoryToString</link> (const void *object, unsigned size)</para>
+</listitem>
+            <listitem><para>template&lt;typename T &gt; </para><para><link linkend="_classdoctest_1_1_string">String</link> <link linkend="_namespacedoctest_1_1detail_1a28da75fd01ab3d943436aa69876b7151">rawMemoryToString</link> (const <link linkend="_doctest_8h_1af2901cafb023c57fb672ccb1bf14f2eb">DOCTEST_REF_WRAP</link>(T) object)</para>
+</listitem>
+            <listitem><para>template&lt;typename T &gt; </para><para>const char * <link linkend="_namespacedoctest_1_1detail_1ad64c6c2fd8d7302e8a5e3452cdfb3f75">type_to_string</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> bool <link linkend="_namespacedoctest_1_1detail_1acec9ff072dd86af95225a8beb9c57298">checkIfShouldThrow</link> (<link linkend="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3">assertType::Enum</link> at)</para>
+</listitem>
+            <listitem><para><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> void <link linkend="_namespacedoctest_1_1detail_1a60ffd50b9ee7adfcafc078f333aac8b6">throwException</link> ()</para>
+</listitem>
+            <listitem><para>template&lt;typename L , typename R &gt; </para><para><link linkend="_classdoctest_1_1_string">String</link> <link linkend="_namespacedoctest_1_1detail_1a6879a79aea397a22e296e4afd0a90e3b">stringifyBinaryExpr</link> (const <link linkend="_doctest_8h_1af2901cafb023c57fb672ccb1bf14f2eb">DOCTEST_REF_WRAP</link>(L) lhs, const char *op, const <link linkend="_doctest_8h_1af2901cafb023c57fb672ccb1bf14f2eb">DOCTEST_REF_WRAP</link>(R) rhs)</para>
+</listitem>
+            <listitem><para><link linkend="_doctest_8h_1a628491cf2971a026350d5401986bf6d3">DOCTEST_CLANG_SUPPRESS_WARNING_PUSH</link> <link linkend="_doctest_8h_1a8015d10af2883db80a955ce0d523886d">DOCTEST_GCC_SUPPRESS_WARNING_PUSH</link> <link linkend="_doctest_8h_1aec6d713a9dde361b8e68afe78c5bf3cf">DOCTEST_MSVC_SUPPRESS_WARNING_PUSH</link> <link linkend="_namespacedoctest_1_1detail_1a3b966d87ac1e25498fae773355c43d90">DOCTEST_MSVC_SUPPRESS_WARNING</link> (4388) DOCTEST_MSVC_SUPPRESS_WARNING(4389) DOCTEST_MSVC_SUPPRESS_WARNING(4018) template&lt; typename L &gt; struct Expression_lhs</para>
+</listitem>
+            <listitem><para><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> int <link linkend="_namespacedoctest_1_1detail_1a00f99edefb8490a8e2602d58c96431f4">regTest</link> (const <link linkend="_structdoctest_1_1detail_1_1_test_case">TestCase</link> &amp;tc)</para>
+</listitem>
+            <listitem><para><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> int <link linkend="_namespacedoctest_1_1detail_1ae79cb8df06d35468dd0ba9f04c85802c">setTestSuite</link> (const <link linkend="_structdoctest_1_1detail_1_1_test_suite">TestSuite</link> &amp;ts)</para>
+</listitem>
+            <listitem><para><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> bool <link linkend="_namespacedoctest_1_1detail_1a013828c4e677241cc26aeea33f762710">isDebuggerActive</link> ()</para>
+</listitem>
+            <listitem><para>template&lt;typename T &gt; </para><para>int <link linkend="_namespacedoctest_1_1detail_1aad401b097a9af4df1d4a9d0911957c0f">instantiationHelper</link> (const T &amp;)</para>
+</listitem>
+            <listitem><para><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> void <link linkend="_namespacedoctest_1_1detail_1a0ff832be68bf666d856aefd539e1ce81">failed_out_of_a_testing_context</link> (const <link linkend="_structdoctest_1_1_assert_data">AssertData</link> &amp;ad)</para>
+</listitem>
+            <listitem><para><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> void <link linkend="_namespacedoctest_1_1detail_1a6d4efb043e9e5a6fa0db64f0e230a7a7">decomp_assert</link> (<link linkend="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3">assertType::Enum</link> at, const char *file, int line, const char *expr, <link linkend="_structdoctest_1_1detail_1_1_result">Result</link> result)</para>
+</listitem>
+            <listitem><para>template&lt;int comparison, typename L , typename R &gt; </para><para><link linkend="_doctest_8h_1a47e9d3609dfcc90b9a630ff33b9524d6">DOCTEST_NOINLINE</link> void <link linkend="_namespacedoctest_1_1detail_1a570279a22ca888528e87a426853a0288">binary_assert</link> (<link linkend="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3">assertType::Enum</link> at, const char *file, int line, const char *expr, const <link linkend="_doctest_8h_1af2901cafb023c57fb672ccb1bf14f2eb">DOCTEST_REF_WRAP</link>(L) lhs, const <link linkend="_doctest_8h_1af2901cafb023c57fb672ccb1bf14f2eb">DOCTEST_REF_WRAP</link>(R) rhs)</para>
+</listitem>
+            <listitem><para>template&lt;typename L &gt; </para><para><link linkend="_doctest_8h_1a47e9d3609dfcc90b9a630ff33b9524d6">DOCTEST_NOINLINE</link> void <link linkend="_namespacedoctest_1_1detail_1a5343d1b26df7f86767d5e7026c03bf0f">unary_assert</link> (<link linkend="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3">assertType::Enum</link> at, const char *file, int line, const char *expr, const <link linkend="_doctest_8h_1af2901cafb023c57fb672ccb1bf14f2eb">DOCTEST_REF_WRAP</link>(L) val)</para>
+</listitem>
+            <listitem><para><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> void <link linkend="_namespacedoctest_1_1detail_1a3887426da16e0d12e6f0e270a767a6a5">registerExceptionTranslatorImpl</link> (const <link linkend="_structdoctest_1_1detail_1_1_i_exception_translator">IExceptionTranslator</link> *et)</para>
+</listitem>
+            <listitem><para>template&lt;typename T &gt; </para><para>void <link linkend="_namespacedoctest_1_1detail_1a71b40611173c82709726b36715229179">toStream</link> (<link linkend="_doctest_8h_1a116af65cb5e924b33ad9d9ecd7a783f3">std::ostream</link> *s, const T &amp;value)</para>
+</listitem>
+            <listitem><para><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> void <link linkend="_namespacedoctest_1_1detail_1a54f817dd0c3e33a4f96de3e638d4c559">toStream</link> (<link linkend="_doctest_8h_1a116af65cb5e924b33ad9d9ecd7a783f3">std::ostream</link> *s, bool in)</para>
+</listitem>
+            <listitem><para><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> void <link linkend="_namespacedoctest_1_1detail_1ac0ab7be576543b52b480df7f44ee13c5">toStream</link> (<link linkend="_doctest_8h_1a116af65cb5e924b33ad9d9ecd7a783f3">std::ostream</link> *s, float in)</para>
+</listitem>
+            <listitem><para><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> void <link linkend="_namespacedoctest_1_1detail_1aa0aa6b2f4cd2ab8cc0b5c4c6a1745e05">toStream</link> (<link linkend="_doctest_8h_1a116af65cb5e924b33ad9d9ecd7a783f3">std::ostream</link> *s, double in)</para>
+</listitem>
+            <listitem><para><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> void <link linkend="_namespacedoctest_1_1detail_1aa7f9d8383116a268a72993244a43d74d">toStream</link> (<link linkend="_doctest_8h_1a116af65cb5e924b33ad9d9ecd7a783f3">std::ostream</link> *s, double long in)</para>
+</listitem>
+            <listitem><para><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> void <link linkend="_namespacedoctest_1_1detail_1aee32c9e6a9e1b419c6feb44e8c1b6205">toStream</link> (<link linkend="_doctest_8h_1a116af65cb5e924b33ad9d9ecd7a783f3">std::ostream</link> *s, char in)</para>
+</listitem>
+            <listitem><para><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> void <link linkend="_namespacedoctest_1_1detail_1aba277e0f00b9cf14b7161bbe033b126f">toStream</link> (<link linkend="_doctest_8h_1a116af65cb5e924b33ad9d9ecd7a783f3">std::ostream</link> *s, char signed in)</para>
+</listitem>
+            <listitem><para><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> void <link linkend="_namespacedoctest_1_1detail_1a23f8f4324507a40de4fb636f20f36fb7">toStream</link> (<link linkend="_doctest_8h_1a116af65cb5e924b33ad9d9ecd7a783f3">std::ostream</link> *s, char unsigned in)</para>
+</listitem>
+            <listitem><para><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> void <link linkend="_namespacedoctest_1_1detail_1aaa111edaaf87cd57961d2c1923d762cb">toStream</link> (<link linkend="_doctest_8h_1a116af65cb5e924b33ad9d9ecd7a783f3">std::ostream</link> *s, int short in)</para>
+</listitem>
+            <listitem><para><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> void <link linkend="_namespacedoctest_1_1detail_1a72d0259a5b3c0f0f3a88ea8d732223f8">toStream</link> (<link linkend="_doctest_8h_1a116af65cb5e924b33ad9d9ecd7a783f3">std::ostream</link> *s, int short unsigned in)</para>
+</listitem>
+            <listitem><para><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> void <link linkend="_namespacedoctest_1_1detail_1af6f60470d3f0f2b858a03dad822ca9c6">toStream</link> (<link linkend="_doctest_8h_1a116af65cb5e924b33ad9d9ecd7a783f3">std::ostream</link> *s, int in)</para>
+</listitem>
+            <listitem><para><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> void <link linkend="_namespacedoctest_1_1detail_1a7001b8028c2c21968f2a0deb3417e9a4">toStream</link> (<link linkend="_doctest_8h_1a116af65cb5e924b33ad9d9ecd7a783f3">std::ostream</link> *s, int unsigned in)</para>
+</listitem>
+            <listitem><para><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> void <link linkend="_namespacedoctest_1_1detail_1a830b2dd9dae3bc74ae0c9002b7a2dbed">toStream</link> (<link linkend="_doctest_8h_1a116af65cb5e924b33ad9d9ecd7a783f3">std::ostream</link> *s, int long in)</para>
+</listitem>
+            <listitem><para><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> void <link linkend="_namespacedoctest_1_1detail_1a82d6e6a85cac7cfb399d8215308369fc">toStream</link> (<link linkend="_doctest_8h_1a116af65cb5e924b33ad9d9ecd7a783f3">std::ostream</link> *s, int long unsigned in)</para>
+</listitem>
+            <listitem><para><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> void <link linkend="_namespacedoctest_1_1detail_1a359e9b95a3fbe0322056d9d9c7385cde">toStream</link> (<link linkend="_doctest_8h_1a116af65cb5e924b33ad9d9ecd7a783f3">std::ostream</link> *s, int long long in)</para>
+</listitem>
+            <listitem><para><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> void <link linkend="_namespacedoctest_1_1detail_1a22df719818a3df2b975ba0f7045cc8fd">toStream</link> (<link linkend="_doctest_8h_1a116af65cb5e924b33ad9d9ecd7a783f3">std::ostream</link> *s, int long long unsigned in)</para>
+</listitem>
+            <listitem><para>template&lt;typename L &gt; </para><para><link linkend="_classdoctest_1_1detail_1_1_context_scope">ContextScope</link>&lt; L &gt; <link linkend="_namespacedoctest_1_1detail_1af15c2ff0484248d0966fc38a4b0d3a66">MakeContextScope</link> (const L &amp;lambda)</para>
+</listitem>
+            <listitem><para><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> void <link linkend="_namespacedoctest_1_1detail_1a828e011bb6028ab94eb14a3c7d8bd2c4">registerReporterImpl</link> (const char *name, int prio, <link linkend="_namespacedoctest_1_1detail_1a431bc1f18ee82461ef2cf98aad891526">reporterCreatorFunc</link> c, bool isReporter)</para>
+</listitem>
+            <listitem><para>template&lt;typename Reporter &gt; </para><para><link linkend="_structdoctest_1_1_i_reporter">IReporter</link> * <link linkend="_namespacedoctest_1_1detail_1ac78a52271e895d8485356c4516a18685">reporterCreator</link> (const <link linkend="_structdoctest_1_1_context_options">ContextOptions</link> &amp;o)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Typedef Documentation</title>
+<anchor xml:id="_namespacedoctest_1_1detail_1a5b5db6997f20389de5735e3ee3439b95"/><section>
+    <title>assert_handler</title>
+<indexterm><primary>assert_handler</primary><secondary>doctest::detail</secondary></indexterm>
+<indexterm><primary>doctest::detail</primary><secondary>assert_handler</secondary></indexterm>
+<para><computeroutput>typedef void(* doctest::detail::assert_handler) (const <link linkend="_structdoctest_1_1_assert_data">AssertData</link> &amp;)</computeroutput></para></section>
+<anchor xml:id="_namespacedoctest_1_1detail_1a7b2c60631c5f4906b26acf2e6b0e6e45"/><section>
+    <title>funcType</title>
+<indexterm><primary>funcType</primary><secondary>doctest::detail</secondary></indexterm>
+<indexterm><primary>doctest::detail</primary><secondary>funcType</secondary></indexterm>
+<para><computeroutput>typedef void(* doctest::detail::funcType) ()</computeroutput></para></section>
+<anchor xml:id="_namespacedoctest_1_1detail_1a59ed49556ad14ee06e28c87f273535d3"/><section>
+    <title>has_insertion_operator</title>
+<indexterm><primary>has_insertion_operator</primary><secondary>doctest::detail</secondary></indexterm>
+<indexterm><primary>doctest::detail</primary><secondary>has_insertion_operator</secondary></indexterm>
+<computeroutput>template&lt;class T &gt; </computeroutput><para><computeroutput>using <link linkend="_namespacedoctest_1_1detail_1a59ed49556ad14ee06e28c87f273535d3">doctest::detail::has_insertion_operator</link> = typedef <link linkend="_structdoctest_1_1detail_1_1has__insertion__operator__impl_1_1check">has_insertion_operator_impl::check</link>&lt;T&gt;</computeroutput></para></section>
+<anchor xml:id="_namespacedoctest_1_1detail_1a431bc1f18ee82461ef2cf98aad891526"/><section>
+    <title>reporterCreatorFunc</title>
+<indexterm><primary>reporterCreatorFunc</primary><secondary>doctest::detail</secondary></indexterm>
+<indexterm><primary>doctest::detail</primary><secondary>reporterCreatorFunc</secondary></indexterm>
+<para><computeroutput>typedef <link linkend="_structdoctest_1_1_i_reporter">IReporter</link> *(* doctest::detail::reporterCreatorFunc) (const <link linkend="_structdoctest_1_1_context_options">ContextOptions</link> &amp;)</computeroutput></para></section>
+</section>
+<section>
+<title>Function Documentation</title>
+<anchor xml:id="_namespacedoctest_1_1detail_1a570279a22ca888528e87a426853a0288"/><section>
+    <title>binary_assert()</title>
+<indexterm><primary>binary_assert</primary><secondary>doctest::detail</secondary></indexterm>
+<indexterm><primary>doctest::detail</primary><secondary>binary_assert</secondary></indexterm>
+<computeroutput>template&lt;int comparison, typename L , typename R &gt; </computeroutput><para><computeroutput><link linkend="_doctest_8h_1a47e9d3609dfcc90b9a630ff33b9524d6">DOCTEST_NOINLINE</link> void doctest::detail::binary_assert (<link linkend="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3">assertType::Enum</link> at, const char * file, int line, const char * expr, const <link linkend="_doctest_8h_1af2901cafb023c57fb672ccb1bf14f2eb">DOCTEST_REF_WRAP</link>(L) lhs, const <link linkend="_doctest_8h_1af2901cafb023c57fb672ccb1bf14f2eb">DOCTEST_REF_WRAP</link>(R) rhs)</computeroutput></para></section>
+<anchor xml:id="_namespacedoctest_1_1detail_1acec9ff072dd86af95225a8beb9c57298"/><section>
+    <title>checkIfShouldThrow()</title>
+<indexterm><primary>checkIfShouldThrow</primary><secondary>doctest::detail</secondary></indexterm>
+<indexterm><primary>doctest::detail</primary><secondary>checkIfShouldThrow</secondary></indexterm>
+<para><computeroutput><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> bool doctest::detail::checkIfShouldThrow (<link linkend="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3">assertType::Enum</link> at)</computeroutput></para></section>
+<anchor xml:id="_namespacedoctest_1_1detail_1a6d4efb043e9e5a6fa0db64f0e230a7a7"/><section>
+    <title>decomp_assert()</title>
+<indexterm><primary>decomp_assert</primary><secondary>doctest::detail</secondary></indexterm>
+<indexterm><primary>doctest::detail</primary><secondary>decomp_assert</secondary></indexterm>
+<para><computeroutput><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> void doctest::detail::decomp_assert (<link linkend="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3">assertType::Enum</link> at, const char * file, int line, const char * expr, <link linkend="_structdoctest_1_1detail_1_1_result">Result</link> result)</computeroutput></para></section>
+<anchor xml:id="_namespacedoctest_1_1detail_1a3b966d87ac1e25498fae773355c43d90"/><section>
+    <title>DOCTEST_MSVC_SUPPRESS_WARNING()</title>
+<indexterm><primary>DOCTEST_MSVC_SUPPRESS_WARNING</primary><secondary>doctest::detail</secondary></indexterm>
+<indexterm><primary>doctest::detail</primary><secondary>DOCTEST_MSVC_SUPPRESS_WARNING</secondary></indexterm>
+<para><computeroutput><link linkend="_doctest_8h_1a628491cf2971a026350d5401986bf6d3">DOCTEST_CLANG_SUPPRESS_WARNING_PUSH</link> <link linkend="_doctest_8h_1a8015d10af2883db80a955ce0d523886d">DOCTEST_GCC_SUPPRESS_WARNING_PUSH</link> <link linkend="_doctest_8h_1aec6d713a9dde361b8e68afe78c5bf3cf">DOCTEST_MSVC_SUPPRESS_WARNING_PUSH</link> doctest::detail::DOCTEST_MSVC_SUPPRESS_WARNING (4388 )</computeroutput></para>
+<para>OCLINT bitwise operator in conditional</para>
+
+<para>OCLINT bitwise operator in conditional</para>
+
+<para>OCLINT bitwise operator in conditional</para>
+
+<para>OCLINT bitwise operator in conditional</para>
+
+<para>OCLINT bitwise operator in conditional</para>
+
+<para>OCLINT bitwise operator in conditional</para>
+
+<para>OCLINT bitwise operator in conditional</para>
+</section>
+<anchor xml:id="_namespacedoctest_1_1detail_1a0ff832be68bf666d856aefd539e1ce81"/><section>
+    <title>failed_out_of_a_testing_context()</title>
+<indexterm><primary>failed_out_of_a_testing_context</primary><secondary>doctest::detail</secondary></indexterm>
+<indexterm><primary>doctest::detail</primary><secondary>failed_out_of_a_testing_context</secondary></indexterm>
+<para><computeroutput><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> void doctest::detail::failed_out_of_a_testing_context (const <link linkend="_structdoctest_1_1_assert_data">AssertData</link> &amp; ad)</computeroutput></para></section>
+<anchor xml:id="_namespacedoctest_1_1detail_1ab4df12a4ff9fad5f16edcc1c54f6c4fc"/><section>
+    <title>getTlsOss()</title>
+<indexterm><primary>getTlsOss</primary><secondary>doctest::detail</secondary></indexterm>
+<indexterm><primary>doctest::detail</primary><secondary>getTlsOss</secondary></indexterm>
+<para><computeroutput><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> <link linkend="_doctest_8h_1a116af65cb5e924b33ad9d9ecd7a783f3">std::ostream</link> * doctest::detail::getTlsOss ( )</computeroutput></para></section>
+<anchor xml:id="_namespacedoctest_1_1detail_1a7b0b3df5fe79d7ffa8fa138201476df1"/><section>
+    <title>getTlsOssResult()</title>
+<indexterm><primary>getTlsOssResult</primary><secondary>doctest::detail</secondary></indexterm>
+<indexterm><primary>doctest::detail</primary><secondary>getTlsOssResult</secondary></indexterm>
+<para><computeroutput><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> <link linkend="_classdoctest_1_1_string">String</link> doctest::detail::getTlsOssResult ( )</computeroutput></para></section>
+<anchor xml:id="_namespacedoctest_1_1detail_1aad401b097a9af4df1d4a9d0911957c0f"/><section>
+    <title>instantiationHelper()</title>
+<indexterm><primary>instantiationHelper</primary><secondary>doctest::detail</secondary></indexterm>
+<indexterm><primary>doctest::detail</primary><secondary>instantiationHelper</secondary></indexterm>
+<computeroutput>template&lt;typename T &gt; </computeroutput><para><computeroutput>int doctest::detail::instantiationHelper (const T &amp; )</computeroutput></para></section>
+<anchor xml:id="_namespacedoctest_1_1detail_1a013828c4e677241cc26aeea33f762710"/><section>
+    <title>isDebuggerActive()</title>
+<indexterm><primary>isDebuggerActive</primary><secondary>doctest::detail</secondary></indexterm>
+<indexterm><primary>doctest::detail</primary><secondary>isDebuggerActive</secondary></indexterm>
+<para><computeroutput><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> bool doctest::detail::isDebuggerActive ( )</computeroutput></para></section>
+<anchor xml:id="_namespacedoctest_1_1detail_1af15c2ff0484248d0966fc38a4b0d3a66"/><section>
+    <title>MakeContextScope()</title>
+<indexterm><primary>MakeContextScope</primary><secondary>doctest::detail</secondary></indexterm>
+<indexterm><primary>doctest::detail</primary><secondary>MakeContextScope</secondary></indexterm>
+<computeroutput>template&lt;typename L &gt; </computeroutput><para><computeroutput><link linkend="_classdoctest_1_1detail_1_1_context_scope">ContextScope</link>&lt; L &gt; doctest::detail::MakeContextScope (const L &amp; lambda)</computeroutput></para></section>
+<anchor xml:id="_namespacedoctest_1_1detail_1a4027cb5407ce2ff132645e89bba97010"/><section>
+    <title>my_memcpy()</title>
+<indexterm><primary>my_memcpy</primary><secondary>doctest::detail</secondary></indexterm>
+<indexterm><primary>doctest::detail</primary><secondary>my_memcpy</secondary></indexterm>
+<para><computeroutput><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> void doctest::detail::my_memcpy (void * dest, const void * src, unsigned num)</computeroutput></para></section>
+<anchor xml:id="_namespacedoctest_1_1detail_1a28da75fd01ab3d943436aa69876b7151"/><section>
+    <title>rawMemoryToString()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>rawMemoryToString</primary><secondary>doctest::detail</secondary></indexterm>
+<indexterm><primary>doctest::detail</primary><secondary>rawMemoryToString</secondary></indexterm>
+<computeroutput>template&lt;typename T &gt; </computeroutput><para><computeroutput><link linkend="_classdoctest_1_1_string">String</link> doctest::detail::rawMemoryToString (const <link linkend="_doctest_8h_1af2901cafb023c57fb672ccb1bf14f2eb">DOCTEST_REF_WRAP</link>(T) object)</computeroutput></para></section>
+<anchor xml:id="_namespacedoctest_1_1detail_1adb894f73b88fb3b39d6c48d80451f5ff"/><section>
+    <title>rawMemoryToString()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>rawMemoryToString</primary><secondary>doctest::detail</secondary></indexterm>
+<indexterm><primary>doctest::detail</primary><secondary>rawMemoryToString</secondary></indexterm>
+<para><computeroutput><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> <link linkend="_classdoctest_1_1_string">String</link> doctest::detail::rawMemoryToString (const void * object, unsigned size)</computeroutput></para></section>
+<anchor xml:id="_namespacedoctest_1_1detail_1a3887426da16e0d12e6f0e270a767a6a5"/><section>
+    <title>registerExceptionTranslatorImpl()</title>
+<indexterm><primary>registerExceptionTranslatorImpl</primary><secondary>doctest::detail</secondary></indexterm>
+<indexterm><primary>doctest::detail</primary><secondary>registerExceptionTranslatorImpl</secondary></indexterm>
+<para><computeroutput><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> void doctest::detail::registerExceptionTranslatorImpl (const <link linkend="_structdoctest_1_1detail_1_1_i_exception_translator">IExceptionTranslator</link> * et)</computeroutput></para></section>
+<anchor xml:id="_namespacedoctest_1_1detail_1a828e011bb6028ab94eb14a3c7d8bd2c4"/><section>
+    <title>registerReporterImpl()</title>
+<indexterm><primary>registerReporterImpl</primary><secondary>doctest::detail</secondary></indexterm>
+<indexterm><primary>doctest::detail</primary><secondary>registerReporterImpl</secondary></indexterm>
+<para><computeroutput><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> void doctest::detail::registerReporterImpl (const char * name, int prio, <link linkend="_namespacedoctest_1_1detail_1a431bc1f18ee82461ef2cf98aad891526">reporterCreatorFunc</link> c, bool isReporter)</computeroutput></para></section>
+<anchor xml:id="_namespacedoctest_1_1detail_1a00f99edefb8490a8e2602d58c96431f4"/><section>
+    <title>regTest()</title>
+<indexterm><primary>regTest</primary><secondary>doctest::detail</secondary></indexterm>
+<indexterm><primary>doctest::detail</primary><secondary>regTest</secondary></indexterm>
+<para><computeroutput><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> int doctest::detail::regTest (const <link linkend="_structdoctest_1_1detail_1_1_test_case">TestCase</link> &amp; tc)</computeroutput></para></section>
+<anchor xml:id="_namespacedoctest_1_1detail_1ac78a52271e895d8485356c4516a18685"/><section>
+    <title>reporterCreator()</title>
+<indexterm><primary>reporterCreator</primary><secondary>doctest::detail</secondary></indexterm>
+<indexterm><primary>doctest::detail</primary><secondary>reporterCreator</secondary></indexterm>
+<computeroutput>template&lt;typename Reporter &gt; </computeroutput><para><computeroutput><link linkend="_structdoctest_1_1_i_reporter">IReporter</link> * doctest::detail::reporterCreator (const <link linkend="_structdoctest_1_1_context_options">ContextOptions</link> &amp; o)</computeroutput></para></section>
+<anchor xml:id="_namespacedoctest_1_1detail_1ae79cb8df06d35468dd0ba9f04c85802c"/><section>
+    <title>setTestSuite()</title>
+<indexterm><primary>setTestSuite</primary><secondary>doctest::detail</secondary></indexterm>
+<indexterm><primary>doctest::detail</primary><secondary>setTestSuite</secondary></indexterm>
+<para><computeroutput><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> int doctest::detail::setTestSuite (const <link linkend="_structdoctest_1_1detail_1_1_test_suite">TestSuite</link> &amp; ts)</computeroutput></para></section>
+<anchor xml:id="_namespacedoctest_1_1detail_1a6879a79aea397a22e296e4afd0a90e3b"/><section>
+    <title>stringifyBinaryExpr()</title>
+<indexterm><primary>stringifyBinaryExpr</primary><secondary>doctest::detail</secondary></indexterm>
+<indexterm><primary>doctest::detail</primary><secondary>stringifyBinaryExpr</secondary></indexterm>
+<computeroutput>template&lt;typename L , typename R &gt; </computeroutput><para><computeroutput><link linkend="_classdoctest_1_1_string">String</link> doctest::detail::stringifyBinaryExpr (const <link linkend="_doctest_8h_1af2901cafb023c57fb672ccb1bf14f2eb">DOCTEST_REF_WRAP</link>(L) lhs, const char * op, const <link linkend="_doctest_8h_1af2901cafb023c57fb672ccb1bf14f2eb">DOCTEST_REF_WRAP</link>(R) rhs)</computeroutput></para></section>
+<anchor xml:id="_namespacedoctest_1_1detail_1a60ffd50b9ee7adfcafc078f333aac8b6"/><section>
+    <title>throwException()</title>
+<indexterm><primary>throwException</primary><secondary>doctest::detail</secondary></indexterm>
+<indexterm><primary>doctest::detail</primary><secondary>throwException</secondary></indexterm>
+<para><computeroutput><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> void doctest::detail::throwException ( )</computeroutput></para></section>
+<anchor xml:id="_namespacedoctest_1_1detail_1a54f817dd0c3e33a4f96de3e638d4c559"/><section>
+    <title>toStream()<computeroutput>[1/16]</computeroutput></title>
+<indexterm><primary>toStream</primary><secondary>doctest::detail</secondary></indexterm>
+<indexterm><primary>doctest::detail</primary><secondary>toStream</secondary></indexterm>
+<para><computeroutput><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> void doctest::detail::toStream (<link linkend="_doctest_8h_1a116af65cb5e924b33ad9d9ecd7a783f3">std::ostream</link> * s, bool in)</computeroutput></para></section>
+<anchor xml:id="_namespacedoctest_1_1detail_1aee32c9e6a9e1b419c6feb44e8c1b6205"/><section>
+    <title>toStream()<computeroutput>[2/16]</computeroutput></title>
+<indexterm><primary>toStream</primary><secondary>doctest::detail</secondary></indexterm>
+<indexterm><primary>doctest::detail</primary><secondary>toStream</secondary></indexterm>
+<para><computeroutput><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> void doctest::detail::toStream (<link linkend="_doctest_8h_1a116af65cb5e924b33ad9d9ecd7a783f3">std::ostream</link> * s, char in)</computeroutput></para></section>
+<anchor xml:id="_namespacedoctest_1_1detail_1aba277e0f00b9cf14b7161bbe033b126f"/><section>
+    <title>toStream()<computeroutput>[3/16]</computeroutput></title>
+<indexterm><primary>toStream</primary><secondary>doctest::detail</secondary></indexterm>
+<indexterm><primary>doctest::detail</primary><secondary>toStream</secondary></indexterm>
+<para><computeroutput><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> void doctest::detail::toStream (<link linkend="_doctest_8h_1a116af65cb5e924b33ad9d9ecd7a783f3">std::ostream</link> * s, char signed in)</computeroutput></para></section>
+<anchor xml:id="_namespacedoctest_1_1detail_1a23f8f4324507a40de4fb636f20f36fb7"/><section>
+    <title>toStream()<computeroutput>[4/16]</computeroutput></title>
+<indexterm><primary>toStream</primary><secondary>doctest::detail</secondary></indexterm>
+<indexterm><primary>doctest::detail</primary><secondary>toStream</secondary></indexterm>
+<para><computeroutput><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> void doctest::detail::toStream (<link linkend="_doctest_8h_1a116af65cb5e924b33ad9d9ecd7a783f3">std::ostream</link> * s, char unsigned in)</computeroutput></para></section>
+<anchor xml:id="_namespacedoctest_1_1detail_1a71b40611173c82709726b36715229179"/><section>
+    <title>toStream()<computeroutput>[5/16]</computeroutput></title>
+<indexterm><primary>toStream</primary><secondary>doctest::detail</secondary></indexterm>
+<indexterm><primary>doctest::detail</primary><secondary>toStream</secondary></indexterm>
+<computeroutput>template&lt;typename T &gt; </computeroutput><para><computeroutput>void doctest::detail::toStream (<link linkend="_doctest_8h_1a116af65cb5e924b33ad9d9ecd7a783f3">std::ostream</link> * s, const T &amp; value)</computeroutput></para></section>
+<anchor xml:id="_namespacedoctest_1_1detail_1aa0aa6b2f4cd2ab8cc0b5c4c6a1745e05"/><section>
+    <title>toStream()<computeroutput>[6/16]</computeroutput></title>
+<indexterm><primary>toStream</primary><secondary>doctest::detail</secondary></indexterm>
+<indexterm><primary>doctest::detail</primary><secondary>toStream</secondary></indexterm>
+<para><computeroutput><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> void doctest::detail::toStream (<link linkend="_doctest_8h_1a116af65cb5e924b33ad9d9ecd7a783f3">std::ostream</link> * s, double in)</computeroutput></para></section>
+<anchor xml:id="_namespacedoctest_1_1detail_1aa7f9d8383116a268a72993244a43d74d"/><section>
+    <title>toStream()<computeroutput>[7/16]</computeroutput></title>
+<indexterm><primary>toStream</primary><secondary>doctest::detail</secondary></indexterm>
+<indexterm><primary>doctest::detail</primary><secondary>toStream</secondary></indexterm>
+<para><computeroutput><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> void doctest::detail::toStream (<link linkend="_doctest_8h_1a116af65cb5e924b33ad9d9ecd7a783f3">std::ostream</link> * s, double long in)</computeroutput></para></section>
+<anchor xml:id="_namespacedoctest_1_1detail_1ac0ab7be576543b52b480df7f44ee13c5"/><section>
+    <title>toStream()<computeroutput>[8/16]</computeroutput></title>
+<indexterm><primary>toStream</primary><secondary>doctest::detail</secondary></indexterm>
+<indexterm><primary>doctest::detail</primary><secondary>toStream</secondary></indexterm>
+<para><computeroutput><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> void doctest::detail::toStream (<link linkend="_doctest_8h_1a116af65cb5e924b33ad9d9ecd7a783f3">std::ostream</link> * s, float in)</computeroutput></para></section>
+<anchor xml:id="_namespacedoctest_1_1detail_1af6f60470d3f0f2b858a03dad822ca9c6"/><section>
+    <title>toStream()<computeroutput>[9/16]</computeroutput></title>
+<indexterm><primary>toStream</primary><secondary>doctest::detail</secondary></indexterm>
+<indexterm><primary>doctest::detail</primary><secondary>toStream</secondary></indexterm>
+<para><computeroutput><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> void doctest::detail::toStream (<link linkend="_doctest_8h_1a116af65cb5e924b33ad9d9ecd7a783f3">std::ostream</link> * s, int in)</computeroutput></para></section>
+<anchor xml:id="_namespacedoctest_1_1detail_1a830b2dd9dae3bc74ae0c9002b7a2dbed"/><section>
+    <title>toStream()<computeroutput>[10/16]</computeroutput></title>
+<indexterm><primary>toStream</primary><secondary>doctest::detail</secondary></indexterm>
+<indexterm><primary>doctest::detail</primary><secondary>toStream</secondary></indexterm>
+<para><computeroutput><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> void doctest::detail::toStream (<link linkend="_doctest_8h_1a116af65cb5e924b33ad9d9ecd7a783f3">std::ostream</link> * s, int long in)</computeroutput></para></section>
+<anchor xml:id="_namespacedoctest_1_1detail_1a359e9b95a3fbe0322056d9d9c7385cde"/><section>
+    <title>toStream()<computeroutput>[11/16]</computeroutput></title>
+<indexterm><primary>toStream</primary><secondary>doctest::detail</secondary></indexterm>
+<indexterm><primary>doctest::detail</primary><secondary>toStream</secondary></indexterm>
+<para><computeroutput><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> void doctest::detail::toStream (<link linkend="_doctest_8h_1a116af65cb5e924b33ad9d9ecd7a783f3">std::ostream</link> * s, int long long in)</computeroutput></para></section>
+<anchor xml:id="_namespacedoctest_1_1detail_1a22df719818a3df2b975ba0f7045cc8fd"/><section>
+    <title>toStream()<computeroutput>[12/16]</computeroutput></title>
+<indexterm><primary>toStream</primary><secondary>doctest::detail</secondary></indexterm>
+<indexterm><primary>doctest::detail</primary><secondary>toStream</secondary></indexterm>
+<para><computeroutput><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> void doctest::detail::toStream (<link linkend="_doctest_8h_1a116af65cb5e924b33ad9d9ecd7a783f3">std::ostream</link> * s, int long long unsigned in)</computeroutput></para></section>
+<anchor xml:id="_namespacedoctest_1_1detail_1a82d6e6a85cac7cfb399d8215308369fc"/><section>
+    <title>toStream()<computeroutput>[13/16]</computeroutput></title>
+<indexterm><primary>toStream</primary><secondary>doctest::detail</secondary></indexterm>
+<indexterm><primary>doctest::detail</primary><secondary>toStream</secondary></indexterm>
+<para><computeroutput><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> void doctest::detail::toStream (<link linkend="_doctest_8h_1a116af65cb5e924b33ad9d9ecd7a783f3">std::ostream</link> * s, int long unsigned in)</computeroutput></para></section>
+<anchor xml:id="_namespacedoctest_1_1detail_1aaa111edaaf87cd57961d2c1923d762cb"/><section>
+    <title>toStream()<computeroutput>[14/16]</computeroutput></title>
+<indexterm><primary>toStream</primary><secondary>doctest::detail</secondary></indexterm>
+<indexterm><primary>doctest::detail</primary><secondary>toStream</secondary></indexterm>
+<para><computeroutput><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> void doctest::detail::toStream (<link linkend="_doctest_8h_1a116af65cb5e924b33ad9d9ecd7a783f3">std::ostream</link> * s, int short in)</computeroutput></para></section>
+<anchor xml:id="_namespacedoctest_1_1detail_1a72d0259a5b3c0f0f3a88ea8d732223f8"/><section>
+    <title>toStream()<computeroutput>[15/16]</computeroutput></title>
+<indexterm><primary>toStream</primary><secondary>doctest::detail</secondary></indexterm>
+<indexterm><primary>doctest::detail</primary><secondary>toStream</secondary></indexterm>
+<para><computeroutput><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> void doctest::detail::toStream (<link linkend="_doctest_8h_1a116af65cb5e924b33ad9d9ecd7a783f3">std::ostream</link> * s, int short unsigned in)</computeroutput></para></section>
+<anchor xml:id="_namespacedoctest_1_1detail_1a7001b8028c2c21968f2a0deb3417e9a4"/><section>
+    <title>toStream()<computeroutput>[16/16]</computeroutput></title>
+<indexterm><primary>toStream</primary><secondary>doctest::detail</secondary></indexterm>
+<indexterm><primary>doctest::detail</primary><secondary>toStream</secondary></indexterm>
+<para><computeroutput><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> void doctest::detail::toStream (<link linkend="_doctest_8h_1a116af65cb5e924b33ad9d9ecd7a783f3">std::ostream</link> * s, int unsigned in)</computeroutput></para></section>
+<anchor xml:id="_namespacedoctest_1_1detail_1ad64c6c2fd8d7302e8a5e3452cdfb3f75"/><section>
+    <title>type_to_string()</title>
+<indexterm><primary>type_to_string</primary><secondary>doctest::detail</secondary></indexterm>
+<indexterm><primary>doctest::detail</primary><secondary>type_to_string</secondary></indexterm>
+<computeroutput>template&lt;typename T &gt; </computeroutput><para><computeroutput>const char * doctest::detail::type_to_string ( )</computeroutput></para></section>
+<anchor xml:id="_namespacedoctest_1_1detail_1a5343d1b26df7f86767d5e7026c03bf0f"/><section>
+    <title>unary_assert()</title>
+<indexterm><primary>unary_assert</primary><secondary>doctest::detail</secondary></indexterm>
+<indexterm><primary>doctest::detail</primary><secondary>unary_assert</secondary></indexterm>
+<computeroutput>template&lt;typename L &gt; </computeroutput><para><computeroutput><link linkend="_doctest_8h_1a47e9d3609dfcc90b9a630ff33b9524d6">DOCTEST_NOINLINE</link> void doctest::detail::unary_assert (<link linkend="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3">assertType::Enum</link> at, const char * file, int line, const char * expr, const <link linkend="_doctest_8h_1af2901cafb023c57fb672ccb1bf14f2eb">DOCTEST_REF_WRAP</link>(L) val)</computeroutput></para>
+<para>OCLINT bitwise operator in conditional</para>
+</section>
+</section>
+</section>

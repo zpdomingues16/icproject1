@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_structdoctest_1_1detail_1_1_message_builder" xml:lang="en-US">
+<title>doctest::detail::MessageBuilder Struct Reference</title>
+<indexterm><primary>doctest::detail::MessageBuilder</primary></indexterm>
+<para>
+<computeroutput>#include &lt;doctest.h&gt;</computeroutput>
+</para>
+<para>Inheritance diagram for doctest::detail::MessageBuilder:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="structdoctest_1_1detail_1_1_message_builder.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_structdoctest_1_1detail_1_1_message_builder_1a93cb6f180968d38cb0f18b08ec6c9000">MessageBuilder</link> (const char *file, int line, <link linkend="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3">assertType::Enum</link> severity)</para>
+</listitem>
+            <listitem><para><link linkend="_structdoctest_1_1detail_1_1_message_builder_1aaaaf33f49c6d66425af9c2306010ae7e">MessageBuilder</link> ()=delete</para>
+</listitem>
+            <listitem><para><link linkend="_structdoctest_1_1detail_1_1_message_builder_1aa8dca00768780164f52e309276692f96">~MessageBuilder</link> ()</para>
+</listitem>
+            <listitem><para>template&lt;typename T &gt; </para><para><link linkend="_structdoctest_1_1detail_1_1_message_builder">MessageBuilder</link> &amp; <link linkend="_structdoctest_1_1detail_1_1_message_builder_1a07930b5dcf6e8d96859dc4e75352fcaf">operator&lt;&lt;</link> (const T &amp;in)</para>
+</listitem>
+            <listitem><para>bool <link linkend="_structdoctest_1_1detail_1_1_message_builder_1a9bcc5d56e1764a7e07efebca55e43cce">log</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_structdoctest_1_1detail_1_1_message_builder_1a3a65c5e39a0c04ae8e2a7c34997a2e4d">react</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_doctest_8h_1a116af65cb5e924b33ad9d9ecd7a783f3">std::ostream</link> * <link linkend="_structdoctest_1_1detail_1_1_message_builder_1a5319d522ba62c91e59ffa7f6982756e5">m_stream</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_structdoctest_1_1detail_1_1_message_builder_1a93cb6f180968d38cb0f18b08ec6c9000"/><section>
+    <title>MessageBuilder()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>MessageBuilder</primary><secondary>doctest::detail::MessageBuilder</secondary></indexterm>
+<indexterm><primary>doctest::detail::MessageBuilder</primary><secondary>MessageBuilder</secondary></indexterm>
+<para><computeroutput>doctest::detail::MessageBuilder::MessageBuilder (const char * file, int line, <link linkend="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3">assertType::Enum</link> severity)</computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1detail_1_1_message_builder_1aaaaf33f49c6d66425af9c2306010ae7e"/><section>
+    <title>MessageBuilder()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>MessageBuilder</primary><secondary>doctest::detail::MessageBuilder</secondary></indexterm>
+<indexterm><primary>doctest::detail::MessageBuilder</primary><secondary>MessageBuilder</secondary></indexterm>
+<para><computeroutput>doctest::detail::MessageBuilder::MessageBuilder ( )<computeroutput>[delete]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1detail_1_1_message_builder_1aa8dca00768780164f52e309276692f96"/><section>
+    <title>~MessageBuilder()</title>
+<indexterm><primary>~MessageBuilder</primary><secondary>doctest::detail::MessageBuilder</secondary></indexterm>
+<indexterm><primary>doctest::detail::MessageBuilder</primary><secondary>~MessageBuilder</secondary></indexterm>
+<para><computeroutput>doctest::detail::MessageBuilder::~MessageBuilder ( )</computeroutput></para></section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_structdoctest_1_1detail_1_1_message_builder_1a9bcc5d56e1764a7e07efebca55e43cce"/><section>
+    <title>log()</title>
+<indexterm><primary>log</primary><secondary>doctest::detail::MessageBuilder</secondary></indexterm>
+<indexterm><primary>doctest::detail::MessageBuilder</primary><secondary>log</secondary></indexterm>
+<para><computeroutput>bool doctest::detail::MessageBuilder::log ( )</computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1detail_1_1_message_builder_1a07930b5dcf6e8d96859dc4e75352fcaf"/><section>
+    <title>operator&lt;&lt;()</title>
+<indexterm><primary>operator&lt;&lt;</primary><secondary>doctest::detail::MessageBuilder</secondary></indexterm>
+<indexterm><primary>doctest::detail::MessageBuilder</primary><secondary>operator&lt;&lt;</secondary></indexterm>
+<computeroutput>template&lt;typename T &gt; </computeroutput><para><computeroutput><link linkend="_structdoctest_1_1detail_1_1_message_builder">MessageBuilder</link> &amp; doctest::detail::MessageBuilder::operator&lt;&lt; (const T &amp; in)<computeroutput>[inline]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1detail_1_1_message_builder_1a3a65c5e39a0c04ae8e2a7c34997a2e4d"/><section>
+    <title>react()</title>
+<indexterm><primary>react</primary><secondary>doctest::detail::MessageBuilder</secondary></indexterm>
+<indexterm><primary>doctest::detail::MessageBuilder</primary><secondary>react</secondary></indexterm>
+<para><computeroutput>void doctest::detail::MessageBuilder::react ( )</computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_structdoctest_1_1detail_1_1_message_builder_1a5319d522ba62c91e59ffa7f6982756e5"/><section>
+    <title>m_stream</title>
+<indexterm><primary>m_stream</primary><secondary>doctest::detail::MessageBuilder</secondary></indexterm>
+<indexterm><primary>doctest::detail::MessageBuilder</primary><secondary>m_stream</secondary></indexterm>
+<para><computeroutput><link linkend="_doctest_8h_1a116af65cb5e924b33ad9d9ecd7a783f3">std::ostream</link>* doctest::detail::MessageBuilder::m_stream</computeroutput></para></section>
+<para>
+The documentation for this struct was generated from the following file:</para>
+AudioFile/tests/doctest/<link linkend="_doctest_8h">doctest.h</link></section>
+</section>

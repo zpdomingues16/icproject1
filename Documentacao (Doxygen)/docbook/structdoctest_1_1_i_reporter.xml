@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_structdoctest_1_1_i_reporter" xml:lang="en-US">
+<title>doctest::IReporter Struct Reference</title>
+<indexterm><primary>doctest::IReporter</primary></indexterm>
+<para>
+<computeroutput>#include &lt;doctest.h&gt;</computeroutput>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>virtual void <link linkend="_structdoctest_1_1_i_reporter_1ae7e30d1c2cd332094c66d39bf3a85e52">report_query</link> (const <link linkend="_structdoctest_1_1_query_data">QueryData</link> &amp;)=0</para>
+</listitem>
+            <listitem><para>virtual void <link linkend="_structdoctest_1_1_i_reporter_1a7f4a4b654726d4b266c91cc0e1569f96">test_run_start</link> ()=0</para>
+</listitem>
+            <listitem><para>virtual void <link linkend="_structdoctest_1_1_i_reporter_1a610495b7caa29e36b5ea62bff62952ed">test_run_end</link> (const <link linkend="_structdoctest_1_1_test_run_stats">TestRunStats</link> &amp;)=0</para>
+</listitem>
+            <listitem><para>virtual void <link linkend="_structdoctest_1_1_i_reporter_1afa107df2d0230607e2f86f1876f48526">test_case_start</link> (const <link linkend="_structdoctest_1_1_test_case_data">TestCaseData</link> &amp;)=0</para>
+</listitem>
+            <listitem><para>virtual void <link linkend="_structdoctest_1_1_i_reporter_1a46c2fe41e5fa3d6930a3cb26d81ed764">test_case_reenter</link> (const <link linkend="_structdoctest_1_1_test_case_data">TestCaseData</link> &amp;)=0</para>
+</listitem>
+            <listitem><para>virtual void <link linkend="_structdoctest_1_1_i_reporter_1a43f8f19681dd5d42218ecb4fd935cda7">test_case_end</link> (const <link linkend="_structdoctest_1_1_current_test_case_stats">CurrentTestCaseStats</link> &amp;)=0</para>
+</listitem>
+            <listitem><para>virtual void <link linkend="_structdoctest_1_1_i_reporter_1a40b0cdf1ad59dabc736e35fde63d516f">test_case_exception</link> (const <link linkend="_structdoctest_1_1_test_case_exception">TestCaseException</link> &amp;)=0</para>
+</listitem>
+            <listitem><para>virtual void <link linkend="_structdoctest_1_1_i_reporter_1a03ef82d6fb9afe8b0e3bbe24f28dd268">subcase_start</link> (const <link linkend="_structdoctest_1_1_subcase_signature">SubcaseSignature</link> &amp;)=0</para>
+</listitem>
+            <listitem><para>virtual void <link linkend="_structdoctest_1_1_i_reporter_1a05196dd1a5f7e40e8c734cd2a37d4e1e">subcase_end</link> ()=0</para>
+</listitem>
+            <listitem><para>virtual void <link linkend="_structdoctest_1_1_i_reporter_1a5bb54923eab233bb02f2fcfc178fa12a">log_assert</link> (const <link linkend="_structdoctest_1_1_assert_data">AssertData</link> &amp;)=0</para>
+</listitem>
+            <listitem><para>virtual void <link linkend="_structdoctest_1_1_i_reporter_1a2b2cb4f15aa7417d4903a0edc3147018">log_message</link> (const <link linkend="_structdoctest_1_1_message_data">MessageData</link> &amp;)=0</para>
+</listitem>
+            <listitem><para>virtual void <link linkend="_structdoctest_1_1_i_reporter_1ab4ecfea9cd9582aad4a5e90e0c8ba45d">test_case_skipped</link> (const <link linkend="_structdoctest_1_1_test_case_data">TestCaseData</link> &amp;)=0</para>
+</listitem>
+            <listitem><para>virtual <link linkend="_structdoctest_1_1_i_reporter_1ae772182e42f2a3b163497f2b8bc3636d">~IReporter</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static int <link linkend="_structdoctest_1_1_i_reporter_1a7d520de46d9104c0eeb02375fabad32d">get_num_active_contexts</link> ()</para>
+</listitem>
+            <listitem><para>static const <link linkend="_structdoctest_1_1_i_context_scope">IContextScope</link> *const * <link linkend="_structdoctest_1_1_i_reporter_1ad34f2f1954ff43b6e8fe2dc595cec53a">get_active_contexts</link> ()</para>
+</listitem>
+            <listitem><para>static int <link linkend="_structdoctest_1_1_i_reporter_1ac8b96fef046edc609a3374a61b84797d">get_num_stringified_contexts</link> ()</para>
+</listitem>
+            <listitem><para>static const <link linkend="_classdoctest_1_1_string">String</link> * <link linkend="_structdoctest_1_1_i_reporter_1a6db31e528efe08c9bc9b4037a2143c3a">get_stringified_contexts</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_structdoctest_1_1_i_reporter_1ae772182e42f2a3b163497f2b8bc3636d"/><section>
+    <title>~IReporter()</title>
+<indexterm><primary>~IReporter</primary><secondary>doctest::IReporter</secondary></indexterm>
+<indexterm><primary>doctest::IReporter</primary><secondary>~IReporter</secondary></indexterm>
+<para><computeroutput>virtual doctest::IReporter::~IReporter ( )<computeroutput>[virtual]</computeroutput></computeroutput></para></section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_structdoctest_1_1_i_reporter_1ad34f2f1954ff43b6e8fe2dc595cec53a"/><section>
+    <title>get_active_contexts()</title>
+<indexterm><primary>get_active_contexts</primary><secondary>doctest::IReporter</secondary></indexterm>
+<indexterm><primary>doctest::IReporter</primary><secondary>get_active_contexts</secondary></indexterm>
+<para><computeroutput>static const <link linkend="_structdoctest_1_1_i_context_scope">IContextScope</link> *const  * doctest::IReporter::get_active_contexts ( )<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1_i_reporter_1a7d520de46d9104c0eeb02375fabad32d"/><section>
+    <title>get_num_active_contexts()</title>
+<indexterm><primary>get_num_active_contexts</primary><secondary>doctest::IReporter</secondary></indexterm>
+<indexterm><primary>doctest::IReporter</primary><secondary>get_num_active_contexts</secondary></indexterm>
+<para><computeroutput>static int doctest::IReporter::get_num_active_contexts ( )<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1_i_reporter_1ac8b96fef046edc609a3374a61b84797d"/><section>
+    <title>get_num_stringified_contexts()</title>
+<indexterm><primary>get_num_stringified_contexts</primary><secondary>doctest::IReporter</secondary></indexterm>
+<indexterm><primary>doctest::IReporter</primary><secondary>get_num_stringified_contexts</secondary></indexterm>
+<para><computeroutput>static int doctest::IReporter::get_num_stringified_contexts ( )<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1_i_reporter_1a6db31e528efe08c9bc9b4037a2143c3a"/><section>
+    <title>get_stringified_contexts()</title>
+<indexterm><primary>get_stringified_contexts</primary><secondary>doctest::IReporter</secondary></indexterm>
+<indexterm><primary>doctest::IReporter</primary><secondary>get_stringified_contexts</secondary></indexterm>
+<para><computeroutput>static const <link linkend="_classdoctest_1_1_string">String</link> * doctest::IReporter::get_stringified_contexts ( )<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1_i_reporter_1a5bb54923eab233bb02f2fcfc178fa12a"/><section>
+    <title>log_assert()</title>
+<indexterm><primary>log_assert</primary><secondary>doctest::IReporter</secondary></indexterm>
+<indexterm><primary>doctest::IReporter</primary><secondary>log_assert</secondary></indexterm>
+<para><computeroutput>virtual void doctest::IReporter::log_assert (const <link linkend="_structdoctest_1_1_assert_data">AssertData</link> &amp; )<computeroutput>[pure virtual]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1_i_reporter_1a2b2cb4f15aa7417d4903a0edc3147018"/><section>
+    <title>log_message()</title>
+<indexterm><primary>log_message</primary><secondary>doctest::IReporter</secondary></indexterm>
+<indexterm><primary>doctest::IReporter</primary><secondary>log_message</secondary></indexterm>
+<para><computeroutput>virtual void doctest::IReporter::log_message (const <link linkend="_structdoctest_1_1_message_data">MessageData</link> &amp; )<computeroutput>[pure virtual]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1_i_reporter_1ae7e30d1c2cd332094c66d39bf3a85e52"/><section>
+    <title>report_query()</title>
+<indexterm><primary>report_query</primary><secondary>doctest::IReporter</secondary></indexterm>
+<indexterm><primary>doctest::IReporter</primary><secondary>report_query</secondary></indexterm>
+<para><computeroutput>virtual void doctest::IReporter::report_query (const <link linkend="_structdoctest_1_1_query_data">QueryData</link> &amp; )<computeroutput>[pure virtual]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1_i_reporter_1a05196dd1a5f7e40e8c734cd2a37d4e1e"/><section>
+    <title>subcase_end()</title>
+<indexterm><primary>subcase_end</primary><secondary>doctest::IReporter</secondary></indexterm>
+<indexterm><primary>doctest::IReporter</primary><secondary>subcase_end</secondary></indexterm>
+<para><computeroutput>virtual void doctest::IReporter::subcase_end ( )<computeroutput>[pure virtual]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1_i_reporter_1a03ef82d6fb9afe8b0e3bbe24f28dd268"/><section>
+    <title>subcase_start()</title>
+<indexterm><primary>subcase_start</primary><secondary>doctest::IReporter</secondary></indexterm>
+<indexterm><primary>doctest::IReporter</primary><secondary>subcase_start</secondary></indexterm>
+<para><computeroutput>virtual void doctest::IReporter::subcase_start (const <link linkend="_structdoctest_1_1_subcase_signature">SubcaseSignature</link> &amp; )<computeroutput>[pure virtual]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1_i_reporter_1a43f8f19681dd5d42218ecb4fd935cda7"/><section>
+    <title>test_case_end()</title>
+<indexterm><primary>test_case_end</primary><secondary>doctest::IReporter</secondary></indexterm>
+<indexterm><primary>doctest::IReporter</primary><secondary>test_case_end</secondary></indexterm>
+<para><computeroutput>virtual void doctest::IReporter::test_case_end (const <link linkend="_structdoctest_1_1_current_test_case_stats">CurrentTestCaseStats</link> &amp; )<computeroutput>[pure virtual]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1_i_reporter_1a40b0cdf1ad59dabc736e35fde63d516f"/><section>
+    <title>test_case_exception()</title>
+<indexterm><primary>test_case_exception</primary><secondary>doctest::IReporter</secondary></indexterm>
+<indexterm><primary>doctest::IReporter</primary><secondary>test_case_exception</secondary></indexterm>
+<para><computeroutput>virtual void doctest::IReporter::test_case_exception (const <link linkend="_structdoctest_1_1_test_case_exception">TestCaseException</link> &amp; )<computeroutput>[pure virtual]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1_i_reporter_1a46c2fe41e5fa3d6930a3cb26d81ed764"/><section>
+    <title>test_case_reenter()</title>
+<indexterm><primary>test_case_reenter</primary><secondary>doctest::IReporter</secondary></indexterm>
+<indexterm><primary>doctest::IReporter</primary><secondary>test_case_reenter</secondary></indexterm>
+<para><computeroutput>virtual void doctest::IReporter::test_case_reenter (const <link linkend="_structdoctest_1_1_test_case_data">TestCaseData</link> &amp; )<computeroutput>[pure virtual]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1_i_reporter_1ab4ecfea9cd9582aad4a5e90e0c8ba45d"/><section>
+    <title>test_case_skipped()</title>
+<indexterm><primary>test_case_skipped</primary><secondary>doctest::IReporter</secondary></indexterm>
+<indexterm><primary>doctest::IReporter</primary><secondary>test_case_skipped</secondary></indexterm>
+<para><computeroutput>virtual void doctest::IReporter::test_case_skipped (const <link linkend="_structdoctest_1_1_test_case_data">TestCaseData</link> &amp; )<computeroutput>[pure virtual]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1_i_reporter_1afa107df2d0230607e2f86f1876f48526"/><section>
+    <title>test_case_start()</title>
+<indexterm><primary>test_case_start</primary><secondary>doctest::IReporter</secondary></indexterm>
+<indexterm><primary>doctest::IReporter</primary><secondary>test_case_start</secondary></indexterm>
+<para><computeroutput>virtual void doctest::IReporter::test_case_start (const <link linkend="_structdoctest_1_1_test_case_data">TestCaseData</link> &amp; )<computeroutput>[pure virtual]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1_i_reporter_1a610495b7caa29e36b5ea62bff62952ed"/><section>
+    <title>test_run_end()</title>
+<indexterm><primary>test_run_end</primary><secondary>doctest::IReporter</secondary></indexterm>
+<indexterm><primary>doctest::IReporter</primary><secondary>test_run_end</secondary></indexterm>
+<para><computeroutput>virtual void doctest::IReporter::test_run_end (const <link linkend="_structdoctest_1_1_test_run_stats">TestRunStats</link> &amp; )<computeroutput>[pure virtual]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1_i_reporter_1a7f4a4b654726d4b266c91cc0e1569f96"/><section>
+    <title>test_run_start()</title>
+<indexterm><primary>test_run_start</primary><secondary>doctest::IReporter</secondary></indexterm>
+<indexterm><primary>doctest::IReporter</primary><secondary>test_run_start</secondary></indexterm>
+<para><computeroutput>virtual void doctest::IReporter::test_run_start ( )<computeroutput>[pure virtual]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this struct was generated from the following file:</para>
+AudioFile/tests/doctest/<link linkend="_doctest_8h">doctest.h</link></section>
+</section>

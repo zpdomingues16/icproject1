@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_structdoctest_1_1_i_context_scope" xml:lang="en-US">
+<title>doctest::IContextScope Struct Reference</title>
+<indexterm><primary>doctest::IContextScope</primary></indexterm>
+<para>
+<computeroutput>#include &lt;doctest.h&gt;</computeroutput>
+</para>
+<para>Inheritance diagram for doctest::IContextScope:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="structdoctest_1_1_i_context_scope.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_structdoctest_1_1_i_context_scope_1a067a2f9a9e53b010eb7b0a2ab88c76fd">IContextScope</link> ()</para>
+</listitem>
+            <listitem><para>virtual <link linkend="_structdoctest_1_1_i_context_scope_1aa99357c233d6a040451628bc6a6c6c2e">~IContextScope</link> ()</para>
+</listitem>
+            <listitem><para>virtual void <link linkend="_structdoctest_1_1_i_context_scope_1affbf0f9bf8107a4a8a805d237288141d">stringify</link> (<link linkend="_doctest_8h_1a116af65cb5e924b33ad9d9ecd7a783f3">std::ostream</link> *) const =0</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_structdoctest_1_1_i_context_scope_1a067a2f9a9e53b010eb7b0a2ab88c76fd"/><section>
+    <title>IContextScope()</title>
+<indexterm><primary>IContextScope</primary><secondary>doctest::IContextScope</secondary></indexterm>
+<indexterm><primary>doctest::IContextScope</primary><secondary>IContextScope</secondary></indexterm>
+<para><computeroutput>doctest::IContextScope::IContextScope ( )</computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1_i_context_scope_1aa99357c233d6a040451628bc6a6c6c2e"/><section>
+    <title>~IContextScope()</title>
+<indexterm><primary>~IContextScope</primary><secondary>doctest::IContextScope</secondary></indexterm>
+<indexterm><primary>doctest::IContextScope</primary><secondary>~IContextScope</secondary></indexterm>
+<para><computeroutput>virtual doctest::IContextScope::~IContextScope ( )<computeroutput>[virtual]</computeroutput></computeroutput></para></section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_structdoctest_1_1_i_context_scope_1affbf0f9bf8107a4a8a805d237288141d"/><section>
+    <title>stringify()</title>
+<indexterm><primary>stringify</primary><secondary>doctest::IContextScope</secondary></indexterm>
+<indexterm><primary>doctest::IContextScope</primary><secondary>stringify</secondary></indexterm>
+<para><computeroutput>virtual void doctest::IContextScope::stringify (<link linkend="_doctest_8h_1a116af65cb5e924b33ad9d9ecd7a783f3">std::ostream</link> * ) const<computeroutput>[pure virtual]</computeroutput></computeroutput></para><para>
+Implemented in <link linkend="_classdoctest_1_1detail_1_1_context_scope_1a4636ac32ae41ae108c7ada4a164ffaeb">doctest::detail::ContextScope&lt; L &gt;</link>.</para>
+</section>
+<para>
+The documentation for this struct was generated from the following file:</para>
+AudioFile/tests/doctest/<link linkend="_doctest_8h">doctest.h</link></section>
+</section>

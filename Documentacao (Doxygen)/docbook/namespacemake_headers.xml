@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespacemake_headers" xml:lang="en-US">
+<title>makeHeaders Namespace Reference</title>
+<indexterm><primary>makeHeaders</primary></indexterm>
+<simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para>def <link linkend="_namespacemake_headers_1ac23c5a139136e49183cb7a0dda97b9e7">makeHeader</link> (fileName, <link linkend="_namespacemake_headers_1a6bb2e07c95cda1b75733861b73b6bd12">audioSignal</link>, <link linkend="_namespacemake_headers_1aebae91248540ba01faf787f19070a220">numChannels</link>, bitRate, sampleRate, <link linkend="_namespacemake_headers_1a2a73adaa7bcb3c0a31a6ceb534490221">fileFormat</link>)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Variables    </title>
+        <itemizedlist>
+            <listitem><para>list <link linkend="_namespacemake_headers_1aa24b70fb4bdb513481ea52af9879e722">wavFiles</link> = []</para>
+</listitem>
+            <listitem><para><link linkend="_namespacemake_headers_1a6bb2e07c95cda1b75733861b73b6bd12">audioSignal</link></para>
+</listitem>
+            <listitem><para><link linkend="_namespacemake_headers_1a397416926008c5920f0bb3aacff61d5e">fs</link></para>
+</listitem>
+            <listitem><para><link linkend="_namespacemake_headers_1a83ca3f186ee3a2ed03825c9b544da5ae">enc</link></para>
+</listitem>
+            <listitem><para>string <link linkend="_namespacemake_headers_1a2a73adaa7bcb3c0a31a6ceb534490221">fileFormat</link> = &quot;wav&quot;</para>
+</listitem>
+            <listitem><para>int <link linkend="_namespacemake_headers_1aebae91248540ba01faf787f19070a220">numChannels</link> = 1</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Function Documentation</title>
+<anchor xml:id="_namespacemake_headers_1ac23c5a139136e49183cb7a0dda97b9e7"/><section>
+    <title>makeHeader()</title>
+<indexterm><primary>makeHeader</primary><secondary>makeHeaders</secondary></indexterm>
+<indexterm><primary>makeHeaders</primary><secondary>makeHeader</secondary></indexterm>
+<para><computeroutput>def makeHeaders.makeHeader ( fileName,  audioSignal,  numChannels,  bitRate,  sampleRate,  fileFormat)</computeroutput></para></section>
+</section>
+<section>
+<title>Variable Documentation</title>
+<anchor xml:id="_namespacemake_headers_1a6bb2e07c95cda1b75733861b73b6bd12"/><section>
+    <title>audioSignal</title>
+<indexterm><primary>audioSignal</primary><secondary>makeHeaders</secondary></indexterm>
+<indexterm><primary>makeHeaders</primary><secondary>audioSignal</secondary></indexterm>
+<para><computeroutput>makeHeaders.audioSignal</computeroutput></para></section>
+<anchor xml:id="_namespacemake_headers_1a83ca3f186ee3a2ed03825c9b544da5ae"/><section>
+    <title>enc</title>
+<indexterm><primary>enc</primary><secondary>makeHeaders</secondary></indexterm>
+<indexterm><primary>makeHeaders</primary><secondary>enc</secondary></indexterm>
+<para><computeroutput>makeHeaders.enc</computeroutput></para></section>
+<anchor xml:id="_namespacemake_headers_1a2a73adaa7bcb3c0a31a6ceb534490221"/><section>
+    <title>fileFormat</title>
+<indexterm><primary>fileFormat</primary><secondary>makeHeaders</secondary></indexterm>
+<indexterm><primary>makeHeaders</primary><secondary>fileFormat</secondary></indexterm>
+<para><computeroutput>string makeHeaders.fileFormat = &quot;wav&quot;</computeroutput></para></section>
+<anchor xml:id="_namespacemake_headers_1a397416926008c5920f0bb3aacff61d5e"/><section>
+    <title>fs</title>
+<indexterm><primary>fs</primary><secondary>makeHeaders</secondary></indexterm>
+<indexterm><primary>makeHeaders</primary><secondary>fs</secondary></indexterm>
+<para><computeroutput>makeHeaders.fs</computeroutput></para></section>
+<anchor xml:id="_namespacemake_headers_1aebae91248540ba01faf787f19070a220"/><section>
+    <title>numChannels</title>
+<indexterm><primary>numChannels</primary><secondary>makeHeaders</secondary></indexterm>
+<indexterm><primary>makeHeaders</primary><secondary>numChannels</secondary></indexterm>
+<para><computeroutput>makeHeaders.numChannels = 1</computeroutput></para></section>
+<anchor xml:id="_namespacemake_headers_1aa24b70fb4bdb513481ea52af9879e722"/><section>
+    <title>wavFiles</title>
+<indexterm><primary>wavFiles</primary><secondary>makeHeaders</secondary></indexterm>
+<indexterm><primary>makeHeaders</primary><secondary>wavFiles</secondary></indexterm>
+<para><computeroutput>list makeHeaders.wavFiles = []</computeroutput></para></section>
+</section>
+</section>

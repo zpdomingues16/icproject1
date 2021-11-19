@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_main_8cpp" xml:lang="en-US">
+<title>AudioFile/tests/main.cpp File Reference</title>
+<indexterm><primary>AudioFile/tests/main.cpp</primary></indexterm>
+<programlisting linenumbering="unnumbered">#include &quot;doctest.h&quot;
+</programlisting><simplesect>
+    <title>Macros    </title>
+        <itemizedlist>
+            <listitem><para>#define <link linkend="_main_8cpp_1a623b8690a262536536a43eab2d7df03d">DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN</link></para>
+</listitem>
+            <listitem><para>#define <link linkend="_main_8cpp_1a0f1f18bdd9baf7124ae543f25497c64a">DOCTEST_CONFIG_COLORS_NONE</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Macro Definition Documentation</title>
+<anchor xml:id="_main_8cpp_1a0f1f18bdd9baf7124ae543f25497c64a"/><section>
+    <title>DOCTEST_CONFIG_COLORS_NONE</title>
+<indexterm><primary>DOCTEST_CONFIG_COLORS_NONE</primary><secondary>main.cpp</secondary></indexterm>
+<indexterm><primary>main.cpp</primary><secondary>DOCTEST_CONFIG_COLORS_NONE</secondary></indexterm>
+<para><computeroutput>#define DOCTEST_CONFIG_COLORS_NONE</computeroutput></para></section>
+<anchor xml:id="_main_8cpp_1a623b8690a262536536a43eab2d7df03d"/><section>
+    <title>DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN</title>
+<indexterm><primary>DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN</primary><secondary>main.cpp</secondary></indexterm>
+<indexterm><primary>main.cpp</primary><secondary>DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN</secondary></indexterm>
+<para><computeroutput>#define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN</computeroutput></para></section>
+</section>
+</section>

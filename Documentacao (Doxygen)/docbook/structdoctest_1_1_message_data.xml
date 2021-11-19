@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_structdoctest_1_1_message_data" xml:lang="en-US">
+<title>doctest::MessageData Struct Reference</title>
+<indexterm><primary>doctest::MessageData</primary></indexterm>
+<para>
+<computeroutput>#include &lt;doctest.h&gt;</computeroutput>
+</para>
+<para>Inheritance diagram for doctest::MessageData:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="structdoctest_1_1_message_data.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classdoctest_1_1_string">String</link> <link linkend="_structdoctest_1_1_message_data_1a0ef5cfd7a399ee475d6357b6dcddfe53">m_string</link></para>
+</listitem>
+            <listitem><para>const char * <link linkend="_structdoctest_1_1_message_data_1acd1e6a5c4f03ed6e098cdab5956a3e17">m_file</link></para>
+</listitem>
+            <listitem><para>int <link linkend="_structdoctest_1_1_message_data_1a7c1cf03250a68db5befbba63b3824d93">m_line</link></para>
+</listitem>
+            <listitem><para><link linkend="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3">assertType::Enum</link> <link linkend="_structdoctest_1_1_message_data_1a24e0a3f475609ce8e02cecc4cb0d3b48">m_severity</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_structdoctest_1_1_message_data_1acd1e6a5c4f03ed6e098cdab5956a3e17"/><section>
+    <title>m_file</title>
+<indexterm><primary>m_file</primary><secondary>doctest::MessageData</secondary></indexterm>
+<indexterm><primary>doctest::MessageData</primary><secondary>m_file</secondary></indexterm>
+<para><computeroutput>const char* doctest::MessageData::m_file</computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1_message_data_1a7c1cf03250a68db5befbba63b3824d93"/><section>
+    <title>m_line</title>
+<indexterm><primary>m_line</primary><secondary>doctest::MessageData</secondary></indexterm>
+<indexterm><primary>doctest::MessageData</primary><secondary>m_line</secondary></indexterm>
+<para><computeroutput>int doctest::MessageData::m_line</computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1_message_data_1a24e0a3f475609ce8e02cecc4cb0d3b48"/><section>
+    <title>m_severity</title>
+<indexterm><primary>m_severity</primary><secondary>doctest::MessageData</secondary></indexterm>
+<indexterm><primary>doctest::MessageData</primary><secondary>m_severity</secondary></indexterm>
+<para><computeroutput><link linkend="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3">assertType::Enum</link> doctest::MessageData::m_severity</computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1_message_data_1a0ef5cfd7a399ee475d6357b6dcddfe53"/><section>
+    <title>m_string</title>
+<indexterm><primary>m_string</primary><secondary>doctest::MessageData</secondary></indexterm>
+<indexterm><primary>doctest::MessageData</primary><secondary>m_string</secondary></indexterm>
+<para><computeroutput><link linkend="_classdoctest_1_1_string">String</link> doctest::MessageData::m_string</computeroutput></para></section>
+<para>
+The documentation for this struct was generated from the following file:</para>
+AudioFile/tests/doctest/<link linkend="_doctest_8h">doctest.h</link></section>
+</section>

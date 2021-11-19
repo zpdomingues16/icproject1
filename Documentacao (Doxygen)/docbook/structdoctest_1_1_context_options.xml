@@ -1,0 +1,259 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_structdoctest_1_1_context_options" xml:lang="en-US">
+<title>doctest::ContextOptions Struct Reference</title>
+<indexterm><primary>doctest::ContextOptions</primary></indexterm>
+<para>
+
+<para>OCLINT too many fields. </para>
+ 
+</para>
+<para>
+<computeroutput>#include &lt;doctest.h&gt;</computeroutput>
+</para>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_doctest_8h_1a116af65cb5e924b33ad9d9ecd7a783f3">std::ostream</link> * <link linkend="_structdoctest_1_1_context_options_1a1ee59adf440880ebd7b31516471ddcab">cout</link></para>
+</listitem>
+            <listitem><para><link linkend="_doctest_8h_1a116af65cb5e924b33ad9d9ecd7a783f3">std::ostream</link> * <link linkend="_structdoctest_1_1_context_options_1af4424b66280bdf050e0cc0dbf8975487">cerr</link></para>
+</listitem>
+            <listitem><para><link linkend="_classdoctest_1_1_string">String</link> <link linkend="_structdoctest_1_1_context_options_1a0590006b4d10296c9a697e32ff886f74">binary_name</link></para>
+</listitem>
+            <listitem><para><link linkend="_classdoctest_1_1_string">String</link> <link linkend="_structdoctest_1_1_context_options_1a51b278efd4662f92bb3f7eb6a57974ba">out</link></para>
+</listitem>
+            <listitem><para><link linkend="_classdoctest_1_1_string">String</link> <link linkend="_structdoctest_1_1_context_options_1a397c99d733e24fc87f8da6f6eda855da">order_by</link></para>
+</listitem>
+            <listitem><para>unsigned <link linkend="_structdoctest_1_1_context_options_1ab312bdc6f3c16646f04f75742f87ce0a">rand_seed</link></para>
+</listitem>
+            <listitem><para>unsigned <link linkend="_structdoctest_1_1_context_options_1a9f26ee60a5259e73f9f25ce3f4883a97">first</link></para>
+</listitem>
+            <listitem><para>unsigned <link linkend="_structdoctest_1_1_context_options_1a5aaf1b28f6a46d8acb40898a502b6bef">last</link></para>
+</listitem>
+            <listitem><para>int <link linkend="_structdoctest_1_1_context_options_1a8ba5bfec2229bc2da9ab917f4bdee5e7">abort_after</link></para>
+</listitem>
+            <listitem><para>int <link linkend="_structdoctest_1_1_context_options_1a93281aa958eed5c2a1533d404b1ebeff">subcase_filter_levels</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_structdoctest_1_1_context_options_1a5c7bc4cf57fadf73e626666a0a548b92">success</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_structdoctest_1_1_context_options_1a08571475229452c2eb933da314a74dff">case_sensitive</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_structdoctest_1_1_context_options_1a85d785559ea88e0bd61890f77f00a82f">exit</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_structdoctest_1_1_context_options_1a0fc3e0c1cf669cffd1f826c005fc4223">duration</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_structdoctest_1_1_context_options_1a642d847a76880d946bdd62b35eba3f63">no_throw</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_structdoctest_1_1_context_options_1adcbcab2df10d87307a4754ac9588d35f">no_exitcode</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_structdoctest_1_1_context_options_1aad35f517c65f792ddc72a672d9014222">no_run</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_structdoctest_1_1_context_options_1ad7371979d5134b109dd00fba771b0271">no_version</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_structdoctest_1_1_context_options_1a4fc9b6673b818b8cb5969725f16b59c3">no_colors</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_structdoctest_1_1_context_options_1a8cd276e86a209f3d5486eb6c5a2a29bf">force_colors</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_structdoctest_1_1_context_options_1af82a6fc802b8ed33a84ea96e85b0d911">no_breaks</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_structdoctest_1_1_context_options_1a56344ffa781ee4da6cbf3f6c11da8564">no_skip</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_structdoctest_1_1_context_options_1aab894e731a6fc86cf095288ec7d0c0f2">gnu_file_line</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_structdoctest_1_1_context_options_1a1e9a8bf8feba5cfe25558e5977c4bd7c">no_path_in_filenames</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_structdoctest_1_1_context_options_1a880207c3b4cc98fc5c8d94998841e837">no_line_numbers</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_structdoctest_1_1_context_options_1a4e22eec59e63ed4ff6ab4dfce2389c99">no_skipped_summary</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_structdoctest_1_1_context_options_1a7932d4aa0f360efec8cc201ec63c8366">no_time_in_output</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_structdoctest_1_1_context_options_1a9d542a95ee03f61c233fff51e7461400">help</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_structdoctest_1_1_context_options_1a08931527a9e5e634e64a336e5493a7c1">version</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_structdoctest_1_1_context_options_1a4651b5efbaf2ffc03d60fb4140d21dd3">count</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_structdoctest_1_1_context_options_1a813e1543c358ab8a7a432b4ad2b32e56">list_test_cases</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_structdoctest_1_1_context_options_1a579399a66b278cbf96b6183d337f486b">list_test_suites</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_structdoctest_1_1_context_options_1ad3daf077ac3182db5175f8baff49fce0">list_reporters</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>OCLINT too many fields. </para>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_structdoctest_1_1_context_options_1a8ba5bfec2229bc2da9ab917f4bdee5e7"/><section>
+    <title>abort_after</title>
+<indexterm><primary>abort_after</primary><secondary>doctest::ContextOptions</secondary></indexterm>
+<indexterm><primary>doctest::ContextOptions</primary><secondary>abort_after</secondary></indexterm>
+<para><computeroutput>int doctest::ContextOptions::abort_after</computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1_context_options_1a0590006b4d10296c9a697e32ff886f74"/><section>
+    <title>binary_name</title>
+<indexterm><primary>binary_name</primary><secondary>doctest::ContextOptions</secondary></indexterm>
+<indexterm><primary>doctest::ContextOptions</primary><secondary>binary_name</secondary></indexterm>
+<para><computeroutput><link linkend="_classdoctest_1_1_string">String</link> doctest::ContextOptions::binary_name</computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1_context_options_1a08571475229452c2eb933da314a74dff"/><section>
+    <title>case_sensitive</title>
+<indexterm><primary>case_sensitive</primary><secondary>doctest::ContextOptions</secondary></indexterm>
+<indexterm><primary>doctest::ContextOptions</primary><secondary>case_sensitive</secondary></indexterm>
+<para><computeroutput>bool doctest::ContextOptions::case_sensitive</computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1_context_options_1af4424b66280bdf050e0cc0dbf8975487"/><section>
+    <title>cerr</title>
+<indexterm><primary>cerr</primary><secondary>doctest::ContextOptions</secondary></indexterm>
+<indexterm><primary>doctest::ContextOptions</primary><secondary>cerr</secondary></indexterm>
+<para><computeroutput><link linkend="_doctest_8h_1a116af65cb5e924b33ad9d9ecd7a783f3">std::ostream</link>* doctest::ContextOptions::cerr</computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1_context_options_1a4651b5efbaf2ffc03d60fb4140d21dd3"/><section>
+    <title>count</title>
+<indexterm><primary>count</primary><secondary>doctest::ContextOptions</secondary></indexterm>
+<indexterm><primary>doctest::ContextOptions</primary><secondary>count</secondary></indexterm>
+<para><computeroutput>bool doctest::ContextOptions::count</computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1_context_options_1a1ee59adf440880ebd7b31516471ddcab"/><section>
+    <title>cout</title>
+<indexterm><primary>cout</primary><secondary>doctest::ContextOptions</secondary></indexterm>
+<indexterm><primary>doctest::ContextOptions</primary><secondary>cout</secondary></indexterm>
+<para><computeroutput><link linkend="_doctest_8h_1a116af65cb5e924b33ad9d9ecd7a783f3">std::ostream</link>* doctest::ContextOptions::cout</computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1_context_options_1a0fc3e0c1cf669cffd1f826c005fc4223"/><section>
+    <title>duration</title>
+<indexterm><primary>duration</primary><secondary>doctest::ContextOptions</secondary></indexterm>
+<indexterm><primary>doctest::ContextOptions</primary><secondary>duration</secondary></indexterm>
+<para><computeroutput>bool doctest::ContextOptions::duration</computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1_context_options_1a85d785559ea88e0bd61890f77f00a82f"/><section>
+    <title>exit</title>
+<indexterm><primary>exit</primary><secondary>doctest::ContextOptions</secondary></indexterm>
+<indexterm><primary>doctest::ContextOptions</primary><secondary>exit</secondary></indexterm>
+<para><computeroutput>bool doctest::ContextOptions::exit</computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1_context_options_1a9f26ee60a5259e73f9f25ce3f4883a97"/><section>
+    <title>first</title>
+<indexterm><primary>first</primary><secondary>doctest::ContextOptions</secondary></indexterm>
+<indexterm><primary>doctest::ContextOptions</primary><secondary>first</secondary></indexterm>
+<para><computeroutput>unsigned doctest::ContextOptions::first</computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1_context_options_1a8cd276e86a209f3d5486eb6c5a2a29bf"/><section>
+    <title>force_colors</title>
+<indexterm><primary>force_colors</primary><secondary>doctest::ContextOptions</secondary></indexterm>
+<indexterm><primary>doctest::ContextOptions</primary><secondary>force_colors</secondary></indexterm>
+<para><computeroutput>bool doctest::ContextOptions::force_colors</computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1_context_options_1aab894e731a6fc86cf095288ec7d0c0f2"/><section>
+    <title>gnu_file_line</title>
+<indexterm><primary>gnu_file_line</primary><secondary>doctest::ContextOptions</secondary></indexterm>
+<indexterm><primary>doctest::ContextOptions</primary><secondary>gnu_file_line</secondary></indexterm>
+<para><computeroutput>bool doctest::ContextOptions::gnu_file_line</computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1_context_options_1a9d542a95ee03f61c233fff51e7461400"/><section>
+    <title>help</title>
+<indexterm><primary>help</primary><secondary>doctest::ContextOptions</secondary></indexterm>
+<indexterm><primary>doctest::ContextOptions</primary><secondary>help</secondary></indexterm>
+<para><computeroutput>bool doctest::ContextOptions::help</computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1_context_options_1a5aaf1b28f6a46d8acb40898a502b6bef"/><section>
+    <title>last</title>
+<indexterm><primary>last</primary><secondary>doctest::ContextOptions</secondary></indexterm>
+<indexterm><primary>doctest::ContextOptions</primary><secondary>last</secondary></indexterm>
+<para><computeroutput>unsigned doctest::ContextOptions::last</computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1_context_options_1ad3daf077ac3182db5175f8baff49fce0"/><section>
+    <title>list_reporters</title>
+<indexterm><primary>list_reporters</primary><secondary>doctest::ContextOptions</secondary></indexterm>
+<indexterm><primary>doctest::ContextOptions</primary><secondary>list_reporters</secondary></indexterm>
+<para><computeroutput>bool doctest::ContextOptions::list_reporters</computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1_context_options_1a813e1543c358ab8a7a432b4ad2b32e56"/><section>
+    <title>list_test_cases</title>
+<indexterm><primary>list_test_cases</primary><secondary>doctest::ContextOptions</secondary></indexterm>
+<indexterm><primary>doctest::ContextOptions</primary><secondary>list_test_cases</secondary></indexterm>
+<para><computeroutput>bool doctest::ContextOptions::list_test_cases</computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1_context_options_1a579399a66b278cbf96b6183d337f486b"/><section>
+    <title>list_test_suites</title>
+<indexterm><primary>list_test_suites</primary><secondary>doctest::ContextOptions</secondary></indexterm>
+<indexterm><primary>doctest::ContextOptions</primary><secondary>list_test_suites</secondary></indexterm>
+<para><computeroutput>bool doctest::ContextOptions::list_test_suites</computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1_context_options_1af82a6fc802b8ed33a84ea96e85b0d911"/><section>
+    <title>no_breaks</title>
+<indexterm><primary>no_breaks</primary><secondary>doctest::ContextOptions</secondary></indexterm>
+<indexterm><primary>doctest::ContextOptions</primary><secondary>no_breaks</secondary></indexterm>
+<para><computeroutput>bool doctest::ContextOptions::no_breaks</computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1_context_options_1a4fc9b6673b818b8cb5969725f16b59c3"/><section>
+    <title>no_colors</title>
+<indexterm><primary>no_colors</primary><secondary>doctest::ContextOptions</secondary></indexterm>
+<indexterm><primary>doctest::ContextOptions</primary><secondary>no_colors</secondary></indexterm>
+<para><computeroutput>bool doctest::ContextOptions::no_colors</computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1_context_options_1adcbcab2df10d87307a4754ac9588d35f"/><section>
+    <title>no_exitcode</title>
+<indexterm><primary>no_exitcode</primary><secondary>doctest::ContextOptions</secondary></indexterm>
+<indexterm><primary>doctest::ContextOptions</primary><secondary>no_exitcode</secondary></indexterm>
+<para><computeroutput>bool doctest::ContextOptions::no_exitcode</computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1_context_options_1a880207c3b4cc98fc5c8d94998841e837"/><section>
+    <title>no_line_numbers</title>
+<indexterm><primary>no_line_numbers</primary><secondary>doctest::ContextOptions</secondary></indexterm>
+<indexterm><primary>doctest::ContextOptions</primary><secondary>no_line_numbers</secondary></indexterm>
+<para><computeroutput>bool doctest::ContextOptions::no_line_numbers</computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1_context_options_1a1e9a8bf8feba5cfe25558e5977c4bd7c"/><section>
+    <title>no_path_in_filenames</title>
+<indexterm><primary>no_path_in_filenames</primary><secondary>doctest::ContextOptions</secondary></indexterm>
+<indexterm><primary>doctest::ContextOptions</primary><secondary>no_path_in_filenames</secondary></indexterm>
+<para><computeroutput>bool doctest::ContextOptions::no_path_in_filenames</computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1_context_options_1aad35f517c65f792ddc72a672d9014222"/><section>
+    <title>no_run</title>
+<indexterm><primary>no_run</primary><secondary>doctest::ContextOptions</secondary></indexterm>
+<indexterm><primary>doctest::ContextOptions</primary><secondary>no_run</secondary></indexterm>
+<para><computeroutput>bool doctest::ContextOptions::no_run</computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1_context_options_1a56344ffa781ee4da6cbf3f6c11da8564"/><section>
+    <title>no_skip</title>
+<indexterm><primary>no_skip</primary><secondary>doctest::ContextOptions</secondary></indexterm>
+<indexterm><primary>doctest::ContextOptions</primary><secondary>no_skip</secondary></indexterm>
+<para><computeroutput>bool doctest::ContextOptions::no_skip</computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1_context_options_1a4e22eec59e63ed4ff6ab4dfce2389c99"/><section>
+    <title>no_skipped_summary</title>
+<indexterm><primary>no_skipped_summary</primary><secondary>doctest::ContextOptions</secondary></indexterm>
+<indexterm><primary>doctest::ContextOptions</primary><secondary>no_skipped_summary</secondary></indexterm>
+<para><computeroutput>bool doctest::ContextOptions::no_skipped_summary</computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1_context_options_1a642d847a76880d946bdd62b35eba3f63"/><section>
+    <title>no_throw</title>
+<indexterm><primary>no_throw</primary><secondary>doctest::ContextOptions</secondary></indexterm>
+<indexterm><primary>doctest::ContextOptions</primary><secondary>no_throw</secondary></indexterm>
+<para><computeroutput>bool doctest::ContextOptions::no_throw</computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1_context_options_1a7932d4aa0f360efec8cc201ec63c8366"/><section>
+    <title>no_time_in_output</title>
+<indexterm><primary>no_time_in_output</primary><secondary>doctest::ContextOptions</secondary></indexterm>
+<indexterm><primary>doctest::ContextOptions</primary><secondary>no_time_in_output</secondary></indexterm>
+<para><computeroutput>bool doctest::ContextOptions::no_time_in_output</computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1_context_options_1ad7371979d5134b109dd00fba771b0271"/><section>
+    <title>no_version</title>
+<indexterm><primary>no_version</primary><secondary>doctest::ContextOptions</secondary></indexterm>
+<indexterm><primary>doctest::ContextOptions</primary><secondary>no_version</secondary></indexterm>
+<para><computeroutput>bool doctest::ContextOptions::no_version</computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1_context_options_1a397c99d733e24fc87f8da6f6eda855da"/><section>
+    <title>order_by</title>
+<indexterm><primary>order_by</primary><secondary>doctest::ContextOptions</secondary></indexterm>
+<indexterm><primary>doctest::ContextOptions</primary><secondary>order_by</secondary></indexterm>
+<para><computeroutput><link linkend="_classdoctest_1_1_string">String</link> doctest::ContextOptions::order_by</computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1_context_options_1a51b278efd4662f92bb3f7eb6a57974ba"/><section>
+    <title>out</title>
+<indexterm><primary>out</primary><secondary>doctest::ContextOptions</secondary></indexterm>
+<indexterm><primary>doctest::ContextOptions</primary><secondary>out</secondary></indexterm>
+<para><computeroutput><link linkend="_classdoctest_1_1_string">String</link> doctest::ContextOptions::out</computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1_context_options_1ab312bdc6f3c16646f04f75742f87ce0a"/><section>
+    <title>rand_seed</title>
+<indexterm><primary>rand_seed</primary><secondary>doctest::ContextOptions</secondary></indexterm>
+<indexterm><primary>doctest::ContextOptions</primary><secondary>rand_seed</secondary></indexterm>
+<para><computeroutput>unsigned doctest::ContextOptions::rand_seed</computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1_context_options_1a93281aa958eed5c2a1533d404b1ebeff"/><section>
+    <title>subcase_filter_levels</title>
+<indexterm><primary>subcase_filter_levels</primary><secondary>doctest::ContextOptions</secondary></indexterm>
+<indexterm><primary>doctest::ContextOptions</primary><secondary>subcase_filter_levels</secondary></indexterm>
+<para><computeroutput>int doctest::ContextOptions::subcase_filter_levels</computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1_context_options_1a5c7bc4cf57fadf73e626666a0a548b92"/><section>
+    <title>success</title>
+<indexterm><primary>success</primary><secondary>doctest::ContextOptions</secondary></indexterm>
+<indexterm><primary>doctest::ContextOptions</primary><secondary>success</secondary></indexterm>
+<para><computeroutput>bool doctest::ContextOptions::success</computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1_context_options_1a08931527a9e5e634e64a336e5493a7c1"/><section>
+    <title>version</title>
+<indexterm><primary>version</primary><secondary>doctest::ContextOptions</secondary></indexterm>
+<indexterm><primary>doctest::ContextOptions</primary><secondary>version</secondary></indexterm>
+<para><computeroutput>bool doctest::ContextOptions::version</computeroutput></para></section>
+<para>
+The documentation for this struct was generated from the following file:</para>
+AudioFile/tests/doctest/<link linkend="_doctest_8h">doctest.h</link></section>
+</section>

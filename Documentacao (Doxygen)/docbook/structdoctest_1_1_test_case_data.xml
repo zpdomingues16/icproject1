@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_structdoctest_1_1_test_case_data" xml:lang="en-US">
+<title>doctest::TestCaseData Struct Reference</title>
+<indexterm><primary>doctest::TestCaseData</primary></indexterm>
+<para>
+<computeroutput>#include &lt;doctest.h&gt;</computeroutput>
+</para>
+<para>Inheritance diagram for doctest::TestCaseData:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="structdoctest_1_1_test_case_data.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classdoctest_1_1_string">String</link> <link linkend="_structdoctest_1_1_test_case_data_1ac3e8095418a13cd7bbc921cce5b3c5c6">m_file</link></para>
+</listitem>
+            <listitem><para>unsigned <link linkend="_structdoctest_1_1_test_case_data_1aaabb9765e7aa39416c058a9cbccef57f">m_line</link></para>
+</listitem>
+            <listitem><para>const char * <link linkend="_structdoctest_1_1_test_case_data_1a0cb34895130be773e624526d68e5b2cd">m_name</link></para>
+</listitem>
+            <listitem><para>const char * <link linkend="_structdoctest_1_1_test_case_data_1ae264da66ff0e88a34c467d364dd18840">m_test_suite</link></para>
+</listitem>
+            <listitem><para>const char * <link linkend="_structdoctest_1_1_test_case_data_1abd855851b4b9edbaf46c3458abc1ba80">m_description</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_structdoctest_1_1_test_case_data_1a0c2353bd3fd8c2fa84d34ab4e973e038">m_skip</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_structdoctest_1_1_test_case_data_1a887b70bf52f74724f0d7fe99d43a8783">m_may_fail</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_structdoctest_1_1_test_case_data_1a037f6dfb931aff9c9b17f31203a3987e">m_should_fail</link></para>
+</listitem>
+            <listitem><para>int <link linkend="_structdoctest_1_1_test_case_data_1a6c5995f53ad39769bf06600e562ea9eb">m_expected_failures</link></para>
+</listitem>
+            <listitem><para>double <link linkend="_structdoctest_1_1_test_case_data_1a8cab4a7998b486bafa81498f93dd4d91">m_timeout</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_structdoctest_1_1_test_case_data_1abd855851b4b9edbaf46c3458abc1ba80"/><section>
+    <title>m_description</title>
+<indexterm><primary>m_description</primary><secondary>doctest::TestCaseData</secondary></indexterm>
+<indexterm><primary>doctest::TestCaseData</primary><secondary>m_description</secondary></indexterm>
+<para><computeroutput>const char* doctest::TestCaseData::m_description</computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1_test_case_data_1a6c5995f53ad39769bf06600e562ea9eb"/><section>
+    <title>m_expected_failures</title>
+<indexterm><primary>m_expected_failures</primary><secondary>doctest::TestCaseData</secondary></indexterm>
+<indexterm><primary>doctest::TestCaseData</primary><secondary>m_expected_failures</secondary></indexterm>
+<para><computeroutput>int doctest::TestCaseData::m_expected_failures</computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1_test_case_data_1ac3e8095418a13cd7bbc921cce5b3c5c6"/><section>
+    <title>m_file</title>
+<indexterm><primary>m_file</primary><secondary>doctest::TestCaseData</secondary></indexterm>
+<indexterm><primary>doctest::TestCaseData</primary><secondary>m_file</secondary></indexterm>
+<para><computeroutput><link linkend="_classdoctest_1_1_string">String</link> doctest::TestCaseData::m_file</computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1_test_case_data_1aaabb9765e7aa39416c058a9cbccef57f"/><section>
+    <title>m_line</title>
+<indexterm><primary>m_line</primary><secondary>doctest::TestCaseData</secondary></indexterm>
+<indexterm><primary>doctest::TestCaseData</primary><secondary>m_line</secondary></indexterm>
+<para><computeroutput>unsigned doctest::TestCaseData::m_line</computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1_test_case_data_1a887b70bf52f74724f0d7fe99d43a8783"/><section>
+    <title>m_may_fail</title>
+<indexterm><primary>m_may_fail</primary><secondary>doctest::TestCaseData</secondary></indexterm>
+<indexterm><primary>doctest::TestCaseData</primary><secondary>m_may_fail</secondary></indexterm>
+<para><computeroutput>bool doctest::TestCaseData::m_may_fail</computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1_test_case_data_1a0cb34895130be773e624526d68e5b2cd"/><section>
+    <title>m_name</title>
+<indexterm><primary>m_name</primary><secondary>doctest::TestCaseData</secondary></indexterm>
+<indexterm><primary>doctest::TestCaseData</primary><secondary>m_name</secondary></indexterm>
+<para><computeroutput>const char* doctest::TestCaseData::m_name</computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1_test_case_data_1a037f6dfb931aff9c9b17f31203a3987e"/><section>
+    <title>m_should_fail</title>
+<indexterm><primary>m_should_fail</primary><secondary>doctest::TestCaseData</secondary></indexterm>
+<indexterm><primary>doctest::TestCaseData</primary><secondary>m_should_fail</secondary></indexterm>
+<para><computeroutput>bool doctest::TestCaseData::m_should_fail</computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1_test_case_data_1a0c2353bd3fd8c2fa84d34ab4e973e038"/><section>
+    <title>m_skip</title>
+<indexterm><primary>m_skip</primary><secondary>doctest::TestCaseData</secondary></indexterm>
+<indexterm><primary>doctest::TestCaseData</primary><secondary>m_skip</secondary></indexterm>
+<para><computeroutput>bool doctest::TestCaseData::m_skip</computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1_test_case_data_1ae264da66ff0e88a34c467d364dd18840"/><section>
+    <title>m_test_suite</title>
+<indexterm><primary>m_test_suite</primary><secondary>doctest::TestCaseData</secondary></indexterm>
+<indexterm><primary>doctest::TestCaseData</primary><secondary>m_test_suite</secondary></indexterm>
+<para><computeroutput>const char* doctest::TestCaseData::m_test_suite</computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1_test_case_data_1a8cab4a7998b486bafa81498f93dd4d91"/><section>
+    <title>m_timeout</title>
+<indexterm><primary>m_timeout</primary><secondary>doctest::TestCaseData</secondary></indexterm>
+<indexterm><primary>doctest::TestCaseData</primary><secondary>m_timeout</secondary></indexterm>
+<para><computeroutput>double doctest::TestCaseData::m_timeout</computeroutput></para></section>
+<para>
+The documentation for this struct was generated from the following file:</para>
+AudioFile/tests/doctest/<link linkend="_doctest_8h">doctest.h</link></section>
+</section>

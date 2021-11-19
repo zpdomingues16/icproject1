@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_structdoctest_1_1detail_1_1_result" xml:lang="en-US">
+<title>doctest::detail::Result Struct Reference</title>
+<indexterm><primary>doctest::detail::Result</primary></indexterm>
+<para>
+<computeroutput>#include &lt;doctest.h&gt;</computeroutput>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_structdoctest_1_1detail_1_1_result_1ae4d2e8633aedaffa31f5c8b8530f522c">Result</link> (bool passed, const <link linkend="_classdoctest_1_1_string">String</link> &amp;decomposition=<link linkend="_classdoctest_1_1_string">String</link>())</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>bool <link linkend="_structdoctest_1_1detail_1_1_result_1a03ff571186856a429ada967ddfdf3006">m_passed</link></para>
+</listitem>
+            <listitem><para><link linkend="_classdoctest_1_1_string">String</link> <link linkend="_structdoctest_1_1detail_1_1_result_1a97968e037266580a799ab3deb9365b79">m_decomp</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_structdoctest_1_1detail_1_1_result_1ae4d2e8633aedaffa31f5c8b8530f522c"/><section>
+    <title>Result()</title>
+<indexterm><primary>Result</primary><secondary>doctest::detail::Result</secondary></indexterm>
+<indexterm><primary>doctest::detail::Result</primary><secondary>Result</secondary></indexterm>
+<para><computeroutput>doctest::detail::Result::Result (bool passed, const <link linkend="_classdoctest_1_1_string">String</link> &amp; decomposition = <computeroutput><link linkend="_classdoctest_1_1_string">String</link>()</computeroutput>
+)</computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_structdoctest_1_1detail_1_1_result_1a97968e037266580a799ab3deb9365b79"/><section>
+    <title>m_decomp</title>
+<indexterm><primary>m_decomp</primary><secondary>doctest::detail::Result</secondary></indexterm>
+<indexterm><primary>doctest::detail::Result</primary><secondary>m_decomp</secondary></indexterm>
+<para><computeroutput><link linkend="_classdoctest_1_1_string">String</link> doctest::detail::Result::m_decomp</computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1detail_1_1_result_1a03ff571186856a429ada967ddfdf3006"/><section>
+    <title>m_passed</title>
+<indexterm><primary>m_passed</primary><secondary>doctest::detail::Result</secondary></indexterm>
+<indexterm><primary>doctest::detail::Result</primary><secondary>m_passed</secondary></indexterm>
+<para><computeroutput>bool doctest::detail::Result::m_passed</computeroutput></para></section>
+<para>
+The documentation for this struct was generated from the following file:</para>
+AudioFile/tests/doctest/<link linkend="_doctest_8h">doctest.h</link></section>
+</section>

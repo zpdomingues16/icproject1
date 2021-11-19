@@ -1,0 +1,297 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_md__audio_file__r_e_a_d_m_e" xml:lang="en-US">
+
+<para>  </para>
+
+<para>A simple header-only C++ library for reading and writing audio files.</para>
+
+<para>Current supported formats:</para>
+
+<para><itemizedlist>
+<listitem>
+<para>WAV</para>
+</listitem><listitem>
+<para>AIFF</para>
+</listitem></itemizedlist>
+</para>
+<section xml:id="_md__audio_file__r_e_a_d_m_e_1autotoc_md1">
+<title>Author</title>
+
+<para><link linkend="_class_audio_file">AudioFile</link> is written and maintained by Adam Stark.</para>
+
+<para><link xlink:href="http://www.adamstark.co.uk">http://www.adamstark.co.uk</link></para>
+</section>
+<section xml:id="_md__audio_file__r_e_a_d_m_e_1autotoc_md2">
+<title>Usage</title>
+<section xml:id="_md__audio_file__r_e_a_d_m_e_1autotoc_md3">
+<title>Create an AudioFile object:</title>
+
+<para><literallayout><computeroutput>#include &quot;AudioFile.h&quot;
+
+AudioFile&lt;double&gt; audioFile;
+</computeroutput></literallayout> </para>
+</section>
+<section xml:id="_md__audio_file__r_e_a_d_m_e_1autotoc_md4">
+<title>Load an audio file:</title>
+
+<para><literallayout><computeroutput>audioFile.load (&quot;/path/to/my/audiofile.wav&quot;);
+</computeroutput></literallayout> </para>
+</section>
+<section xml:id="_md__audio_file__r_e_a_d_m_e_1autotoc_md5">
+<title>Get some information about the loaded audio:</title>
+
+<para><literallayout><computeroutput>int sampleRate = audioFile.getSampleRate();
+int bitDepth = audioFile.getBitDepth();
+
+int numSamples = audioFile.getNumSamplesPerChannel();
+double lengthInSeconds = audioFile.getLengthInSeconds();
+
+int numChannels = audioFile.getNumChannels();
+bool isMono = audioFile.isMono();
+bool isStereo = audioFile.isStereo();
+
+// or, just use this quick shortcut to print a summary to the console
+audioFile.printSummary();
+</computeroutput></literallayout> </para>
+</section>
+<section xml:id="_md__audio_file__r_e_a_d_m_e_1autotoc_md6">
+<title>Access the samples directly:</title>
+
+<para><literallayout><computeroutput>int channel = 0;
+int numSamples = audioFile.getNumSamplesPerChannel();
+
+for (int i = 0; i &lt; numSamples; i++)
+{
+    double currentSample = audioFile.samples[channel][i];
+}
+</computeroutput></literallayout> </para>
+</section>
+<section xml:id="_md__audio_file__r_e_a_d_m_e_1autotoc_md7">
+<title>Replace the AudioFile audio buffer with another</title>
+
+<para><literallayout><computeroutput>// 1. Create an AudioBuffer 
+// (BTW, AudioBuffer is just a vector of vectors)
+
+AudioFile&lt;double&gt;::AudioBuffer buffer;
+
+// 2. Set to (e.g.) two channels
+buffer.resize (2);
+
+// 3. Set number of samples per channel
+buffer[0].resize (100000);
+buffer[1].resize (100000);
+
+// 4. do something here to fill the buffer with samples, e.g.
+
+#include &lt;math.h&gt; // somewhere earler (for M_PI and sinf())
+
+// then...
+
+int numChannels = 2;
+int numSamplesPerChannel = 100000;
+float sampleRate = 44100.f;
+float frequency = 440.f;
+
+for (int i = 0; i &lt; numSamplesPerChannel; i++)
+{
+    float sample = sinf (2. * M_PI * ((float) i / sampleRate) * frequency) ;
+
+    for (int channel = 0; channel &lt; numChannels; channel++)
+         buffer[channel][i] = sample * 0.5;
+}
+
+// 5. Put into the AudioFile object
+bool ok = audioFile.setAudioBuffer (buffer);
+</computeroutput></literallayout></para>
+</section>
+<section xml:id="_md__audio_file__r_e_a_d_m_e_1autotoc_md8">
+<title>Resize the audio buffer</title>
+
+<para><literallayout><computeroutput>// Set both the number of channels and number of samples per channel
+audioFile.setAudioBufferSize (numChannels, numSamples);
+
+// Set the number of samples per channel
+audioFile.setNumSamplesPerChannel (numSamples);
+
+// Set the number of channels
+audioFile.setNumChannels (int numChannels);
+</computeroutput></literallayout> </para>
+</section>
+<section xml:id="_md__audio_file__r_e_a_d_m_e_1autotoc_md9">
+<title>Set bit depth and sample rate</title>
+
+<para><literallayout><computeroutput>audioFile.setBitDepth (24);
+audioFile.setSampleRate (44100);
+</computeroutput></literallayout> </para>
+</section>
+<section xml:id="_md__audio_file__r_e_a_d_m_e_1autotoc_md10">
+<title>Save the audio file to disk</title>
+
+<para><literallayout><computeroutput>// Wave file (implicit)
+audioFile.save (&quot;path/to/desired/audioFile.wav&quot;);
+
+// Wave file (explicit)
+audioFile.save (&quot;path/to/desired/audioFile.wav&quot;, AudioFileFormat::Wave);
+
+// Aiff file
+audioFile.save (&quot;path/to/desired/audioFile.aif&quot;, AudioFileFormat::Aiff);
+</computeroutput></literallayout></para>
+</section>
+</section>
+<section xml:id="_md__audio_file__r_e_a_d_m_e_1autotoc_md11">
+<title>Examples</title>
+
+<para>Please see the <computeroutput>examples</computeroutput> folder for some examples on library usage.</para>
+</section>
+<section xml:id="_md__audio_file__r_e_a_d_m_e_1autotoc_md12">
+<title>A Note On Types</title>
+
+<para><link linkend="_class_audio_file">AudioFile</link> is a template class and so it can be instantiated using floating point precision: <literallayout><computeroutput>AudioFile&lt;float&gt; audioFile;
+</computeroutput></literallayout> ...or double precision: <literallayout><computeroutput>AudioFile&lt;double&gt; audioFile;
+</computeroutput></literallayout> This simply reflects the data type you would like to use to store the underlying audio samples. You can still read or write 8, 16 or 24-bit audio files, regardless of the type that you use (unless your system uses a precision for floats less than your desired bit depth).</para>
+
+<para>I have heard of people using the library with other types, but I have not designed for those cases. Let me know if you are interested in this supporting a specific type more formally.</para>
+</section>
+<section xml:id="_md__audio_file__r_e_a_d_m_e_1autotoc_md13">
+<title>Error Messages</title>
+
+<para>By default, the library logs error messages to the console to provide information on what has gone wrong (e.g. a file we tried to load didn&apos;t exist).</para>
+
+<para>If you prefer not to see these messages, you can disable this error logging behaviour using: <literallayout><computeroutput>audioFile.shouldLogErrorsToConsole (false);
+</computeroutput></literallayout></para>
+</section>
+<section xml:id="_md__audio_file__r_e_a_d_m_e_1autotoc_md14">
+<title>Versions</title>
+<section xml:id="_md__audio_file__r_e_a_d_m_e_1autotoc_md15">
+<title>1.0.9 - 23rd January 2021</title>
+
+<para><itemizedlist>
+<listitem>
+<para>Faster loading of audio files</para>
+</listitem><listitem>
+<para>Bug fixes</para>
+</listitem></itemizedlist>
+</para>
+</section>
+<section xml:id="_md__audio_file__r_e_a_d_m_e_1autotoc_md16">
+<title>1.0.8 - 18th October 2020</title>
+
+<para><itemizedlist>
+<listitem>
+<para>CMake support</para>
+</listitem><listitem>
+<para>Construct instances with a file path</para>
+</listitem><listitem>
+<para>Bug fixes</para>
+</listitem></itemizedlist>
+</para>
+</section>
+<section xml:id="_md__audio_file__r_e_a_d_m_e_1autotoc_md17">
+<title>1.0.7 - 3rd July 2020</title>
+
+<para><itemizedlist>
+<listitem>
+<para>Support for 32-bit audio files</para>
+</listitem><listitem>
+<para>Support for multi-channel audio files</para>
+</listitem><listitem>
+<para>Reading/writing of <link xlink:href="http://www.ixml.info/">iXML data chunks</link></para>
+</listitem></itemizedlist>
+</para>
+</section>
+<section xml:id="_md__audio_file__r_e_a_d_m_e_1autotoc_md18">
+<title>1.0.6 - 29th February 2020</title>
+
+<para><itemizedlist>
+<listitem>
+<para>Made error logging to the console optional</para>
+</listitem><listitem>
+<para>Fixed lots of compiler warnings</para>
+</listitem></itemizedlist>
+</para>
+</section>
+<section xml:id="_md__audio_file__r_e_a_d_m_e_1autotoc_md19">
+<title>1.0.5 - 14th October 2019</title>
+
+<para><itemizedlist>
+<listitem>
+<para>Added include of &lt;algorithm&gt; to better support Visual Studio</para>
+</listitem></itemizedlist>
+</para>
+</section>
+<section xml:id="_md__audio_file__r_e_a_d_m_e_1autotoc_md20">
+<title>1.0.4 - 13th October 2019</title>
+
+<para><itemizedlist>
+<listitem>
+<para>Changed to a header-only library. Now you can just include <link linkend="__audio_file_8h">AudioFile.h</link></para>
+</listitem><listitem>
+<para>Bug fixes</para>
+</listitem></itemizedlist>
+</para>
+</section>
+<section xml:id="_md__audio_file__r_e_a_d_m_e_1autotoc_md21">
+<title>1.0.3 - 28th October 2018</title>
+
+<para><itemizedlist>
+<listitem>
+<para>Bug fixes</para>
+</listitem><listitem>
+<para>Documentation updates</para>
+</listitem></itemizedlist>
+</para>
+</section>
+<section xml:id="_md__audio_file__r_e_a_d_m_e_1autotoc_md22">
+<title>1.0.2 - 6th June 2017</title>
+
+<para><itemizedlist>
+<listitem>
+<para>Bug fixes</para>
+</listitem></itemizedlist>
+</para>
+</section>
+</section>
+<section xml:id="_md__audio_file__r_e_a_d_m_e_1autotoc_md23">
+<title>Contributions</title>
+
+<para><itemizedlist>
+<listitem>
+<para>Multichannel (i.e. &gt;2 channels) audio file support (<link xlink:href="https://github.com/Sidelobe">Sidelobe</link>)</para>
+</listitem><listitem>
+<para>Read/write of iXML data chunks (<link xlink:href="https://github.com/mynameisjohn">mynameisjohn</link>)</para>
+</listitem><listitem>
+<para>Remove warnings (<link xlink:href="https://github.com/Abhinav1997">Abhinav1997</link>)</para>
+</listitem><listitem>
+<para>Better support on Ubuntu (<link xlink:href="https://github.com/BenjaminHinchliff">BenjaminHinchliff</link>)</para>
+</listitem><listitem>
+<para>Faster loading of audio files (<link xlink:href="https://github.com/helloimmatt/">helloimmatt</link>)</para>
+</listitem></itemizedlist>
+</para>
+</section>
+<section xml:id="_md__audio_file__r_e_a_d_m_e_1autotoc_md24">
+<title>Want to Contribute?</title>
+
+<para>If you would like to submit a pull request for this library, please do! But kindly follow the following simple guidelines...</para>
+
+<para><itemizedlist>
+<listitem>
+<para>Make the changes as concise as is possible for the change you are proposing</para>
+</listitem><listitem>
+<para>Avoid unnecessarily changing a large number of lines - e.g. commits changing the number of spaces in indentations on all lines (and so on)</para>
+</listitem><listitem>
+<para>Keep to the code style of this library which is the <link xlink:href="https://juce.com/discover/stories/coding-standards">JUCE Coding Standards</link></para>
+</listitem></itemizedlist>
+</para>
+</section>
+<section xml:id="_md__audio_file__r_e_a_d_m_e_1autotoc_md25">
+<title>License</title>
+
+<para>Copyright (c) 2017 Adam Stark</para>
+
+<para>This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.</para>
+
+<para>This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.</para>
+
+<para>You should have received a copy of the GNU General Public License along with this program. If not, see <link xlink:href="http://www.gnu.org/licenses/">http://www.gnu.org/licenses/</link>. </para>
+</section>
+</section>

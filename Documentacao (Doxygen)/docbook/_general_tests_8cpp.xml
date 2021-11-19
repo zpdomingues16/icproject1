@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__general_tests_8cpp" xml:lang="en-US">
+<title>AudioFile/tests/GeneralTests.cpp File Reference</title>
+<indexterm><primary>AudioFile/tests/GeneralTests.cpp</primary></indexterm>
+<programlisting linenumbering="unnumbered">#include &quot;doctest.h&quot;
+#include &lt;iostream&gt;
+#include &lt;vector&gt;
+#include &lt;math.h&gt;
+#include &lt;AudioFile.h&gt;
+</programlisting><simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="__general_tests_8cpp_1a887f8f707464d15a487d57f5734b8f0b">TEST_SUITE</link> (&quot;General Tests&quot;)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Function Documentation</title>
+<anchor xml:id="__general_tests_8cpp_1a887f8f707464d15a487d57f5734b8f0b"/><section>
+    <title>TEST_SUITE()</title>
+<indexterm><primary>TEST_SUITE</primary><secondary>GeneralTests.cpp</secondary></indexterm>
+<indexterm><primary>GeneralTests.cpp</primary><secondary>TEST_SUITE</secondary></indexterm>
+<para><computeroutput>TEST_SUITE (&quot;General Tests&quot; )</computeroutput></para></section>
+</section>
+</section>

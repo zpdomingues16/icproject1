@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_structdoctest_1_1detail_1_1deferred__false" xml:lang="en-US">
+<title>doctest::detail::deferred_false&lt; T &gt; Struct Template Reference</title>
+<indexterm><primary>doctest::detail::deferred_false&lt; T &gt;</primary></indexterm>
+<para>
+<computeroutput>#include &lt;doctest.h&gt;</computeroutput>
+</para>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>static const bool <link linkend="_structdoctest_1_1detail_1_1deferred__false_1abc8eec7a8439ab592f76068cb408d106">value</link> = false</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_structdoctest_1_1detail_1_1deferred__false_1abc8eec7a8439ab592f76068cb408d106"/><section>
+    <title>value</title>
+<indexterm><primary>value</primary><secondary>doctest::detail::deferred_false&lt; T &gt;</secondary></indexterm>
+<indexterm><primary>doctest::detail::deferred_false&lt; T &gt;</primary><secondary>value</secondary></indexterm>
+<computeroutput>template&lt;typename T &gt; </computeroutput><para><computeroutput>const bool <link linkend="_structdoctest_1_1detail_1_1deferred__false">doctest::detail::deferred_false</link>&lt; T &gt;::value = false<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this struct was generated from the following file:</para>
+AudioFile/tests/doctest/<link linkend="_doctest_8h">doctest.h</link></section>
+</section>

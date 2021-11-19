@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_437fe882658c1c3808e31d7771ebbfaf" xml:lang="en-US">
+<title>ex9 Directory Reference</title>
+<indexterm><primary>ex9 Directory Reference</primary></indexterm>
+<simplesect>
+    <title>Files    </title>
+        <itemizedlist>
+            <listitem><para>file <link linkend="_ex9_8cpp">ex9.cpp</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

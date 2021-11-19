@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classdoctest_1_1detail_1_1_exception_translator" xml:lang="en-US">
+<title>doctest::detail::ExceptionTranslator&lt; T &gt; Class Template Reference</title>
+<indexterm><primary>doctest::detail::ExceptionTranslator&lt; T &gt;</primary></indexterm>
+<para>
+
+<para>OCLINT destructor of virtual class. </para>
+ 
+</para>
+<para>
+<computeroutput>#include &lt;doctest.h&gt;</computeroutput>
+</para>
+<para>Inheritance diagram for doctest::detail::ExceptionTranslator&lt; T &gt;:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classdoctest_1_1detail_1_1_exception_translator.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classdoctest_1_1detail_1_1_exception_translator_1a3ac05488993c40c6ba55ce51a6bf7eae">ExceptionTranslator</link> (<link linkend="_classdoctest_1_1_string">String</link>(*translateFunction)(T))</para>
+</listitem>
+            <listitem><para>bool <link linkend="_classdoctest_1_1detail_1_1_exception_translator_1a56484c4218a06bbbd1548335a8b64110">translate</link> (<link linkend="_classdoctest_1_1_string">String</link> &amp;res) const override</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+<simplesect><title>template&lt;typename T&gt;
+class doctest::detail::ExceptionTranslator&lt; T &gt;</title></simplesect>
+
+<para>OCLINT destructor of virtual class. </para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classdoctest_1_1detail_1_1_exception_translator_1a3ac05488993c40c6ba55ce51a6bf7eae"/><section>
+    <title>ExceptionTranslator()</title>
+<indexterm><primary>ExceptionTranslator</primary><secondary>doctest::detail::ExceptionTranslator&lt; T &gt;</secondary></indexterm>
+<indexterm><primary>doctest::detail::ExceptionTranslator&lt; T &gt;</primary><secondary>ExceptionTranslator</secondary></indexterm>
+<computeroutput>template&lt;typename T &gt; </computeroutput><para><computeroutput><link linkend="_classdoctest_1_1detail_1_1_exception_translator">doctest::detail::ExceptionTranslator</link>&lt; T &gt;::<link linkend="_classdoctest_1_1detail_1_1_exception_translator">ExceptionTranslator</link> (<link linkend="_classdoctest_1_1_string">String</link>(*)(T) translateFunction)<computeroutput>[inline]</computeroutput>, <computeroutput>[explicit]</computeroutput></computeroutput></para></section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classdoctest_1_1detail_1_1_exception_translator_1a56484c4218a06bbbd1548335a8b64110"/><section>
+    <title>translate()</title>
+<indexterm><primary>translate</primary><secondary>doctest::detail::ExceptionTranslator&lt; T &gt;</secondary></indexterm>
+<indexterm><primary>doctest::detail::ExceptionTranslator&lt; T &gt;</primary><secondary>translate</secondary></indexterm>
+<computeroutput>template&lt;typename T &gt; </computeroutput><para><computeroutput>bool <link linkend="_classdoctest_1_1detail_1_1_exception_translator">doctest::detail::ExceptionTranslator</link>&lt; T &gt;::translate (<link linkend="_classdoctest_1_1_string">String</link> &amp; res) const<computeroutput>[inline]</computeroutput>, <computeroutput>[override]</computeroutput>, <computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Implements <link linkend="_structdoctest_1_1detail_1_1_i_exception_translator_1a9c56005e4c83c13b859cc2e31102bfbc">doctest::detail::IExceptionTranslator</link>.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+AudioFile/tests/doctest/<link linkend="_doctest_8h">doctest.h</link></section>
+</section>

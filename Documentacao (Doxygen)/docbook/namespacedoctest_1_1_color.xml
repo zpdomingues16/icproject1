@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespacedoctest_1_1_color" xml:lang="en-US">
+<title>doctest::Color Namespace Reference</title>
+<indexterm><primary>doctest::Color</primary></indexterm>
+<simplesect>
+    <title>Enumerations    </title>
+        <itemizedlist>
+            <listitem><para>enum <link linkend="_namespacedoctest_1_1_color_1a32e9eaf6013139846e848af6e6cf2b92">Enum</link> { 
+<link linkend="_namespacedoctest_1_1_color_1a32e9eaf6013139846e848af6e6cf2b92a82bb3f0edc1798267a82ac34c1c098f2">None</link> = 0
+, <link linkend="_namespacedoctest_1_1_color_1a32e9eaf6013139846e848af6e6cf2b92a0bf060b447441fbf2e4beeb25370a808">White</link>
+, <link linkend="_namespacedoctest_1_1_color_1a32e9eaf6013139846e848af6e6cf2b92a67beb0a8d937993ad8b8cf6a238271f9">Red</link>
+, <link linkend="_namespacedoctest_1_1_color_1a32e9eaf6013139846e848af6e6cf2b92a11e251a01549ffbc0993c769e787c6ae">Green</link>
+, 
+<link linkend="_namespacedoctest_1_1_color_1a32e9eaf6013139846e848af6e6cf2b92aada3ad8958b1319450cc20f3f8e5e2d6">Blue</link>
+, <link linkend="_namespacedoctest_1_1_color_1a32e9eaf6013139846e848af6e6cf2b92aee19aacebbc04b150add359e94684c83">Cyan</link>
+, <link linkend="_namespacedoctest_1_1_color_1a32e9eaf6013139846e848af6e6cf2b92a5da6111e5be1d7b01de0ee571cc1bc76">Yellow</link>
+, <link linkend="_namespacedoctest_1_1_color_1a32e9eaf6013139846e848af6e6cf2b92aa2a431a059ed0e85160db8967c8ace58">Grey</link>
+, 
+<link linkend="_namespacedoctest_1_1_color_1a32e9eaf6013139846e848af6e6cf2b92a7659647d16a78c607f9bafaa207b9e07">Bright</link> = 0x10
+, <link linkend="_namespacedoctest_1_1_color_1a32e9eaf6013139846e848af6e6cf2b92a236dfdbcd49d10dbf1a31f9e2947a671">BrightRed</link> = Bright | Red
+, <link linkend="_namespacedoctest_1_1_color_1a32e9eaf6013139846e848af6e6cf2b92a016090b96620a42a63dadf0265977664">BrightGreen</link> = Bright | Green
+, <link linkend="_namespacedoctest_1_1_color_1a32e9eaf6013139846e848af6e6cf2b92a44f079a43a4709abd7d6f22b317838a2">LightGrey</link> = Bright | Grey
+, 
+<link linkend="_namespacedoctest_1_1_color_1a32e9eaf6013139846e848af6e6cf2b92a4f80853796b4875d61ff5e4ad138492e">BrightWhite</link> = Bright | White
+ }</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> <link linkend="_doctest_8h_1a116af65cb5e924b33ad9d9ecd7a783f3">std::ostream</link> &amp; <link linkend="_namespacedoctest_1_1_color_1a2cc3f4bdda7bfd2e0e3faf7e678d3b98">operator&lt;&lt;</link> (<link linkend="_doctest_8h_1a116af65cb5e924b33ad9d9ecd7a783f3">std::ostream</link> &amp;s, <link linkend="_namespacedoctest_1_1_color_1a32e9eaf6013139846e848af6e6cf2b92">Color::Enum</link> code)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Enumeration Type Documentation</title>
+<anchor xml:id="_namespacedoctest_1_1_color_1a32e9eaf6013139846e848af6e6cf2b92"/><section>
+    <title>Enum</title>
+<indexterm><primary>Enum</primary><secondary>doctest::Color</secondary></indexterm>
+<indexterm><primary>doctest::Color</primary><secondary>Enum</secondary></indexterm>
+<para><computeroutput>enum <link linkend="_namespacedoctest_1_1_color_1a32e9eaf6013139846e848af6e6cf2b92">doctest::Color::Enum</link></computeroutput></para><informaltable frame="all">
+<title>Enumerator</title>
+    <tgroup cols="2" align="left" colsep="1" rowsep="1">
+      <colspec colname='c1'/>
+      <colspec colname='c2'/>
+<tbody>
+<row><entry><indexterm><primary>None</primary><secondary>doctest::Color</secondary></indexterm>
+<indexterm><primary>doctest::Color</primary><secondary>None</secondary></indexterm>
+<anchor xml:id="_namespacedoctest_1_1_color_1a32e9eaf6013139846e848af6e6cf2b92a82bb3f0edc1798267a82ac34c1c098f2"/>None</entry><entry></entry></row><row><entry><indexterm><primary>White</primary><secondary>doctest::Color</secondary></indexterm>
+<indexterm><primary>doctest::Color</primary><secondary>White</secondary></indexterm>
+<anchor xml:id="_namespacedoctest_1_1_color_1a32e9eaf6013139846e848af6e6cf2b92a0bf060b447441fbf2e4beeb25370a808"/>White</entry><entry></entry></row><row><entry><indexterm><primary>Red</primary><secondary>doctest::Color</secondary></indexterm>
+<indexterm><primary>doctest::Color</primary><secondary>Red</secondary></indexterm>
+<anchor xml:id="_namespacedoctest_1_1_color_1a32e9eaf6013139846e848af6e6cf2b92a67beb0a8d937993ad8b8cf6a238271f9"/>Red</entry><entry></entry></row><row><entry><indexterm><primary>Green</primary><secondary>doctest::Color</secondary></indexterm>
+<indexterm><primary>doctest::Color</primary><secondary>Green</secondary></indexterm>
+<anchor xml:id="_namespacedoctest_1_1_color_1a32e9eaf6013139846e848af6e6cf2b92a11e251a01549ffbc0993c769e787c6ae"/>Green</entry><entry></entry></row><row><entry><indexterm><primary>Blue</primary><secondary>doctest::Color</secondary></indexterm>
+<indexterm><primary>doctest::Color</primary><secondary>Blue</secondary></indexterm>
+<anchor xml:id="_namespacedoctest_1_1_color_1a32e9eaf6013139846e848af6e6cf2b92aada3ad8958b1319450cc20f3f8e5e2d6"/>Blue</entry><entry></entry></row><row><entry><indexterm><primary>Cyan</primary><secondary>doctest::Color</secondary></indexterm>
+<indexterm><primary>doctest::Color</primary><secondary>Cyan</secondary></indexterm>
+<anchor xml:id="_namespacedoctest_1_1_color_1a32e9eaf6013139846e848af6e6cf2b92aee19aacebbc04b150add359e94684c83"/>Cyan</entry><entry></entry></row><row><entry><indexterm><primary>Yellow</primary><secondary>doctest::Color</secondary></indexterm>
+<indexterm><primary>doctest::Color</primary><secondary>Yellow</secondary></indexterm>
+<anchor xml:id="_namespacedoctest_1_1_color_1a32e9eaf6013139846e848af6e6cf2b92a5da6111e5be1d7b01de0ee571cc1bc76"/>Yellow</entry><entry></entry></row><row><entry><indexterm><primary>Grey</primary><secondary>doctest::Color</secondary></indexterm>
+<indexterm><primary>doctest::Color</primary><secondary>Grey</secondary></indexterm>
+<anchor xml:id="_namespacedoctest_1_1_color_1a32e9eaf6013139846e848af6e6cf2b92aa2a431a059ed0e85160db8967c8ace58"/>Grey</entry><entry></entry></row><row><entry><indexterm><primary>Bright</primary><secondary>doctest::Color</secondary></indexterm>
+<indexterm><primary>doctest::Color</primary><secondary>Bright</secondary></indexterm>
+<anchor xml:id="_namespacedoctest_1_1_color_1a32e9eaf6013139846e848af6e6cf2b92a7659647d16a78c607f9bafaa207b9e07"/>Bright</entry><entry></entry></row><row><entry><indexterm><primary>BrightRed</primary><secondary>doctest::Color</secondary></indexterm>
+<indexterm><primary>doctest::Color</primary><secondary>BrightRed</secondary></indexterm>
+<anchor xml:id="_namespacedoctest_1_1_color_1a32e9eaf6013139846e848af6e6cf2b92a236dfdbcd49d10dbf1a31f9e2947a671"/>BrightRed</entry><entry></entry></row><row><entry><indexterm><primary>BrightGreen</primary><secondary>doctest::Color</secondary></indexterm>
+<indexterm><primary>doctest::Color</primary><secondary>BrightGreen</secondary></indexterm>
+<anchor xml:id="_namespacedoctest_1_1_color_1a32e9eaf6013139846e848af6e6cf2b92a016090b96620a42a63dadf0265977664"/>BrightGreen</entry><entry></entry></row><row><entry><indexterm><primary>LightGrey</primary><secondary>doctest::Color</secondary></indexterm>
+<indexterm><primary>doctest::Color</primary><secondary>LightGrey</secondary></indexterm>
+<anchor xml:id="_namespacedoctest_1_1_color_1a32e9eaf6013139846e848af6e6cf2b92a44f079a43a4709abd7d6f22b317838a2"/>LightGrey</entry><entry></entry></row><row><entry><indexterm><primary>BrightWhite</primary><secondary>doctest::Color</secondary></indexterm>
+<indexterm><primary>doctest::Color</primary><secondary>BrightWhite</secondary></indexterm>
+<anchor xml:id="_namespacedoctest_1_1_color_1a32e9eaf6013139846e848af6e6cf2b92a4f80853796b4875d61ff5e4ad138492e"/>BrightWhite</entry><entry></entry></row>    </tbody>
+    </tgroup>
+</informaltable>
+</section>
+</section>
+<section>
+<title>Function Documentation</title>
+<anchor xml:id="_namespacedoctest_1_1_color_1a2cc3f4bdda7bfd2e0e3faf7e678d3b98"/><section>
+    <title>operator&lt;&lt;()</title>
+<indexterm><primary>operator&lt;&lt;</primary><secondary>doctest::Color</secondary></indexterm>
+<indexterm><primary>doctest::Color</primary><secondary>operator&lt;&lt;</secondary></indexterm>
+<para><computeroutput><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> <link linkend="_doctest_8h_1a116af65cb5e924b33ad9d9ecd7a783f3">std::ostream</link> &amp; doctest::Color::operator&lt;&lt; (<link linkend="_doctest_8h_1a116af65cb5e924b33ad9d9ecd7a783f3">std::ostream</link> &amp; s, <link linkend="_namespacedoctest_1_1_color_1a32e9eaf6013139846e848af6e6cf2b92">Color::Enum</link> code)</computeroutput></para></section>
+</section>
+</section>

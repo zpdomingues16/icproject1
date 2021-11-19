@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_ex6__3_8cpp" xml:lang="en-US">
+<title>ex6/ex6_3.cpp File Reference</title>
+<indexterm><primary>ex6/ex6_3.cpp</primary></indexterm>
+<programlisting linenumbering="unnumbered">#include &lt;map&gt;
+#include &lt;stdint.h&gt;
+#include &lt;fstream&gt;
+#include &lt;stdio.h&gt;
+#include &lt;ctype.h&gt;
+#include &lt;iostream&gt;
+#include &quot;AudioFile/AudioFile.h&quot;
+#include &lt;math.h&gt;
+#include &lt;sstream&gt;
+</programlisting><simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para>int <link linkend="_ex6__3_8cpp_1a9f6e2a27e16107399be8d2f241053af5">check_key</link> (map&lt; int, long int &gt; m, int key)</para>
+</listitem>
+            <listitem><para>int <link linkend="_ex6__3_8cpp_1a0ddf1224851353fc92bfbff6f499fa97">main</link> (int argc, char *argv[])</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Function Documentation</title>
+<anchor xml:id="_ex6__3_8cpp_1a9f6e2a27e16107399be8d2f241053af5"/><section>
+    <title>check_key()</title>
+<indexterm><primary>check_key</primary><secondary>ex6_3.cpp</secondary></indexterm>
+<indexterm><primary>ex6_3.cpp</primary><secondary>check_key</secondary></indexterm>
+<para><computeroutput>int check_key (map&lt; int, long int &gt; m, int key)</computeroutput></para></section>
+<anchor xml:id="_ex6__3_8cpp_1a0ddf1224851353fc92bfbff6f499fa97"/><section>
+    <title>main()</title>
+<indexterm><primary>main</primary><secondary>ex6_3.cpp</secondary></indexterm>
+<indexterm><primary>ex6_3.cpp</primary><secondary>main</secondary></indexterm>
+<para><computeroutput>int main (int argc, char * argv[])</computeroutput></para></section>
+</section>
+</section>

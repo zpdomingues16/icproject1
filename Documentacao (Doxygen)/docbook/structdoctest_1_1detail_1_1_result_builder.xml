@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_structdoctest_1_1detail_1_1_result_builder" xml:lang="en-US">
+<title>doctest::detail::ResultBuilder Struct Reference</title>
+<indexterm><primary>doctest::detail::ResultBuilder</primary></indexterm>
+<para>
+<computeroutput>#include &lt;doctest.h&gt;</computeroutput>
+</para>
+<para>Inheritance diagram for doctest::detail::ResultBuilder:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="structdoctest_1_1detail_1_1_result_builder.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_structdoctest_1_1detail_1_1_result_builder_1af1af5a8d0991b4fe3548107f111e968d">ResultBuilder</link> (<link linkend="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3">assertType::Enum</link> at, const char *file, int line, const char *expr, const char *exception_type=&quot;&quot;, const char *exception_string=&quot;&quot;)</para>
+</listitem>
+            <listitem><para>void <link linkend="_structdoctest_1_1detail_1_1_result_builder_1a86c0ca727fead43263de4a7e9a59ad23">setResult</link> (const <link linkend="_structdoctest_1_1detail_1_1_result">Result</link> &amp;res)</para>
+</listitem>
+            <listitem><para>template&lt;int comparison, typename L , typename R &gt; </para><para><link linkend="_doctest_8h_1a47e9d3609dfcc90b9a630ff33b9524d6">DOCTEST_NOINLINE</link> void <link linkend="_structdoctest_1_1detail_1_1_result_builder_1ab3d55b158b3ae687f80bca94db6bb701">binary_assert</link> (const <link linkend="_doctest_8h_1af2901cafb023c57fb672ccb1bf14f2eb">DOCTEST_REF_WRAP</link>(L) lhs, const <link linkend="_doctest_8h_1af2901cafb023c57fb672ccb1bf14f2eb">DOCTEST_REF_WRAP</link>(R) rhs)</para>
+</listitem>
+            <listitem><para>template&lt;typename L &gt; </para><para><link linkend="_doctest_8h_1a47e9d3609dfcc90b9a630ff33b9524d6">DOCTEST_NOINLINE</link> void <link linkend="_structdoctest_1_1detail_1_1_result_builder_1a98c33e90242e2859255a79cb38489f3b">unary_assert</link> (const <link linkend="_doctest_8h_1af2901cafb023c57fb672ccb1bf14f2eb">DOCTEST_REF_WRAP</link>(L) val)</para>
+</listitem>
+            <listitem><para>void <link linkend="_structdoctest_1_1detail_1_1_result_builder_1a5eece6aa3b1a2cb366cf5a0cc6c854a3">translateException</link> ()</para>
+</listitem>
+            <listitem><para>bool <link linkend="_structdoctest_1_1detail_1_1_result_builder_1a2af75dd1d8db8d3aa949d78025854085">log</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_structdoctest_1_1detail_1_1_result_builder_1a03686f862471728c2980d72e02980213">react</link> () const</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Additional Inherited Members    </title>
+</simplesect>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_structdoctest_1_1detail_1_1_result_builder_1af1af5a8d0991b4fe3548107f111e968d"/><section>
+    <title>ResultBuilder()</title>
+<indexterm><primary>ResultBuilder</primary><secondary>doctest::detail::ResultBuilder</secondary></indexterm>
+<indexterm><primary>doctest::detail::ResultBuilder</primary><secondary>ResultBuilder</secondary></indexterm>
+<para><computeroutput>doctest::detail::ResultBuilder::ResultBuilder (<link linkend="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3">assertType::Enum</link> at, const char * file, int line, const char * expr, const char * exception_type = <computeroutput>&quot;&quot;</computeroutput>
+, const char * exception_string = <computeroutput>&quot;&quot;</computeroutput>
+)</computeroutput></para></section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_structdoctest_1_1detail_1_1_result_builder_1ab3d55b158b3ae687f80bca94db6bb701"/><section>
+    <title>binary_assert()</title>
+<indexterm><primary>binary_assert</primary><secondary>doctest::detail::ResultBuilder</secondary></indexterm>
+<indexterm><primary>doctest::detail::ResultBuilder</primary><secondary>binary_assert</secondary></indexterm>
+<computeroutput>template&lt;int comparison, typename L , typename R &gt; </computeroutput><para><computeroutput><link linkend="_doctest_8h_1a47e9d3609dfcc90b9a630ff33b9524d6">DOCTEST_NOINLINE</link> void doctest::detail::ResultBuilder::binary_assert (const <link linkend="_doctest_8h_1af2901cafb023c57fb672ccb1bf14f2eb">DOCTEST_REF_WRAP</link>(L) lhs, const <link linkend="_doctest_8h_1af2901cafb023c57fb672ccb1bf14f2eb">DOCTEST_REF_WRAP</link>(R) rhs)<computeroutput>[inline]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1detail_1_1_result_builder_1a2af75dd1d8db8d3aa949d78025854085"/><section>
+    <title>log()</title>
+<indexterm><primary>log</primary><secondary>doctest::detail::ResultBuilder</secondary></indexterm>
+<indexterm><primary>doctest::detail::ResultBuilder</primary><secondary>log</secondary></indexterm>
+<para><computeroutput>bool doctest::detail::ResultBuilder::log ( )</computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1detail_1_1_result_builder_1a03686f862471728c2980d72e02980213"/><section>
+    <title>react()</title>
+<indexterm><primary>react</primary><secondary>doctest::detail::ResultBuilder</secondary></indexterm>
+<indexterm><primary>doctest::detail::ResultBuilder</primary><secondary>react</secondary></indexterm>
+<para><computeroutput>void doctest::detail::ResultBuilder::react ( ) const</computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1detail_1_1_result_builder_1a86c0ca727fead43263de4a7e9a59ad23"/><section>
+    <title>setResult()</title>
+<indexterm><primary>setResult</primary><secondary>doctest::detail::ResultBuilder</secondary></indexterm>
+<indexterm><primary>doctest::detail::ResultBuilder</primary><secondary>setResult</secondary></indexterm>
+<para><computeroutput>void doctest::detail::ResultBuilder::setResult (const <link linkend="_structdoctest_1_1detail_1_1_result">Result</link> &amp; res)</computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1detail_1_1_result_builder_1a5eece6aa3b1a2cb366cf5a0cc6c854a3"/><section>
+    <title>translateException()</title>
+<indexterm><primary>translateException</primary><secondary>doctest::detail::ResultBuilder</secondary></indexterm>
+<indexterm><primary>doctest::detail::ResultBuilder</primary><secondary>translateException</secondary></indexterm>
+<para><computeroutput>void doctest::detail::ResultBuilder::translateException ( )</computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1detail_1_1_result_builder_1a98c33e90242e2859255a79cb38489f3b"/><section>
+    <title>unary_assert()</title>
+<indexterm><primary>unary_assert</primary><secondary>doctest::detail::ResultBuilder</secondary></indexterm>
+<indexterm><primary>doctest::detail::ResultBuilder</primary><secondary>unary_assert</secondary></indexterm>
+<computeroutput>template&lt;typename L &gt; </computeroutput><para><computeroutput><link linkend="_doctest_8h_1a47e9d3609dfcc90b9a630ff33b9524d6">DOCTEST_NOINLINE</link> void doctest::detail::ResultBuilder::unary_assert (const <link linkend="_doctest_8h_1af2901cafb023c57fb672ccb1bf14f2eb">DOCTEST_REF_WRAP</link>(L) val)<computeroutput>[inline]</computeroutput></computeroutput></para>
+<para>OCLINT bitwise operator in conditional</para>
+</section>
+<para>
+The documentation for this struct was generated from the following file:</para>
+AudioFile/tests/doctest/<link linkend="_doctest_8h">doctest.h</link></section>
+</section>

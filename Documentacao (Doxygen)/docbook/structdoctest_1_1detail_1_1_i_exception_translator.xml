@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_structdoctest_1_1detail_1_1_i_exception_translator" xml:lang="en-US">
+<title>doctest::detail::IExceptionTranslator Struct Reference</title>
+<indexterm><primary>doctest::detail::IExceptionTranslator</primary></indexterm>
+<para>
+<computeroutput>#include &lt;doctest.h&gt;</computeroutput>
+</para>
+<para>Inheritance diagram for doctest::detail::IExceptionTranslator:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="structdoctest_1_1detail_1_1_i_exception_translator.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_structdoctest_1_1detail_1_1_i_exception_translator_1a3818157edf68f08110c7212ee87ff61e">IExceptionTranslator</link> ()</para>
+</listitem>
+            <listitem><para>virtual <link linkend="_structdoctest_1_1detail_1_1_i_exception_translator_1a9031aa45964213709841eba4b3e19d48">~IExceptionTranslator</link> ()</para>
+</listitem>
+            <listitem><para>virtual bool <link linkend="_structdoctest_1_1detail_1_1_i_exception_translator_1a9c56005e4c83c13b859cc2e31102bfbc">translate</link> (<link linkend="_classdoctest_1_1_string">String</link> &amp;) const =0</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_structdoctest_1_1detail_1_1_i_exception_translator_1a3818157edf68f08110c7212ee87ff61e"/><section>
+    <title>IExceptionTranslator()</title>
+<indexterm><primary>IExceptionTranslator</primary><secondary>doctest::detail::IExceptionTranslator</secondary></indexterm>
+<indexterm><primary>doctest::detail::IExceptionTranslator</primary><secondary>IExceptionTranslator</secondary></indexterm>
+<para><computeroutput>doctest::detail::IExceptionTranslator::IExceptionTranslator ( )</computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1detail_1_1_i_exception_translator_1a9031aa45964213709841eba4b3e19d48"/><section>
+    <title>~IExceptionTranslator()</title>
+<indexterm><primary>~IExceptionTranslator</primary><secondary>doctest::detail::IExceptionTranslator</secondary></indexterm>
+<indexterm><primary>doctest::detail::IExceptionTranslator</primary><secondary>~IExceptionTranslator</secondary></indexterm>
+<para><computeroutput>virtual doctest::detail::IExceptionTranslator::~IExceptionTranslator ( )<computeroutput>[virtual]</computeroutput></computeroutput></para></section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_structdoctest_1_1detail_1_1_i_exception_translator_1a9c56005e4c83c13b859cc2e31102bfbc"/><section>
+    <title>translate()</title>
+<indexterm><primary>translate</primary><secondary>doctest::detail::IExceptionTranslator</secondary></indexterm>
+<indexterm><primary>doctest::detail::IExceptionTranslator</primary><secondary>translate</secondary></indexterm>
+<para><computeroutput>virtual bool doctest::detail::IExceptionTranslator::translate (<link linkend="_classdoctest_1_1_string">String</link> &amp; ) const<computeroutput>[pure virtual]</computeroutput></computeroutput></para><para>
+Implemented in <link linkend="_classdoctest_1_1detail_1_1_exception_translator_1a56484c4218a06bbbd1548335a8b64110">doctest::detail::ExceptionTranslator&lt; T &gt;</link>.</para>
+</section>
+<para>
+The documentation for this struct was generated from the following file:</para>
+AudioFile/tests/doctest/<link linkend="_doctest_8h">doctest.h</link></section>
+</section>

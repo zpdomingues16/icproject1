@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_6d53ec2911c2c7d76e5f162b25f055ee" xml:lang="en-US">
+<title>AudioFile Directory Reference</title>
+<indexterm><primary>AudioFile Directory Reference</primary></indexterm>
+<simplesect>
+    <title>Directories    </title>
+        <itemizedlist>
+            <listitem><para>directory <link linkend="_dir_10d12aa4e59f926ab09eb5e5a3c30f48">examples</link></para>
+</listitem>
+            <listitem><para>directory <link linkend="_dir_b3ff51162d3702176793224c1df0635e">tests</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Files    </title>
+        <itemizedlist>
+            <listitem><para>file <link linkend="__audio_file_8h">AudioFile.h</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

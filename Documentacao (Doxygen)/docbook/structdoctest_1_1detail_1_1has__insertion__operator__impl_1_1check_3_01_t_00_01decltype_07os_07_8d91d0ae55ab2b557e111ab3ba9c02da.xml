@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_structdoctest_1_1detail_1_1has__insertion__operator__impl_1_1check_3_01_t_00_01decltype_07os_07_8d91d0ae55ab2b557e111ab3ba9c02da" xml:lang="en-US">
+<title>doctest::detail::has_insertion_operator_impl::check&lt; T, decltype(os()&lt;&lt; val&lt; T &gt;(), void())&gt; Struct Template Reference</title>
+<indexterm><primary>doctest::detail::has_insertion_operator_impl::check&lt; T, decltype(os()&lt;&lt; val&lt; T &gt;(), void())&gt;</primary></indexterm>
+<para>
+<computeroutput>#include &lt;doctest.h&gt;</computeroutput>
+</para>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>static constexpr auto <link linkend="_structdoctest_1_1detail_1_1has__insertion__operator__impl_1_1check_3_01_t_00_01decltype_07os_07_8d91d0ae55ab2b557e111ab3ba9c02da_1acc7c0b323c99540b93081e9894c8fe03">value</link> = true</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_structdoctest_1_1detail_1_1has__insertion__operator__impl_1_1check_3_01_t_00_01decltype_07os_07_8d91d0ae55ab2b557e111ab3ba9c02da_1acc7c0b323c99540b93081e9894c8fe03"/><section>
+    <title>value</title>
+<indexterm><primary>value</primary><secondary>doctest::detail::has_insertion_operator_impl::check&lt; T, decltype(os()&lt;&lt; val&lt; T &gt;(), void())&gt;</secondary></indexterm>
+<indexterm><primary>doctest::detail::has_insertion_operator_impl::check&lt; T, decltype(os()&lt;&lt; val&lt; T &gt;(), void())&gt;</primary><secondary>value</secondary></indexterm>
+<computeroutput>template&lt;class T &gt; </computeroutput><para><computeroutput>constexpr auto <link linkend="_structdoctest_1_1detail_1_1has__insertion__operator__impl_1_1check">doctest::detail::has_insertion_operator_impl::check</link>&lt; T, decltype(<link linkend="_namespacedoctest_1_1detail_1_1has__insertion__operator__impl_1a50dfa929b76e3581c300a3a8b87d21e2">os</link>()&lt;&lt; val&lt; T &gt;(), void())&gt;::value = true<computeroutput>[static]</computeroutput>, <computeroutput>[constexpr]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this struct was generated from the following file:</para>
+AudioFile/tests/doctest/<link linkend="_doctest_8h">doctest.h</link></section>
+</section>

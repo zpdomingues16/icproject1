@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_make_headers_8py" xml:lang="en-US">
+<title>AudioFile/tests/makeHeaders.py File Reference</title>
+<indexterm><primary>AudioFile/tests/makeHeaders.py</primary></indexterm>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespacemake_headers">makeHeaders</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para>def <link linkend="_namespacemake_headers_1ac23c5a139136e49183cb7a0dda97b9e7">makeHeaders.makeHeader</link> (fileName, audioSignal, numChannels, bitRate, sampleRate, fileFormat)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Variables    </title>
+        <itemizedlist>
+            <listitem><para>list <link linkend="_namespacemake_headers_1aa24b70fb4bdb513481ea52af9879e722">makeHeaders.wavFiles</link> = []</para>
+</listitem>
+            <listitem><para><link linkend="_namespacemake_headers_1a6bb2e07c95cda1b75733861b73b6bd12">makeHeaders.audioSignal</link></para>
+</listitem>
+            <listitem><para><link linkend="_namespacemake_headers_1a397416926008c5920f0bb3aacff61d5e">makeHeaders.fs</link></para>
+</listitem>
+            <listitem><para><link linkend="_namespacemake_headers_1a83ca3f186ee3a2ed03825c9b544da5ae">makeHeaders.enc</link></para>
+</listitem>
+            <listitem><para>string <link linkend="_namespacemake_headers_1a2a73adaa7bcb3c0a31a6ceb534490221">makeHeaders.fileFormat</link> = &quot;wav&quot;</para>
+</listitem>
+            <listitem><para>int <link linkend="_namespacemake_headers_1aebae91248540ba01faf787f19070a220">makeHeaders.numChannels</link> = 1</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

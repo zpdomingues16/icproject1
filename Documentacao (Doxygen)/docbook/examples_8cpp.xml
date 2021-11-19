@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_examples_8cpp" xml:lang="en-US">
+<title>AudioFile/examples/examples.cpp File Reference</title>
+<indexterm><primary>AudioFile/examples/examples.cpp</primary></indexterm>
+<programlisting linenumbering="unnumbered">#include &lt;iostream&gt;
+#include &lt;cmath&gt;
+#include &lt;AudioFile.h&gt;
+</programlisting><simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespaceexamples">examples</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Macros    </title>
+        <itemizedlist>
+            <listitem><para>#define <link linkend="_examples_8cpp_1a525335710b53cb064ca56b936120431e">_USE_MATH_DEFINES</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_namespaceexamples_1afbad68c5d3edd62bc00c5b94c3139c6c">examples::writeSineWaveToAudioFile</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_namespaceexamples_1adf95345f86d713dde9ac0b52ea09d79d">examples::loadAudioFileAndPrintSummary</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_namespaceexamples_1a4659f3171126781fcba15b5e435097b4">examples::loadAudioFileAndProcessSamples</link> ()</para>
+</listitem>
+            <listitem><para>int <link linkend="_examples_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4">main</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Macro Definition Documentation</title>
+<anchor xml:id="_examples_8cpp_1a525335710b53cb064ca56b936120431e"/><section>
+    <title>_USE_MATH_DEFINES</title>
+<indexterm><primary>_USE_MATH_DEFINES</primary><secondary>examples.cpp</secondary></indexterm>
+<indexterm><primary>examples.cpp</primary><secondary>_USE_MATH_DEFINES</secondary></indexterm>
+<para><computeroutput>#define _USE_MATH_DEFINES</computeroutput></para></section>
+</section>
+<section>
+<title>Function Documentation</title>
+<anchor xml:id="_examples_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4"/><section>
+    <title>main()</title>
+<indexterm><primary>main</primary><secondary>examples.cpp</secondary></indexterm>
+<indexterm><primary>examples.cpp</primary><secondary>main</secondary></indexterm>
+<para><computeroutput>int main ( )</computeroutput></para>
+<para>Writes a sine wave to an audio file</para>
+
+<para>Loads an audio file and prints key details to the console</para>
+
+<para>Loads an audio file and processess the samples</para>
+</section>
+</section>
+</section>

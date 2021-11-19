@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespacedoctest__detail__test__suite__ns" xml:lang="en-US">
+<title>doctest_detail_test_suite_ns Namespace Reference</title>
+<indexterm><primary>doctest_detail_test_suite_ns</primary></indexterm>
+<simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> <link linkend="_structdoctest_1_1detail_1_1_test_suite">doctest::detail::TestSuite</link> &amp; <link linkend="_namespacedoctest__detail__test__suite__ns_1a63d04c2e0ba35dff1e33cf0a24ec66c8">getCurrentTestSuite</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Function Documentation</title>
+<anchor xml:id="_namespacedoctest__detail__test__suite__ns_1a63d04c2e0ba35dff1e33cf0a24ec66c8"/><section>
+    <title>getCurrentTestSuite()</title>
+<indexterm><primary>getCurrentTestSuite</primary><secondary>doctest_detail_test_suite_ns</secondary></indexterm>
+<indexterm><primary>doctest_detail_test_suite_ns</primary><secondary>getCurrentTestSuite</secondary></indexterm>
+<para><computeroutput><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> <link linkend="_structdoctest_1_1detail_1_1_test_suite">doctest::detail::TestSuite</link> &amp; doctest_detail_test_suite_ns::getCurrentTestSuite ( )</computeroutput></para></section>
+</section>
+</section>

@@ -1,0 +1,228 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespacedoctest_1_1assert_type" xml:lang="en-US">
+<title>doctest::assertType Namespace Reference</title>
+<indexterm><primary>doctest::assertType</primary></indexterm>
+<simplesect>
+    <title>Enumerations    </title>
+        <itemizedlist>
+            <listitem><para>enum <link linkend="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3">Enum</link> { 
+<link linkend="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3a2dd798b430ccf956bc48c3b48bb4e570">is_warn</link> = 1
+, <link linkend="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3a9ca6ff629647f2a90d4c01ce68800590">is_check</link> = 2 * is_warn
+, <link linkend="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3aff8fa549e941fb7ca7adcd49d9ffdf6d">is_require</link> = 2 * is_check
+, <link linkend="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3a34258afd98e569142dfb5b0a2c468436">is_normal</link> = 2 * is_require
+, 
+<link linkend="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3a922a5fb427724cad963fb3dd789a8114">is_throws</link> = 2 * is_normal
+, <link linkend="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3a278ed7bf7e411c11e25ad8a60933ef34">is_throws_as</link> = 2 * is_throws
+, <link linkend="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3ab79f3f076e62c260e77febd914bb82c3">is_throws_with</link> = 2 * is_throws_as
+, <link linkend="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3a0ad6f07c0273891b1c3f2fd84fe666dc">is_nothrow</link> = 2 * is_throws_with
+, 
+<link linkend="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3a6539bad84e35008dc4a4a2c2d0793318">is_false</link> = 2 * is_nothrow
+, <link linkend="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3adfaee7d6a907d7681e53e0e91734e058">is_unary</link> = 2 * is_false
+, <link linkend="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3a7010ae6142f085a3bfd85caa251c7499">is_eq</link> = 2 * is_unary
+, <link linkend="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3a3d624cd25af4d9bb1c29bd84f356e58d">is_ne</link> = 2 * is_eq
+, 
+<link linkend="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3abcad551db5972ed3918d2dae14c556f1">is_lt</link> = 2 * is_ne
+, <link linkend="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3a21d83a0fcc556d3c90614579e5cd2599">is_gt</link> = 2 * is_lt
+, <link linkend="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3a79ca2d90e99907eb5fe2971865bfcb30">is_ge</link> = 2 * is_gt
+, <link linkend="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3a3e1b485ee74c36fc1d0ba5902032af87">is_le</link> = 2 * is_ge
+, 
+<link linkend="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3af972d8a41e3090304ef38ad43483314d">DT_WARN</link> = is_normal | is_warn
+, <link linkend="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3a4431fd22794b06d854c7f9fbf43b10b8">DT_CHECK</link> = is_normal | is_check
+, <link linkend="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3a807ade2ef3e65b909e1551d8c8406d54">DT_REQUIRE</link> = is_normal | is_require
+, <link linkend="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3a710e0f57342dff74ba39e74419443435">DT_WARN_FALSE</link> = is_normal | is_false | is_warn
+, 
+<link linkend="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3aa518f2714c2f58bb1ed3b2d2f8c1b075">DT_CHECK_FALSE</link> = is_normal | is_false | is_check
+, <link linkend="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3ae81f0c9c945715690c794c4e7cbb7bbf">DT_REQUIRE_FALSE</link> = is_normal | is_false | is_require
+, <link linkend="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3a9575f9ac61737539cde0fc3353e3d424">DT_WARN_THROWS</link> = is_throws | is_warn
+, <link linkend="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3abf34f9af14d1c3d9b23dc80fc553e607">DT_CHECK_THROWS</link> = is_throws | is_check
+, 
+<link linkend="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3a961340742b11d7e37f3874fef305d609">DT_REQUIRE_THROWS</link> = is_throws | is_require
+, <link linkend="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3ad915d4c9681ce4f6ad8a5e0967cb0f04">DT_WARN_THROWS_AS</link> = is_throws_as | is_warn
+, <link linkend="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3a389b826746dde155cb46687c7e565cce">DT_CHECK_THROWS_AS</link> = is_throws_as | is_check
+, <link linkend="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3a180912d780568b6d9f1f0ef4a96a7be6">DT_REQUIRE_THROWS_AS</link> = is_throws_as | is_require
+, 
+<link linkend="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3ae6357eecb1d854cd7ad71e72c52c2f6d">DT_WARN_THROWS_WITH</link> = is_throws_with | is_warn
+, <link linkend="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3a5b0d08bf133f70f746ebd2f8b8e514d5">DT_CHECK_THROWS_WITH</link> = is_throws_with | is_check
+, <link linkend="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3a7b37f7677433a6da93a9e15c3ab62d24">DT_REQUIRE_THROWS_WITH</link> = is_throws_with | is_require
+, <link linkend="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3ac76f8fa71f1b776034cd7db2687c99c8">DT_WARN_THROWS_WITH_AS</link> = is_throws_with | is_throws_as | is_warn
+, 
+<link linkend="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3a13d5a33071d51aaaebcd08c4fd012035">DT_CHECK_THROWS_WITH_AS</link> = is_throws_with | is_throws_as | is_check
+, <link linkend="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3a81ed09bf509081b6c5887f196a593438">DT_REQUIRE_THROWS_WITH_AS</link> = is_throws_with | is_throws_as | is_require
+, <link linkend="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3ab2aade9d6de83d7d0548e784a502d67f">DT_WARN_NOTHROW</link> = is_nothrow | is_warn
+, <link linkend="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3a5c330f1952cb85a8416902e237ec6f1f">DT_CHECK_NOTHROW</link> = is_nothrow | is_check
+, 
+<link linkend="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3a2ab93f3a9dfd9c597e4810cd22fe6d16">DT_REQUIRE_NOTHROW</link> = is_nothrow | is_require
+, <link linkend="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3a856e0bc4639d22946b02ca5aae7f6c2c">DT_WARN_EQ</link> = is_normal | is_eq | is_warn
+, <link linkend="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3a25ea7bcb831f008cfbcfd5da41e9008e">DT_CHECK_EQ</link> = is_normal | is_eq | is_check
+, <link linkend="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3ab2880914ce3960d556aa8681e9e47ad4">DT_REQUIRE_EQ</link> = is_normal | is_eq | is_require
+, 
+<link linkend="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3a64e5a52a68ac1280d1a0910578d342cd">DT_WARN_NE</link> = is_normal | is_ne | is_warn
+, <link linkend="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3ad2d533f5a46b17df1170d4b29ccd572a">DT_CHECK_NE</link> = is_normal | is_ne | is_check
+, <link linkend="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3a3c0d1c2454abd45b63391ee3970b133c">DT_REQUIRE_NE</link> = is_normal | is_ne | is_require
+, <link linkend="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3af5a8a1175f296c626efaaf728a8a5b96">DT_WARN_GT</link> = is_normal | is_gt | is_warn
+, 
+<link linkend="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3a4dbd73b6541c25b5c6fe059e970d937a">DT_CHECK_GT</link> = is_normal | is_gt | is_check
+, <link linkend="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3a65b68e53d865150051f880273a6c8462">DT_REQUIRE_GT</link> = is_normal | is_gt | is_require
+, <link linkend="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3af78432b9b33a8765b326441c42a0c1b8">DT_WARN_LT</link> = is_normal | is_lt | is_warn
+, <link linkend="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3a18449655ab3feda0b66aa7306a85aeb5">DT_CHECK_LT</link> = is_normal | is_lt | is_check
+, 
+<link linkend="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3a6dabfc7a1ec170e2ec6e31de8e703085">DT_REQUIRE_LT</link> = is_normal | is_lt | is_require
+, <link linkend="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3a493f8d19aa6056a3e8f475772548349b">DT_WARN_GE</link> = is_normal | is_ge | is_warn
+, <link linkend="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3afc68d23bf246717c10e7bc0231dc062c">DT_CHECK_GE</link> = is_normal | is_ge | is_check
+, <link linkend="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3a54599a5076fe992159f2e88cad185682">DT_REQUIRE_GE</link> = is_normal | is_ge | is_require
+, 
+<link linkend="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3a1d40a679871797392c64dd8b4324f4e8">DT_WARN_LE</link> = is_normal | is_le | is_warn
+, <link linkend="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3ad711b30f529eb092f9bcf90600a07eb1">DT_CHECK_LE</link> = is_normal | is_le | is_check
+, <link linkend="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3a49c183d4be8babc83bbb3754303f7d45">DT_REQUIRE_LE</link> = is_normal | is_le | is_require
+, <link linkend="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3a9bc05989c4bd086562f3a0e05ab07ceb">DT_WARN_UNARY</link> = is_normal | is_unary | is_warn
+, 
+<link linkend="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3ae649bc4be44cb5e296ee851a7637c018">DT_CHECK_UNARY</link> = is_normal | is_unary | is_check
+, <link linkend="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3a0e430d8916b3d685b5df30d602d06b6d">DT_REQUIRE_UNARY</link> = is_normal | is_unary | is_require
+, <link linkend="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3ad0c3e97290a20b0942a2988c2c413f45">DT_WARN_UNARY_FALSE</link> = is_normal | is_false | is_unary | is_warn
+, <link linkend="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3ae8c9c5080e302b840ab4e053d5160191">DT_CHECK_UNARY_FALSE</link> = is_normal | is_false | is_unary | is_check
+, 
+<link linkend="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3a23caa06098e51bbb331da066e98ebd4e">DT_REQUIRE_UNARY_FALSE</link> = is_normal | is_false | is_unary | is_require
+ }</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Enumeration Type Documentation</title>
+<anchor xml:id="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3"/><section>
+    <title>Enum</title>
+<indexterm><primary>Enum</primary><secondary>doctest::assertType</secondary></indexterm>
+<indexterm><primary>doctest::assertType</primary><secondary>Enum</secondary></indexterm>
+<para><computeroutput>enum <link linkend="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3">doctest::assertType::Enum</link></computeroutput></para><informaltable frame="all">
+<title>Enumerator</title>
+    <tgroup cols="2" align="left" colsep="1" rowsep="1">
+      <colspec colname='c1'/>
+      <colspec colname='c2'/>
+<tbody>
+<row><entry><indexterm><primary>is_warn</primary><secondary>doctest::assertType</secondary></indexterm>
+<indexterm><primary>doctest::assertType</primary><secondary>is_warn</secondary></indexterm>
+<anchor xml:id="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3a2dd798b430ccf956bc48c3b48bb4e570"/>is_warn</entry><entry></entry></row><row><entry><indexterm><primary>is_check</primary><secondary>doctest::assertType</secondary></indexterm>
+<indexterm><primary>doctest::assertType</primary><secondary>is_check</secondary></indexterm>
+<anchor xml:id="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3a9ca6ff629647f2a90d4c01ce68800590"/>is_check</entry><entry></entry></row><row><entry><indexterm><primary>is_require</primary><secondary>doctest::assertType</secondary></indexterm>
+<indexterm><primary>doctest::assertType</primary><secondary>is_require</secondary></indexterm>
+<anchor xml:id="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3aff8fa549e941fb7ca7adcd49d9ffdf6d"/>is_require</entry><entry></entry></row><row><entry><indexterm><primary>is_normal</primary><secondary>doctest::assertType</secondary></indexterm>
+<indexterm><primary>doctest::assertType</primary><secondary>is_normal</secondary></indexterm>
+<anchor xml:id="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3a34258afd98e569142dfb5b0a2c468436"/>is_normal</entry><entry></entry></row><row><entry><indexterm><primary>is_throws</primary><secondary>doctest::assertType</secondary></indexterm>
+<indexterm><primary>doctest::assertType</primary><secondary>is_throws</secondary></indexterm>
+<anchor xml:id="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3a922a5fb427724cad963fb3dd789a8114"/>is_throws</entry><entry></entry></row><row><entry><indexterm><primary>is_throws_as</primary><secondary>doctest::assertType</secondary></indexterm>
+<indexterm><primary>doctest::assertType</primary><secondary>is_throws_as</secondary></indexterm>
+<anchor xml:id="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3a278ed7bf7e411c11e25ad8a60933ef34"/>is_throws_as</entry><entry></entry></row><row><entry><indexterm><primary>is_throws_with</primary><secondary>doctest::assertType</secondary></indexterm>
+<indexterm><primary>doctest::assertType</primary><secondary>is_throws_with</secondary></indexterm>
+<anchor xml:id="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3ab79f3f076e62c260e77febd914bb82c3"/>is_throws_with</entry><entry></entry></row><row><entry><indexterm><primary>is_nothrow</primary><secondary>doctest::assertType</secondary></indexterm>
+<indexterm><primary>doctest::assertType</primary><secondary>is_nothrow</secondary></indexterm>
+<anchor xml:id="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3a0ad6f07c0273891b1c3f2fd84fe666dc"/>is_nothrow</entry><entry></entry></row><row><entry><indexterm><primary>is_false</primary><secondary>doctest::assertType</secondary></indexterm>
+<indexterm><primary>doctest::assertType</primary><secondary>is_false</secondary></indexterm>
+<anchor xml:id="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3a6539bad84e35008dc4a4a2c2d0793318"/>is_false</entry><entry></entry></row><row><entry><indexterm><primary>is_unary</primary><secondary>doctest::assertType</secondary></indexterm>
+<indexterm><primary>doctest::assertType</primary><secondary>is_unary</secondary></indexterm>
+<anchor xml:id="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3adfaee7d6a907d7681e53e0e91734e058"/>is_unary</entry><entry></entry></row><row><entry><indexterm><primary>is_eq</primary><secondary>doctest::assertType</secondary></indexterm>
+<indexterm><primary>doctest::assertType</primary><secondary>is_eq</secondary></indexterm>
+<anchor xml:id="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3a7010ae6142f085a3bfd85caa251c7499"/>is_eq</entry><entry></entry></row><row><entry><indexterm><primary>is_ne</primary><secondary>doctest::assertType</secondary></indexterm>
+<indexterm><primary>doctest::assertType</primary><secondary>is_ne</secondary></indexterm>
+<anchor xml:id="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3a3d624cd25af4d9bb1c29bd84f356e58d"/>is_ne</entry><entry></entry></row><row><entry><indexterm><primary>is_lt</primary><secondary>doctest::assertType</secondary></indexterm>
+<indexterm><primary>doctest::assertType</primary><secondary>is_lt</secondary></indexterm>
+<anchor xml:id="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3abcad551db5972ed3918d2dae14c556f1"/>is_lt</entry><entry></entry></row><row><entry><indexterm><primary>is_gt</primary><secondary>doctest::assertType</secondary></indexterm>
+<indexterm><primary>doctest::assertType</primary><secondary>is_gt</secondary></indexterm>
+<anchor xml:id="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3a21d83a0fcc556d3c90614579e5cd2599"/>is_gt</entry><entry></entry></row><row><entry><indexterm><primary>is_ge</primary><secondary>doctest::assertType</secondary></indexterm>
+<indexterm><primary>doctest::assertType</primary><secondary>is_ge</secondary></indexterm>
+<anchor xml:id="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3a79ca2d90e99907eb5fe2971865bfcb30"/>is_ge</entry><entry></entry></row><row><entry><indexterm><primary>is_le</primary><secondary>doctest::assertType</secondary></indexterm>
+<indexterm><primary>doctest::assertType</primary><secondary>is_le</secondary></indexterm>
+<anchor xml:id="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3a3e1b485ee74c36fc1d0ba5902032af87"/>is_le</entry><entry></entry></row><row><entry><indexterm><primary>DT_WARN</primary><secondary>doctest::assertType</secondary></indexterm>
+<indexterm><primary>doctest::assertType</primary><secondary>DT_WARN</secondary></indexterm>
+<anchor xml:id="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3af972d8a41e3090304ef38ad43483314d"/>DT_WARN</entry><entry></entry></row><row><entry><indexterm><primary>DT_CHECK</primary><secondary>doctest::assertType</secondary></indexterm>
+<indexterm><primary>doctest::assertType</primary><secondary>DT_CHECK</secondary></indexterm>
+<anchor xml:id="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3a4431fd22794b06d854c7f9fbf43b10b8"/>DT_CHECK</entry><entry></entry></row><row><entry><indexterm><primary>DT_REQUIRE</primary><secondary>doctest::assertType</secondary></indexterm>
+<indexterm><primary>doctest::assertType</primary><secondary>DT_REQUIRE</secondary></indexterm>
+<anchor xml:id="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3a807ade2ef3e65b909e1551d8c8406d54"/>DT_REQUIRE</entry><entry></entry></row><row><entry><indexterm><primary>DT_WARN_FALSE</primary><secondary>doctest::assertType</secondary></indexterm>
+<indexterm><primary>doctest::assertType</primary><secondary>DT_WARN_FALSE</secondary></indexterm>
+<anchor xml:id="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3a710e0f57342dff74ba39e74419443435"/>DT_WARN_FALSE</entry><entry></entry></row><row><entry><indexterm><primary>DT_CHECK_FALSE</primary><secondary>doctest::assertType</secondary></indexterm>
+<indexterm><primary>doctest::assertType</primary><secondary>DT_CHECK_FALSE</secondary></indexterm>
+<anchor xml:id="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3aa518f2714c2f58bb1ed3b2d2f8c1b075"/>DT_CHECK_FALSE</entry><entry></entry></row><row><entry><indexterm><primary>DT_REQUIRE_FALSE</primary><secondary>doctest::assertType</secondary></indexterm>
+<indexterm><primary>doctest::assertType</primary><secondary>DT_REQUIRE_FALSE</secondary></indexterm>
+<anchor xml:id="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3ae81f0c9c945715690c794c4e7cbb7bbf"/>DT_REQUIRE_FALSE</entry><entry></entry></row><row><entry><indexterm><primary>DT_WARN_THROWS</primary><secondary>doctest::assertType</secondary></indexterm>
+<indexterm><primary>doctest::assertType</primary><secondary>DT_WARN_THROWS</secondary></indexterm>
+<anchor xml:id="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3a9575f9ac61737539cde0fc3353e3d424"/>DT_WARN_THROWS</entry><entry></entry></row><row><entry><indexterm><primary>DT_CHECK_THROWS</primary><secondary>doctest::assertType</secondary></indexterm>
+<indexterm><primary>doctest::assertType</primary><secondary>DT_CHECK_THROWS</secondary></indexterm>
+<anchor xml:id="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3abf34f9af14d1c3d9b23dc80fc553e607"/>DT_CHECK_THROWS</entry><entry></entry></row><row><entry><indexterm><primary>DT_REQUIRE_THROWS</primary><secondary>doctest::assertType</secondary></indexterm>
+<indexterm><primary>doctest::assertType</primary><secondary>DT_REQUIRE_THROWS</secondary></indexterm>
+<anchor xml:id="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3a961340742b11d7e37f3874fef305d609"/>DT_REQUIRE_THROWS</entry><entry></entry></row><row><entry><indexterm><primary>DT_WARN_THROWS_AS</primary><secondary>doctest::assertType</secondary></indexterm>
+<indexterm><primary>doctest::assertType</primary><secondary>DT_WARN_THROWS_AS</secondary></indexterm>
+<anchor xml:id="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3ad915d4c9681ce4f6ad8a5e0967cb0f04"/>DT_WARN_THROWS_AS</entry><entry></entry></row><row><entry><indexterm><primary>DT_CHECK_THROWS_AS</primary><secondary>doctest::assertType</secondary></indexterm>
+<indexterm><primary>doctest::assertType</primary><secondary>DT_CHECK_THROWS_AS</secondary></indexterm>
+<anchor xml:id="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3a389b826746dde155cb46687c7e565cce"/>DT_CHECK_THROWS_AS</entry><entry></entry></row><row><entry><indexterm><primary>DT_REQUIRE_THROWS_AS</primary><secondary>doctest::assertType</secondary></indexterm>
+<indexterm><primary>doctest::assertType</primary><secondary>DT_REQUIRE_THROWS_AS</secondary></indexterm>
+<anchor xml:id="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3a180912d780568b6d9f1f0ef4a96a7be6"/>DT_REQUIRE_THROWS_AS</entry><entry></entry></row><row><entry><indexterm><primary>DT_WARN_THROWS_WITH</primary><secondary>doctest::assertType</secondary></indexterm>
+<indexterm><primary>doctest::assertType</primary><secondary>DT_WARN_THROWS_WITH</secondary></indexterm>
+<anchor xml:id="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3ae6357eecb1d854cd7ad71e72c52c2f6d"/>DT_WARN_THROWS_WITH</entry><entry></entry></row><row><entry><indexterm><primary>DT_CHECK_THROWS_WITH</primary><secondary>doctest::assertType</secondary></indexterm>
+<indexterm><primary>doctest::assertType</primary><secondary>DT_CHECK_THROWS_WITH</secondary></indexterm>
+<anchor xml:id="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3a5b0d08bf133f70f746ebd2f8b8e514d5"/>DT_CHECK_THROWS_WITH</entry><entry></entry></row><row><entry><indexterm><primary>DT_REQUIRE_THROWS_WITH</primary><secondary>doctest::assertType</secondary></indexterm>
+<indexterm><primary>doctest::assertType</primary><secondary>DT_REQUIRE_THROWS_WITH</secondary></indexterm>
+<anchor xml:id="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3a7b37f7677433a6da93a9e15c3ab62d24"/>DT_REQUIRE_THROWS_WITH</entry><entry></entry></row><row><entry><indexterm><primary>DT_WARN_THROWS_WITH_AS</primary><secondary>doctest::assertType</secondary></indexterm>
+<indexterm><primary>doctest::assertType</primary><secondary>DT_WARN_THROWS_WITH_AS</secondary></indexterm>
+<anchor xml:id="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3ac76f8fa71f1b776034cd7db2687c99c8"/>DT_WARN_THROWS_WITH_AS</entry><entry></entry></row><row><entry><indexterm><primary>DT_CHECK_THROWS_WITH_AS</primary><secondary>doctest::assertType</secondary></indexterm>
+<indexterm><primary>doctest::assertType</primary><secondary>DT_CHECK_THROWS_WITH_AS</secondary></indexterm>
+<anchor xml:id="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3a13d5a33071d51aaaebcd08c4fd012035"/>DT_CHECK_THROWS_WITH_AS</entry><entry></entry></row><row><entry><indexterm><primary>DT_REQUIRE_THROWS_WITH_AS</primary><secondary>doctest::assertType</secondary></indexterm>
+<indexterm><primary>doctest::assertType</primary><secondary>DT_REQUIRE_THROWS_WITH_AS</secondary></indexterm>
+<anchor xml:id="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3a81ed09bf509081b6c5887f196a593438"/>DT_REQUIRE_THROWS_WITH_AS</entry><entry></entry></row><row><entry><indexterm><primary>DT_WARN_NOTHROW</primary><secondary>doctest::assertType</secondary></indexterm>
+<indexterm><primary>doctest::assertType</primary><secondary>DT_WARN_NOTHROW</secondary></indexterm>
+<anchor xml:id="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3ab2aade9d6de83d7d0548e784a502d67f"/>DT_WARN_NOTHROW</entry><entry></entry></row><row><entry><indexterm><primary>DT_CHECK_NOTHROW</primary><secondary>doctest::assertType</secondary></indexterm>
+<indexterm><primary>doctest::assertType</primary><secondary>DT_CHECK_NOTHROW</secondary></indexterm>
+<anchor xml:id="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3a5c330f1952cb85a8416902e237ec6f1f"/>DT_CHECK_NOTHROW</entry><entry></entry></row><row><entry><indexterm><primary>DT_REQUIRE_NOTHROW</primary><secondary>doctest::assertType</secondary></indexterm>
+<indexterm><primary>doctest::assertType</primary><secondary>DT_REQUIRE_NOTHROW</secondary></indexterm>
+<anchor xml:id="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3a2ab93f3a9dfd9c597e4810cd22fe6d16"/>DT_REQUIRE_NOTHROW</entry><entry></entry></row><row><entry><indexterm><primary>DT_WARN_EQ</primary><secondary>doctest::assertType</secondary></indexterm>
+<indexterm><primary>doctest::assertType</primary><secondary>DT_WARN_EQ</secondary></indexterm>
+<anchor xml:id="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3a856e0bc4639d22946b02ca5aae7f6c2c"/>DT_WARN_EQ</entry><entry></entry></row><row><entry><indexterm><primary>DT_CHECK_EQ</primary><secondary>doctest::assertType</secondary></indexterm>
+<indexterm><primary>doctest::assertType</primary><secondary>DT_CHECK_EQ</secondary></indexterm>
+<anchor xml:id="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3a25ea7bcb831f008cfbcfd5da41e9008e"/>DT_CHECK_EQ</entry><entry></entry></row><row><entry><indexterm><primary>DT_REQUIRE_EQ</primary><secondary>doctest::assertType</secondary></indexterm>
+<indexterm><primary>doctest::assertType</primary><secondary>DT_REQUIRE_EQ</secondary></indexterm>
+<anchor xml:id="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3ab2880914ce3960d556aa8681e9e47ad4"/>DT_REQUIRE_EQ</entry><entry></entry></row><row><entry><indexterm><primary>DT_WARN_NE</primary><secondary>doctest::assertType</secondary></indexterm>
+<indexterm><primary>doctest::assertType</primary><secondary>DT_WARN_NE</secondary></indexterm>
+<anchor xml:id="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3a64e5a52a68ac1280d1a0910578d342cd"/>DT_WARN_NE</entry><entry></entry></row><row><entry><indexterm><primary>DT_CHECK_NE</primary><secondary>doctest::assertType</secondary></indexterm>
+<indexterm><primary>doctest::assertType</primary><secondary>DT_CHECK_NE</secondary></indexterm>
+<anchor xml:id="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3ad2d533f5a46b17df1170d4b29ccd572a"/>DT_CHECK_NE</entry><entry></entry></row><row><entry><indexterm><primary>DT_REQUIRE_NE</primary><secondary>doctest::assertType</secondary></indexterm>
+<indexterm><primary>doctest::assertType</primary><secondary>DT_REQUIRE_NE</secondary></indexterm>
+<anchor xml:id="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3a3c0d1c2454abd45b63391ee3970b133c"/>DT_REQUIRE_NE</entry><entry></entry></row><row><entry><indexterm><primary>DT_WARN_GT</primary><secondary>doctest::assertType</secondary></indexterm>
+<indexterm><primary>doctest::assertType</primary><secondary>DT_WARN_GT</secondary></indexterm>
+<anchor xml:id="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3af5a8a1175f296c626efaaf728a8a5b96"/>DT_WARN_GT</entry><entry></entry></row><row><entry><indexterm><primary>DT_CHECK_GT</primary><secondary>doctest::assertType</secondary></indexterm>
+<indexterm><primary>doctest::assertType</primary><secondary>DT_CHECK_GT</secondary></indexterm>
+<anchor xml:id="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3a4dbd73b6541c25b5c6fe059e970d937a"/>DT_CHECK_GT</entry><entry></entry></row><row><entry><indexterm><primary>DT_REQUIRE_GT</primary><secondary>doctest::assertType</secondary></indexterm>
+<indexterm><primary>doctest::assertType</primary><secondary>DT_REQUIRE_GT</secondary></indexterm>
+<anchor xml:id="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3a65b68e53d865150051f880273a6c8462"/>DT_REQUIRE_GT</entry><entry></entry></row><row><entry><indexterm><primary>DT_WARN_LT</primary><secondary>doctest::assertType</secondary></indexterm>
+<indexterm><primary>doctest::assertType</primary><secondary>DT_WARN_LT</secondary></indexterm>
+<anchor xml:id="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3af78432b9b33a8765b326441c42a0c1b8"/>DT_WARN_LT</entry><entry></entry></row><row><entry><indexterm><primary>DT_CHECK_LT</primary><secondary>doctest::assertType</secondary></indexterm>
+<indexterm><primary>doctest::assertType</primary><secondary>DT_CHECK_LT</secondary></indexterm>
+<anchor xml:id="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3a18449655ab3feda0b66aa7306a85aeb5"/>DT_CHECK_LT</entry><entry></entry></row><row><entry><indexterm><primary>DT_REQUIRE_LT</primary><secondary>doctest::assertType</secondary></indexterm>
+<indexterm><primary>doctest::assertType</primary><secondary>DT_REQUIRE_LT</secondary></indexterm>
+<anchor xml:id="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3a6dabfc7a1ec170e2ec6e31de8e703085"/>DT_REQUIRE_LT</entry><entry></entry></row><row><entry><indexterm><primary>DT_WARN_GE</primary><secondary>doctest::assertType</secondary></indexterm>
+<indexterm><primary>doctest::assertType</primary><secondary>DT_WARN_GE</secondary></indexterm>
+<anchor xml:id="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3a493f8d19aa6056a3e8f475772548349b"/>DT_WARN_GE</entry><entry></entry></row><row><entry><indexterm><primary>DT_CHECK_GE</primary><secondary>doctest::assertType</secondary></indexterm>
+<indexterm><primary>doctest::assertType</primary><secondary>DT_CHECK_GE</secondary></indexterm>
+<anchor xml:id="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3afc68d23bf246717c10e7bc0231dc062c"/>DT_CHECK_GE</entry><entry></entry></row><row><entry><indexterm><primary>DT_REQUIRE_GE</primary><secondary>doctest::assertType</secondary></indexterm>
+<indexterm><primary>doctest::assertType</primary><secondary>DT_REQUIRE_GE</secondary></indexterm>
+<anchor xml:id="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3a54599a5076fe992159f2e88cad185682"/>DT_REQUIRE_GE</entry><entry></entry></row><row><entry><indexterm><primary>DT_WARN_LE</primary><secondary>doctest::assertType</secondary></indexterm>
+<indexterm><primary>doctest::assertType</primary><secondary>DT_WARN_LE</secondary></indexterm>
+<anchor xml:id="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3a1d40a679871797392c64dd8b4324f4e8"/>DT_WARN_LE</entry><entry></entry></row><row><entry><indexterm><primary>DT_CHECK_LE</primary><secondary>doctest::assertType</secondary></indexterm>
+<indexterm><primary>doctest::assertType</primary><secondary>DT_CHECK_LE</secondary></indexterm>
+<anchor xml:id="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3ad711b30f529eb092f9bcf90600a07eb1"/>DT_CHECK_LE</entry><entry></entry></row><row><entry><indexterm><primary>DT_REQUIRE_LE</primary><secondary>doctest::assertType</secondary></indexterm>
+<indexterm><primary>doctest::assertType</primary><secondary>DT_REQUIRE_LE</secondary></indexterm>
+<anchor xml:id="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3a49c183d4be8babc83bbb3754303f7d45"/>DT_REQUIRE_LE</entry><entry></entry></row><row><entry><indexterm><primary>DT_WARN_UNARY</primary><secondary>doctest::assertType</secondary></indexterm>
+<indexterm><primary>doctest::assertType</primary><secondary>DT_WARN_UNARY</secondary></indexterm>
+<anchor xml:id="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3a9bc05989c4bd086562f3a0e05ab07ceb"/>DT_WARN_UNARY</entry><entry></entry></row><row><entry><indexterm><primary>DT_CHECK_UNARY</primary><secondary>doctest::assertType</secondary></indexterm>
+<indexterm><primary>doctest::assertType</primary><secondary>DT_CHECK_UNARY</secondary></indexterm>
+<anchor xml:id="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3ae649bc4be44cb5e296ee851a7637c018"/>DT_CHECK_UNARY</entry><entry></entry></row><row><entry><indexterm><primary>DT_REQUIRE_UNARY</primary><secondary>doctest::assertType</secondary></indexterm>
+<indexterm><primary>doctest::assertType</primary><secondary>DT_REQUIRE_UNARY</secondary></indexterm>
+<anchor xml:id="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3a0e430d8916b3d685b5df30d602d06b6d"/>DT_REQUIRE_UNARY</entry><entry></entry></row><row><entry><indexterm><primary>DT_WARN_UNARY_FALSE</primary><secondary>doctest::assertType</secondary></indexterm>
+<indexterm><primary>doctest::assertType</primary><secondary>DT_WARN_UNARY_FALSE</secondary></indexterm>
+<anchor xml:id="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3ad0c3e97290a20b0942a2988c2c413f45"/>DT_WARN_UNARY_FALSE</entry><entry></entry></row><row><entry><indexterm><primary>DT_CHECK_UNARY_FALSE</primary><secondary>doctest::assertType</secondary></indexterm>
+<indexterm><primary>doctest::assertType</primary><secondary>DT_CHECK_UNARY_FALSE</secondary></indexterm>
+<anchor xml:id="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3ae8c9c5080e302b840ab4e053d5160191"/>DT_CHECK_UNARY_FALSE</entry><entry></entry></row><row><entry><indexterm><primary>DT_REQUIRE_UNARY_FALSE</primary><secondary>doctest::assertType</secondary></indexterm>
+<indexterm><primary>doctest::assertType</primary><secondary>DT_REQUIRE_UNARY_FALSE</secondary></indexterm>
+<anchor xml:id="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3a23caa06098e51bbb331da066e98ebd4e"/>DT_REQUIRE_UNARY_FALSE</entry><entry></entry></row>    </tbody>
+    </tgroup>
+</informaltable>
+</section>
+</section>
+</section>

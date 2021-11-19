@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespacedoctest_1_1detail_1_1assert_action" xml:lang="en-US">
+<title>doctest::detail::assertAction Namespace Reference</title>
+<indexterm><primary>doctest::detail::assertAction</primary></indexterm>
+<simplesect>
+    <title>Enumerations    </title>
+        <itemizedlist>
+            <listitem><para>enum <link linkend="_namespacedoctest_1_1detail_1_1assert_action_1a38ba820518d42da988fab24b2f3d0548">Enum</link> { <link linkend="_namespacedoctest_1_1detail_1_1assert_action_1a38ba820518d42da988fab24b2f3d0548aad8b44f340e17ab74bf8386e63b25191">nothing</link> = 0
+, <link linkend="_namespacedoctest_1_1detail_1_1assert_action_1a38ba820518d42da988fab24b2f3d0548a22a154d8ba87f66a1e02fe72fe8530cb">dbgbreak</link> = 1
+, <link linkend="_namespacedoctest_1_1detail_1_1assert_action_1a38ba820518d42da988fab24b2f3d0548a3f8411bdb0657d9c725828004fed1009">shouldthrow</link> = 2
+ }</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Enumeration Type Documentation</title>
+<anchor xml:id="_namespacedoctest_1_1detail_1_1assert_action_1a38ba820518d42da988fab24b2f3d0548"/><section>
+    <title>Enum</title>
+<indexterm><primary>Enum</primary><secondary>doctest::detail::assertAction</secondary></indexterm>
+<indexterm><primary>doctest::detail::assertAction</primary><secondary>Enum</secondary></indexterm>
+<para><computeroutput>enum <link linkend="_namespacedoctest_1_1detail_1_1assert_action_1a38ba820518d42da988fab24b2f3d0548">doctest::detail::assertAction::Enum</link></computeroutput></para><informaltable frame="all">
+<title>Enumerator</title>
+    <tgroup cols="2" align="left" colsep="1" rowsep="1">
+      <colspec colname='c1'/>
+      <colspec colname='c2'/>
+<tbody>
+<row><entry><indexterm><primary>nothing</primary><secondary>doctest::detail::assertAction</secondary></indexterm>
+<indexterm><primary>doctest::detail::assertAction</primary><secondary>nothing</secondary></indexterm>
+<anchor xml:id="_namespacedoctest_1_1detail_1_1assert_action_1a38ba820518d42da988fab24b2f3d0548aad8b44f340e17ab74bf8386e63b25191"/>nothing</entry><entry></entry></row><row><entry><indexterm><primary>dbgbreak</primary><secondary>doctest::detail::assertAction</secondary></indexterm>
+<indexterm><primary>doctest::detail::assertAction</primary><secondary>dbgbreak</secondary></indexterm>
+<anchor xml:id="_namespacedoctest_1_1detail_1_1assert_action_1a38ba820518d42da988fab24b2f3d0548a22a154d8ba87f66a1e02fe72fe8530cb"/>dbgbreak</entry><entry></entry></row><row><entry><indexterm><primary>shouldthrow</primary><secondary>doctest::detail::assertAction</secondary></indexterm>
+<indexterm><primary>doctest::detail::assertAction</primary><secondary>shouldthrow</secondary></indexterm>
+<anchor xml:id="_namespacedoctest_1_1detail_1_1assert_action_1a38ba820518d42da988fab24b2f3d0548a3f8411bdb0657d9c725828004fed1009"/>shouldthrow</entry><entry></entry></row>    </tbody>
+    </tgroup>
+</informaltable>
+</section>
+</section>
+</section>

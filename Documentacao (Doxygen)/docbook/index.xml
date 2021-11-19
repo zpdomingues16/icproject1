@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<book xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_index" xml:lang="en-US">
+    <info>
+    <title>Project #01</title>
+    </info>
+<chapter>
+    <title>Namespace Documentation</title>
+<xi:include href="namespaceaiff__stereo__16bit__44100.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceaiff__stereo__16bit__48000.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceaiff__stereo__24bit__44100.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceaiff__stereo__24bit__48000.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceaiff__stereo__32bit__44100.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceaiff__stereo__32bit__48000.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceaiff__stereo__8bit__44100.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceaiff__stereo__8bit__48000.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacedoctest.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacedoctest_1_1assert_type.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacedoctest_1_1_color.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacedoctest_1_1detail.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacedoctest_1_1detail_1_1assert_action.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacedoctest_1_1detail_1_1binary_assert_comparison.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacedoctest_1_1detail_1_1has__insertion__operator__impl.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacedoctest_1_1_test_case_failure_reason.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacedoctest__detail__test__suite__ns.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceexamples.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacemake_headers.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacewav__8chan__24bit__48000.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacewav__mono__16bit__44100.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacewav__mono__16bit__48000.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacewav__stereo__16bit__44100.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacewav__stereo__16bit__48000.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacewav__stereo__24bit__44100.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacewav__stereo__24bit__48000.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacewav__stereo__32bit__44100.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacewav__stereo__32bit__48000.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacewav__stereo__8bit__44100.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacewav__stereo__8bit__48000.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+</chapter>
+<chapter>
+    <title>Class Documentation</title>
+    <xi:include href="classdoctest_1_1_approx.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="structdoctest_1_1_assert_data.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_audio_file.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classbasic__ostream.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="structchar__traits.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="structdoctest_1_1detail_1_1has__insertion__operator__impl_1_1check.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="structdoctest_1_1detail_1_1has__insertion__operator__impl_1_1check_3_01_t_00_01decltype_07os_07_8d91d0ae55ab2b557e111ab3ba9c02da.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classdoctest_1_1_context.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="structdoctest_1_1_context_options.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classdoctest_1_1detail_1_1_context_scope.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classdoctest_1_1detail_1_1_context_scope_base.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="structdoctest_1_1_current_test_case_stats.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="structdoctest_1_1detail_1_1deferred__false.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classdoctest_1_1detail_1_1_exception_translator.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="structdoctest_1_1detail_1_1_expression_decomposer.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="structdoctest_1_1_i_context_scope.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="structdoctest_1_1detail_1_1_i_exception_translator.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="structdoctest_1_1_i_reporter.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="structdoctest_1_1detail_1_1_message_builder.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="structdoctest_1_1_message_data.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="structdoctest_1_1_query_data.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="structdoctest_1_1detail_1_1_relational_comparator.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="structdoctest_1_1detail_1_1remove__const.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="structdoctest_1_1detail_1_1remove__const_3_01const_01_t_01_4.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="structdoctest_1_1detail_1_1remove__reference.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="structdoctest_1_1detail_1_1remove__reference_3_01_t_01_6_01_4.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="structdoctest_1_1detail_1_1remove__reference_3_01_t_01_6_6_01_4.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="structdoctest_1_1detail_1_1_result.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="structdoctest_1_1detail_1_1_result_builder.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classdoctest_1_1_string.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="structdoctest_1_1_string_maker.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="structdoctest_1_1_string_maker_3_01_r_01_c_1_1_5_01_4.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="structdoctest_1_1_string_maker_3_01_t_01_5_01_4.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="structdoctest_1_1detail_1_1_string_maker_base.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="structdoctest_1_1detail_1_1_string_maker_base_3_01true_01_4.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="structdoctest_1_1detail_1_1_string_stream.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="structdoctest_1_1detail_1_1_string_stream_base.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="structdoctest_1_1detail_1_1_string_stream_base_3_01true_01_4.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="structdoctest_1_1detail_1_1_subcase.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="structdoctest_1_1_subcase_signature.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="structdoctest_1_1detail_1_1_test_case.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="structdoctest_1_1_test_case_data.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="structdoctest_1_1_test_case_exception.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="structdoctest_1_1detail_1_1_test_failure_exception.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="structdoctest_1_1_test_run_stats.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="structdoctest_1_1detail_1_1_test_suite.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classtuple.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+</chapter>
+<chapter>
+    <title>File Documentation</title>
+    <xi:include href="_audio_file_8h.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_audio_file_8h_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="examples_8cpp.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_audio_file_2_r_e_a_d_m_e_8md.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_r_e_a_d_m_e_8md.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_aiff_loading_tests_8cpp.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="doctest_8h.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="doctest_8h_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_file_writing_tests_8cpp.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_general_tests_8cpp.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="main_8cpp.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="make_headers_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="aiff__stereo__16bit__44100_8h.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="aiff__stereo__16bit__44100_8h_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="aiff__stereo__16bit__48000_8h.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="aiff__stereo__16bit__48000_8h_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="aiff__stereo__24bit__44100_8h.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="aiff__stereo__24bit__44100_8h_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="aiff__stereo__24bit__48000_8h.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="aiff__stereo__24bit__48000_8h_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="aiff__stereo__32bit__44100_8h.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="aiff__stereo__32bit__44100_8h_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="aiff__stereo__32bit__48000_8h.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="aiff__stereo__32bit__48000_8h_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="aiff__stereo__8bit__44100_8h.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="aiff__stereo__8bit__44100_8h_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="aiff__stereo__8bit__48000_8h.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="aiff__stereo__8bit__48000_8h_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="wav__8chan__24bit__48000_8h.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="wav__8chan__24bit__48000_8h_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="wav__mono__16bit__44100_8h.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="wav__mono__16bit__44100_8h_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="wav__mono__16bit__48000_8h.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="wav__mono__16bit__48000_8h_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="wav__stereo__16bit__44100_8h.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="wav__stereo__16bit__44100_8h_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="wav__stereo__16bit__48000_8h.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="wav__stereo__16bit__48000_8h_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="wav__stereo__24bit__44100_8h.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="wav__stereo__24bit__44100_8h_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="wav__stereo__24bit__48000_8h.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="wav__stereo__24bit__48000_8h_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="wav__stereo__32bit__44100_8h.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="wav__stereo__32bit__44100_8h_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="wav__stereo__32bit__48000_8h.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="wav__stereo__32bit__48000_8h_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="wav__stereo__8bit__44100_8h.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="wav__stereo__8bit__44100_8h_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="wav__stereo__8bit__48000_8h.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="wav__stereo__8bit__48000_8h_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_wav_loading_tests_8cpp.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ex2_8cpp.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ex3_8cpp.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ex4_8cpp.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ex5__2_8cpp.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ex6__3_8cpp.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ex7_8cpp.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ex8_8cpp.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ex8__2_8cpp.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ex9_8cpp.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+</chapter>
+<index/>
+</book>

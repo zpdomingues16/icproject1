@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_structdoctest_1_1detail_1_1_relational_comparator" xml:lang="en-US">
+<title>doctest::detail::RelationalComparator&lt; int, L, R &gt; Struct Template Reference</title>
+<indexterm><primary>doctest::detail::RelationalComparator&lt; int, L, R &gt;</primary></indexterm>
+<para>
+<computeroutput>#include &lt;doctest.h&gt;</computeroutput>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>bool <link linkend="_structdoctest_1_1detail_1_1_relational_comparator_1a51062ad46cd23c982838a0a51df70512">operator()</link> (const <link linkend="_doctest_8h_1af2901cafb023c57fb672ccb1bf14f2eb">DOCTEST_REF_WRAP</link>(L), const <link linkend="_doctest_8h_1af2901cafb023c57fb672ccb1bf14f2eb">DOCTEST_REF_WRAP</link>(R)) const</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_structdoctest_1_1detail_1_1_relational_comparator_1a51062ad46cd23c982838a0a51df70512"/><section>
+    <title>operator()()</title>
+<indexterm><primary>operator()</primary><secondary>doctest::detail::RelationalComparator&lt; int, L, R &gt;</secondary></indexterm>
+<indexterm><primary>doctest::detail::RelationalComparator&lt; int, L, R &gt;</primary><secondary>operator()</secondary></indexterm>
+<computeroutput>template&lt;int , class L , class R &gt; </computeroutput><para><computeroutput>bool <link linkend="_structdoctest_1_1detail_1_1_relational_comparator">doctest::detail::RelationalComparator</link>&lt; int, L, R &gt;::operator() (const  DOCTEST_REF_WRAPL, const  DOCTEST_REF_WRAPR) const<computeroutput>[inline]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this struct was generated from the following file:</para>
+AudioFile/tests/doctest/<link linkend="_doctest_8h">doctest.h</link></section>
+</section>

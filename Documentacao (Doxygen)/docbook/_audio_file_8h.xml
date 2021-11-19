@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__audio_file_8h" xml:lang="en-US">
+<title>AudioFile/AudioFile.h File Reference</title>
+<indexterm><primary>AudioFile/AudioFile.h</primary></indexterm>
+<programlisting linenumbering="unnumbered">#include &lt;iostream&gt;
+#include &lt;vector&gt;
+#include &lt;cassert&gt;
+#include &lt;string&gt;
+#include &lt;cstring&gt;
+#include &lt;fstream&gt;
+#include &lt;unordered_map&gt;
+#include &lt;iterator&gt;
+#include &lt;algorithm&gt;
+</programlisting><simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_audio_file">AudioFile&lt; T &gt;</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Enumerations    </title>
+        <itemizedlist>
+            <listitem><para>enum class <link linkend="__audio_file_8h_1ad18559d169602e85d0ad68da6ef8593f">AudioFileFormat</link> { <link linkend="__audio_file_8h_1a526ed66f20752002a63ee72e2e350d7da902b0d55fddef6f8d651fe1035b7d4bd">Error</link>
+, <link linkend="__audio_file_8h_1ad18559d169602e85d0ad68da6ef8593fa5111e24c1ecc6266ce0de4b4dc42033b">NotLoaded</link>
+, <link linkend="__audio_file_8h_1ad18559d169602e85d0ad68da6ef8593fad911b34823c7674c292556dc56148c27">Wave</link>
+, <link linkend="__audio_file_8h_1ad18559d169602e85d0ad68da6ef8593fac2271ab764905d770a81d0920f8c6aaf">Aiff</link>
+ }</para>
+</listitem>
+            <listitem><para>enum <link linkend="__audio_file_8h_1a24ed57f869bfefdef1bed0a033886d8e">WavAudioFormat</link> { 
+<link linkend="__audio_file_8h_1a24ed57f869bfefdef1bed0a033886d8ea91062305c293c8f87879282035b9e982">PCM</link> = 0x0001
+, <link linkend="__audio_file_8h_1a24ed57f869bfefdef1bed0a033886d8eaf48e2c55df672bab9d55c60af50a7181">IEEEFloat</link> = 0x0003
+, <link linkend="__audio_file_8h_1a24ed57f869bfefdef1bed0a033886d8ea6a355409829949f68b750116a8583fe2">ALaw</link> = 0x0006
+, <link linkend="__audio_file_8h_1a24ed57f869bfefdef1bed0a033886d8ea730c7411a2c9edcad21808aea0a225d8">MULaw</link> = 0x0007
+, 
+<link linkend="__audio_file_8h_1a24ed57f869bfefdef1bed0a033886d8ea3399988804e27576467357a9fd8fbf92">Extensible</link> = 0xFFFE
+ }</para>
+</listitem>
+            <listitem><para>enum <link linkend="__audio_file_8h_1a526ed66f20752002a63ee72e2e350d7d">AIFFAudioFormat</link> { <link linkend="__audio_file_8h_1a526ed66f20752002a63ee72e2e350d7da8ff322ff580065823204d6a61d90f9b3">Uncompressed</link>
+, <link linkend="__audio_file_8h_1a526ed66f20752002a63ee72e2e350d7da4e27fd9489beea00d95846abc48ab83e">Compressed</link>
+, <link linkend="__audio_file_8h_1a526ed66f20752002a63ee72e2e350d7da4dfd42ec49d09d8c6555c218301cc30f">Error</link>
+, <link linkend="__audio_file_8h_1a526ed66f20752002a63ee72e2e350d7da902b0d55fddef6f8d651fe1035b7d4bd">Error</link>
+ }</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><formalpara><title>Author</title>
+
+<para>Adam Stark </para>
+</formalpara>
+<formalpara><title>Copyright</title>
+
+<para>Copyright (C) 2017 Adam Stark</para>
+</formalpara>
+This file is part of the &apos;<link linkend="_class_audio_file">AudioFile</link>&apos; library</para>
+
+<para>This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.</para>
+
+<para>This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.</para>
+
+<para>You should have received a copy of the GNU General Public License along with this program. If not, see <link xlink:href="http://www.gnu.org/licenses/">http://www.gnu.org/licenses/</link>. </para>
+</section>
+<section>
+<title>Enumeration Type Documentation</title>
+<anchor xml:id="__audio_file_8h_1a526ed66f20752002a63ee72e2e350d7d"/><section>
+    <title>AIFFAudioFormat</title>
+<indexterm><primary>AIFFAudioFormat</primary><secondary>AudioFile.h</secondary></indexterm>
+<indexterm><primary>AudioFile.h</primary><secondary>AIFFAudioFormat</secondary></indexterm>
+<para><computeroutput>enum <link linkend="__audio_file_8h_1a526ed66f20752002a63ee72e2e350d7d">AIFFAudioFormat</link></computeroutput></para><informaltable frame="all">
+<title>Enumerator</title>
+    <tgroup cols="2" align="left" colsep="1" rowsep="1">
+      <colspec colname='c1'/>
+      <colspec colname='c2'/>
+<tbody>
+<row><entry><indexterm><primary>Uncompressed</primary><secondary>AudioFile.h</secondary></indexterm>
+<indexterm><primary>AudioFile.h</primary><secondary>Uncompressed</secondary></indexterm>
+<anchor xml:id="__audio_file_8h_1a526ed66f20752002a63ee72e2e350d7da8ff322ff580065823204d6a61d90f9b3"/>Uncompressed</entry><entry></entry></row><row><entry><indexterm><primary>Compressed</primary><secondary>AudioFile.h</secondary></indexterm>
+<indexterm><primary>AudioFile.h</primary><secondary>Compressed</secondary></indexterm>
+<anchor xml:id="__audio_file_8h_1a526ed66f20752002a63ee72e2e350d7da4e27fd9489beea00d95846abc48ab83e"/>Compressed</entry><entry></entry></row><row><entry><indexterm><primary>Error</primary><secondary>AudioFile.h</secondary></indexterm>
+<indexterm><primary>AudioFile.h</primary><secondary>Error</secondary></indexterm>
+<anchor xml:id="__audio_file_8h_1a526ed66f20752002a63ee72e2e350d7da4dfd42ec49d09d8c6555c218301cc30f"/>Error</entry><entry></entry></row><row><entry><indexterm><primary>Error</primary><secondary>AudioFile.h</secondary></indexterm>
+<indexterm><primary>AudioFile.h</primary><secondary>Error</secondary></indexterm>
+<anchor xml:id="__audio_file_8h_1a526ed66f20752002a63ee72e2e350d7da902b0d55fddef6f8d651fe1035b7d4bd"/>Error</entry><entry></entry></row>    </tbody>
+    </tgroup>
+</informaltable>
+</section>
+<anchor xml:id="__audio_file_8h_1ad18559d169602e85d0ad68da6ef8593f"/><section>
+    <title>AudioFileFormat</title>
+<indexterm><primary>AudioFileFormat</primary><secondary>AudioFile.h</secondary></indexterm>
+<indexterm><primary>AudioFile.h</primary><secondary>AudioFileFormat</secondary></indexterm>
+<para><computeroutput>enum class <link linkend="__audio_file_8h_1ad18559d169602e85d0ad68da6ef8593f">AudioFileFormat</link><computeroutput>[strong]</computeroutput></computeroutput></para>
+<para>The different types of audio file, plus some other types to indicate a failure to load a file, or that one hasn&apos;t been loaded yet </para>
+<informaltable frame="all">
+<title>Enumerator</title>
+    <tgroup cols="2" align="left" colsep="1" rowsep="1">
+      <colspec colname='c1'/>
+      <colspec colname='c2'/>
+<tbody>
+<row><entry><indexterm><primary>Error</primary><secondary>AudioFile.h</secondary></indexterm>
+<indexterm><primary>AudioFile.h</primary><secondary>Error</secondary></indexterm>
+<anchor xml:id="__audio_file_8h_1a526ed66f20752002a63ee72e2e350d7da902b0d55fddef6f8d651fe1035b7d4bd"/>Error</entry><entry></entry></row><row><entry><indexterm><primary>NotLoaded</primary><secondary>AudioFile.h</secondary></indexterm>
+<indexterm><primary>AudioFile.h</primary><secondary>NotLoaded</secondary></indexterm>
+<anchor xml:id="__audio_file_8h_1ad18559d169602e85d0ad68da6ef8593fa5111e24c1ecc6266ce0de4b4dc42033b"/>NotLoaded</entry><entry></entry></row><row><entry><indexterm><primary>Wave</primary><secondary>AudioFile.h</secondary></indexterm>
+<indexterm><primary>AudioFile.h</primary><secondary>Wave</secondary></indexterm>
+<anchor xml:id="__audio_file_8h_1ad18559d169602e85d0ad68da6ef8593fad911b34823c7674c292556dc56148c27"/>Wave</entry><entry></entry></row><row><entry><indexterm><primary>Aiff</primary><secondary>AudioFile.h</secondary></indexterm>
+<indexterm><primary>AudioFile.h</primary><secondary>Aiff</secondary></indexterm>
+<anchor xml:id="__audio_file_8h_1ad18559d169602e85d0ad68da6ef8593fac2271ab764905d770a81d0920f8c6aaf"/>Aiff</entry><entry></entry></row>    </tbody>
+    </tgroup>
+</informaltable>
+</section>
+<anchor xml:id="__audio_file_8h_1a24ed57f869bfefdef1bed0a033886d8e"/><section>
+    <title>WavAudioFormat</title>
+<indexterm><primary>WavAudioFormat</primary><secondary>AudioFile.h</secondary></indexterm>
+<indexterm><primary>AudioFile.h</primary><secondary>WavAudioFormat</secondary></indexterm>
+<para><computeroutput>enum <link linkend="__audio_file_8h_1a24ed57f869bfefdef1bed0a033886d8e">WavAudioFormat</link></computeroutput></para><informaltable frame="all">
+<title>Enumerator</title>
+    <tgroup cols="2" align="left" colsep="1" rowsep="1">
+      <colspec colname='c1'/>
+      <colspec colname='c2'/>
+<tbody>
+<row><entry><indexterm><primary>PCM</primary><secondary>AudioFile.h</secondary></indexterm>
+<indexterm><primary>AudioFile.h</primary><secondary>PCM</secondary></indexterm>
+<anchor xml:id="__audio_file_8h_1a24ed57f869bfefdef1bed0a033886d8ea91062305c293c8f87879282035b9e982"/>PCM</entry><entry></entry></row><row><entry><indexterm><primary>IEEEFloat</primary><secondary>AudioFile.h</secondary></indexterm>
+<indexterm><primary>AudioFile.h</primary><secondary>IEEEFloat</secondary></indexterm>
+<anchor xml:id="__audio_file_8h_1a24ed57f869bfefdef1bed0a033886d8eaf48e2c55df672bab9d55c60af50a7181"/>IEEEFloat</entry><entry></entry></row><row><entry><indexterm><primary>ALaw</primary><secondary>AudioFile.h</secondary></indexterm>
+<indexterm><primary>AudioFile.h</primary><secondary>ALaw</secondary></indexterm>
+<anchor xml:id="__audio_file_8h_1a24ed57f869bfefdef1bed0a033886d8ea6a355409829949f68b750116a8583fe2"/>ALaw</entry><entry></entry></row><row><entry><indexterm><primary>MULaw</primary><secondary>AudioFile.h</secondary></indexterm>
+<indexterm><primary>AudioFile.h</primary><secondary>MULaw</secondary></indexterm>
+<anchor xml:id="__audio_file_8h_1a24ed57f869bfefdef1bed0a033886d8ea730c7411a2c9edcad21808aea0a225d8"/>MULaw</entry><entry></entry></row><row><entry><indexterm><primary>Extensible</primary><secondary>AudioFile.h</secondary></indexterm>
+<indexterm><primary>AudioFile.h</primary><secondary>Extensible</secondary></indexterm>
+<anchor xml:id="__audio_file_8h_1a24ed57f869bfefdef1bed0a033886d8ea3399988804e27576467357a9fd8fbf92"/>Extensible</entry><entry></entry></row>    </tbody>
+    </tgroup>
+</informaltable>
+</section>
+</section>
+</section>

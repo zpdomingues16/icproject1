@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__aiff_loading_tests_8cpp" xml:lang="en-US">
+<title>AudioFile/tests/AiffLoadingTests.cpp File Reference</title>
+<indexterm><primary>AudioFile/tests/AiffLoadingTests.cpp</primary></indexterm>
+<programlisting linenumbering="unnumbered">#include &quot;doctest.h&quot;
+#include &lt;iostream&gt;
+#include &lt;vector&gt;
+#include &lt;AudioFile.h&gt;
+#include &quot;test-headers/aiff_stereo_8bit_44100.h&quot;
+#include &quot;test-headers/aiff_stereo_16bit_44100.h&quot;
+#include &quot;test-headers/aiff_stereo_24bit_44100.h&quot;
+#include &quot;test-headers/aiff_stereo_32bit_44100.h&quot;
+#include &quot;test-headers/aiff_stereo_8bit_48000.h&quot;
+#include &quot;test-headers/aiff_stereo_16bit_48000.h&quot;
+#include &quot;test-headers/aiff_stereo_24bit_48000.h&quot;
+#include &quot;test-headers/aiff_stereo_32bit_48000.h&quot;
+</programlisting><simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="__aiff_loading_tests_8cpp_1a69bd18dd51d88850690ad029bac445e8">TEST_SUITE</link> (&quot;AiffLoadingTests&quot;)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Variables    </title>
+        <itemizedlist>
+            <listitem><para>const std::string <link linkend="__aiff_loading_tests_8cpp_1aab12f6f688960440e22c94c6be834b18">projectBuildDirectory</link> = PROJECT_BINARY_DIR</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Function Documentation</title>
+<anchor xml:id="__aiff_loading_tests_8cpp_1a69bd18dd51d88850690ad029bac445e8"/><section>
+    <title>TEST_SUITE()</title>
+<indexterm><primary>TEST_SUITE</primary><secondary>AiffLoadingTests.cpp</secondary></indexterm>
+<indexterm><primary>AiffLoadingTests.cpp</primary><secondary>TEST_SUITE</secondary></indexterm>
+<para><computeroutput>TEST_SUITE (&quot;AiffLoadingTests&quot; )</computeroutput></para></section>
+</section>
+<section>
+<title>Variable Documentation</title>
+<anchor xml:id="__aiff_loading_tests_8cpp_1aab12f6f688960440e22c94c6be834b18"/><section>
+    <title>projectBuildDirectory</title>
+<indexterm><primary>projectBuildDirectory</primary><secondary>AiffLoadingTests.cpp</secondary></indexterm>
+<indexterm><primary>AiffLoadingTests.cpp</primary><secondary>projectBuildDirectory</secondary></indexterm>
+<para><computeroutput>const std::string projectBuildDirectory = PROJECT_BINARY_DIR</computeroutput></para></section>
+</section>
+</section>

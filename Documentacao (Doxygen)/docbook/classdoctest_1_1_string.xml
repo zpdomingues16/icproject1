@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classdoctest_1_1_string" xml:lang="en-US">
+<title>doctest::String Class Reference</title>
+<indexterm><primary>doctest::String</primary></indexterm>
+<para>
+<computeroutput>#include &lt;doctest.h&gt;</computeroutput>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classdoctest_1_1_string_1ab18d26f6c9e728c2fac77a501b8ca5f5">String</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_classdoctest_1_1_string_1af5dce5deeb8f25a4866efdff75e92975">~String</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_classdoctest_1_1_string_1abb4449cbc613cd973ae774c704fca5dd">String</link> (const char *in)</para>
+</listitem>
+            <listitem><para><link linkend="_classdoctest_1_1_string_1a01d9f84ab0a3dc67b195678b6073dd4c">String</link> (const char *in, unsigned in_size)</para>
+</listitem>
+            <listitem><para><link linkend="_classdoctest_1_1_string_1a27ca7976da20bdebbf225fa496c38ad1">String</link> (const <link linkend="_classdoctest_1_1_string">String</link> &amp;other)</para>
+</listitem>
+            <listitem><para><link linkend="_classdoctest_1_1_string">String</link> &amp; <link linkend="_classdoctest_1_1_string_1a43d58193ddd859ffc1dbd8ea4d263103">operator=</link> (const <link linkend="_classdoctest_1_1_string">String</link> &amp;other)</para>
+</listitem>
+            <listitem><para><link linkend="_classdoctest_1_1_string">String</link> &amp; <link linkend="_classdoctest_1_1_string_1a3025142a313b3d9bacb6bfd32c1bc36f">operator+=</link> (const <link linkend="_classdoctest_1_1_string">String</link> &amp;other)</para>
+</listitem>
+            <listitem><para><link linkend="_classdoctest_1_1_string">String</link> <link linkend="_classdoctest_1_1_string_1a6ddb6cf1b744a0ae1d4e26b3c8dfa827">operator+</link> (const <link linkend="_classdoctest_1_1_string">String</link> &amp;other) const</para>
+</listitem>
+            <listitem><para><link linkend="_classdoctest_1_1_string_1a4bbdcb36cd68988953c3bb2d18e53210">String</link> (<link linkend="_classdoctest_1_1_string">String</link> &amp;&amp;other)</para>
+</listitem>
+            <listitem><para><link linkend="_classdoctest_1_1_string">String</link> &amp; <link linkend="_classdoctest_1_1_string_1afb06cd600ae7282bad5f2e9e3e4fad2c">operator=</link> (<link linkend="_classdoctest_1_1_string">String</link> &amp;&amp;other)</para>
+</listitem>
+            <listitem><para>char <link linkend="_classdoctest_1_1_string_1adf69290bc23e8c7bf60a9bcf765ebc10">operator[]</link> (unsigned i) const</para>
+</listitem>
+            <listitem><para>char &amp; <link linkend="_classdoctest_1_1_string_1a6984a8468af784f4694c1811623ebd7f">operator[]</link> (unsigned i)</para>
+</listitem>
+            <listitem><para>const char * <link linkend="_classdoctest_1_1_string_1a59fcdcf1abd7d66572158049c1b4a8c0">c_str</link> () const</para>
+</listitem>
+            <listitem><para>char * <link linkend="_classdoctest_1_1_string_1a4a59b9aa0980d93e15a4cf459dab7f7e">c_str</link> ()</para>
+</listitem>
+            <listitem><para>unsigned <link linkend="_classdoctest_1_1_string_1a9fbc7b09f1660b236f12fc2adce6183d">size</link> () const</para>
+</listitem>
+            <listitem><para>unsigned <link linkend="_classdoctest_1_1_string_1adad8703f08950d173d2cb1426391fcdf">capacity</link> () const</para>
+</listitem>
+            <listitem><para>int <link linkend="_classdoctest_1_1_string_1aef87d1f106d32d8c31af87335b44164d">compare</link> (const char *other, bool no_case=false) const</para>
+</listitem>
+            <listitem><para>int <link linkend="_classdoctest_1_1_string_1adb57becb56e054d981e7c2b967a7e359">compare</link> (const <link linkend="_classdoctest_1_1_string">String</link> &amp;other, bool no_case=false) const</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classdoctest_1_1_string_1ab18d26f6c9e728c2fac77a501b8ca5f5"/><section>
+    <title>String()<computeroutput>[1/5]</computeroutput></title>
+<indexterm><primary>String</primary><secondary>doctest::String</secondary></indexterm>
+<indexterm><primary>doctest::String</primary><secondary>String</secondary></indexterm>
+<para><computeroutput>doctest::String::String ( )</computeroutput></para></section>
+<anchor xml:id="_classdoctest_1_1_string_1af5dce5deeb8f25a4866efdff75e92975"/><section>
+    <title>~String()</title>
+<indexterm><primary>~String</primary><secondary>doctest::String</secondary></indexterm>
+<indexterm><primary>doctest::String</primary><secondary>~String</secondary></indexterm>
+<para><computeroutput>doctest::String::~String ( )</computeroutput></para></section>
+<anchor xml:id="_classdoctest_1_1_string_1abb4449cbc613cd973ae774c704fca5dd"/><section>
+    <title>String()<computeroutput>[2/5]</computeroutput></title>
+<indexterm><primary>String</primary><secondary>doctest::String</secondary></indexterm>
+<indexterm><primary>doctest::String</primary><secondary>String</secondary></indexterm>
+<para><computeroutput>doctest::String::String (const char * in)</computeroutput></para></section>
+<anchor xml:id="_classdoctest_1_1_string_1a01d9f84ab0a3dc67b195678b6073dd4c"/><section>
+    <title>String()<computeroutput>[3/5]</computeroutput></title>
+<indexterm><primary>String</primary><secondary>doctest::String</secondary></indexterm>
+<indexterm><primary>doctest::String</primary><secondary>String</secondary></indexterm>
+<para><computeroutput>doctest::String::String (const char * in, unsigned in_size)</computeroutput></para></section>
+<anchor xml:id="_classdoctest_1_1_string_1a27ca7976da20bdebbf225fa496c38ad1"/><section>
+    <title>String()<computeroutput>[4/5]</computeroutput></title>
+<indexterm><primary>String</primary><secondary>doctest::String</secondary></indexterm>
+<indexterm><primary>doctest::String</primary><secondary>String</secondary></indexterm>
+<para><computeroutput>doctest::String::String (const <link linkend="_classdoctest_1_1_string">String</link> &amp; other)</computeroutput></para></section>
+<anchor xml:id="_classdoctest_1_1_string_1a4bbdcb36cd68988953c3bb2d18e53210"/><section>
+    <title>String()<computeroutput>[5/5]</computeroutput></title>
+<indexterm><primary>String</primary><secondary>doctest::String</secondary></indexterm>
+<indexterm><primary>doctest::String</primary><secondary>String</secondary></indexterm>
+<para><computeroutput>doctest::String::String (<link linkend="_classdoctest_1_1_string">String</link> &amp;&amp; other)</computeroutput></para></section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classdoctest_1_1_string_1a4a59b9aa0980d93e15a4cf459dab7f7e"/><section>
+    <title>c_str()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>c_str</primary><secondary>doctest::String</secondary></indexterm>
+<indexterm><primary>doctest::String</primary><secondary>c_str</secondary></indexterm>
+<para><computeroutput>char * doctest::String::c_str ( )<computeroutput>[inline]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classdoctest_1_1_string_1a59fcdcf1abd7d66572158049c1b4a8c0"/><section>
+    <title>c_str()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>c_str</primary><secondary>doctest::String</secondary></indexterm>
+<indexterm><primary>doctest::String</primary><secondary>c_str</secondary></indexterm>
+<para><computeroutput>const char * doctest::String::c_str ( ) const<computeroutput>[inline]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classdoctest_1_1_string_1adad8703f08950d173d2cb1426391fcdf"/><section>
+    <title>capacity()</title>
+<indexterm><primary>capacity</primary><secondary>doctest::String</secondary></indexterm>
+<indexterm><primary>doctest::String</primary><secondary>capacity</secondary></indexterm>
+<para><computeroutput>unsigned doctest::String::capacity ( ) const</computeroutput></para></section>
+<anchor xml:id="_classdoctest_1_1_string_1aef87d1f106d32d8c31af87335b44164d"/><section>
+    <title>compare()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>compare</primary><secondary>doctest::String</secondary></indexterm>
+<indexterm><primary>doctest::String</primary><secondary>compare</secondary></indexterm>
+<para><computeroutput>int doctest::String::compare (const char * other, bool no_case = <computeroutput>false</computeroutput>
+) const</computeroutput></para></section>
+<anchor xml:id="_classdoctest_1_1_string_1adb57becb56e054d981e7c2b967a7e359"/><section>
+    <title>compare()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>compare</primary><secondary>doctest::String</secondary></indexterm>
+<indexterm><primary>doctest::String</primary><secondary>compare</secondary></indexterm>
+<para><computeroutput>int doctest::String::compare (const <link linkend="_classdoctest_1_1_string">String</link> &amp; other, bool no_case = <computeroutput>false</computeroutput>
+) const</computeroutput></para></section>
+<anchor xml:id="_classdoctest_1_1_string_1a6ddb6cf1b744a0ae1d4e26b3c8dfa827"/><section>
+    <title>operator+()</title>
+<indexterm><primary>operator+</primary><secondary>doctest::String</secondary></indexterm>
+<indexterm><primary>doctest::String</primary><secondary>operator+</secondary></indexterm>
+<para><computeroutput><link linkend="_classdoctest_1_1_string">String</link> doctest::String::operator+ (const <link linkend="_classdoctest_1_1_string">String</link> &amp; other) const</computeroutput></para></section>
+<anchor xml:id="_classdoctest_1_1_string_1a3025142a313b3d9bacb6bfd32c1bc36f"/><section>
+    <title>operator+=()</title>
+<indexterm><primary>operator+=</primary><secondary>doctest::String</secondary></indexterm>
+<indexterm><primary>doctest::String</primary><secondary>operator+=</secondary></indexterm>
+<para><computeroutput><link linkend="_classdoctest_1_1_string">String</link> &amp; doctest::String::operator+= (const <link linkend="_classdoctest_1_1_string">String</link> &amp; other)</computeroutput></para></section>
+<anchor xml:id="_classdoctest_1_1_string_1a43d58193ddd859ffc1dbd8ea4d263103"/><section>
+    <title>operator=()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>operator=</primary><secondary>doctest::String</secondary></indexterm>
+<indexterm><primary>doctest::String</primary><secondary>operator=</secondary></indexterm>
+<para><computeroutput><link linkend="_classdoctest_1_1_string">String</link> &amp; doctest::String::operator= (const <link linkend="_classdoctest_1_1_string">String</link> &amp; other)</computeroutput></para></section>
+<anchor xml:id="_classdoctest_1_1_string_1afb06cd600ae7282bad5f2e9e3e4fad2c"/><section>
+    <title>operator=()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>operator=</primary><secondary>doctest::String</secondary></indexterm>
+<indexterm><primary>doctest::String</primary><secondary>operator=</secondary></indexterm>
+<para><computeroutput><link linkend="_classdoctest_1_1_string">String</link> &amp; doctest::String::operator= (<link linkend="_classdoctest_1_1_string">String</link> &amp;&amp; other)</computeroutput></para></section>
+<anchor xml:id="_classdoctest_1_1_string_1a6984a8468af784f4694c1811623ebd7f"/><section>
+    <title>operator[]()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>operator[]</primary><secondary>doctest::String</secondary></indexterm>
+<indexterm><primary>doctest::String</primary><secondary>operator[]</secondary></indexterm>
+<para><computeroutput>char &amp; doctest::String::operator[] (unsigned i)</computeroutput></para></section>
+<anchor xml:id="_classdoctest_1_1_string_1adf69290bc23e8c7bf60a9bcf765ebc10"/><section>
+    <title>operator[]()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>operator[]</primary><secondary>doctest::String</secondary></indexterm>
+<indexterm><primary>doctest::String</primary><secondary>operator[]</secondary></indexterm>
+<para><computeroutput>char doctest::String::operator[] (unsigned i) const</computeroutput></para></section>
+<anchor xml:id="_classdoctest_1_1_string_1a9fbc7b09f1660b236f12fc2adce6183d"/><section>
+    <title>size()</title>
+<indexterm><primary>size</primary><secondary>doctest::String</secondary></indexterm>
+<indexterm><primary>doctest::String</primary><secondary>size</secondary></indexterm>
+<para><computeroutput>unsigned doctest::String::size ( ) const</computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classdoctest_1_1_string_1a7e031ced488588936a540eba26facf67"/><section>
+    <title>buf</title>
+<indexterm><primary>buf</primary><secondary>doctest::String</secondary></indexterm>
+<indexterm><primary>doctest::String</primary><secondary>buf</secondary></indexterm>
+<para><computeroutput>char doctest::String::buf[len]</computeroutput></para></section>
+<anchor xml:id="_classdoctest_1_1_string_1a5c77ed634a1b81aea739a73fb01d986a"/><section>
+    <title>data</title>
+<indexterm><primary>data</primary><secondary>doctest::String</secondary></indexterm>
+<indexterm><primary>doctest::String</primary><secondary>data</secondary></indexterm>
+<para><computeroutput>view doctest::String::data</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+AudioFile/tests/doctest/<link linkend="_doctest_8h">doctest.h</link></section>
+</section>

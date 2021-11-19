@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_structdoctest_1_1_assert_data" xml:lang="en-US">
+<title>doctest::AssertData Struct Reference</title>
+<indexterm><primary>doctest::AssertData</primary></indexterm>
+<para>
+<computeroutput>#include &lt;doctest.h&gt;</computeroutput>
+</para>
+<para>Inheritance diagram for doctest::AssertData:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="structdoctest_1_1_assert_data.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>const <link linkend="_structdoctest_1_1_test_case_data">TestCaseData</link> * <link linkend="_structdoctest_1_1_assert_data_1ab26ee6e05feaefc982c4f5481458cbda">m_test_case</link></para>
+</listitem>
+            <listitem><para><link linkend="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3">assertType::Enum</link> <link linkend="_structdoctest_1_1_assert_data_1a0b3b2866b13ba048c0beea51bd798749">m_at</link></para>
+</listitem>
+            <listitem><para>const char * <link linkend="_structdoctest_1_1_assert_data_1ac22c9ed0d8c6edec58c4b26a0a00e714">m_file</link></para>
+</listitem>
+            <listitem><para>int <link linkend="_structdoctest_1_1_assert_data_1a1142f5fb5d171964b7677a9d23f81548">m_line</link></para>
+</listitem>
+            <listitem><para>const char * <link linkend="_structdoctest_1_1_assert_data_1af8fe9e24ffba3f575c7384a85f96297a">m_expr</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_structdoctest_1_1_assert_data_1ac9ddaf3e6532fdadba3c1f74eb931d4a">m_failed</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_structdoctest_1_1_assert_data_1a3e9d4c7eeff7c4fe310b0597bf7027b8">m_threw</link></para>
+</listitem>
+            <listitem><para><link linkend="_classdoctest_1_1_string">String</link> <link linkend="_structdoctest_1_1_assert_data_1a1fdbef933ef26c0bc174f9ec716924cd">m_exception</link></para>
+</listitem>
+            <listitem><para><link linkend="_classdoctest_1_1_string">String</link> <link linkend="_structdoctest_1_1_assert_data_1a1c6b5804b7dd4d8ba70126cb598f30bd">m_decomp</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_structdoctest_1_1_assert_data_1ace744d365532d299052c8a80a63f7079">m_threw_as</link></para>
+</listitem>
+            <listitem><para>const char * <link linkend="_structdoctest_1_1_assert_data_1a1c476dc606780aefdb7db2d7ca146199">m_exception_type</link></para>
+</listitem>
+            <listitem><para>const char * <link linkend="_structdoctest_1_1_assert_data_1aa01e5c79855d78e3612b6d77a0fef54b">m_exception_string</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_structdoctest_1_1_assert_data_1a0b3b2866b13ba048c0beea51bd798749"/><section>
+    <title>m_at</title>
+<indexterm><primary>m_at</primary><secondary>doctest::AssertData</secondary></indexterm>
+<indexterm><primary>doctest::AssertData</primary><secondary>m_at</secondary></indexterm>
+<para><computeroutput><link linkend="_namespacedoctest_1_1assert_type_1ae1bb5bed722f34f1c38b83cb19d326d3">assertType::Enum</link> doctest::AssertData::m_at</computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1_assert_data_1a1c6b5804b7dd4d8ba70126cb598f30bd"/><section>
+    <title>m_decomp</title>
+<indexterm><primary>m_decomp</primary><secondary>doctest::AssertData</secondary></indexterm>
+<indexterm><primary>doctest::AssertData</primary><secondary>m_decomp</secondary></indexterm>
+<para><computeroutput><link linkend="_classdoctest_1_1_string">String</link> doctest::AssertData::m_decomp</computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1_assert_data_1a1fdbef933ef26c0bc174f9ec716924cd"/><section>
+    <title>m_exception</title>
+<indexterm><primary>m_exception</primary><secondary>doctest::AssertData</secondary></indexterm>
+<indexterm><primary>doctest::AssertData</primary><secondary>m_exception</secondary></indexterm>
+<para><computeroutput><link linkend="_classdoctest_1_1_string">String</link> doctest::AssertData::m_exception</computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1_assert_data_1aa01e5c79855d78e3612b6d77a0fef54b"/><section>
+    <title>m_exception_string</title>
+<indexterm><primary>m_exception_string</primary><secondary>doctest::AssertData</secondary></indexterm>
+<indexterm><primary>doctest::AssertData</primary><secondary>m_exception_string</secondary></indexterm>
+<para><computeroutput>const char* doctest::AssertData::m_exception_string</computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1_assert_data_1a1c476dc606780aefdb7db2d7ca146199"/><section>
+    <title>m_exception_type</title>
+<indexterm><primary>m_exception_type</primary><secondary>doctest::AssertData</secondary></indexterm>
+<indexterm><primary>doctest::AssertData</primary><secondary>m_exception_type</secondary></indexterm>
+<para><computeroutput>const char* doctest::AssertData::m_exception_type</computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1_assert_data_1af8fe9e24ffba3f575c7384a85f96297a"/><section>
+    <title>m_expr</title>
+<indexterm><primary>m_expr</primary><secondary>doctest::AssertData</secondary></indexterm>
+<indexterm><primary>doctest::AssertData</primary><secondary>m_expr</secondary></indexterm>
+<para><computeroutput>const char* doctest::AssertData::m_expr</computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1_assert_data_1ac9ddaf3e6532fdadba3c1f74eb931d4a"/><section>
+    <title>m_failed</title>
+<indexterm><primary>m_failed</primary><secondary>doctest::AssertData</secondary></indexterm>
+<indexterm><primary>doctest::AssertData</primary><secondary>m_failed</secondary></indexterm>
+<para><computeroutput>bool doctest::AssertData::m_failed</computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1_assert_data_1ac22c9ed0d8c6edec58c4b26a0a00e714"/><section>
+    <title>m_file</title>
+<indexterm><primary>m_file</primary><secondary>doctest::AssertData</secondary></indexterm>
+<indexterm><primary>doctest::AssertData</primary><secondary>m_file</secondary></indexterm>
+<para><computeroutput>const char* doctest::AssertData::m_file</computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1_assert_data_1a1142f5fb5d171964b7677a9d23f81548"/><section>
+    <title>m_line</title>
+<indexterm><primary>m_line</primary><secondary>doctest::AssertData</secondary></indexterm>
+<indexterm><primary>doctest::AssertData</primary><secondary>m_line</secondary></indexterm>
+<para><computeroutput>int doctest::AssertData::m_line</computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1_assert_data_1ab26ee6e05feaefc982c4f5481458cbda"/><section>
+    <title>m_test_case</title>
+<indexterm><primary>m_test_case</primary><secondary>doctest::AssertData</secondary></indexterm>
+<indexterm><primary>doctest::AssertData</primary><secondary>m_test_case</secondary></indexterm>
+<para><computeroutput>const <link linkend="_structdoctest_1_1_test_case_data">TestCaseData</link>* doctest::AssertData::m_test_case</computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1_assert_data_1a3e9d4c7eeff7c4fe310b0597bf7027b8"/><section>
+    <title>m_threw</title>
+<indexterm><primary>m_threw</primary><secondary>doctest::AssertData</secondary></indexterm>
+<indexterm><primary>doctest::AssertData</primary><secondary>m_threw</secondary></indexterm>
+<para><computeroutput>bool doctest::AssertData::m_threw</computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1_assert_data_1ace744d365532d299052c8a80a63f7079"/><section>
+    <title>m_threw_as</title>
+<indexterm><primary>m_threw_as</primary><secondary>doctest::AssertData</secondary></indexterm>
+<indexterm><primary>doctest::AssertData</primary><secondary>m_threw_as</secondary></indexterm>
+<para><computeroutput>bool doctest::AssertData::m_threw_as</computeroutput></para></section>
+<para>
+The documentation for this struct was generated from the following file:</para>
+AudioFile/tests/doctest/<link linkend="_doctest_8h">doctest.h</link></section>
+</section>

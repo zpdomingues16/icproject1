@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespacedoctest_1_1detail_1_1binary_assert_comparison" xml:lang="en-US">
+<title>doctest::detail::binaryAssertComparison Namespace Reference</title>
+<indexterm><primary>doctest::detail::binaryAssertComparison</primary></indexterm>
+<simplesect>
+    <title>Enumerations    </title>
+        <itemizedlist>
+            <listitem><para>enum <link linkend="_namespacedoctest_1_1detail_1_1binary_assert_comparison_1a2117cafa5b007d26f2e0988f3a081569">Enum</link> { 
+<link linkend="_namespacedoctest_1_1detail_1_1binary_assert_comparison_1a2117cafa5b007d26f2e0988f3a081569af644d2e3091c342ab78b12da1fcb06dc">eq</link> = 0
+, <link linkend="_namespacedoctest_1_1detail_1_1binary_assert_comparison_1a2117cafa5b007d26f2e0988f3a081569a851b5dd9ab390a406621216da112ac9c">ne</link>
+, <link linkend="_namespacedoctest_1_1detail_1_1binary_assert_comparison_1a2117cafa5b007d26f2e0988f3a081569a3efb665f41cd9490d9739e1ad228918e">gt</link>
+, <link linkend="_namespacedoctest_1_1detail_1_1binary_assert_comparison_1a2117cafa5b007d26f2e0988f3a081569aea0e8621512e05d78d88ff2d2c164a6b">lt</link>
+, 
+<link linkend="_namespacedoctest_1_1detail_1_1binary_assert_comparison_1a2117cafa5b007d26f2e0988f3a081569a1de9460fcfb6a1681f13d54083f88313">ge</link>
+, <link linkend="_namespacedoctest_1_1detail_1_1binary_assert_comparison_1a2117cafa5b007d26f2e0988f3a081569a58efccb94f787a00914adc6db077347b">le</link>
+ }</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Enumeration Type Documentation</title>
+<anchor xml:id="_namespacedoctest_1_1detail_1_1binary_assert_comparison_1a2117cafa5b007d26f2e0988f3a081569"/><section>
+    <title>Enum</title>
+<indexterm><primary>Enum</primary><secondary>doctest::detail::binaryAssertComparison</secondary></indexterm>
+<indexterm><primary>doctest::detail::binaryAssertComparison</primary><secondary>Enum</secondary></indexterm>
+<para><computeroutput>enum <link linkend="_namespacedoctest_1_1detail_1_1binary_assert_comparison_1a2117cafa5b007d26f2e0988f3a081569">doctest::detail::binaryAssertComparison::Enum</link></computeroutput></para><informaltable frame="all">
+<title>Enumerator</title>
+    <tgroup cols="2" align="left" colsep="1" rowsep="1">
+      <colspec colname='c1'/>
+      <colspec colname='c2'/>
+<tbody>
+<row><entry><indexterm><primary>eq</primary><secondary>doctest::detail::binaryAssertComparison</secondary></indexterm>
+<indexterm><primary>doctest::detail::binaryAssertComparison</primary><secondary>eq</secondary></indexterm>
+<anchor xml:id="_namespacedoctest_1_1detail_1_1binary_assert_comparison_1a2117cafa5b007d26f2e0988f3a081569af644d2e3091c342ab78b12da1fcb06dc"/>eq</entry><entry></entry></row><row><entry><indexterm><primary>ne</primary><secondary>doctest::detail::binaryAssertComparison</secondary></indexterm>
+<indexterm><primary>doctest::detail::binaryAssertComparison</primary><secondary>ne</secondary></indexterm>
+<anchor xml:id="_namespacedoctest_1_1detail_1_1binary_assert_comparison_1a2117cafa5b007d26f2e0988f3a081569a851b5dd9ab390a406621216da112ac9c"/>ne</entry><entry></entry></row><row><entry><indexterm><primary>gt</primary><secondary>doctest::detail::binaryAssertComparison</secondary></indexterm>
+<indexterm><primary>doctest::detail::binaryAssertComparison</primary><secondary>gt</secondary></indexterm>
+<anchor xml:id="_namespacedoctest_1_1detail_1_1binary_assert_comparison_1a2117cafa5b007d26f2e0988f3a081569a3efb665f41cd9490d9739e1ad228918e"/>gt</entry><entry></entry></row><row><entry><indexterm><primary>lt</primary><secondary>doctest::detail::binaryAssertComparison</secondary></indexterm>
+<indexterm><primary>doctest::detail::binaryAssertComparison</primary><secondary>lt</secondary></indexterm>
+<anchor xml:id="_namespacedoctest_1_1detail_1_1binary_assert_comparison_1a2117cafa5b007d26f2e0988f3a081569aea0e8621512e05d78d88ff2d2c164a6b"/>lt</entry><entry></entry></row><row><entry><indexterm><primary>ge</primary><secondary>doctest::detail::binaryAssertComparison</secondary></indexterm>
+<indexterm><primary>doctest::detail::binaryAssertComparison</primary><secondary>ge</secondary></indexterm>
+<anchor xml:id="_namespacedoctest_1_1detail_1_1binary_assert_comparison_1a2117cafa5b007d26f2e0988f3a081569a1de9460fcfb6a1681f13d54083f88313"/>ge</entry><entry></entry></row><row><entry><indexterm><primary>le</primary><secondary>doctest::detail::binaryAssertComparison</secondary></indexterm>
+<indexterm><primary>doctest::detail::binaryAssertComparison</primary><secondary>le</secondary></indexterm>
+<anchor xml:id="_namespacedoctest_1_1detail_1_1binary_assert_comparison_1a2117cafa5b007d26f2e0988f3a081569a58efccb94f787a00914adc6db077347b"/>le</entry><entry></entry></row>    </tbody>
+    </tgroup>
+</informaltable>
+</section>
+</section>
+</section>

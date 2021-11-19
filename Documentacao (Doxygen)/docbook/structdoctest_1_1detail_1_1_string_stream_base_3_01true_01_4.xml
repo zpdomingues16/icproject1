@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_structdoctest_1_1detail_1_1_string_stream_base_3_01true_01_4" xml:lang="en-US">
+<title>doctest::detail::StringStreamBase&lt; true &gt; Struct Reference</title>
+<indexterm><primary>doctest::detail::StringStreamBase&lt; true &gt;</primary></indexterm>
+<para>
+<computeroutput>#include &lt;doctest.h&gt;</computeroutput>
+</para>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>template&lt;typename T &gt; </para><para>static void <link linkend="_structdoctest_1_1detail_1_1_string_stream_base_3_01true_01_4_1a3f86285d254474498065e6b70522e2b7">convert</link> (<link linkend="_doctest_8h_1a116af65cb5e924b33ad9d9ecd7a783f3">std::ostream</link> *s, const T &amp;in)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_structdoctest_1_1detail_1_1_string_stream_base_3_01true_01_4_1a3f86285d254474498065e6b70522e2b7"/><section>
+    <title>convert()</title>
+<indexterm><primary>convert</primary><secondary>doctest::detail::StringStreamBase&lt; true &gt;</secondary></indexterm>
+<indexterm><primary>doctest::detail::StringStreamBase&lt; true &gt;</primary><secondary>convert</secondary></indexterm>
+<computeroutput>template&lt;typename T &gt; </computeroutput><para><computeroutput>static void <link linkend="_structdoctest_1_1detail_1_1_string_stream_base">doctest::detail::StringStreamBase</link>&lt; true &gt;::convert (<link linkend="_doctest_8h_1a116af65cb5e924b33ad9d9ecd7a783f3">std::ostream</link> * s, const T &amp; in)<computeroutput>[inline]</computeroutput>, <computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this struct was generated from the following file:</para>
+AudioFile/tests/doctest/<link linkend="_doctest_8h">doctest.h</link></section>
+</section>

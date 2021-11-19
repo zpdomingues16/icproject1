@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classdoctest_1_1_context" xml:lang="en-US">
+<title>doctest::Context Class Reference</title>
+<indexterm><primary>doctest::Context</primary></indexterm>
+<para>
+<computeroutput>#include &lt;doctest.h&gt;</computeroutput>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classdoctest_1_1_context_1a881bc2d0fe207d672e1debe830768a98">Context</link> (int argc=0, const char *const *argv=nullptr)</para>
+</listitem>
+            <listitem><para><link linkend="_classdoctest_1_1_context_1a33b344fbc4803dca81147c4a4cc9edbd">~Context</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classdoctest_1_1_context_1ad55229220bf9ca74e6e0c6323bf672e1">applyCommandLine</link> (int argc, const char *const *argv)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classdoctest_1_1_context_1a60ad57a46c19db2b142468c3acac448a">addFilter</link> (const char *filter, const char *value)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classdoctest_1_1_context_1aaa878723e89310d5aa3f516bc7ab3165">clearFilters</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classdoctest_1_1_context_1a95e7a0230c5897f0eae36718f51d2f05">setOption</link> (const char *option, int value)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classdoctest_1_1_context_1a4352ffc196c4ba56045270e45baa2754">setOption</link> (const char *option, const char *value)</para>
+</listitem>
+            <listitem><para>bool <link linkend="_classdoctest_1_1_context_1a219b10301380b81c84c0824a6876d9aa">shouldExit</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classdoctest_1_1_context_1ae85cecc7689f009e23cba383484773b2">setAsDefaultForAssertsOutOfTestCases</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classdoctest_1_1_context_1a669dd0a596a611eeb0decdb78b661a90">setAssertHandler</link> (<link linkend="_namespacedoctest_1_1detail_1a5b5db6997f20389de5735e3ee3439b95">detail::assert_handler</link> ah)</para>
+</listitem>
+            <listitem><para>int <link linkend="_classdoctest_1_1_context_1a8059b137ef41cbe6c5d8160806a3cc63">run</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classdoctest_1_1_context_1a881bc2d0fe207d672e1debe830768a98"/><section>
+    <title>Context()</title>
+<indexterm><primary>Context</primary><secondary>doctest::Context</secondary></indexterm>
+<indexterm><primary>doctest::Context</primary><secondary>Context</secondary></indexterm>
+<para><computeroutput>doctest::Context::Context (int argc = <computeroutput>0</computeroutput>
+, const char *const * argv = <computeroutput>nullptr</computeroutput>
+)<computeroutput>[explicit]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classdoctest_1_1_context_1a33b344fbc4803dca81147c4a4cc9edbd"/><section>
+    <title>~Context()</title>
+<indexterm><primary>~Context</primary><secondary>doctest::Context</secondary></indexterm>
+<indexterm><primary>doctest::Context</primary><secondary>~Context</secondary></indexterm>
+<para><computeroutput>doctest::Context::~Context ( )</computeroutput></para></section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classdoctest_1_1_context_1a60ad57a46c19db2b142468c3acac448a"/><section>
+    <title>addFilter()</title>
+<indexterm><primary>addFilter</primary><secondary>doctest::Context</secondary></indexterm>
+<indexterm><primary>doctest::Context</primary><secondary>addFilter</secondary></indexterm>
+<para><computeroutput>void doctest::Context::addFilter (const char * filter, const char * value)</computeroutput></para></section>
+<anchor xml:id="_classdoctest_1_1_context_1ad55229220bf9ca74e6e0c6323bf672e1"/><section>
+    <title>applyCommandLine()</title>
+<indexterm><primary>applyCommandLine</primary><secondary>doctest::Context</secondary></indexterm>
+<indexterm><primary>doctest::Context</primary><secondary>applyCommandLine</secondary></indexterm>
+<para><computeroutput>void doctest::Context::applyCommandLine (int argc, const char *const * argv)</computeroutput></para></section>
+<anchor xml:id="_classdoctest_1_1_context_1aaa878723e89310d5aa3f516bc7ab3165"/><section>
+    <title>clearFilters()</title>
+<indexterm><primary>clearFilters</primary><secondary>doctest::Context</secondary></indexterm>
+<indexterm><primary>doctest::Context</primary><secondary>clearFilters</secondary></indexterm>
+<para><computeroutput>void doctest::Context::clearFilters ( )</computeroutput></para></section>
+<anchor xml:id="_classdoctest_1_1_context_1a8059b137ef41cbe6c5d8160806a3cc63"/><section>
+    <title>run()</title>
+<indexterm><primary>run</primary><secondary>doctest::Context</secondary></indexterm>
+<indexterm><primary>doctest::Context</primary><secondary>run</secondary></indexterm>
+<para><computeroutput>int doctest::Context::run ( )</computeroutput></para></section>
+<anchor xml:id="_classdoctest_1_1_context_1ae85cecc7689f009e23cba383484773b2"/><section>
+    <title>setAsDefaultForAssertsOutOfTestCases()</title>
+<indexterm><primary>setAsDefaultForAssertsOutOfTestCases</primary><secondary>doctest::Context</secondary></indexterm>
+<indexterm><primary>doctest::Context</primary><secondary>setAsDefaultForAssertsOutOfTestCases</secondary></indexterm>
+<para><computeroutput>void doctest::Context::setAsDefaultForAssertsOutOfTestCases ( )</computeroutput></para></section>
+<anchor xml:id="_classdoctest_1_1_context_1a669dd0a596a611eeb0decdb78b661a90"/><section>
+    <title>setAssertHandler()</title>
+<indexterm><primary>setAssertHandler</primary><secondary>doctest::Context</secondary></indexterm>
+<indexterm><primary>doctest::Context</primary><secondary>setAssertHandler</secondary></indexterm>
+<para><computeroutput>void doctest::Context::setAssertHandler (<link linkend="_namespacedoctest_1_1detail_1a5b5db6997f20389de5735e3ee3439b95">detail::assert_handler</link> ah)</computeroutput></para></section>
+<anchor xml:id="_classdoctest_1_1_context_1a4352ffc196c4ba56045270e45baa2754"/><section>
+    <title>setOption()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>setOption</primary><secondary>doctest::Context</secondary></indexterm>
+<indexterm><primary>doctest::Context</primary><secondary>setOption</secondary></indexterm>
+<para><computeroutput>void doctest::Context::setOption (const char * option, const char * value)</computeroutput></para></section>
+<anchor xml:id="_classdoctest_1_1_context_1a95e7a0230c5897f0eae36718f51d2f05"/><section>
+    <title>setOption()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>setOption</primary><secondary>doctest::Context</secondary></indexterm>
+<indexterm><primary>doctest::Context</primary><secondary>setOption</secondary></indexterm>
+<para><computeroutput>void doctest::Context::setOption (const char * option, int value)</computeroutput></para></section>
+<anchor xml:id="_classdoctest_1_1_context_1a219b10301380b81c84c0824a6876d9aa"/><section>
+    <title>shouldExit()</title>
+<indexterm><primary>shouldExit</primary><secondary>doctest::Context</secondary></indexterm>
+<indexterm><primary>doctest::Context</primary><secondary>shouldExit</secondary></indexterm>
+<para><computeroutput>bool doctest::Context::shouldExit ( )</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+AudioFile/tests/doctest/<link linkend="_doctest_8h">doctest.h</link></section>
+</section>

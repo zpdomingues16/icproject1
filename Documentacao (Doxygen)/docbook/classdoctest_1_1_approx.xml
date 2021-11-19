@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classdoctest_1_1_approx" xml:lang="en-US">
+<title>doctest::Approx Class Reference</title>
+<indexterm><primary>doctest::Approx</primary></indexterm>
+<para>
+<computeroutput>#include &lt;doctest.h&gt;</computeroutput>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classdoctest_1_1_approx_1a86f0d1b44c1cf095697f23ccdab00802">Approx</link> (double value)</para>
+</listitem>
+            <listitem><para><link linkend="_classdoctest_1_1_approx">Approx</link> <link linkend="_classdoctest_1_1_approx_1aae907c5ea1c4ac94e134db9e35da7dce">operator()</link> (double value) const</para>
+</listitem>
+            <listitem><para><link linkend="_classdoctest_1_1_approx">Approx</link> &amp; <link linkend="_classdoctest_1_1_approx_1a3a9093777280fcf5fd79e79b1c202ba8">epsilon</link> (double newEpsilon)</para>
+</listitem>
+            <listitem><para><link linkend="_classdoctest_1_1_approx">Approx</link> &amp; <link linkend="_classdoctest_1_1_approx_1a040114c288b721e97d7cdd22faf69c90">scale</link> (double newScale)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Friends    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> friend bool <link linkend="_classdoctest_1_1_approx_1a2b6b56551f113fd12f4a52b4d3e5fd7e">operator==</link> (double lhs, const <link linkend="_classdoctest_1_1_approx">Approx</link> &amp;rhs)</para>
+</listitem>
+            <listitem><para><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> friend bool <link linkend="_classdoctest_1_1_approx_1a1b99d0c4c3924a253474e68ae30e1175">operator==</link> (const <link linkend="_classdoctest_1_1_approx">Approx</link> &amp;lhs, double rhs)</para>
+</listitem>
+            <listitem><para><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> friend bool <link linkend="_classdoctest_1_1_approx_1a44d4bbc575291095c884848887538233">operator!=</link> (double lhs, const <link linkend="_classdoctest_1_1_approx">Approx</link> &amp;rhs)</para>
+</listitem>
+            <listitem><para><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> friend bool <link linkend="_classdoctest_1_1_approx_1ae86972ba14656f422afdcc60cd2cdb08">operator!=</link> (const <link linkend="_classdoctest_1_1_approx">Approx</link> &amp;lhs, double rhs)</para>
+</listitem>
+            <listitem><para><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> friend bool <link linkend="_classdoctest_1_1_approx_1af2fef67cf4508a446eeaf38dafae661f">operator&lt;=</link> (double lhs, const <link linkend="_classdoctest_1_1_approx">Approx</link> &amp;rhs)</para>
+</listitem>
+            <listitem><para><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> friend bool <link linkend="_classdoctest_1_1_approx_1a7f32e572caa5ee152b8ade301fcfd838">operator&lt;=</link> (const <link linkend="_classdoctest_1_1_approx">Approx</link> &amp;lhs, double rhs)</para>
+</listitem>
+            <listitem><para><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> friend bool <link linkend="_classdoctest_1_1_approx_1acf882dbff26c57cd8404da3edd46f45e">operator&gt;=</link> (double lhs, const <link linkend="_classdoctest_1_1_approx">Approx</link> &amp;rhs)</para>
+</listitem>
+            <listitem><para><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> friend bool <link linkend="_classdoctest_1_1_approx_1a52e1bcec19171f0ec55cc3a280188a03">operator&gt;=</link> (const <link linkend="_classdoctest_1_1_approx">Approx</link> &amp;lhs, double rhs)</para>
+</listitem>
+            <listitem><para><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> friend bool <link linkend="_classdoctest_1_1_approx_1acf32148e34dc6444a3bb4b16e7298279">operator&lt;</link> (double lhs, const <link linkend="_classdoctest_1_1_approx">Approx</link> &amp;rhs)</para>
+</listitem>
+            <listitem><para><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> friend bool <link linkend="_classdoctest_1_1_approx_1a54ce2536ed164b79688f43e373dcbf7b">operator&lt;</link> (const <link linkend="_classdoctest_1_1_approx">Approx</link> &amp;lhs, double rhs)</para>
+</listitem>
+            <listitem><para><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> friend bool <link linkend="_classdoctest_1_1_approx_1a97a6e92b9c9dacc0adb2f76f9faf2924">operator&gt;</link> (double lhs, const <link linkend="_classdoctest_1_1_approx">Approx</link> &amp;rhs)</para>
+</listitem>
+            <listitem><para><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> friend bool <link linkend="_classdoctest_1_1_approx_1a12a93e1726180db4091cb2e3b8ba5e30">operator&gt;</link> (const <link linkend="_classdoctest_1_1_approx">Approx</link> &amp;lhs, double rhs)</para>
+</listitem>
+            <listitem><para><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> friend <link linkend="_classdoctest_1_1_string">String</link> <link linkend="_classdoctest_1_1_approx_1aa1ba324952b7844d35fc569b1c6c139a">toString</link> (const <link linkend="_classdoctest_1_1_approx">Approx</link> &amp;in)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classdoctest_1_1_approx_1a86f0d1b44c1cf095697f23ccdab00802"/><section>
+    <title>Approx()</title>
+<indexterm><primary>Approx</primary><secondary>doctest::Approx</secondary></indexterm>
+<indexterm><primary>doctest::Approx</primary><secondary>Approx</secondary></indexterm>
+<para><computeroutput>doctest::Approx::Approx (double value)<computeroutput>[explicit]</computeroutput></computeroutput></para></section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classdoctest_1_1_approx_1a3a9093777280fcf5fd79e79b1c202ba8"/><section>
+    <title>epsilon()</title>
+<indexterm><primary>epsilon</primary><secondary>doctest::Approx</secondary></indexterm>
+<indexterm><primary>doctest::Approx</primary><secondary>epsilon</secondary></indexterm>
+<para><computeroutput><link linkend="_classdoctest_1_1_approx">Approx</link> &amp; doctest::Approx::epsilon (double newEpsilon)</computeroutput></para></section>
+<anchor xml:id="_classdoctest_1_1_approx_1aae907c5ea1c4ac94e134db9e35da7dce"/><section>
+    <title>operator()()</title>
+<indexterm><primary>operator()</primary><secondary>doctest::Approx</secondary></indexterm>
+<indexterm><primary>doctest::Approx</primary><secondary>operator()</secondary></indexterm>
+<para><computeroutput><link linkend="_classdoctest_1_1_approx">Approx</link> doctest::Approx::operator() (double value) const</computeroutput></para></section>
+<anchor xml:id="_classdoctest_1_1_approx_1a040114c288b721e97d7cdd22faf69c90"/><section>
+    <title>scale()</title>
+<indexterm><primary>scale</primary><secondary>doctest::Approx</secondary></indexterm>
+<indexterm><primary>doctest::Approx</primary><secondary>scale</secondary></indexterm>
+<para><computeroutput><link linkend="_classdoctest_1_1_approx">Approx</link> &amp; doctest::Approx::scale (double newScale)</computeroutput></para></section>
+</section>
+<section>
+<title>Friends And Related Function Documentation</title>
+<anchor xml:id="_classdoctest_1_1_approx_1ae86972ba14656f422afdcc60cd2cdb08"/><section>
+    <title>operator!=<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>operator!=</primary><secondary>doctest::Approx</secondary></indexterm>
+<indexterm><primary>doctest::Approx</primary><secondary>operator!=</secondary></indexterm>
+<para><computeroutput><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> friend bool operator!= (const <link linkend="_classdoctest_1_1_approx">Approx</link> &amp; lhs, double rhs)<computeroutput>[friend]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classdoctest_1_1_approx_1a44d4bbc575291095c884848887538233"/><section>
+    <title>operator!=<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>operator!=</primary><secondary>doctest::Approx</secondary></indexterm>
+<indexterm><primary>doctest::Approx</primary><secondary>operator!=</secondary></indexterm>
+<para><computeroutput><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> friend bool operator!= (double lhs, const <link linkend="_classdoctest_1_1_approx">Approx</link> &amp; rhs)<computeroutput>[friend]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classdoctest_1_1_approx_1a54ce2536ed164b79688f43e373dcbf7b"/><section>
+    <title>operator&lt;<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>operator&lt;</primary><secondary>doctest::Approx</secondary></indexterm>
+<indexterm><primary>doctest::Approx</primary><secondary>operator&lt;</secondary></indexterm>
+<para><computeroutput><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> friend bool operator&lt; (const <link linkend="_classdoctest_1_1_approx">Approx</link> &amp; lhs, double rhs)<computeroutput>[friend]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classdoctest_1_1_approx_1acf32148e34dc6444a3bb4b16e7298279"/><section>
+    <title>operator&lt;<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>operator&lt;</primary><secondary>doctest::Approx</secondary></indexterm>
+<indexterm><primary>doctest::Approx</primary><secondary>operator&lt;</secondary></indexterm>
+<para><computeroutput><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> friend bool operator&lt; (double lhs, const <link linkend="_classdoctest_1_1_approx">Approx</link> &amp; rhs)<computeroutput>[friend]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classdoctest_1_1_approx_1a7f32e572caa5ee152b8ade301fcfd838"/><section>
+    <title>operator&lt;=<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>operator&lt;=</primary><secondary>doctest::Approx</secondary></indexterm>
+<indexterm><primary>doctest::Approx</primary><secondary>operator&lt;=</secondary></indexterm>
+<para><computeroutput><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> friend bool operator&lt;= (const <link linkend="_classdoctest_1_1_approx">Approx</link> &amp; lhs, double rhs)<computeroutput>[friend]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classdoctest_1_1_approx_1af2fef67cf4508a446eeaf38dafae661f"/><section>
+    <title>operator&lt;=<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>operator&lt;=</primary><secondary>doctest::Approx</secondary></indexterm>
+<indexterm><primary>doctest::Approx</primary><secondary>operator&lt;=</secondary></indexterm>
+<para><computeroutput><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> friend bool operator&lt;= (double lhs, const <link linkend="_classdoctest_1_1_approx">Approx</link> &amp; rhs)<computeroutput>[friend]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classdoctest_1_1_approx_1a1b99d0c4c3924a253474e68ae30e1175"/><section>
+    <title>operator==<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>operator==</primary><secondary>doctest::Approx</secondary></indexterm>
+<indexterm><primary>doctest::Approx</primary><secondary>operator==</secondary></indexterm>
+<para><computeroutput><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> friend bool operator== (const <link linkend="_classdoctest_1_1_approx">Approx</link> &amp; lhs, double rhs)<computeroutput>[friend]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classdoctest_1_1_approx_1a2b6b56551f113fd12f4a52b4d3e5fd7e"/><section>
+    <title>operator==<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>operator==</primary><secondary>doctest::Approx</secondary></indexterm>
+<indexterm><primary>doctest::Approx</primary><secondary>operator==</secondary></indexterm>
+<para><computeroutput><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> friend bool operator== (double lhs, const <link linkend="_classdoctest_1_1_approx">Approx</link> &amp; rhs)<computeroutput>[friend]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classdoctest_1_1_approx_1a12a93e1726180db4091cb2e3b8ba5e30"/><section>
+    <title>operator&gt;<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>operator&gt;</primary><secondary>doctest::Approx</secondary></indexterm>
+<indexterm><primary>doctest::Approx</primary><secondary>operator&gt;</secondary></indexterm>
+<para><computeroutput><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> friend bool operator&gt; (const <link linkend="_classdoctest_1_1_approx">Approx</link> &amp; lhs, double rhs)<computeroutput>[friend]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classdoctest_1_1_approx_1a97a6e92b9c9dacc0adb2f76f9faf2924"/><section>
+    <title>operator&gt;<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>operator&gt;</primary><secondary>doctest::Approx</secondary></indexterm>
+<indexterm><primary>doctest::Approx</primary><secondary>operator&gt;</secondary></indexterm>
+<para><computeroutput><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> friend bool operator&gt; (double lhs, const <link linkend="_classdoctest_1_1_approx">Approx</link> &amp; rhs)<computeroutput>[friend]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classdoctest_1_1_approx_1a52e1bcec19171f0ec55cc3a280188a03"/><section>
+    <title>operator&gt;=<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>operator&gt;=</primary><secondary>doctest::Approx</secondary></indexterm>
+<indexterm><primary>doctest::Approx</primary><secondary>operator&gt;=</secondary></indexterm>
+<para><computeroutput><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> friend bool operator&gt;= (const <link linkend="_classdoctest_1_1_approx">Approx</link> &amp; lhs, double rhs)<computeroutput>[friend]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classdoctest_1_1_approx_1acf882dbff26c57cd8404da3edd46f45e"/><section>
+    <title>operator&gt;=<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>operator&gt;=</primary><secondary>doctest::Approx</secondary></indexterm>
+<indexterm><primary>doctest::Approx</primary><secondary>operator&gt;=</secondary></indexterm>
+<para><computeroutput><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> friend bool operator&gt;= (double lhs, const <link linkend="_classdoctest_1_1_approx">Approx</link> &amp; rhs)<computeroutput>[friend]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classdoctest_1_1_approx_1aa1ba324952b7844d35fc569b1c6c139a"/><section>
+    <title>toString</title>
+<indexterm><primary>toString</primary><secondary>doctest::Approx</secondary></indexterm>
+<indexterm><primary>doctest::Approx</primary><secondary>toString</secondary></indexterm>
+<para><computeroutput><link linkend="_doctest_8h_1a9c16ffc635ec47f07797d21ede26b1a5">DOCTEST_INTERFACE</link> friend <link linkend="_classdoctest_1_1_string">String</link> toString (const <link linkend="_classdoctest_1_1_approx">Approx</link> &amp; in)<computeroutput>[friend]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+AudioFile/tests/doctest/<link linkend="_doctest_8h">doctest.h</link></section>
+</section>

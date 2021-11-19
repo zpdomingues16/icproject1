@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespaceexamples" xml:lang="en-US">
+<title>examples Namespace Reference</title>
+<indexterm><primary>examples</primary></indexterm>
+<simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_namespaceexamples_1afbad68c5d3edd62bc00c5b94c3139c6c">writeSineWaveToAudioFile</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_namespaceexamples_1adf95345f86d713dde9ac0b52ea09d79d">loadAudioFileAndPrintSummary</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_namespaceexamples_1a4659f3171126781fcba15b5e435097b4">loadAudioFileAndProcessSamples</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Function Documentation</title>
+<anchor xml:id="_namespaceexamples_1adf95345f86d713dde9ac0b52ea09d79d"/><section>
+    <title>loadAudioFileAndPrintSummary()</title>
+<indexterm><primary>loadAudioFileAndPrintSummary</primary><secondary>examples</secondary></indexterm>
+<indexterm><primary>examples</primary><secondary>loadAudioFileAndPrintSummary</secondary></indexterm>
+<para><computeroutput>void examples::loadAudioFileAndPrintSummary ( )</computeroutput></para>
+<para>If you hit this assert then the file path above probably doesn&apos;t refer to a valid audio file</para>
+
+<para>If you hit this assert then the file path above probably doesn&apos;t refer to a valid audio file</para>
+</section>
+<anchor xml:id="_namespaceexamples_1a4659f3171126781fcba15b5e435097b4"/><section>
+    <title>loadAudioFileAndProcessSamples()</title>
+<indexterm><primary>loadAudioFileAndProcessSamples</primary><secondary>examples</secondary></indexterm>
+<indexterm><primary>examples</primary><secondary>loadAudioFileAndProcessSamples</secondary></indexterm>
+<para><computeroutput>void examples::loadAudioFileAndProcessSamples ( )</computeroutput></para>
+<para>If you hit this assert then the file path above probably doesn&apos;t refer to a valid audio file</para>
+
+<para>If you hit this assert then the file path above probably doesn&apos;t refer to a valid audio file</para>
+</section>
+<anchor xml:id="_namespaceexamples_1afbad68c5d3edd62bc00c5b94c3139c6c"/><section>
+    <title>writeSineWaveToAudioFile()</title>
+<indexterm><primary>writeSineWaveToAudioFile</primary><secondary>examples</secondary></indexterm>
+<indexterm><primary>examples</primary><secondary>writeSineWaveToAudioFile</secondary></indexterm>
+<para><computeroutput>void examples::writeSineWaveToAudioFile ( )</computeroutput></para></section>
+</section>
+</section>

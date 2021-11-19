@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_structdoctest_1_1detail_1_1_string_stream_base" xml:lang="en-US">
+<title>doctest::detail::StringStreamBase&lt; C &gt; Struct Template Reference</title>
+<indexterm><primary>doctest::detail::StringStreamBase&lt; C &gt;</primary></indexterm>
+<para>
+<computeroutput>#include &lt;doctest.h&gt;</computeroutput>
+</para>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>template&lt;typename T &gt; </para><para>static void <link linkend="_structdoctest_1_1detail_1_1_string_stream_base_1a0eca8e2711f17a565fea3696635a3833">convert</link> (<link linkend="_doctest_8h_1a116af65cb5e924b33ad9d9ecd7a783f3">std::ostream</link> *s, const T &amp;in)</para>
+</listitem>
+            <listitem><para>static void <link linkend="_structdoctest_1_1detail_1_1_string_stream_base_1a7c248639907b26e46344b91d7ab90be7">convert</link> (<link linkend="_doctest_8h_1a116af65cb5e924b33ad9d9ecd7a783f3">std::ostream</link> *s, const char *in)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_structdoctest_1_1detail_1_1_string_stream_base_1a7c248639907b26e46344b91d7ab90be7"/><section>
+    <title>convert()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>convert</primary><secondary>doctest::detail::StringStreamBase&lt; C &gt;</secondary></indexterm>
+<indexterm><primary>doctest::detail::StringStreamBase&lt; C &gt;</primary><secondary>convert</secondary></indexterm>
+<computeroutput>template&lt;bool C&gt; </computeroutput><para><computeroutput>static void <link linkend="_structdoctest_1_1detail_1_1_string_stream_base">doctest::detail::StringStreamBase</link>&lt; C &gt;::convert (<link linkend="_doctest_8h_1a116af65cb5e924b33ad9d9ecd7a783f3">std::ostream</link> * s, const char * in)<computeroutput>[inline]</computeroutput>, <computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1detail_1_1_string_stream_base_1a0eca8e2711f17a565fea3696635a3833"/><section>
+    <title>convert()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>convert</primary><secondary>doctest::detail::StringStreamBase&lt; C &gt;</secondary></indexterm>
+<indexterm><primary>doctest::detail::StringStreamBase&lt; C &gt;</primary><secondary>convert</secondary></indexterm>
+<computeroutput>template&lt;bool C&gt; </computeroutput><computeroutput>template&lt;typename T &gt; </computeroutput><para><computeroutput>static void <link linkend="_structdoctest_1_1detail_1_1_string_stream_base">doctest::detail::StringStreamBase</link>&lt; C &gt;::convert (<link linkend="_doctest_8h_1a116af65cb5e924b33ad9d9ecd7a783f3">std::ostream</link> * s, const T &amp; in)<computeroutput>[inline]</computeroutput>, <computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this struct was generated from the following file:</para>
+AudioFile/tests/doctest/<link linkend="_doctest_8h">doctest.h</link></section>
+</section>

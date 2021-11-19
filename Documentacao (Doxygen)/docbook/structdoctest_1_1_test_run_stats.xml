@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_structdoctest_1_1_test_run_stats" xml:lang="en-US">
+<title>doctest::TestRunStats Struct Reference</title>
+<indexterm><primary>doctest::TestRunStats</primary></indexterm>
+<para>
+<computeroutput>#include &lt;doctest.h&gt;</computeroutput>
+</para>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>unsigned <link linkend="_structdoctest_1_1_test_run_stats_1a2f4b38f2f6225b798029b64c1d425999">numTestCases</link></para>
+</listitem>
+            <listitem><para>unsigned <link linkend="_structdoctest_1_1_test_run_stats_1afd49da305793d2c2622f0b33a63e87b6">numTestCasesPassingFilters</link></para>
+</listitem>
+            <listitem><para>unsigned <link linkend="_structdoctest_1_1_test_run_stats_1aecbf62d51a6c96875d72124c27096e1d">numTestSuitesPassingFilters</link></para>
+</listitem>
+            <listitem><para>unsigned <link linkend="_structdoctest_1_1_test_run_stats_1adb4acfac3623bf752eff3f8d6ce2ffe7">numTestCasesFailed</link></para>
+</listitem>
+            <listitem><para>int <link linkend="_structdoctest_1_1_test_run_stats_1a58f52d165ab0af01acb7d69a7fc53c3a">numAsserts</link></para>
+</listitem>
+            <listitem><para>int <link linkend="_structdoctest_1_1_test_run_stats_1a27c7ff2c0190e4bad60555cdc68d8f30">numAssertsFailed</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_structdoctest_1_1_test_run_stats_1a58f52d165ab0af01acb7d69a7fc53c3a"/><section>
+    <title>numAsserts</title>
+<indexterm><primary>numAsserts</primary><secondary>doctest::TestRunStats</secondary></indexterm>
+<indexterm><primary>doctest::TestRunStats</primary><secondary>numAsserts</secondary></indexterm>
+<para><computeroutput>int doctest::TestRunStats::numAsserts</computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1_test_run_stats_1a27c7ff2c0190e4bad60555cdc68d8f30"/><section>
+    <title>numAssertsFailed</title>
+<indexterm><primary>numAssertsFailed</primary><secondary>doctest::TestRunStats</secondary></indexterm>
+<indexterm><primary>doctest::TestRunStats</primary><secondary>numAssertsFailed</secondary></indexterm>
+<para><computeroutput>int doctest::TestRunStats::numAssertsFailed</computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1_test_run_stats_1a2f4b38f2f6225b798029b64c1d425999"/><section>
+    <title>numTestCases</title>
+<indexterm><primary>numTestCases</primary><secondary>doctest::TestRunStats</secondary></indexterm>
+<indexterm><primary>doctest::TestRunStats</primary><secondary>numTestCases</secondary></indexterm>
+<para><computeroutput>unsigned doctest::TestRunStats::numTestCases</computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1_test_run_stats_1adb4acfac3623bf752eff3f8d6ce2ffe7"/><section>
+    <title>numTestCasesFailed</title>
+<indexterm><primary>numTestCasesFailed</primary><secondary>doctest::TestRunStats</secondary></indexterm>
+<indexterm><primary>doctest::TestRunStats</primary><secondary>numTestCasesFailed</secondary></indexterm>
+<para><computeroutput>unsigned doctest::TestRunStats::numTestCasesFailed</computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1_test_run_stats_1afd49da305793d2c2622f0b33a63e87b6"/><section>
+    <title>numTestCasesPassingFilters</title>
+<indexterm><primary>numTestCasesPassingFilters</primary><secondary>doctest::TestRunStats</secondary></indexterm>
+<indexterm><primary>doctest::TestRunStats</primary><secondary>numTestCasesPassingFilters</secondary></indexterm>
+<para><computeroutput>unsigned doctest::TestRunStats::numTestCasesPassingFilters</computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1_test_run_stats_1aecbf62d51a6c96875d72124c27096e1d"/><section>
+    <title>numTestSuitesPassingFilters</title>
+<indexterm><primary>numTestSuitesPassingFilters</primary><secondary>doctest::TestRunStats</secondary></indexterm>
+<indexterm><primary>doctest::TestRunStats</primary><secondary>numTestSuitesPassingFilters</secondary></indexterm>
+<para><computeroutput>unsigned doctest::TestRunStats::numTestSuitesPassingFilters</computeroutput></para></section>
+<para>
+The documentation for this struct was generated from the following file:</para>
+AudioFile/tests/doctest/<link linkend="_doctest_8h">doctest.h</link></section>
+</section>

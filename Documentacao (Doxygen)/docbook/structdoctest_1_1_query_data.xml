@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_structdoctest_1_1_query_data" xml:lang="en-US">
+<title>doctest::QueryData Struct Reference</title>
+<indexterm><primary>doctest::QueryData</primary></indexterm>
+<para>
+<computeroutput>#include &lt;doctest.h&gt;</computeroutput>
+</para>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>const <link linkend="_structdoctest_1_1_test_run_stats">TestRunStats</link> * <link linkend="_structdoctest_1_1_query_data_1a435f443f389323f47cb8b0e4202bbea9">run_stats</link> = nullptr</para>
+</listitem>
+            <listitem><para>const <link linkend="_structdoctest_1_1_test_case_data">TestCaseData</link> ** <link linkend="_structdoctest_1_1_query_data_1a8085a29db9a1cd5c7eff22ef44e9a9e8">data</link> = nullptr</para>
+</listitem>
+            <listitem><para>unsigned <link linkend="_structdoctest_1_1_query_data_1af1033338fe975ae3c19b16452401230d">num_data</link> = 0</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_structdoctest_1_1_query_data_1a8085a29db9a1cd5c7eff22ef44e9a9e8"/><section>
+    <title>data</title>
+<indexterm><primary>data</primary><secondary>doctest::QueryData</secondary></indexterm>
+<indexterm><primary>doctest::QueryData</primary><secondary>data</secondary></indexterm>
+<para><computeroutput>const <link linkend="_structdoctest_1_1_test_case_data">TestCaseData</link>** doctest::QueryData::data = nullptr</computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1_query_data_1af1033338fe975ae3c19b16452401230d"/><section>
+    <title>num_data</title>
+<indexterm><primary>num_data</primary><secondary>doctest::QueryData</secondary></indexterm>
+<indexterm><primary>doctest::QueryData</primary><secondary>num_data</secondary></indexterm>
+<para><computeroutput>unsigned doctest::QueryData::num_data = 0</computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1_query_data_1a435f443f389323f47cb8b0e4202bbea9"/><section>
+    <title>run_stats</title>
+<indexterm><primary>run_stats</primary><secondary>doctest::QueryData</secondary></indexterm>
+<indexterm><primary>doctest::QueryData</primary><secondary>run_stats</secondary></indexterm>
+<para><computeroutput>const <link linkend="_structdoctest_1_1_test_run_stats">TestRunStats</link>* doctest::QueryData::run_stats = nullptr</computeroutput></para></section>
+<para>
+The documentation for this struct was generated from the following file:</para>
+AudioFile/tests/doctest/<link linkend="_doctest_8h">doctest.h</link></section>
+</section>

@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_structdoctest_1_1detail_1_1remove__reference_3_01_t_01_6_6_01_4" xml:lang="en-US">
+<title>doctest::detail::remove_reference&lt; T &amp;&amp; &gt; Struct Template Reference</title>
+<indexterm><primary>doctest::detail::remove_reference&lt; T &amp;&amp; &gt;</primary></indexterm>
+<para>
+<computeroutput>#include &lt;doctest.h&gt;</computeroutput>
+</para>
+<simplesect>
+    <title>Public Types    </title>
+        <itemizedlist>
+            <listitem><para>typedef T <link linkend="_structdoctest_1_1detail_1_1remove__reference_3_01_t_01_6_6_01_4_1af5f63a14f4e74e0c3c733c00e2f37213">type</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Typedef Documentation</title>
+<anchor xml:id="_structdoctest_1_1detail_1_1remove__reference_3_01_t_01_6_6_01_4_1af5f63a14f4e74e0c3c733c00e2f37213"/><section>
+    <title>type</title>
+<indexterm><primary>type</primary><secondary>doctest::detail::remove_reference&lt; T &amp;&amp; &gt;</secondary></indexterm>
+<indexterm><primary>doctest::detail::remove_reference&lt; T &amp;&amp; &gt;</primary><secondary>type</secondary></indexterm>
+<computeroutput>template&lt;class T &gt; </computeroutput><para><computeroutput>typedef T <link linkend="_structdoctest_1_1detail_1_1remove__reference">doctest::detail::remove_reference</link>&lt; T &amp;&amp; &gt;::<link linkend="_structdoctest_1_1detail_1_1remove__reference_3_01_t_01_6_6_01_4_1af5f63a14f4e74e0c3c733c00e2f37213">type</link></computeroutput></para></section>
+<para>
+The documentation for this struct was generated from the following file:</para>
+AudioFile/tests/doctest/<link linkend="_doctest_8h">doctest.h</link></section>
+</section>

@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_structdoctest_1_1_current_test_case_stats" xml:lang="en-US">
+<title>doctest::CurrentTestCaseStats Struct Reference</title>
+<indexterm><primary>doctest::CurrentTestCaseStats</primary></indexterm>
+<para>
+<computeroutput>#include &lt;doctest.h&gt;</computeroutput>
+</para>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>int <link linkend="_structdoctest_1_1_current_test_case_stats_1ac8731bc4e8e32b86cf2940f4dcb61dec">numAssertsCurrentTest</link></para>
+</listitem>
+            <listitem><para>int <link linkend="_structdoctest_1_1_current_test_case_stats_1a2fb52eed7bcef7322a816f418f0fb942">numAssertsFailedCurrentTest</link></para>
+</listitem>
+            <listitem><para>double <link linkend="_structdoctest_1_1_current_test_case_stats_1a29b1963f1d624d9f939f404726298f48">seconds</link></para>
+</listitem>
+            <listitem><para>int <link linkend="_structdoctest_1_1_current_test_case_stats_1aaa58c52fd07a20e6e4daf19eecb2e2ba">failure_flags</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_structdoctest_1_1_current_test_case_stats_1aaa58c52fd07a20e6e4daf19eecb2e2ba"/><section>
+    <title>failure_flags</title>
+<indexterm><primary>failure_flags</primary><secondary>doctest::CurrentTestCaseStats</secondary></indexterm>
+<indexterm><primary>doctest::CurrentTestCaseStats</primary><secondary>failure_flags</secondary></indexterm>
+<para><computeroutput>int doctest::CurrentTestCaseStats::failure_flags</computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1_current_test_case_stats_1ac8731bc4e8e32b86cf2940f4dcb61dec"/><section>
+    <title>numAssertsCurrentTest</title>
+<indexterm><primary>numAssertsCurrentTest</primary><secondary>doctest::CurrentTestCaseStats</secondary></indexterm>
+<indexterm><primary>doctest::CurrentTestCaseStats</primary><secondary>numAssertsCurrentTest</secondary></indexterm>
+<para><computeroutput>int doctest::CurrentTestCaseStats::numAssertsCurrentTest</computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1_current_test_case_stats_1a2fb52eed7bcef7322a816f418f0fb942"/><section>
+    <title>numAssertsFailedCurrentTest</title>
+<indexterm><primary>numAssertsFailedCurrentTest</primary><secondary>doctest::CurrentTestCaseStats</secondary></indexterm>
+<indexterm><primary>doctest::CurrentTestCaseStats</primary><secondary>numAssertsFailedCurrentTest</secondary></indexterm>
+<para><computeroutput>int doctest::CurrentTestCaseStats::numAssertsFailedCurrentTest</computeroutput></para></section>
+<anchor xml:id="_structdoctest_1_1_current_test_case_stats_1a29b1963f1d624d9f939f404726298f48"/><section>
+    <title>seconds</title>
+<indexterm><primary>seconds</primary><secondary>doctest::CurrentTestCaseStats</secondary></indexterm>
+<indexterm><primary>doctest::CurrentTestCaseStats</primary><secondary>seconds</secondary></indexterm>
+<para><computeroutput>double doctest::CurrentTestCaseStats::seconds</computeroutput></para></section>
+<para>
+The documentation for this struct was generated from the following file:</para>
+AudioFile/tests/doctest/<link linkend="_doctest_8h">doctest.h</link></section>
+</section>

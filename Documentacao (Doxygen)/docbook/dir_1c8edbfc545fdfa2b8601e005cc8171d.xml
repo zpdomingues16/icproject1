@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_1c8edbfc545fdfa2b8601e005cc8171d" xml:lang="en-US">
+<title>AudioFile/tests/doctest Directory Reference</title>
+<indexterm><primary>AudioFile/tests/doctest Directory Reference</primary></indexterm>
+<simplesect>
+    <title>Files    </title>
+        <itemizedlist>
+            <listitem><para>file <link linkend="_doctest_8h">doctest.h</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

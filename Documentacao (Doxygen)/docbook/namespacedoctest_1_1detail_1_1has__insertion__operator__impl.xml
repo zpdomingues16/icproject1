@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespacedoctest_1_1detail_1_1has__insertion__operator__impl" xml:lang="en-US">
+<title>doctest::detail::has_insertion_operator_impl Namespace Reference</title>
+<indexterm><primary>doctest::detail::has_insertion_operator_impl</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>struct <link linkend="_structdoctest_1_1detail_1_1has__insertion__operator__impl_1_1check">check</link></para>
+</listitem>
+            <listitem><para>struct <link linkend="_structdoctest_1_1detail_1_1has__insertion__operator__impl_1_1check_3_01_t_00_01decltype_07os_07_8d91d0ae55ab2b557e111ab3ba9c02da">check&lt; T, decltype(os()&lt;&lt; val&lt; T &gt;(), void())&gt;</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_doctest_8h_1a116af65cb5e924b33ad9d9ecd7a783f3">std::ostream</link> &amp; <link linkend="_namespacedoctest_1_1detail_1_1has__insertion__operator__impl_1a50dfa929b76e3581c300a3a8b87d21e2">os</link> ()</para>
+</listitem>
+            <listitem><para>template&lt;class T &gt; </para><para><link linkend="_namespacedoctest_1_1detail_1_1has__insertion__operator__impl_1aca675e788cb45921358501d70f0a2529">DOCTEST_REF_WRAP</link> (T) val()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Function Documentation</title>
+<anchor xml:id="_namespacedoctest_1_1detail_1_1has__insertion__operator__impl_1aca675e788cb45921358501d70f0a2529"/><section>
+    <title>DOCTEST_REF_WRAP()</title>
+<indexterm><primary>DOCTEST_REF_WRAP</primary><secondary>doctest::detail::has_insertion_operator_impl</secondary></indexterm>
+<indexterm><primary>doctest::detail::has_insertion_operator_impl</primary><secondary>DOCTEST_REF_WRAP</secondary></indexterm>
+<computeroutput>template&lt;class T &gt; </computeroutput><para><computeroutput>doctest::detail::has_insertion_operator_impl::DOCTEST_REF_WRAP (T )</computeroutput></para></section>
+<anchor xml:id="_namespacedoctest_1_1detail_1_1has__insertion__operator__impl_1a50dfa929b76e3581c300a3a8b87d21e2"/><section>
+    <title>os()</title>
+<indexterm><primary>os</primary><secondary>doctest::detail::has_insertion_operator_impl</secondary></indexterm>
+<indexterm><primary>doctest::detail::has_insertion_operator_impl</primary><secondary>os</secondary></indexterm>
+<para><computeroutput><link linkend="_doctest_8h_1a116af65cb5e924b33ad9d9ecd7a783f3">std::ostream</link> &amp; doctest::detail::has_insertion_operator_impl::os ( )</computeroutput></para></section>
+</section>
+</section>

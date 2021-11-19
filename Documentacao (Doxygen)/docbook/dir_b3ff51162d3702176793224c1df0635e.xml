@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_b3ff51162d3702176793224c1df0635e" xml:lang="en-US">
+<title>AudioFile/tests Directory Reference</title>
+<indexterm><primary>AudioFile/tests Directory Reference</primary></indexterm>
+<simplesect>
+    <title>Directories    </title>
+        <itemizedlist>
+            <listitem><para>directory <link linkend="_dir_1c8edbfc545fdfa2b8601e005cc8171d">doctest</link></para>
+</listitem>
+            <listitem><para>directory <link linkend="_dir_6e1682e4837d730ea513359e2b815893">test-headers</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Files    </title>
+        <itemizedlist>
+            <listitem><para>file <link linkend="__aiff_loading_tests_8cpp">AiffLoadingTests.cpp</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__file_writing_tests_8cpp">FileWritingTests.cpp</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__general_tests_8cpp">GeneralTests.cpp</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_main_8cpp">main.cpp</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_make_headers_8py">makeHeaders.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__wav_loading_tests_8cpp">WavLoadingTests.cpp</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>
