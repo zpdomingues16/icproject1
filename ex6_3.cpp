@@ -6,6 +6,7 @@
 #include <iostream>
 #include "AudioFile/AudioFile.h"
 #include <math.h>
+#include <sstream>
 
 
 using namespace std;
@@ -24,6 +25,12 @@ int main(int argc, char* argv[]){
 
   AudioFile<double> audioFile;
 
+  if (argc==1)	{													// indicação da sintaxe de commando
+		cout << "Usage: ./program_name ./original_audio_file_name.wav" << endl; // \a toca um som de alerta (byte 0x07 in ASCII encoding)
+	}
+	else {
+
+
   audioFile.load(argv[1]);
 
 
@@ -36,19 +43,6 @@ int main(int argc, char* argv[]){
     cout << "numSamples/channel = "<< numSamples << endl;
     cout << "bitDepth = " << bitDepth << endl;
 
-//Nome dos ficheiros de output para os histogramas.
-string channel1;
-string channel2;
-string mono;
-
-channel1 = argv[1] + "_channel1.txt"
-channel2 = argv[1] + "_channel2.txt"
-mono = argv[1] + "_mono.txt"
-
-
-ofstream ofs1(channel1);
-ofstream ofs2(channel2);
-ofstream ofs3(mono);
 
     map<int,long int> samp1; //Channel 1
     map<int,long int> samp2; //Channel 2
@@ -180,6 +174,21 @@ double entropiamono = 0;
 
     cout << "Entropia mono = " << entropiamono << "bps" << endl;
 
+//Nome dos ficheiros de output para os histogramas.
+
+
+    stringstream arg;
+    arg.str (argv[1]);
+    string channel1 = arg.str() + "_channel1.txt";
+    string channel2 = arg.str() + "_channel2.txt";
+    string mono = arg.str() + "_mono.txt";
+
+
+    ofstream ofs1(channel1);
+    ofstream ofs2(channel2);
+    ofstream ofs3(mono);
+
+
 ////Populate the corresponding output files:
 
     for (auto const &pair: samp1) {
@@ -202,5 +211,6 @@ double entropiamono = 0;
 //   }
 ////////////////////////////////////////////////////////////////////////////////////////
 
+	}
   return 0;
 }
