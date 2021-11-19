@@ -14,7 +14,7 @@ int main(int argc, char* argv[]){
   AudioFile<double> audioFile;
   AudioFile<double> audioFileOut;
 
-     if (argc==1)	{													// indicação da sintaxe de commando
+     if (argc==1)	{													// indicaÃ§Ã£o da sintaxe de commando
 		cout << "Usage: ./program_name ./original_audio_file_name.wav ./bitreduced_audio_file_name.wav" << endl; // \a toca um som de alerta (byte 0x07 in ASCII encoding)
 	}
 	else {
@@ -31,7 +31,7 @@ int main(int argc, char* argv[]){
   for (int c = 0; c < channels; c++){
     for (int i = 0; i < numSamples; i++)
     {
-      audioFileOut.samples[c][i] = ((trunc((audioFile.samples[c][i])*32767000))/2)*2;
+      audioFileOut.samples[c][i] = ((trunc((audioFile.samples[c][i])*32767))/128); //reduzido para 8 bits
     };
   }
 
