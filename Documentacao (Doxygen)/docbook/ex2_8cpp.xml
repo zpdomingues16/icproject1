@@ -8,6 +8,8 @@
     <title>Functions    </title>
         <itemizedlist>
             <listitem><para>int <link linkend="_ex2_8cpp_1a0ddf1224851353fc92bfbff6f499fa97">main</link> (int argc, char *argv[])</para>
+
+<para>Copia um ficheiro de texto para outro, caracter a caracter. </para>
 </listitem>
         </itemizedlist>
 </simplesect>
@@ -17,6 +19,20 @@
     <title>main()</title>
 <indexterm><primary>main</primary><secondary>ex2.cpp</secondary></indexterm>
 <indexterm><primary>ex2.cpp</primary><secondary>main</secondary></indexterm>
-<para><computeroutput>int main (int argc, char * argv[])</computeroutput></para></section>
+<para><computeroutput>int main (int argc, char * argv[])</computeroutput></para><para>
+
+<para>Copia um ficheiro de texto para outro, caracter a caracter. </para>
+</para>
+
+<para>Argumento para o nome do ficheiro original.</para>
+
+<para>Argumento para o nome do ficheiro copia.</para>
+
+<para>Passa os caracteres para a variavel &quot;x&quot; um a um.</para>
+
+<para>Insere os caracteres no stream de saida/ficheiro.</para>
+
+<para>Fecha o ficheiro.</para>
+</section>
 </section>
 </section>
