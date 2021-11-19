@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__arquivo_2ex2_2ex2_8cpp" xml:lang="en-US">
+<title>Arquivo/ex2/ex2.cpp File Reference</title>
+<indexterm><primary>Arquivo/ex2/ex2.cpp</primary></indexterm>
+<programlisting linenumbering="unnumbered">#include &lt;iostream&gt;
+#include &lt;fstream&gt;
+</programlisting><simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para>int <link linkend="__arquivo_2ex2_2ex2_8cpp_1a0ddf1224851353fc92bfbff6f499fa97">main</link> (int argc, char *argv[])</para>
+
+<para>Copia um ficheiro de texto para outro, caracter a caracter. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Function Documentation</title>
+<anchor xml:id="__arquivo_2ex2_2ex2_8cpp_1a0ddf1224851353fc92bfbff6f499fa97"/><section>
+    <title>main()</title>
+<indexterm><primary>main</primary><secondary>ex2.cpp</secondary></indexterm>
+<indexterm><primary>ex2.cpp</primary><secondary>main</secondary></indexterm>
+<para><computeroutput>int main (int argc, char * argv[])</computeroutput></para><para>
+
+<para>Copia um ficheiro de texto para outro, caracter a caracter. </para>
+</para>
+
+<para>Argumento para o nome do ficheiro original.</para>
+
+<para>Argumento para o nome do ficheiro copia.</para>
+
+<para>Passa os caracteres para a variavel &quot;x&quot; um a um.</para>
+
+<para>Insere os caracteres no stream de saida/ficheiro.</para>
+
+<para>Fecha o ficheiro.</para>
+</section>
+</section>
+</section>

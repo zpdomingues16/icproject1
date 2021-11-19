@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_ex9_8cpp" xml:lang="en-US">
-<title>ex9/ex9.cpp File Reference</title>
-<indexterm><primary>ex9/ex9.cpp</primary></indexterm>
+<title>ex9.cpp File Reference</title>
+<indexterm><primary>ex9.cpp</primary></indexterm>
 <programlisting linenumbering="unnumbered">#include &lt;opencv2/opencv.hpp&gt;
 #include &lt;stdint.h&gt;
 #include &lt;iostream&gt;

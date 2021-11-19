@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_e939355e9911c0d7b8e0ba8a6ad0f09b" xml:lang="en-US">
+<title>Arquivo Directory Reference</title>
+<indexterm><primary>Arquivo Directory Reference</primary></indexterm>
+<simplesect>
+    <title>Directories    </title>
+        <itemizedlist>
+            <listitem><para>directory <link linkend="_dir_e35c7dd1d91de137e99ab0867b95fdbc">ex2</link></para>
+</listitem>
+            <listitem><para>directory <link linkend="_dir_8115542b0cb7f597aba4ec1249051970">ex3</link></para>
+</listitem>
+            <listitem><para>directory <link linkend="_dir_464ba00135c0ecebd699f35dd3191bb9">ex4</link></para>
+</listitem>
+            <listitem><para>directory <link linkend="_dir_5a34801ec03c8f428990de48e3129fb0">ex5</link></para>
+</listitem>
+            <listitem><para>directory <link linkend="_dir_f8f81641f52899ad3aa26e2ec7769fc4">ex6</link></para>
+</listitem>
+            <listitem><para>directory <link linkend="_dir_3c7041fb7fb1d6cdf2ad8cbe4f654383">ex7</link></para>
+</listitem>
+            <listitem><para>directory <link linkend="_dir_9c15926f4ed50fa85807992c068d6c6b">ex8</link></para>
+</listitem>
+            <listitem><para>directory <link linkend="_dir_8172f4418ccb9352cd2697a27e2814b4">ex9</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

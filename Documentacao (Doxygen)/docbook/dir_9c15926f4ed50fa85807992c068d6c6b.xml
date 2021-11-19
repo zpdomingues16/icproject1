@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_9c15926f4ed50fa85807992c068d6c6b" xml:lang="en-US">
+<title>Arquivo/ex8 Directory Reference</title>
+<indexterm><primary>Arquivo/ex8 Directory Reference</primary></indexterm>
+<simplesect>
+    <title>Files    </title>
+        <itemizedlist>
+            <listitem><para>file <link linkend="__arquivo_2ex8_2ex8_8cpp">ex8.cpp</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_ex8__2_8cpp">ex8_2.cpp</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_ex8x_8cpp">ex8x.cpp</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

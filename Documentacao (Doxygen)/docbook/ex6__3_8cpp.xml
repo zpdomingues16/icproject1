@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_ex6__3_8cpp" xml:lang="en-US">
-<title>ex6_3.cpp File Reference</title>
-<indexterm><primary>ex6_3.cpp</primary></indexterm>
+<title>Arquivo/ex6/ex6_3.cpp File Reference</title>
+<indexterm><primary>Arquivo/ex6/ex6_3.cpp</primary></indexterm>
 <programlisting linenumbering="unnumbered">#include &lt;map&gt;
 #include &lt;stdint.h&gt;
 #include &lt;fstream&gt;

@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_ex3_8cpp" xml:lang="en-US">
-<title>ex3/ex3.cpp File Reference</title>
-<indexterm><primary>ex3/ex3.cpp</primary></indexterm>
+<title>ex3.cpp File Reference</title>
+<indexterm><primary>ex3.cpp</primary></indexterm>
 <programlisting linenumbering="unnumbered">#include &lt;iostream&gt;
 #include &quot;../AudioFile/AudioFile.h&quot;
 </programlisting><simplesect>

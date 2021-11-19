@@ -88,6 +88,22 @@
 </chapter>
 <chapter>
     <title>File Documentation</title>
+    <xi:include href="_arquivo_2ex2_2ex2_8cpp.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ex2_8cpp.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_arquivo_2ex3_2ex3_8cpp.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ex3_8cpp.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_arquivo_2ex4_2ex4_8cpp.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ex4_8cpp.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ex5__2_8cpp.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ex6__3_8cpp.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_arquivo_2ex7_2ex7_8cpp.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ex7_8cpp.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_arquivo_2ex8_2ex8_8cpp.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ex8_8cpp.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ex8__2_8cpp.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ex8x_8cpp.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_arquivo_2ex9_2ex9_8cpp.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ex9_8cpp.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
     <xi:include href="_audio_file_8h.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
     <xi:include href="_audio_file_8h_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
     <xi:include href="examples_8cpp.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
@@ -139,17 +155,8 @@
     <xi:include href="wav__stereo__8bit__48000_8h.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
     <xi:include href="wav__stereo__8bit__48000_8h_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
     <xi:include href="_wav_loading_tests_8cpp.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-    <xi:include href="ex2_8cpp.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-    <xi:include href="ex3_8cpp.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-    <xi:include href="ex4_8cpp.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-    <xi:include href="ex5__2_8cpp.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-    <xi:include href="ex6_2ex6__3_8cpp.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-    <xi:include href="ex6__3_8cpp.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-    <xi:include href="ex7_8cpp.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-    <xi:include href="ex8_8cpp.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-    <xi:include href="ex8_2ex8__2_8cpp.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-    <xi:include href="ex8__2_8cpp.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-    <xi:include href="ex9_8cpp.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ex5_8cpp.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ex6_8cpp.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 </chapter>
 <index/>
 </book>

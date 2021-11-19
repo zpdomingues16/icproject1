@@ -6196,7 +6196,7 @@ Go to the documentation of this file.<programlisting linenumbering="unnumbered">
 6193 
 6194 <emphasis role="preprocessor">#ifdef&#32;DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN</emphasis>
 6195 <link linkend="_doctest_8h_1a2199aafb8016ab6daca23c2cc6170428">DOCTEST_MSVC_SUPPRESS_WARNING_WITH_PUSH</link>(4007)&#32;<emphasis role="comment">//&#32;&apos;function&apos;&#32;:&#32;must&#32;be&#32;&apos;attribute&apos;&#32;-&#32;see&#32;issue&#32;#182</emphasis>
-6196 int&#32;<link linkend="_examples_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4">main</link>(<emphasis role="keywordtype">int</emphasis>&#32;argc,&#32;<emphasis role="keywordtype">char</emphasis>**&#32;argv)&#32;{&#32;<emphasis role="keywordflow">return</emphasis>&#32;<link linkend="_classdoctest_1_1_context">doctest::Context</link>(argc,&#32;argv).<link linkend="_classdoctest_1_1_context_1a8059b137ef41cbe6c5d8160806a3cc63">run</link>();&#32;}
+6196 int&#32;<link linkend="__arquivo_2ex2_2ex2_8cpp_1a0ddf1224851353fc92bfbff6f499fa97">main</link>(<emphasis role="keywordtype">int</emphasis>&#32;argc,&#32;<emphasis role="keywordtype">char</emphasis>**&#32;argv)&#32;{&#32;<emphasis role="keywordflow">return</emphasis>&#32;<link linkend="_classdoctest_1_1_context">doctest::Context</link>(argc,&#32;argv).<link linkend="_classdoctest_1_1_context_1a8059b137ef41cbe6c5d8160806a3cc63">run</link>();&#32;}
 6197 <link linkend="_doctest_8h_1a540e6314c4b71317f3459f0117e14bc8">DOCTEST_MSVC_SUPPRESS_WARNING_POP</link>
 6198 <emphasis role="preprocessor">#endif&#32;</emphasis><emphasis role="comment">//&#32;DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN</emphasis>
 6199 

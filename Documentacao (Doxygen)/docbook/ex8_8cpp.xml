@@ -1,13 +1,14 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_ex8_8cpp" xml:lang="en-US">
-<title>ex8/ex8.cpp File Reference</title>
-<indexterm><primary>ex8/ex8.cpp</primary></indexterm>
+<title>ex8.cpp File Reference</title>
+<indexterm><primary>ex8.cpp</primary></indexterm>
 <programlisting linenumbering="unnumbered">#include &lt;iostream&gt;
 #include &lt;fstream&gt;
 #include &quot;AudioFile/AudioFile.h&quot;
 #include &lt;math.h&gt;
 #include &lt;stdio.h&gt;
 #include &lt;stdint.h&gt;
+#include &lt;sstream&gt;
 </programlisting><simplesect>
     <title>Functions    </title>
         <itemizedlist>
