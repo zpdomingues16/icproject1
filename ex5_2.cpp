@@ -31,8 +31,8 @@ int main(int argc, char* argv[])
 	else {
 
 
-	if (!ifs.is_open()) {								                    // avisa se o ficheiro de texto não for encontrado
-		cout << "failed to open file \"" << argv[1] << "\"" << endl;
+	if (!ifs.is_open()) {								                    // avisa se o ficheiro de texto não for encontrado e toca um som/alarme.
+		cout << "failed to open file \"" << argv[1] << "\"" << "\a" << endl;
 	}
 	else {
 

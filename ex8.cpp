@@ -37,6 +37,6 @@ int main(int argc, char* argv[]){
 
   audioFile.save (argv[2], AudioFileFormat::Wave);
 	}
-    }
+
   return 0;
 }
