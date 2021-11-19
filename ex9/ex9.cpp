@@ -17,12 +17,14 @@ int main(int argc, char* argv[])
   }
   
 	Mat img2 = Mat::zeros(Size(img.rows, img.cols), CV_8UC3);
+	int bitDepth = img2.depth();
+
 
 	for (int r = 0; r < img.rows; r++)
 	{
 		for (int c = 0; c < img.cols; c++)
 		{
-			img2.at<Vec3b>(r,c) = trunc((img.at<Vec3b>(r,c))/2)*2;
+			img2.at<Vec3b>(r,c) = trunc((img.at<Vec3b>(r,c))/bitDepth)*bitDepth;
 		}
 	}
 	imwrite(argv[2], img2);
