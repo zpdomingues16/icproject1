@@ -1,0 +1,540 @@
+commit 1d87adb5bf6c4d0f81e17fe1e564e3fc1177894d
+Author: carlos54vidal <94443213+carlos54vidal@users.noreply.github.com>
+Date:   Fri Nov 19 23:45:19 2021 +0000
+
+    alteração do nome do ficheiro
+
+commit 6c740c29fc9b27fbf549dcecb628a01856ad9942
+Author: carlos54vidal <94443213+carlos54vidal@users.noreply.github.com>
+Date:   Fri Nov 19 23:43:56 2021 +0000
+
+    Update relatorio-final.docx
+
+commit c16c8aa5a2449602a1652d3741422e7aa0b382c2
+Author: carlos54vidal <94443213+carlos54vidal@users.noreply.github.com>
+Date:   Fri Nov 19 23:31:04 2021 +0000
+
+    update
+
+commit 72483eaa4d980ee7c2c98462af11d3b53d1ab02c
+Author: carlos54vidal <94443213+carlos54vidal@users.noreply.github.com>
+Date:   Fri Nov 19 23:29:47 2021 +0000
+
+    Update relatorio-final.docx
+
+commit d6f2cad46a9f02c2ed2e1b0ec7c2c76b6fd8b5e0
+Author: carlos54vidal <94443213+carlos54vidal@users.noreply.github.com>
+Date:   Fri Nov 19 23:25:02 2021 +0000
+
+    update
+
+commit dd410e85d5787fdcf497570277beb1a016e2180b
+Author: carlos54vidal <94443213+carlos54vidal@users.noreply.github.com>
+Date:   Fri Nov 19 23:15:48 2021 +0000
+
+    update
+
+commit 59a0b52b1b7960a5ca9e3724faef6de7eea961ae
+Author: carlos54vidal <94443213+carlos54vidal@users.noreply.github.com>
+Date:   Fri Nov 19 23:14:25 2021 +0000
+
+    update
+
+commit 2498f2f2ee355c5c111ae2e525a6ee4aabdad6d4
+Author: carlos54vidal <94443213+carlos54vidal@users.noreply.github.com>
+Date:   Fri Nov 19 21:53:23 2021 +0000
+
+    Update ex2.cpp
+
+commit fca08ac4a7b8d39c0321c2bd8e6bbb2daaa46fcb
+Author: carlos54vidal <94443213+carlos54vidal@users.noreply.github.com>
+Date:   Fri Nov 19 21:37:21 2021 +0000
+
+    Create ex6_3.cpp
+
+commit 201ae1fb1d0399c09cf902e61240928c64f656df
+Author: zpdomingues16 <72460016+zpdomingues16@users.noreply.github.com>
+Date:   Fri Nov 19 21:33:23 2021 +0000
+
+    Update ex9.cpp
+
+commit ec88b3a56f9f8c56db77f2e7008c9301798cd079
+Author: zpdomingues16 <72460016+zpdomingues16@users.noreply.github.com>
+Date:   Fri Nov 19 21:21:29 2021 +0000
+
+    Update ex9.cpp
+
+commit cf8b161eeac8c6bda1a801bd9d7f5f503efb958d
+Author: carlos54vidal <94443213+carlos54vidal@users.noreply.github.com>
+Date:   Fri Nov 19 21:01:52 2021 +0000
+
+    update
+
+commit 38ce1eca84989a14b992171a703191c0168100be
+Author: carlos54vidal <94443213+carlos54vidal@users.noreply.github.com>
+Date:   Fri Nov 19 20:56:18 2021 +0000
+
+    Delete ex8.exe
+
+commit 2bffb1bfdf80bae1f24bf8f6e27e90f55c6e2b2d
+Author: carlos54vidal <94443213+carlos54vidal@users.noreply.github.com>
+Date:   Fri Nov 19 19:52:54 2021 +0000
+
+    Update
+
+commit ae4536c65a809eb0b91d97e9cdd4a1feddd8512c
+Author: carlos54vidal <94443213+carlos54vidal@users.noreply.github.com>
+Date:   Fri Nov 19 19:36:54 2021 +0000
+
+    Update
+
+commit 38b85ec90e1b7b0a010a365524a1ab35285f7efe
+Author: carlos54vidal <94443213+carlos54vidal@users.noreply.github.com>
+Date:   Fri Nov 19 19:33:52 2021 +0000
+
+    Deleted
+
+commit 7fe65d61e2d2c31526a7365b2b785e3483df0b0c
+Author: carlos54vidal <94443213+carlos54vidal@users.noreply.github.com>
+Date:   Fri Nov 19 19:28:45 2021 +0000
+
+    Implementação do Doxygen
+
+commit 22cdcc76d5222325a76885deacec6d2b10e2c6f4
+Author: carlos54vidal <94443213+carlos54vidal@users.noreply.github.com>
+Date:   Fri Nov 19 19:13:34 2021 +0000
+
+    Update Histogramas.xlsx
+
+commit 0c7e26ccdfdbd2b5caee359ece36cb4052cf42e7
+Author: carlos54vidal <94443213+carlos54vidal@users.noreply.github.com>
+Date:   Fri Nov 19 18:54:45 2021 +0000
+
+    Create proj1_bk1.docx
+
+commit f68a6145e0d6fc2fc07062397ff475d04985999a
+Author: zpdomingues16 <72460016+zpdomingues16@users.noreply.github.com>
+Date:   Fri Nov 19 18:41:31 2021 +0000
+
+    Update ex7.cpp
+
+commit bd5ee3855398d45b7fd1913828ee9710abf6843f
+Author: jpls19 <94463836+jpls19@users.noreply.github.com>
+Date:   Fri Nov 19 17:51:59 2021 +0000
+
+    Add files via upload
+
+commit 3783519f49dd0b063996b864007f44322e7380a7
+Author: jpls19 <94463836+jpls19@users.noreply.github.com>
+Date:   Fri Nov 19 17:51:37 2021 +0000
+
+    Add files via upload
+
+commit a3250539100473856187f2f91491f68bc44a80b5
+Author: jpls19 <94463836+jpls19@users.noreply.github.com>
+Date:   Fri Nov 19 17:50:56 2021 +0000
+
+    Delete ex7.cpp
+
+commit 5d3698935953af9aca50a1510af618fe98f62825
+Author: carlos54vidal <94443213+carlos54vidal@users.noreply.github.com>
+Date:   Fri Nov 19 17:30:56 2021 +0000
+
+    Add files via upload
+
+commit 6c4885c3be84801996a015c915924f5e034bef7c
+Author: Gabriel Malta <malta@ua.pt>
+Date:   Fri Nov 19 17:11:14 2021 +0000
+
+    r
+
+commit 02e094df6cf20a4df32e7e255792898b257bd7e4
+Author: Gabriel Malta <malta@ua.pt>
+Date:   Fri Nov 19 16:58:05 2021 +0000
+
+    update 8
+
+commit 5a54b1ed20836ff2191442496c723a2a97f7db2d
+Merge: 52dee18 258816b
+Author: Gabriel Malta <malta@ua.pt>
+Date:   Fri Nov 19 16:54:59 2021 +0000
+
+    update
+
+commit 52dee188ee20225bb233171780c0e8a75fec28e3
+Author: Gabriel Malta <malta@ua.pt>
+Date:   Fri Nov 19 16:52:51 2021 +0000
+
+    organizacao
+
+commit 258816bba71f8f84e410e9c38aed40ce812b8da2
+Author: carlos54vidal <94443213+carlos54vidal@users.noreply.github.com>
+Date:   Fri Nov 19 16:38:07 2021 +0000
+
+    Add files via upload
+
+commit 3f234bc17a3f43d8968377f206a6f240d1ea3258
+Author: carlos54vidal <94443213+carlos54vidal@users.noreply.github.com>
+Date:   Fri Nov 19 16:36:25 2021 +0000
+
+    Update ex8.cpp
+
+commit 21d45c29dbad64ab6a03ced1e41c878b7835d212
+Author: carlos54vidal <94443213+carlos54vidal@users.noreply.github.com>
+Date:   Fri Nov 19 16:25:31 2021 +0000
+
+    Update ex8.cpp
+
+commit c73df5e4ded45f8147913c29bacc2e9b23c45a53
+Author: carlos54vidal <94443213+carlos54vidal@users.noreply.github.com>
+Date:   Fri Nov 19 16:16:55 2021 +0000
+
+    Update ex8.cpp
+
+commit afe865f65909dd167d291eedb12b6dfc68a90c28
+Author: zpdomingues16 <72460016+zpdomingues16@users.noreply.github.com>
+Date:   Fri Nov 19 16:09:51 2021 +0000
+
+    Add files via upload
+
+commit 635a32db20a8ac1c2db7a47d6502d354e1cc464a
+Author: carlos54vidal <94443213+carlos54vidal@users.noreply.github.com>
+Date:   Fri Nov 19 10:16:28 2021 +0000
+
+    Add files via upload
+
+commit aa76b5e6f6fe0ee376b372f2cc9661e142bb172e
+Author: carlos54vidal <94443213+carlos54vidal@users.noreply.github.com>
+Date:   Fri Nov 19 01:10:14 2021 +0000
+
+    Update
+
+commit 63650a3170782c577c9619d95091df5616943a0f
+Author: carlos54vidal <94443213+carlos54vidal@users.noreply.github.com>
+Date:   Fri Nov 19 01:07:09 2021 +0000
+
+    Update
+
+commit 8aba04651c131a25ceae6f37156db24ce9570863
+Author: carlos54vidal <94443213+carlos54vidal@users.noreply.github.com>
+Date:   Fri Nov 19 00:20:48 2021 +0000
+
+    Update
+
+commit 502b461f43108c85c09c94eb798a702348e5ee66
+Author: carlos54vidal <94443213+carlos54vidal@users.noreply.github.com>
+Date:   Thu Nov 18 23:40:37 2021 +0000
+
+    Arquivo
+
+commit 71aedb7357d5d03c97a3cbf15d6770410860654c
+Author: carlos54vidal <94443213+carlos54vidal@users.noreply.github.com>
+Date:   Thu Nov 18 23:38:03 2021 +0000
+
+    Update
+
+commit 7ec19cc241faa35aba97e6db4d78000dc95ede9e
+Author: carlos54vidal <94443213+carlos54vidal@users.noreply.github.com>
+Date:   Thu Nov 18 23:05:42 2021 +0000
+
+    Update ex8.cpp
+
+commit 5d79ac21f50c00691ccff3088ea23c5aa5e4675c
+Author: carlos54vidal <94443213+carlos54vidal@users.noreply.github.com>
+Date:   Thu Nov 18 23:00:40 2021 +0000
+
+    Update
+
+commit 060145d87b98f0f5c7266e87ef5a78db94fd2bf6
+Author: carlos54vidal <94443213+carlos54vidal@users.noreply.github.com>
+Date:   Thu Nov 18 22:57:05 2021 +0000
+
+    Update
+
+commit bd87ddecb9750c850ec6f90ab69772cb59952e4d
+Author: carlos54vidal <94443213+carlos54vidal@users.noreply.github.com>
+Date:   Thu Nov 18 20:44:13 2021 +0000
+
+    Delete AudioFile.7z
+
+commit bf84dd215f5aae6084b6e59fc8ac4f5850891c9c
+Author: carlos54vidal <94443213+carlos54vidal@users.noreply.github.com>
+Date:   Thu Nov 18 20:42:32 2021 +0000
+
+    Update
+
+commit 21b5da4234b87eafcb135a9820a7466f379d1775
+Author: carlos54vidal <94443213+carlos54vidal@users.noreply.github.com>
+Date:   Thu Nov 18 18:00:36 2021 +0000
+
+    Update README.md
+
+commit 6b4239038801fca7649f842089ef67e265e4b9cd
+Author: carlos54vidal <94443213+carlos54vidal@users.noreply.github.com>
+Date:   Thu Nov 18 17:59:09 2021 +0000
+
+    Add files via upload
+
+commit c83c3c6d3493d198031d6eb8fe1b37bc493f0da7
+Author: carlos54vidal <94443213+carlos54vidal@users.noreply.github.com>
+Date:   Thu Nov 18 17:58:11 2021 +0000
+
+    Add files via upload
+
+commit 3d070ba895e87276e208c28a90cc271ac23b1e92
+Author: carlos54vidal <94443213+carlos54vidal@users.noreply.github.com>
+Date:   Thu Nov 18 17:52:34 2021 +0000
+
+    Add files via upload
+    
+    Ficheiros que resultam da execução do exercício 6.
+
+commit 4ff95b7628045babda1d8197b98b6e9c9ec8dae4
+Author: carlos54vidal <94443213+carlos54vidal@users.noreply.github.com>
+Date:   Thu Nov 18 17:49:26 2021 +0000
+
+    Update README.md
+
+commit 2c61da67977c3f50554d0244baca30b3aec2f68a
+Author: carlos54vidal <94443213+carlos54vidal@users.noreply.github.com>
+Date:   Thu Nov 18 17:49:07 2021 +0000
+
+    Update README.md
+
+commit fe57476ee6d44e5fa799c2c738480ea776b1aa73
+Author: carlos54vidal <94443213+carlos54vidal@users.noreply.github.com>
+Date:   Thu Nov 18 17:46:03 2021 +0000
+
+    Delete Exercicio_5.xlsx
+    
+    Substituído pelo ficheiro Histogramas
+
+commit e73db151b3537e6ba061083b29202b6617b2df94
+Author: carlos54vidal <94443213+carlos54vidal@users.noreply.github.com>
+Date:   Thu Nov 18 17:44:26 2021 +0000
+
+    Add files via upload
+
+commit e563a41cee8ca289e91755f51de3555273cef524
+Author: carlos54vidal <94443213+carlos54vidal@users.noreply.github.com>
+Date:   Thu Nov 18 17:42:54 2021 +0000
+
+    Add files via upload
+
+commit 5103aa83c6817ab2161d719d6e528b0825496f15
+Author: carlos54vidal <94443213+carlos54vidal@users.noreply.github.com>
+Date:   Thu Nov 18 15:36:05 2021 +0000
+
+    Update ex6_3.cpp
+
+commit 86c290fc7b6e4ca6711bf7cd3081d6e99ca5ac76
+Author: carlos54vidal <94443213+carlos54vidal@users.noreply.github.com>
+Date:   Thu Nov 18 15:16:35 2021 +0000
+
+    Add files via upload
+
+commit a245e7b70319638ba18fca112cd8547ea46cb09b
+Author: carlos54vidal <94443213+carlos54vidal@users.noreply.github.com>
+Date:   Thu Nov 18 15:14:48 2021 +0000
+
+    Add files via upload
+
+commit 94e3a0ad49114587f31bc110f3fbf6fab3c69ecd
+Author: carlos54vidal <94443213+carlos54vidal@users.noreply.github.com>
+Date:   Thu Nov 18 14:17:29 2021 +0000
+
+    Update ex6_3.cpp
+
+commit b56e9308662e37374b916bece87b35f1a3fdcc8e
+Author: carlos54vidal <94443213+carlos54vidal@users.noreply.github.com>
+Date:   Thu Nov 18 14:15:16 2021 +0000
+
+    Update ex6_3.cpp
+
+commit c0958f2e03f792ed5f026f9e3da0927a56ddc4b5
+Author: carlos54vidal <94443213+carlos54vidal@users.noreply.github.com>
+Date:   Thu Nov 18 13:37:29 2021 +0000
+
+    Update README.md
+
+commit 0d4887d72df26a04afb31dcef9471cedf156d418
+Author: carlos54vidal <94443213+carlos54vidal@users.noreply.github.com>
+Date:   Thu Nov 18 00:51:03 2021 +0000
+
+    Update ex6_3.cpp
+    
+    Finish the entropy calculation
+
+commit f0a8f4b14846cc06662924e7ee77b75cc48f017a
+Author: jpls19 <94463836+jpls19@users.noreply.github.com>
+Date:   Wed Nov 17 17:27:26 2021 +0000
+
+    Add files via upload
+
+commit 9a6641965848cc39391811a84095e1fb695bc59f
+Author: jpls19 <94463836+jpls19@users.noreply.github.com>
+Date:   Wed Nov 17 16:57:50 2021 +0000
+
+    Add files via upload
+
+commit 0f89b3e8d71892eb2c815ea430abba0864db9c6f
+Author: carlos54vidal <94443213+carlos54vidal@users.noreply.github.com>
+Date:   Wed Nov 17 16:50:54 2021 +0000
+
+    Add files via upload
+
+commit 80ce0e3f101cca5e282cef0e5bf9fc26699889e2
+Author: carlos54vidal <94443213+carlos54vidal@users.noreply.github.com>
+Date:   Wed Nov 17 16:08:26 2021 +0000
+
+    Update ex6_3.cpp
+
+commit 286e834b23a6905c70ef19dc06f9f9a4589abef9
+Author: carlos54vidal <94443213+carlos54vidal@users.noreply.github.com>
+Date:   Wed Nov 17 15:48:29 2021 +0000
+
+    Update ex6_3.cpp
+
+commit 78710b416aba25d373f9a7d59ebd2d3d36204c63
+Author: carlos54vidal <94443213+carlos54vidal@users.noreply.github.com>
+Date:   Wed Nov 17 12:05:21 2021 +0000
+
+    Update README.md
+
+commit abf4084a0328ce43f784fe9f0c150de82fe16e45
+Author: carlos54vidal <94443213+carlos54vidal@users.noreply.github.com>
+Date:   Wed Nov 17 12:03:50 2021 +0000
+
+    Update README.md
+
+commit c73f69ea37fa67528af501459bea44f77433dd61
+Author: carlos54vidal <94443213+carlos54vidal@users.noreply.github.com>
+Date:   Wed Nov 17 12:01:07 2021 +0000
+
+    Update README.md
+
+commit bd16a37d8c7a723e9fff148db9c931ab239873a8
+Author: carlos54vidal <94443213+carlos54vidal@users.noreply.github.com>
+Date:   Wed Nov 17 12:00:30 2021 +0000
+
+    Update ex6_3.cpp
+    
+    more comments
+
+commit c620c09874ab01171dbcb4b7952d7156709e41ea
+Author: carlos54vidal <94443213+carlos54vidal@users.noreply.github.com>
+Date:   Wed Nov 17 11:58:47 2021 +0000
+
+    Update ex6_3.cpp
+    
+    falta calcular a entropia
+
+commit 47dbb518486e20cc58f9d836f3504d70d2ec65e1
+Author: carlos54vidal <94443213+carlos54vidal@users.noreply.github.com>
+Date:   Wed Nov 17 09:19:45 2021 +0000
+
+    Update ex6_2.cpp
+
+commit f7b63ad054ac0fcb601d63749ded405e6db70e48
+Author: carlos54vidal <94443213+carlos54vidal@users.noreply.github.com>
+Date:   Tue Nov 16 17:55:28 2021 +0000
+
+    Update ex6_3.cpp
+
+commit eea063045f681d65808309924d62bf84811a17b3
+Author: carlos54vidal <94443213+carlos54vidal@users.noreply.github.com>
+Date:   Tue Nov 16 17:37:52 2021 +0000
+
+    Create ex6_3.cpp
+
+commit 6362d389c8186e82f9a7aa188761ee21c01aaee5
+Author: carlos54vidal <94443213+carlos54vidal@users.noreply.github.com>
+Date:   Tue Nov 16 16:25:52 2021 +0000
+
+    Update ex6_2.cpp
+
+commit 3627da544c46b53c471fbe58f426d9d2de84da6e
+Author: carlos54vidal <94443213+carlos54vidal@users.noreply.github.com>
+Date:   Tue Nov 16 16:24:38 2021 +0000
+
+    Update ex6_2.cpp
+
+commit a9e47ca9c13a04d21f7dda00d6fc43f97d244c9a
+Author: carlos54vidal <94443213+carlos54vidal@users.noreply.github.com>
+Date:   Tue Nov 16 16:22:12 2021 +0000
+
+    Update ex6_2.cpp
+
+commit 78b05799b1f489475a82b87f73199013914e8831
+Author: carlos54vidal <94443213+carlos54vidal@users.noreply.github.com>
+Date:   Tue Nov 16 16:19:55 2021 +0000
+
+    Update ex6_2.cpp
+
+commit 20c008d4e9374c241c2014f07a7784746b44735f
+Author: jpls19 <94463836+jpls19@users.noreply.github.com>
+Date:   Tue Nov 16 16:14:28 2021 +0000
+
+    Add files via upload
+
+commit 393d3ec453c15519564fcb9bba940038a6ee9c1d
+Author: carlos54vidal <94443213+carlos54vidal@users.noreply.github.com>
+Date:   Tue Nov 16 15:07:48 2021 +0000
+
+    Add files via upload
+
+commit 9f00dd5b9ac42c5b25936a0106a9e8ee39a21752
+Author: carlos54vidal <94443213+carlos54vidal@users.noreply.github.com>
+Date:   Tue Nov 16 14:13:03 2021 +0000
+
+    Add files via upload
+    
+    Histograma e entropia
+
+commit 2d653d6eff26bfe1f4783b1f0f11a5fbd54161f9
+Author: carlos54vidal <94443213+carlos54vidal@users.noreply.github.com>
+Date:   Tue Nov 16 14:03:25 2021 +0000
+
+    Update ex6_2.cpp
+
+commit 746f3593bfb68edfa47bf3b8bc00f5ae1cd7b26a
+Author: carlos54vidal <94443213+carlos54vidal@users.noreply.github.com>
+Date:   Tue Nov 16 13:50:38 2021 +0000
+
+    Update README.md
+
+commit 463fded692542fde0818407209c28aa865aa0bbf
+Author: carlos54vidal <94443213+carlos54vidal@users.noreply.github.com>
+Date:   Tue Nov 16 13:48:19 2021 +0000
+
+    Add files via upload
+
+commit 8211ebda2cfc1dd6f1441e18034e7c1d2440553b
+Author: zpdomingues16 <72460016+zpdomingues16@users.noreply.github.com>
+Date:   Tue Nov 16 11:54:37 2021 +0000
+
+    Add files via upload
+
+commit 2be00d2760d56fc9df16b774884e4ddd8f00616a
+Author: carlos54vidal <94443213+carlos54vidal@users.noreply.github.com>
+Date:   Tue Nov 16 10:59:42 2021 +0000
+
+    Update README.md
+
+commit 786fdcceb83cae075f502307878f477ae9185794
+Author: carlos54vidal <94443213+carlos54vidal@users.noreply.github.com>
+Date:   Tue Nov 16 10:59:21 2021 +0000
+
+    Create README.md
+
+commit cab93435c687dc38385611b8f46f771ef5fa72e3
+Author: carlos54vidal <94443213+carlos54vidal@users.noreply.github.com>
+Date:   Tue Nov 16 10:55:32 2021 +0000
+
+    Add files via upload
+
+commit 64b2e36c58f3b7ede390e71d50e42527a78238ff
+Author: zpdomingues16 <72460016+zpdomingues16@users.noreply.github.com>
+Date:   Mon Nov 15 17:21:35 2021 +0000
+
+    Add files via upload
