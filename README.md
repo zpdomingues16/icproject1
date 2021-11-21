@@ -16,9 +16,9 @@ ex8 - Programa para reduzir o n.º de bits usados para representar cada sample d
 
 ex9 - Programa para reduzir o n.º de bits usados para representar cada pixel de um ficheiro de imágem.
 
-ex10 - Programa para apresentar a relação sinam-ruído (SNR - signal to noise ratio), de um ficheiro de audio com redução de bits por sample e o erro máximo absoluto por sample, em relação ao ficheiro de audio original.
+ex10 - Programa para apresentar a relação sinal-ruído (SNR - signal to noise ratio), de um ficheiro de audio com redução de bits por sample e o erro máximo absoluto por sample, em relação ao ficheiro de audio original.
 
-ex11 - Programa para apresentar a relação sinam-ruído (SNR - signal to noise ratio), de um ficheiro de imágem com redução de bits por pixel e o erro máximo absoluto por pixel, em relação ao ficheiro de audio original.
+ex11 - Programa para apresentar a relação sinal-ruído (SNR - signal to noise ratio), de um ficheiro de imágem com redução de bits por pixel e o erro máximo absoluto por pixel, em relação ao ficheiro de audio original.
 
 
 Pequeno tutorial do Doxygen tool -> https://www.youtube.com/watch?v=TtRn3HsOm1s
