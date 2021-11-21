@@ -1,5 +1,5 @@
 #include <iostream>
-#include "../AudioFile/AudioFile.h"
+#include "AudioFile/AudioFile.h"
 
 int main(int argc, char* argv[]){
   
