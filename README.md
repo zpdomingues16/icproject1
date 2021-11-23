@@ -23,6 +23,8 @@ ex11 - Programa para apresentar a relação sinal-ruído (SNR - signal to noise 
 
 Pequeno tutorial do Doxygen tool -> https://www.youtube.com/watch?v=TtRn3HsOm1s
 
+Profundidade de bits de áudio: https://stringfixer.com/pt/Audio_bit_depth
+
 16/11 13:48 atualizei o relatório (introdução). Novo ficheiro upload proj1_2.docx. Carlos Vidal
 
 17/11 12:00 atualizei o ex6, novo ficheiro ex6_3. Falta acabar (calculo da entropia). Carlos Vidal
